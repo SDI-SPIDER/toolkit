@@ -1,0 +1,192 @@
+{
+  "Topics": [{
+    "Fundamentals": {
+      "Concepts": [{
+          "Title": "Evolution of SDIs",
+          "Description": "Introduce the main objectives and key components of SDI generation concerning different point-of -view perspectives (producer, user, produser, etc…)",
+          "Learning outcomes": [{
+              "Title": "SDI generations: main objectives, key components, drivers",
+              "Description": "Introduce the main objectives and key components of SDI generations",
+              "Bloom level": "Remember/Understand",
+              "Assessment": [{
+                "Assessment method": "SDI generations understanding",
+                "Assessment method description": "This LO is assessed with an oral exam. Example of question is: Could you name key components of different SDI generations?",
+                "Assessment method type": "Summative"
+              }],
+              "Teaching activies": [{
+                "Title": "Lecture",
+                "Description": "Introductory lecture on SDI generations"
+              }, {
+                "Title": "Asking questions",
+                "Description": "If there is something unclear, discussion with questions is opened and students are helped to understand it better"
+              }]
+            },
+            {
+              "Title": "Differences between SDI generations",
+              "Description": "Identify and discuss the differences between SDI generations",
+              "Bloom level": "Remember/Understand",
+              "Assessment": [{
+                "Assessment method": "Feedback",
+                "Assessment method description": "Students receive feedback during and after their group work and presentations ",
+                "Assessment method type": "Formative"
+              }],
+              "Teaching activies": [{
+                "Title": "Asking questions",
+                "Description": "If there is something unclear, discussion with questions is opened and students are helped to understand it better"
+              }, {
+                "Title": "Student presentations",
+                "Description": "Students present examples of SDI development and relate it to the aspect from intro lecture"
+              }]
+            }
+          ]
+        },
+        {
+          "Title": "SDI Costs & Benefits",
+          "Description": "Overview of theoretical foundation and practical approaches of the SDI Cost-Benefit Analyses",
+          "Learning outcomes": [{
+              "Title": "Basics of cost benefit analysis",
+              "Description": "Introduction to cost benefit analysis",
+              "Bloom level": "Remember/Understand",
+              "Assessment": [{
+                "Assessment method": "SDI cost-benefit analisis understanding",
+                "Assessment method description": "This LO is assessed with an oral exam. Example of question is: Could you explain the specifics of SDI cost-benefit analysis?",
+                "Assessment method type": "Summative"
+              }],
+              "Teaching activies": [{
+                  "Title": "Lecture",
+                  "Description": "Introduction lecture on basics of cost benefit analysis"
+                },
+                {
+                  "Title": "Asking questions",
+                  "Description": "If there is something unclear, discussion with questions is opened and students are helped to understand it better"
+                }
+              ]
+            },
+            {
+              "Title": "Case study: SDI implementation costs",
+              "Description": "Identification and analysis of SDI implementation costs",
+              "Bloom level": "Create",
+              "Assessment": [{
+                "Assessment method": "Feedback",
+                "Assessment method description": "Students receive feedback on their case studies",
+                "Assessment method type": "Formative"
+              }],
+              "Teaching activies": [{
+                  "Title": "Case Study Project",
+                  "Description": "Identification and analysis of SDI implementation costs for given spatial/administrative unit"
+                },
+                {
+                  "Title": "Asking questions",
+                  "Description": "If there is something unclear, discussion with questions is opened and students are helped to understand it better"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Tech I": {
+      "Concepts": [{
+          "Title": "Web map portals",
+          "Description": "Introduce basic tools and techniques for development of web map portals",
+          "Learning outcomes": [{
+              "Title": "Web map design",
+              "Description": "Introduce how to design a web map and which criteria should be considered for that",
+              "Bloom level": "Remember/Understand",
+              "Assessment": [{
+                  "Assessment method": "Quiz",
+                  "Assessment method description": "Quiz on how to design a web map",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Feedback",
+                  "Assessment method description": "Feedback on students` questions",
+                  "Assessment method type": "Summative"
+                }
+              ],
+              "Teaching activies": [{
+                  "Title": "Reading",
+                  "Description": "Read the recommended documents and look through the slides in advance"
+                },
+                {
+                  "Title": "Lecture",
+                  "Description": "Introductory lecture explaining web map design and related concepts"
+                }
+              ]
+            },
+            {
+              "Title": "Web mapping, implementation perspective",
+              "Description": "Implement a web map portal with the introduced techniques",
+              "Bloom level": "Apply/Create",
+              "Assessment": [{
+                "Assessment method": "Feedback",
+                "Assessment method description": "Students receive feedback on their lab exercise",
+                "Assessment method type": "Formative"
+              }, {
+                "Assessment method": "Feedback",
+                "Assessment method description": "Students receive feedback on their presentation",
+                "Assessment method type": "Formative"
+              }],
+              "Teaching activies": [{
+                  "Title": "Development & implementation",
+                  "Description": "Lab exercise on portal development for static and interactive web mapping with javascript"
+                },
+                {
+                  "Title": "Student Presentation",
+                  "Description": "Students present their projects and peer review each other in small groups"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Title": "Standards for network services",
+          "Description": "Standards that have been developed by Open Geospatial Consortium for creating interoperable web map portals/services.",
+          "Learning outcomes": [{
+              "Title": "Different types of web services based on OGC standards",
+              "Description": "Introduce different types of geographic web services based on OGC standards",
+              "Bloom level": "Remember/Understand",
+              "Assessment": [{
+                "Assessment method": "Quiz",
+                "Assessment method description": "Quiz on different types of web services based on OGC standards",
+                "Assessment method type": "Formative"
+              }],
+              "Teaching activies": [{
+                  "Title": "Reading",
+                  "Description": "Read documentations for different types of web services based on OGC standards"
+                },
+                {
+                  "Title": "Lecture",
+                  "Description": "Short introductory lecture explaining different types of web services based on OGC standards"
+                }
+              ]
+            },
+            {
+              "Title": "OGC services for web mapping",
+              "Description": "Apply and evaluate the application of OGC services for web mapping and cartography",
+              "Bloom level": "Apply/Evaluate",
+              "Assessment": [{
+                "Assessment method": "Feedback",
+                "Assessment method description": "Students receive feedback on their project formulation",
+                "Assessment method type": "Summative"
+              }, {
+                "Assessment method": "Feedback",
+                "Assessment method description": "Students receive feedback on their project formulation",
+                "Assessment method type": "Summative"
+              }],
+              "Teaching activies": [{
+                  "Title": "Case Study Project",
+                  "Description": "Formulate a problem statement to address on OGC services for web mapping"
+                },
+                {
+                  "Title": "Implementation & Presentation",
+                  "Description": "Students implement web mapping based on the OGC mapping services and present the results"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }]
+}
