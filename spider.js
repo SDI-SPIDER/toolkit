@@ -5,7 +5,7 @@ $.getJSON("toolkit.json", function(data) {
   $.each(data["Topics"],
     function(i, topics) {
 
-      // loop through the topics
+      // loop through all the topics
       $.each(topics,
         function(topic, topicContent) {
           htmltree += '<h2 class="space"><li class="search">';
