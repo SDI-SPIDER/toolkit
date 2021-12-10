@@ -1,91 +1,117 @@
-$.getJSON("toolkit.json", function(data) {
+/* Format a topic */
+function formatTopic(topic) {
+  return $(`
+      <div class="container topic search" id="` + id(topic) + `">
+      <h1 class="mt-3">` + topic + `</h1>
+      </div>`)
+}
 
-  htmltree = "<ol>";
+/* Format a concept */
+function formatConcept(conceptContent) {
+  return $(`
+    <div class="concept">
+       <h2 class="search" id="` + id(conceptContent["Title"]) + `">` + conceptContent["Title"] + `</h2>
+       <p class="search lead">` + conceptContent["Description"] + `. <b>Learning&nbsp;outcomes:</br></p>
+    </div>`)
+}
+
+/* Format a learningOutcome */
+function formatLO(learningOutcome) {
+  return $(`
+    <div class="goal">
+      <h3 class="search">` + learningOutcome["Title"] + `</h3>
+      <p class="search">` + learningOutcome["Description"] + `<br />
+             Bloom level: ` + learningOutcome["Bloom level"] + `</p>
+    </div>`);
+}
+
+/* Format a teachingActivity */
+function formatTA(teachingActivity) {
+  return $(`
+    <li><b>` + teachingActivity['Title'] + `</b>:
+    ` + teachingActivity['Description'] + `
+    </li>`);
+}
+
+/* Format an assessment method */
+function formatAssessment(assessment) {
+  return $(`
+    <div class="assessment">
+      <h4>` + assessment["Assessment method type"]+ ` assessment</h4>
+      <p><strong>` + assessment["Assessment method"] + `</strong>: ` + assessment["Assessment method description"] + `</p>
+    </div>
+    `);
+}
+
+/* Remove blanks from a string so we can use it as ID for a node in the HTML tree */
+function id(st) {
+  return st.replace(/ /g, '');
+}
+
+/* Add a button at the top of the page that works as a direct link to the topic */
+function addTopicButton(topic){
+  console.log("adding " +topic)
+    //$('#topic-buttons').append('<a class="btn btn-primary" href="#' + topic + '" role="button">' + topic + '</a>&nbsp;')
+    $('#topic-buttons').append('<a role="button" class="btn btn-outline-secondary" href="#'+id(topic)+'">'+topic+'</a>');
+}
+
+/* Read in the toolkit data in JSON format and insert into the page */
+$.getJSON("toolkit.json", function(data) {
 
   $.each(data["Topics"],
     function(i, topics) {
 
       // loop through all the topics
-      $.each(topics,
-        function(topic, topicContent) {
-          htmltree += '<h2 class="space"><li class="search">';
-          htmltree += topic;
-          htmltree += ' <span class="fs-6 fw-lighter fst-italic text-end">Topic</span></h2>';
+      $.each(topics, function(topic, topicContent) {
 
-          htmltree += "<ol>";
-          // loop through the concepts in this topic
-          $.each(topicContent["Concepts"],
-            function(c, conceptContent) {
-              htmltree += '<h3 class="space"><li class="search">';
-              htmltree += conceptContent["Title"];
-              htmltree += '<span class="fs-6 fw-lighter fst-italic text-end">Concept</span></h3>';
+        // format the topic. Everything else will be appended to this one.
 
-              htmltree += '<p class="search">';
-              htmltree += conceptContent["Description"];
-              htmltree += "</p>";
+        ft = formatTopic(topic)
+        addTopicButton(topic)
 
-              htmltree += '<h4 class="space">Learning outcomes:</h4>'
-              htmltree += '<ol>';
+        // loop through concepts in this topic
+        $.each(topicContent["Concepts"],
+          function(c, conceptContent) {
 
-              // loop through learning outcomes for this concept
-              $.each(conceptContent["Learning outcomes"],
-                function(l, learningOutcome) {
+            // add title and description for each concept
+            fc = formatConcept(conceptContent)
 
-                  htmltree += '<h5 class="space"><li class="search">';
-                  htmltree += learningOutcome["Title"];
-                  htmltree += '</h5>'
+            $.each(conceptContent["Learning outcomes"],
+              function(l, learningOutcome) {
+                lo = formatLO(learningOutcome)
+                lo.append('<p>Teaching activities:</p>')
+                taHeader = $("<ol class='activities'></ol>")
 
-                  htmltree += '<p class="search">';
-                  htmltree += learningOutcome["Description"];
-                  htmltree += "<br />";
-                  htmltree += "Bloom level: " + learningOutcome["Bloom level"]
-                  htmltree += "</p>";
+                // teaching activities for this LO:
+                $.each(learningOutcome["Teaching activies"],
+                  function(t, teachingActivity) {
+                    ta = formatTA(teachingActivity)
 
-                  htmltree += '<h5 class="space">Teaching activities:</h5>'
-                  htmltree += '<ol>';
+                    taHeader.append(ta)
+                  });
+                lo.append(taHeader)
 
-                  // loop through teaching activities
-                  $.each(learningOutcome["Teaching activies"],
-                    function(t, teachingActivity) {
-                      htmltree += '<li class="search">';
-                      htmltree += teachingActivity["Title"];
-                      htmltree += '<br />';
-                      htmltree += teachingActivity["Description"];
-                      htmltree += '</li>';
-                    });
+                $.each(learningOutcome["Assessment"],
+                  function(l, assessment) {
+                    lo.append(formatAssessment(assessment))
+                  });
 
-                  htmltree += '</ol>';
+                fc.append(lo)
+              });
 
-                  htmltree += '<h5 class="space">Assessment:</h5>'
-                  htmltree += '<ol>';
-                  // loop through assessments
-                  $.each(learningOutcome["Assessment"],
-                    function(a, assessment) {
-                      htmltree += '<li class="search">';
-                      htmltree += assessment["Assessment method"];
-                      htmltree += '<br />';
-                      htmltree += assessment["Assessment method type"] + ' assessment: ' + assessment["Assessment method description"];
-                      htmltree += '</li>';
+            ft.append(fc)
 
-                    });
+          });
 
-                  htmltree += '</ol>';
 
-                  htmltree += "</li>";
-                });
-              htmltree += "</ol>";
-              htmltree += "</li>";
+        // after adding all information on the concept, add it to the page:
+        $("main").append(ft)
 
-            });
 
-          htmltree += "</ol>";
-          htmltree += "</li>";
-        });
+      });
+
     });
 
-  htmltree += "</ol>";
-
-  $("div#content").append(htmltree);
 
   // after adding the whole content to the page, add a change listener to the search field:
 
