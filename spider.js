@@ -2,7 +2,7 @@
 function formatTopic(topic) {
   return $(`
       <div class="container topic search" id="` + id(topic) + `">
-      <h3 class="mt-3">` + topic + `</h3>
+      <h1 class="mt-3">` + topic + `</h1>
       </div>`)
 }
 
@@ -10,7 +10,7 @@ function formatTopic(topic) {
 function formatConcept(conceptContent) {
   return $(`
     <div class="concept">
-       <h4 class="search" id="` + id(conceptContent["Title"]) + `">` + conceptContent["Title"] + `</h4>
+       <h2 class="search" id="` + id(conceptContent["Title"]) + `">` + conceptContent["Title"] + `</h2>
        <p class="search">` + conceptContent["Description"] + `. <b>Learning&nbsp;outcomes:</br></p>
     </div>`)
 }
@@ -19,7 +19,7 @@ function formatConcept(conceptContent) {
 function formatLO(learningOutcome) {
   return $(`
     <div class="goal">
-      <h5 class="search">` + learningOutcome["Title"] + `</h5>
+      <h3 class="search">` + learningOutcome["Title"] + `</h3>
       <p class="search">` + learningOutcome["Description"] + `<br />
              Bloom level: ` + learningOutcome["Bloom level"] + `</p>
     </div>`);
@@ -37,8 +37,8 @@ function formatTA(teachingActivity) {
 function formatAssessment(assessment) {
   return $(`
     <div class="assessment">
-      <h6>` + assessment["Assessment method type"]+ ` Assessment</h6>
-      <p><strong>` + assessment["Assessment method"] + `</strong>: ` + assessment["Assessment method description"] + `.</p>
+      <h4>` + assessment["Assessment method type"]+ ` assessment</h4>
+      <p><strong>` + assessment["Assessment method"] + `</strong>: ` + assessment["Assessment method description"] + `</p>
     </div>
     `);
 }
@@ -102,74 +102,6 @@ $.getJSON("toolkit.json", function(data) {
 
       });
 
-
-      //   // loop through the concepts in this topic
-      //   $.each(topicContent["Concepts"],
-      //     function(c, conceptContent) {
-      //       htmltree += '<h4 class="space search">';
-      //       htmltree += conceptContent["Title"];
-      //       //htmltree += '<span class="fs-6 fw-lighter fst-italic text-end">Concept</span>
-      //       htmltree += '</h4>';
-      //
-      //       htmltree += '<p class="search">';
-      //       htmltree += conceptContent["Description"];
-      //       htmltree += "</p>";
-      //
-      //       htmltree += '<h4 class="space">Learning outcomes:</h4>'
-      //
-      //       // loop through learning outcomes for this concept
-      // $.each(conceptContent["Learning outcomes"],
-      //   function(l, learningOutcome) {
-      //
-      //           htmltree += '<h5 class="space"><li class="search">';
-      //           htmltree += learningOutcome["Title"];
-      //           htmltree += '</h5>'
-      //
-      //           htmltree += '<p class="search">';
-      //           htmltree += learningOutcome["Description"];
-      //           htmltree += "<br />";
-      //           htmltree += "Bloom level: " + learningOutcome["Bloom level"]
-      //           htmltree += "</p>";
-      //
-      //           htmltree += '<h5 class="space">Teaching activities:</h5>'
-      //
-      //           // loop through teaching activities
-      // $.each(learningOutcome["Teaching activies"],
-      //   function(t, teachingActivity) {
-      //               htmltree += '<p class="search">';
-      //               htmltree += teachingActivity["Title"];
-      //               htmltree += '<br />';
-      //               htmltree += teachingActivity["Description"];
-      //               htmltree += '</p>';
-      //             });
-      //
-      //
-      //
-      //           htmltree += '<h5 class="space">Assessment:</h5>'
-      //
-      //           // loop through assessments
-      //           $.each(learningOutcome["Assessment"],
-      //             function(a, assessment) {
-      //               htmltree += '<p class="search">';
-      //               htmltree += assessment["Assessment method"];
-      //               htmltree += '<br />';
-      //               htmltree += assessment["Assessment method type"] + ' assessment: ' + assessment["Assessment method description"];
-      //               htmltree += '</p>';
-      //
-      //             });
-      //
-      //           htmltree += '</ol>';
-      //
-      //           //htmltree += "</li>";
-      //         });
-      //       htmltree += "</ol>";
-      //       htmltree += "</li>";
-      //
-      //     });
-      //
-      //   htmltree += "</ol>";
-      //   htmltree += "</div>";
-      //});
     });
 
 

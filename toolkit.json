@@ -144,7 +144,7 @@
         },
         {
           "Title": "Standards for network services",
-          "Description": "Standards that have been developed by Open Geospatial Consortium for creating interoperable web map portals/services.",
+          "Description": "Standards that have been developed by Open Geospatial Consortium for creating interoperable web map portals/services",
           "Learning outcomes": [{
               "Title": "Different types of web services based on OGC standards",
               "Description": "Introduce different types of geographic web services based on OGC standards",
