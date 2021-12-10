@@ -33,6 +33,16 @@ function formatTA(teachingActivity) {
     </li>`);
 }
 
+/* Format an assessment method */
+function formatAssessment(assessment) {
+  return $(`
+    <div class="assessment">
+      <h6>` + assessment["Assessment method type"]+ ` Assessment</h6>
+      <p><strong>` + assessment["Assessment method"] + `</strong>: ` + assessment["Assessment method description"] + `.</p>
+    </div>
+    `);
+}
+
 /* Remove blanks from a string so we can use it as ID for a node in the HTML tree */
 function id(st) {
   return st.replace(/ /g, '');
@@ -73,10 +83,16 @@ $.getJSON("toolkit.json", function(data) {
                   });
                 lo.append(taHeader)
 
+                $.each(learningOutcome["Assessment"],
+                  function(l, assessment) {
+                    lo.append(formatAssessment(assessment))
+                  });
+
                 fc.append(lo)
               });
 
             ft.append(fc)
+
           });
 
 
