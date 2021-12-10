@@ -1,8 +1,8 @@
 /* Format a topic */
 function formatTopic(topic) {
   return $(`
-      <div class="container topic search" id="` + id(topic) + `">
-      <h1 class="mt-3">` + topic + `</h1>
+      <div class="topic clearfix search" id="` + id(topic) + `">
+      <h1 class="display-3">` + topic + ` <span class="display-5">concepts:</span></h1>
       </div>`)
 }
 

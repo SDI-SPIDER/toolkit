@@ -1,4 +1,4 @@
-.topic, .concept, .goal{
+.topic, .concept, .goal, .assessment{
   padding: 20px 10px 5px 20px;
   margin-bottom: 10px;
 }
@@ -15,6 +15,10 @@
 .concept{
   background-color: #86C9E8;
   color: #3A5663;
+  min-width: 48%;
+  max-width: 600px;
+  float: left;
+  margin-right: 20px
 }
 
 .concept h2{
