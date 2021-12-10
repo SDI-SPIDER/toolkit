@@ -11,7 +11,7 @@ function formatConcept(conceptContent) {
   return $(`
     <div class="concept">
        <h2 class="search" id="` + id(conceptContent["Title"]) + `">` + conceptContent["Title"] + `</h2>
-       <p class="search">` + conceptContent["Description"] + `. <b>Learning&nbsp;outcomes:</br></p>
+       <p class="search lead">` + conceptContent["Description"] + `. <b>Learning&nbsp;outcomes:</br></p>
     </div>`)
 }
 
@@ -48,6 +48,13 @@ function id(st) {
   return st.replace(/ /g, '');
 }
 
+/* Add a button at the top of the page that works as a direct link to the topic */
+function addTopicButton(topic){
+  console.log("adding " +topic)
+    //$('#topic-buttons').append('<a class="btn btn-primary" href="#' + topic + '" role="button">' + topic + '</a>&nbsp;')
+    $('#topic-buttons').append('<a role="button" class="btn btn-outline-secondary" href="#'+id(topic)+'">'+topic+'</a>');
+}
+
 /* Read in the toolkit data in JSON format and insert into the page */
 $.getJSON("toolkit.json", function(data) {
 
@@ -60,6 +67,7 @@ $.getJSON("toolkit.json", function(data) {
         // format the topic. Everything else will be appended to this one.
 
         ft = formatTopic(topic)
+        addTopicButton(topic)
 
         // loop through concepts in this topic
         $.each(topicContent["Concepts"],
