@@ -15,7 +15,8 @@
               }],
               "Teaching activies": [{
                 "Title": "Lecture",
-                "Description": "Introductory lecture on SDI generations"
+                "Description": "Introductory lecture on SDI generations",
+                "Materials": "Watch video on <a href='Spatial Data Infrastructure Concepts and Components'>https://www.youtube.com/watch?v=wa-_Yn0FUW8</a>"
               }, {
                 "Title": "Asking questions",
                 "Description": "If there is something unclear, discussion with questions is opened and students are helped to understand it better"
@@ -35,7 +36,8 @@
               }],
               "Teaching activies": [{
                 "Title": "Asking questions",
-                "Description": "If there is something unclear, discussion with questions is opened and students are helped to understand it better"
+                "Description": "If there is something unclear, discussion with questions is opened and students are helped to understand it better",
+                "Materials": "Rajabifard, A.; Williamson, I.P. Spatial data infrastructures: Concept, SDI hierarchy and future directions. In Proceedings of the GEOMATICS’80 Conference, Tehran, Iran, 2001."
               }, {
                 "Title": "Student presentations",
                 "Description": "Students present examples of SDI development and relate it to the aspect from intro lecture"
@@ -183,7 +185,8 @@
                 },
                 {
                   "Title": "Implementation & Presentation",
-                  "Description": "Students implement web mapping based on the OGC mapping services and present the results"
+                  "Description": "Students implement web mapping based on the OGC mapping services and present the results",
+                  "Materials": "Students should consult the <a href='https://ogcapi.ogc.org'>OGC API documentation</a> during the planning and implementation process."
                 }
               ]
             }
