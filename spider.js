@@ -28,7 +28,7 @@ function formatLO(learningOutcome) {
 /* Format a teachingActivity */
 function formatTA(teachingActivity) {
   return $(`
-    <li><b>` + teachingActivity['Title'] + `</b>:
+    <li id="` + id(teachingActivity['Title']+teachingActivity['Description'])+ `"><strong>` + teachingActivity['Title'] + `</strong>:
     ` + teachingActivity['Description'] + `
     </li>`);
 }
