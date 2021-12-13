@@ -1,55 +1,67 @@
-.topic, .concept, .goal, .assessment{
+.topic, .concept, .goal, .assessment {
   padding: 20px 10px 5px 20px;
   margin-bottom: 10px;
 }
 
-.topic{
+.topic {
   background-color: #3188B0;
 }
 
-.topic h1{
+.topic h1 {
   font-weight: 700;
   color: white;
 }
 
-.concept{
+.concept {
   background-color: #86C9E8;
   color: #3A5663;
-  min-width: 48%;
-  max-width: 600px;
-  float: left;
-  margin-right: 20px
+  margin-right: 2%
 }
 
-.concept h2{
+@media (min-width: 1200px) {
+  .concept {
+    width: 48%;
+    float: left;
+  }
+}
+
+
+@media (min-width: 1950px) {
+  .concept {
+    width: 31%;
+    float: left;
+  }
+}
+
+.concept h2 {
   font-weight: 700;
-
 }
 
-.goal{
-  background-color: #40AFE3;;
+.goal {
+  background-color: #40AFE3;
+  ;
 }
 
 .activity {
   background-color: #1C4D63;
 }
 
-.space{
+.space {
   margin: 20px 0 0 20px
 }
 
-.activities{
+.activities {
   margin-left: 20px;
 }
 
-.assessment{
-  background-color:  #ccc;
+.assessment {
+  background-color: #ccc;
 }
 
-.filter{
+.filter {
   margin-top: 20px
 }
 
-.materials{
-  color: 
+.materials {
+  color:
 }
