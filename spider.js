@@ -2,7 +2,8 @@
 function formatTopic(topic) {
   return $(`
       <div class="topic clearfix search" id="` + id(topic) + `">
-      <h1 class="display-3">` + topic + ` <span class="display-5">concepts:</span></h1>
+      <h1 class="display-3">` + topic + `
+      <span class="display-5">concepts:</span></h1>
       </div>`)
 }
 
@@ -10,8 +11,9 @@ function formatTopic(topic) {
 function formatConcept(conceptContent) {
   return $(`
     <div class="concept">
-       <h2 class="search" id="` + id(conceptContent["Title"]) + `">` + conceptContent["Title"] + `</h2>
-       <p class="search lead">` + conceptContent["Description"] + `. <b>Learning&nbsp;outcomes:</br></p>
+       <h2 class="search" id="` + id(conceptContent["Title"]) + `">
+       ` + conceptContent["Title"] + `</h2>
+       <p class="search lead">` + conceptContent["Description"] + `. <strong>Learning&nbsp;outcomes:</strong></p>
     </div>`)
 }
 
@@ -26,10 +28,11 @@ function formatLO(learningOutcome) {
 }
 
 /* Format a teachingActivity */
-function formatTA(teachingActivity) {
+function formatTA(ta) {
   return $(`
-    <li id="` + id(teachingActivity['Title']+teachingActivity['Description'])+ `"><strong>` + teachingActivity['Title'] + `</strong>:
-    ` + teachingActivity['Description'] + `
+    <li id="` + id(ta['Title'] + ta['Description']) + `">
+    <strong>` + ta['Title'] + `</strong>:
+    ` + ta['Description'] + `
     </li>`);
 }
 
@@ -37,8 +40,19 @@ function formatTA(teachingActivity) {
 function formatAssessment(assessment) {
   return $(`
     <div class="assessment">
-      <h4>` + assessment["Assessment method type"]+ ` assessment</h4>
-      <p><strong>` + assessment["Assessment method"] + `</strong>: ` + assessment["Assessment method description"] + `</p>
+      <h4>` + assessment["Assessment method type"] + ` assessment</h4>
+      <p><strong>` + assessment["Assessment method"] + `</strong>:
+      ` + assessment["Assessment method description"] + `</p>
+    </div>
+    `);
+}
+
+/* Format the materials for a learning outcome */
+function formatMaterials(materials) {
+  return $(`
+    <div class="materials">
+      <p><strong>Materials</strong><br />
+      ` + materials + `</p>
     </div>
     `);
 }
@@ -49,10 +63,9 @@ function id(st) {
 }
 
 /* Add a button at the top of the page that works as a direct link to the topic */
-function addTopicButton(topic){
-  console.log("adding " +topic)
-    //$('#topic-buttons').append('<a class="btn btn-primary" href="#' + topic + '" role="button">' + topic + '</a>&nbsp;')
-    $('#topic-buttons').append('<a role="button" class="btn btn-outline-secondary" href="#'+id(topic)+'">'+topic+'</a>');
+function addTopicButton(topic) {
+  //$('#topic-buttons').append('<a class="btn btn-primary" href="#' + topic + '" role="button">' + topic + '</a>&nbsp;')
+  $('#topic-buttons').append('<a role="button" class="btn btn-outline-secondary" href="#' + id(topic) + '">' + topic + '</a>');
 }
 
 /* Read in the toolkit data in JSON format and insert into the page */
@@ -86,6 +99,11 @@ $.getJSON("toolkit.json", function(data) {
                 $.each(learningOutcome["Teaching activies"],
                   function(t, teachingActivity) {
                     ta = formatTA(teachingActivity)
+
+                    // add any potential materials to this activity:
+                    if (teachingActivity["Materials"]) {
+                      ta.append(formatMaterials(teachingActivity["Materials"]))
+                    }
 
                     taHeader.append(ta)
                   });
