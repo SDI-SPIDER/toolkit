@@ -71,6 +71,8 @@ function addTopicButton(topic) {
 /* Read in the toolkit data in JSON format and insert into the page */
 $.getJSON("toolkit.json", function(data) {
 
+  blooms = []
+
   $.each(data["Topics"],
     function(i, topics) {
 
@@ -92,6 +94,15 @@ $.getJSON("toolkit.json", function(data) {
             $.each(conceptContent["Learning outcomes"],
               function(l, learningOutcome) {
                 lo = formatLO(learningOutcome)
+
+                //keep track of all bloom levels used in the data
+                // so we can list them in the drop down selection
+                // menu at the end
+
+                if (!blooms.includes(learningOutcome["Bloom level"])){
+                  blooms.push(learningOutcome["Bloom level"])
+                }
+
                 lo.append('<p>Teaching activities:</p>')
                 taHeader = $("<ol class='activities'></ol>")
 
@@ -125,8 +136,11 @@ $.getJSON("toolkit.json", function(data) {
         // after adding all information on the concept, add it to the page:
         $("main").append(ft)
 
-
       });
+
+      // add all bloom levels discovered in the data to the select menu
+      blooms.sort().forEach(item => $("#bloomSelect").append("<option>"+item+"</option>"));
+
 
     });
 
