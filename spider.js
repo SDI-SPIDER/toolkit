@@ -64,13 +64,16 @@ function id(st) {
 
 /* Add a button at the top of the page that works as a direct link to the topic */
 function addTopicButton(topic) {
-  //$('#topic-buttons').append('<a class="btn btn-primary" href="#' + topic + '" role="button">' + topic + '</a>&nbsp;')
-  $('#topic-buttons').append('<a role="button" class="btn btn-outline-secondary" href="#' + id(topic) + '">' + topic + '</a>');
+  $('#topic-buttons').append('<a role="button" class="btn btn-outline-secondary topicbutton" href="#' + id(topic) + '">' + topic + '</a>');
 }
 
 /* Read in the toolkit data in JSON format and insert into the page */
 $.getJSON("toolkit.json", function(data) {
 
+  // keep track of all kinds of teaching activities
+  // and bloom levels found in the Data
+  // so we can add them to the selection menues later
+  activities = []
   blooms = []
 
   $.each(data["Topics"],
@@ -109,6 +112,12 @@ $.getJSON("toolkit.json", function(data) {
                 // teaching activities for this LO:
                 $.each(learningOutcome["Teaching activies"],
                   function(t, teachingActivity) {
+
+                    // keep track of activity types:
+                    if (!activities.includes(teachingActivity["Title"])){
+                      activities.push(teachingActivity["Title"])
+                    }
+
                     ta = formatTA(teachingActivity)
 
                     // add any potential materials to this activity:
@@ -141,6 +150,11 @@ $.getJSON("toolkit.json", function(data) {
       // add all bloom levels discovered in the data to the select menu
       blooms.sort().forEach(item => $("#bloomSelect").append("<option>"+item+"</option>"));
 
+      // same for the activities
+      activities.sort().forEach(item => $("#activitySelect").append("<option>"+item+"</option>"));
+
+      // update the topic counter at the top of the page:
+      $("span#topiccount").text($("a.topicbutton").length)
 
     });
 
@@ -156,7 +170,7 @@ $.getJSON("toolkit.json", function(data) {
   };
 
   $("#searchField").on("input", function() {
-    $(".search").css('background-color', 'white')
+    $(".search").css('background-color', '')
     if ($(this).val().length > 0) {
       $(".search:contains(" + $(this).val() + ")").css('background-color', 'yellow')
     }
