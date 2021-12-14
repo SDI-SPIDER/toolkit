@@ -67,6 +67,16 @@ function addTopicButton(topic) {
   $('#topic-buttons').append('<a role="button" class="btn btn-outline-secondary topicbutton" href="#' + id(topic) + '">' + topic + '</a>');
 }
 
+/* Search function that is triggered every time the
+user changes one of the form fields */
+function search() {
+  console.log("Search called!")
+  $(".search").css('background-color', '')
+  if ($("#searchField").val().length > 0) {
+    $(".search:contains(" + $("#searchField").val() + ")").css('background-color', 'yellow')
+  }
+}
+
 /* Read in the toolkit data in JSON format and insert into the page */
 $.getJSON("toolkit.json", function(data) {
 
@@ -102,7 +112,7 @@ $.getJSON("toolkit.json", function(data) {
                 // so we can list them in the drop down selection
                 // menu at the end
 
-                if (!blooms.includes(learningOutcome["Bloom level"])){
+                if (!blooms.includes(learningOutcome["Bloom level"])) {
                   blooms.push(learningOutcome["Bloom level"])
                 }
 
@@ -114,7 +124,7 @@ $.getJSON("toolkit.json", function(data) {
                   function(t, teachingActivity) {
 
                     // keep track of activity types:
-                    if (!activities.includes(teachingActivity["Title"])){
+                    if (!activities.includes(teachingActivity["Title"])) {
                       activities.push(teachingActivity["Title"])
                     }
 
@@ -148,10 +158,10 @@ $.getJSON("toolkit.json", function(data) {
       });
 
       // add all bloom levels discovered in the data to the select menu
-      blooms.sort().forEach(item => $("#bloomSelect").append("<option>"+item+"</option>"));
+      blooms.sort().forEach(item => $("#bloomSelect").append("<option>" + item + "</option>"));
 
       // same for the activities
-      activities.sort().forEach(item => $("#activitySelect").append("<option>"+item+"</option>"));
+      activities.sort().forEach(item => $("#activitySelect").append("<option>" + item + "</option>"));
 
       // update the topic counter at the top of the page:
       $("span#topiccount").text($("a.topicbutton").length)
@@ -169,12 +179,9 @@ $.getJSON("toolkit.json", function(data) {
       .indexOf(m[3].toUpperCase()) >= 0;
   };
 
-  $("#searchField").on("input", function() {
-    $(".search").css('background-color', '')
-    if ($(this).val().length > 0) {
-      $(".search:contains(" + $(this).val() + ")").css('background-color', 'yellow')
-    }
-  });
+  // when any of the form fields change, call the search function:
+  $(".trigger").on("change", search);
+  $("#searchField").on("input", search);
 
 
 });
