@@ -69,3 +69,19 @@ div#content{
 .materials {
   color:
 }
+
+.search{
+  border: 5px solid transparent
+}
+
+.hit{
+  border: 5px solid yellow
+}
+
+.pale{
+  opacity: .3
+}
+
+.stabilo{
+  background-color: yellow
+}

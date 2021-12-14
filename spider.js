@@ -1,7 +1,44 @@
+/* Search function that is triggered every time the
+user changes one of the form fields */
+function search() {
+
+  term     = $("#searchField").val()
+  bloom    = $( "#bloomSelect option:selected" ).val();
+  activity = $( "#activitySelect option:selected" ).val();
+
+  // reset:
+  $(".hit, .pale").addClass("search").removeClass("hit pale")
+  $(".stabilo").each(function(){
+      $( this ).replaceWith($( this ).text())
+  })
+
+
+  // only start highlighting the "hits" after at least
+  // 2 characters have been typed
+  if (term.length > 1){
+    $(".search:contains(" + term + ")").addClass('hit').removeClass('search')
+  }
+
+  // if there are any hits, make the remaining search boxes semi-transparent
+  if ($(".hit").length > 0){
+    $(".search").addClass("pale").removeClass("search")  }
+
+    // highlight the whole word including the search term:
+    $(".hit").each(function(){
+        oldHTML = $( this ).html()
+        $( this ).html(oldHTML.replace(new RegExp('(\\b)( \\w*' + term + '\\w*)(\\b)', 'gi'), "<span class='stabilo'>$&</span>"))
+    })
+
+
+
+  ;
+
+}
+
 /* Format a topic */
 function formatTopic(topic) {
   return $(`
-      <div class="topic clearfix search" id="` + id(topic) + `">
+      <div class="topic clearfix" id="` + id(topic) + `">
       <h1 class="display-3">` + topic + `
       <span class="display-5">concepts:</span></h1>
       </div>`)
@@ -10,10 +47,10 @@ function formatTopic(topic) {
 /* Format a concept */
 function formatConcept(conceptContent) {
   return $(`
-    <div class="concept">
-       <h2 class="search" id="` + id(conceptContent["Title"]) + `">
+    <div class="concept search">
+       <h2 id="` + id(conceptContent["Title"]) + `">
        ` + conceptContent["Title"] + `</h2>
-       <p class="search lead">` + conceptContent["Description"] + `. <strong>Learning&nbsp;outcomes:</strong></p>
+       <p class="lead">` + conceptContent["Description"] + `. <strong>Learning&nbsp;outcomes:</strong></p>
     </div>`)
 }
 
@@ -21,8 +58,8 @@ function formatConcept(conceptContent) {
 function formatLO(learningOutcome) {
   return $(`
     <div class="goal">
-      <h3 class="search">` + learningOutcome["Title"] + `</h3>
-      <p class="search">` + learningOutcome["Description"] + `<br />
+      <h3>` + learningOutcome["Title"] + `</h3>
+      <p>` + learningOutcome["Description"] + `<br />
              Bloom level: ` + learningOutcome["Bloom level"] + `</p>
     </div>`);
 }
@@ -65,16 +102,6 @@ function id(st) {
 /* Add a button at the top of the page that works as a direct link to the topic */
 function addTopicButton(topic) {
   $('#topic-buttons').append('<a role="button" class="btn btn-outline-secondary topicbutton" href="#' + id(topic) + '">' + topic + '</a>');
-}
-
-/* Search function that is triggered every time the
-user changes one of the form fields */
-function search() {
-  console.log("Search called!")
-  $(".search").css('background-color', '')
-  if ($("#searchField").val().length > 0) {
-    $(".search:contains(" + $("#searchField").val() + ")").css('background-color', 'yellow')
-  }
 }
 
 /* Read in the toolkit data in JSON format and insert into the page */
