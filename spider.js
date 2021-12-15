@@ -26,7 +26,7 @@ function search() {
     // highlight the whole word including the search term:
     $(".hit").each(function(){
         oldHTML = $( this ).html()
-        $( this ).html(oldHTML.replace(new RegExp('(\\b)( \\w*' + term + '\\w*)(\\b)', 'gi'), "<span class='stabilo'>$&</span>"))
+        $( this ).html(oldHTML.replace(new RegExp('\\b\\w*'+term+'\\w*\\b', 'gi'), "<span class='stabilo'>$&</span>"))
     })
 
 
