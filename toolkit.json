@@ -2,6 +2,101 @@
   "Topics": [{
     "Fundamentals": {
       "Concepts": [{
+          "Title": "Medieval SDI ⚔️",
+          "Description": "Introduce the main objectives and key components of SDI generation concerning different point-of -view perspectives (producer, user, produser, etc…)",
+          "Learning outcomes": [{
+              "Title": "SDI generations: main objectives, key components, drivers",
+              "Description": "Introduce the main objectives and key components of SDI generations",
+              "Bloom level": "Remember/Understand",
+              "Assessment": [{
+                "Assessment method": "SDI generations understanding",
+                "Assessment method description": "This LO is assessed with an oral exam. Example of question is: Could you name key components of different SDI generations?",
+                "Assessment method type": "Summative"
+              }],
+              "Teaching activies": [{
+                "Title": "Lecture",
+                "Description": "Introductory lecture on SDI generations",
+                "Materials": "Watch video on <a href='Spatial Data Infrastructure Concepts and Components'>https://www.youtube.com/watch?v=wa-_Yn0FUW8</a>"
+              }, {
+                "Title": "Asking questions",
+                "Description": "If there is something unclear, discussion with questions is opened and students are helped to understand it better"
+              }, {
+                "Title": "Write report",
+                "Description": "yada yada"
+              }]
+            },
+            {
+              "Title": "Pizza making 🍕",
+              "Description": "Apply and evaluate the application of W3C services for web mapping and cartography",
+              "Bloom level": "Apply/Evaluate",
+              "Assessment": [{
+                "Assessment method": "Feedback",
+                "Assessment method description": "Students receive feedback on their project formulation",
+                "Assessment method type": "Summative"
+              }, {
+                "Assessment method": "Feedback",
+                "Assessment method description": "Students receive feedback on their project formulation",
+                "Assessment method type": "Summative"
+              }],
+              "Teaching activies": [{
+                  "Title": "Case Study Project",
+                  "Description": "Formulate a problem statement to address on W3C services for web mapping"
+                },
+                {
+                  "Title": "Implementation & Presentation",
+                  "Description": "Students implement web mapping based on the W3C mapping services and present the results",
+                  "Materials": "Students should consult the <a href='https://W3Capi.W3C.org'>W3C API documentation</a> during the planning and implementation process."
+                }
+              ]
+            },
+            {
+              "Title": "W3C services 🌎",
+              "Description": "Apply and evaluate the application of W3C services for web mapping and cartography",
+              "Bloom level": "Apply/Evaluate",
+              "Assessment": [{
+                "Assessment method": "Feedback",
+                "Assessment method description": "Students receive feedback on their project formulation",
+                "Assessment method type": "Summative"
+              }, {
+                "Assessment method": "Feedback",
+                "Assessment method description": "Students receive feedback on their project formulation",
+                "Assessment method type": "Summative"
+              }],
+              "Teaching activies": [{
+                  "Title": "Case Study Project",
+                  "Description": "Formulate a problem statement to address on W3C services for web mapping"
+                },
+                {
+                  "Title": "Implementation & Presentation",
+                  "Description": "Students implement web mapping based on the W3C mapping services and present the results",
+                  "Materials": "Students should consult the <a href='https://W3Capi.W3C.org'>W3C API documentation</a> during the planning and implementation process."
+                }
+              ]
+            },
+            {
+              "Title": "Differences between SDI generations",
+              "Description": "Identify and discuss the differences between SDI generations",
+              "Bloom level": "Remember/Understand",
+              "Assessment": [{
+                "Assessment method": "Feedback",
+                "Assessment method description": "Students receive feedback during and after their group work and presentations ",
+                "Assessment method type": "Formative"
+              }],
+              "Teaching activies": [{
+                "Title": "Asking questions",
+                "Description": "If there is something unclear, discussion with questions is opened and students are helped to understand it better",
+                "Materials": "Rajabifard, A.; Williamson, I.P. Spatial data infrastructures: Concept, SDI hierarchy and future directions. In Proceedings of the GEOMATICS’80 Conference, Tehran, Iran, 2001."
+              }, {
+                "Title": "Lecture",
+                "Description": "Introductory lecture on SDI generations",
+                "Materials": "Watch video on <a href='Spatial Data Infrastructure Concepts and Components'>https://www.youtube.com/watch?v=wa-_Yn0FUW8</a>"
+              }, {
+                "Title": "Student presentations",
+                "Description": "Students present examples of SDI development and relate it to the aspect from intro lecture"
+              }]
+            }
+          ]
+        },{
           "Title": "Evolution of SDIs",
           "Description": "Introduce the main objectives and key components of SDI generation concerning different point-of -view perspectives (producer, user, produser, etc…)",
           "Learning outcomes": [{
@@ -26,6 +121,54 @@
               }]
             },
             {
+              "Title": "Coffee brewing ☕️",
+              "Description": "Apply and evaluate the application of W3C services for web mapping and cartography",
+              "Bloom level": "Apply/Evaluate",
+              "Assessment": [{
+                "Assessment method": "Feedback",
+                "Assessment method description": "Students receive feedback on their project formulation",
+                "Assessment method type": "Summative"
+              }, {
+                "Assessment method": "Feedback",
+                "Assessment method description": "Students receive feedback on their project formulation",
+                "Assessment method type": "Summative"
+              }],
+              "Teaching activies": [{
+                  "Title": "Case Study Project",
+                  "Description": "Formulate a problem statement to address on W3C services for web mapping"
+                },
+                {
+                  "Title": "Implementation & Presentation",
+                  "Description": "Students implement web mapping based on the W3C mapping services and present the results",
+                  "Materials": "Students should consult the <a href='https://W3Capi.W3C.org'>W3C API documentation</a> during the planning and implementation process."
+                }
+              ]
+            },
+            {
+              "Title": "Fax services 📠",
+              "Description": "Apply and evaluate the application of W3C services for web mapping and cartography",
+              "Bloom level": "Apply/Evaluate",
+              "Assessment": [{
+                "Assessment method": "Feedback",
+                "Assessment method description": "Students receive feedback on their project formulation",
+                "Assessment method type": "Summative"
+              }, {
+                "Assessment method": "Feedback",
+                "Assessment method description": "Students receive feedback on their project formulation",
+                "Assessment method type": "Summative"
+              }],
+              "Teaching activies": [{
+                  "Title": "Case Study Project",
+                  "Description": "Formulate a problem statement to address on W3C services for web mapping"
+                },
+                {
+                  "Title": "Implementation & Presentation",
+                  "Description": "Students implement web mapping based on the W3C mapping services and present the results",
+                  "Materials": "Students should consult the <a href='https://W3Capi.W3C.org'>W3C API documentation</a> during the planning and implementation process."
+                }
+              ]
+            },
+            {
               "Title": "Differences between SDI generations",
               "Description": "Identify and discuss the differences between SDI generations",
               "Bloom level": "Remember/Understand",
@@ -38,6 +181,10 @@
                 "Title": "Asking questions",
                 "Description": "If there is something unclear, discussion with questions is opened and students are helped to understand it better",
                 "Materials": "Rajabifard, A.; Williamson, I.P. Spatial data infrastructures: Concept, SDI hierarchy and future directions. In Proceedings of the GEOMATICS’80 Conference, Tehran, Iran, 2001."
+              }, {
+                "Title": "Lecture",
+                "Description": "Introductory lecture on SDI generations",
+                "Materials": "Watch video on <a href='Spatial Data Infrastructure Concepts and Components'>https://www.youtube.com/watch?v=wa-_Yn0FUW8</a>"
               }, {
                 "Title": "Student presentations",
                 "Description": "Students present examples of SDI development and relate it to the aspect from intro lecture"
@@ -60,10 +207,13 @@
               "Teaching activies": [{
                   "Title": "Lecture",
                   "Description": "Introduction lecture on basics of cost benefit analysis"
-                },
-                {
+                }, {
                   "Title": "Asking questions",
                   "Description": "If there is something unclear, discussion with questions is opened and students are helped to understand it better"
+                }, {
+                  "Title": "Lecture",
+                  "Description": "Introductory lecture on SDI generations",
+                  "Materials": "Watch video on <a href='Spatial Data Infrastructure Concepts and Components'>https://www.youtube.com/watch?v=wa-_Yn0FUW8</a>"
                 }
               ]
             },
@@ -92,6 +242,101 @@
     },
     "Tech I": {
       "Concepts": [{
+          "Title": "Advanced noodles 🍜",
+          "Description": "Introduce the main objectives and key components of SDI generation concerning different point-of -view perspectives (producer, user, produser, etc…)",
+          "Learning outcomes": [{
+              "Title": "SDI generations: main objectives, key components, drivers",
+              "Description": "Introduce the main objectives and key components of SDI generations",
+              "Bloom level": "Remember/Understand",
+              "Assessment": [{
+                "Assessment method": "SDI generations understanding",
+                "Assessment method description": "This LO is assessed with an oral exam. Example of question is: Could you name key components of different SDI generations?",
+                "Assessment method type": "Summative"
+              }],
+              "Teaching activies": [{
+                "Title": "Lecture",
+                "Description": "Introductory lecture on SDI generations",
+                "Materials": "Watch video on <a href='Spatial Data Infrastructure Concepts and Components'>https://www.youtube.com/watch?v=wa-_Yn0FUW8</a>"
+              }, {
+                "Title": "Asking questions",
+                "Description": "If there is something unclear, discussion with questions is opened and students are helped to understand it better"
+              }, {
+                "Title": "Write report",
+                "Description": "yada yada"
+              }]
+            },
+            {
+              "Title": "Pancake making 🥞",
+              "Description": "Apply and evaluate the application of W3C services for web mapping and cartography",
+              "Bloom level": "Apply/Evaluate",
+              "Assessment": [{
+                "Assessment method": "Feedback",
+                "Assessment method description": "Students receive feedback on their project formulation",
+                "Assessment method type": "Summative"
+              }, {
+                "Assessment method": "Feedback",
+                "Assessment method description": "Students receive feedback on their project formulation",
+                "Assessment method type": "Summative"
+              }],
+              "Teaching activies": [{
+                  "Title": "Case Study Project",
+                  "Description": "Formulate a problem statement to address on W3C services for web mapping"
+                },
+                {
+                  "Title": "Implementation & Presentation",
+                  "Description": "Students implement web mapping based on the W3C mapping services and present the results",
+                  "Materials": "Students should consult the <a href='https://W3Capi.W3C.org'>W3C API documentation</a> during the planning and implementation process."
+                }
+              ]
+            },
+            {
+              "Title": "Snail mail services 🐌",
+              "Description": "Apply and evaluate the application of W3C services for web mapping and cartography",
+              "Bloom level": "Apply/Evaluate",
+              "Assessment": [{
+                "Assessment method": "Feedback",
+                "Assessment method description": "Students receive feedback on their project formulation",
+                "Assessment method type": "Summative"
+              }, {
+                "Assessment method": "Feedback",
+                "Assessment method description": "Students receive feedback on their project formulation",
+                "Assessment method type": "Summative"
+              }],
+              "Teaching activies": [{
+                  "Title": "Case Study Project",
+                  "Description": "Formulate a problem statement to address on W3C services for web mapping"
+                },
+                {
+                  "Title": "Implementation & Presentation",
+                  "Description": "Students implement web mapping based on the W3C mapping services and present the results",
+                  "Materials": "Students should consult the <a href='https://W3Capi.W3C.org'>W3C API documentation</a> during the planning and implementation process."
+                }
+              ]
+            },
+            {
+              "Title": "Differences between SDI generations",
+              "Description": "Identify and discuss the differences between SDI generations",
+              "Bloom level": "Remember/Understand",
+              "Assessment": [{
+                "Assessment method": "Feedback",
+                "Assessment method description": "Students receive feedback during and after their group work and presentations ",
+                "Assessment method type": "Formative"
+              }],
+              "Teaching activies": [{
+                "Title": "Asking questions",
+                "Description": "If there is something unclear, discussion with questions is opened and students are helped to understand it better",
+                "Materials": "Rajabifard, A.; Williamson, I.P. Spatial data infrastructures: Concept, SDI hierarchy and future directions. In Proceedings of the GEOMATICS’80 Conference, Tehran, Iran, 2001."
+              }, {
+                "Title": "Lecture",
+                "Description": "Introductory lecture on SDI generations",
+                "Materials": "Watch video on <a href='Spatial Data Infrastructure Concepts and Components'>https://www.youtube.com/watch?v=wa-_Yn0FUW8</a>"
+              }, {
+                "Title": "Student presentations",
+                "Description": "Students present examples of SDI development and relate it to the aspect from intro lecture"
+              }]
+            }
+          ]
+        },{
           "Title": "Web map portals",
           "Description": "Introduce basic tools and techniques for development of web map portals",
           "Learning outcomes": [{
@@ -143,8 +388,59 @@
               ]
             }
           ]
-        },
-        {
+        }, {
+            "Title": "Skoobidoo 🐶",
+            "Description": "Introduce basic tools and techniques for walking dogs",
+            "Learning outcomes": [{
+                "Title": "Dog design",
+                "Description": "Introduce how to design a web map and which criteria should be considered for that",
+                "Bloom level": "Remember/Understand",
+                "Assessment": [{
+                    "Assessment method": "Quiz",
+                    "Assessment method description": "Quiz on how to design a web map",
+                    "Assessment method type": "Formative"
+                  },
+                  {
+                    "Assessment method": "Feedback",
+                    "Assessment method description": "Feedback on students` questions",
+                    "Assessment method type": "Summative"
+                  }
+                ],
+                "Teaching activies": [{
+                    "Title": "Reading",
+                    "Description": "Read the recommended documents and look through the slides in advance"
+                  },
+                  {
+                    "Title": "Lecture",
+                    "Description": "Introductory lecture explaining web map design and related concepts"
+                  }
+                ]
+              },
+              {
+                "Title": "Web mapping, implementation perspective",
+                "Description": "Implement a web map portal with the introduced techniques",
+                "Bloom level": "Apply/Create",
+                "Assessment": [{
+                  "Assessment method": "Feedback",
+                  "Assessment method description": "Students receive feedback on their lab exercise",
+                  "Assessment method type": "Formative"
+                }, {
+                  "Assessment method": "Feedback",
+                  "Assessment method description": "Students receive feedback on their presentation",
+                  "Assessment method type": "Formative"
+                }],
+                "Teaching activies": [{
+                    "Title": "Development & implementation",
+                    "Description": "Lab exercise on portal development for static and interactive web mapping with javascript"
+                  },
+                  {
+                    "Title": "Student Presentation",
+                    "Description": "Students present their projects and peer review each other in small groups"
+                  }
+                ]
+              }
+            ]
+          }, {
           "Title": "Standards for network services",
           "Description": "Standards that have been developed by Open Geospatial Consortium for creating interoperable web map portals/services",
           "Learning outcomes": [{
@@ -165,7 +461,28 @@
                   "Description": "Short introductory lecture explaining different types of web services based on OGC standards"
                 }
               ]
-            },
+            }, {
+                "Title": "Basics of cost benefit analysis",
+                "Description": "Introduction to cost benefit analysis",
+                "Bloom level": "Remember/Understand",
+                "Assessment": [{
+                  "Assessment method": "SDI cost-benefit analisis understanding",
+                  "Assessment method description": "This LO is assessed with an oral exam. Example of question is: Could you explain the specifics of SDI cost-benefit analysis?",
+                  "Assessment method type": "Summative"
+                }],
+                "Teaching activies": [{
+                    "Title": "Lecture",
+                    "Description": "Introduction lecture on basics of cost benefit analysis"
+                  }, {
+                    "Title": "Asking questions",
+                    "Description": "If there is something unclear, discussion with questions is opened and students are helped to understand it better"
+                  }, {
+                    "Title": "Lecture",
+                    "Description": "Introductory lecture on SDI generations",
+                    "Materials": "Watch video on <a href='Spatial Data Infrastructure Concepts and Components'>https://www.youtube.com/watch?v=wa-_Yn0FUW8</a>"
+                  }
+                ]
+              },
             {
               "Title": "OGC services for web mapping",
               "Description": "Apply and evaluate the application of OGC services for web mapping and cartography",
