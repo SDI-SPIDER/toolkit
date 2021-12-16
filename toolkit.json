@@ -2,10 +2,10 @@
   "Topics": [{
     "Fundamentals": {
       "Concepts": [{
-          "Title": "Medieval SDI ⚔️",
+          "Title": "Medieval SDI",
           "Description": "Introduce the main objectives and key components of SDI generation concerning different point-of -view perspectives (producer, user, produser, etc…)",
           "Learning outcomes": [{
-              "Title": "SDI generations: main objectives, key components, drivers",
+              "Title": "SDI generations: Gen X",
               "Description": "Introduce the main objectives and key components of SDI generations",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
@@ -26,7 +26,7 @@
               }]
             },
             {
-              "Title": "Pizza making 🍕",
+              "Title": "Pizza making",
               "Description": "Apply and evaluate the application of W3C services for web mapping and cartography",
               "Bloom level": "Apply/Evaluate",
               "Assessment": [{
@@ -121,7 +121,7 @@
               }]
             },
             {
-              "Title": "Coffee brewing ☕️",
+              "Title": "Coffee brewing",
               "Description": "Apply and evaluate the application of W3C services for web mapping and cartography",
               "Bloom level": "Apply/Evaluate",
               "Assessment": [{
@@ -245,7 +245,7 @@
           "Title": "Advanced noodles",
           "Description": "Introduce the main objectives and key components of SDI generation concerning different point-of -view perspectives (producer, user, produser, etc…)",
           "Learning outcomes": [{
-              "Title": "SDI generations: main objectives, key components, drivers",
+              "Title": "SDI generations: Boomers and friends",
               "Description": "Introduce the main objectives and key components of SDI generations",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
@@ -365,7 +365,7 @@
               ]
             },
             {
-              "Title": "Web mapping, implementation perspective",
+              "Title": "Web mapping, design perspective",
               "Description": "Implement a web map portal with the introduced techniques",
               "Bloom level": "Apply/Create",
               "Assessment": [{
