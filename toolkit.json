@@ -50,7 +50,7 @@
               ]
             },
             {
-              "Title": "W3C services 🌎",
+              "Title": "W3C services",
               "Description": "Apply and evaluate the application of W3C services for web mapping and cartography",
               "Bloom level": "Apply/Evaluate",
               "Assessment": [{
@@ -145,7 +145,7 @@
               ]
             },
             {
-              "Title": "Fax services 📠",
+              "Title": "Fax services",
               "Description": "Apply and evaluate the application of W3C services for web mapping and cartography",
               "Bloom level": "Apply/Evaluate",
               "Assessment": [{
@@ -242,7 +242,7 @@
     },
     "Tech I": {
       "Concepts": [{
-          "Title": "Advanced noodles 🍜",
+          "Title": "Advanced noodles",
           "Description": "Introduce the main objectives and key components of SDI generation concerning different point-of -view perspectives (producer, user, produser, etc…)",
           "Learning outcomes": [{
               "Title": "SDI generations: main objectives, key components, drivers",
@@ -266,7 +266,7 @@
               }]
             },
             {
-              "Title": "Pancake making 🥞",
+              "Title": "Pancake making",
               "Description": "Apply and evaluate the application of W3C services for web mapping and cartography",
               "Bloom level": "Apply/Evaluate",
               "Assessment": [{
@@ -290,7 +290,7 @@
               ]
             },
             {
-              "Title": "Snail mail services 🐌",
+              "Title": "Snail mail services",
               "Description": "Apply and evaluate the application of W3C services for web mapping and cartography",
               "Bloom level": "Apply/Evaluate",
               "Assessment": [{
@@ -389,7 +389,7 @@
             }
           ]
         }, {
-            "Title": "Skoobidoo 🐶",
+            "Title": "Skoobidoo",
             "Description": "Introduce basic tools and techniques for walking dogs",
             "Learning outcomes": [{
                 "Title": "Dog design",
