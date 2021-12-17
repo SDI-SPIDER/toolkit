@@ -7,9 +7,9 @@ function search() {
   activity = $("#activitySelect option:selected").val();
 
   // reset:
-  $(".hit, .pale, .stabilo").addClass("search").removeClass("hit pale stabilo")
+  $(".hit, .pale").addClass("search").removeClass("hit pale")
   $(".stabilo").each(function() {
-    $(this).replaceWith($(this).text())  // bug somewhere around here!
+    $(this).replaceWith($(this)[0].innerText)  // bug somewhere around here!
   })
 
 
