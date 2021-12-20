@@ -22,7 +22,7 @@ function search() {
     $("div.concept.search:contains(" + term + ")").addClass('hit').removeClass('search')
 
     // show all the learning outcomes that contain the search term:
-    $("div.panel-collapse:contains(" + term + ")").addClass('show')
+    $("div.panel:contains(" + term + ")").children("div.panel-collapse").addClass('show')
   }
 
   // if there are any hits, hide the concepts that don't have any hits
