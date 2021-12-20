@@ -50,6 +50,15 @@ function search() {
 
 }
 
+
+// resets the search form to show all toolkit content
+function resetSearchForm(){
+  $("#searchField").val("")
+  bloom = $("#bloomSelect").val("Any Bloom level");
+  activity = $("#activitySelect").val("Any activity type");
+  search();
+}
+
 // update the conceptcounter and hide/show the "show all concepts" link
 function updateCounter() {
   ccount = $("div.concept").length
@@ -272,4 +281,6 @@ $.getJSON("toolkit.json", function(data) {
   // when any of the form fields change, call the search function:
   $(".trigger").on("change", search);
   $("#searchField").on("input", search);
+
+  $("a#resetfilter").on("click", resetSearchForm);
 });
