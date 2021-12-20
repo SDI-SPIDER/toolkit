@@ -11,12 +11,18 @@ function search() {
   $(".stabilo").each(function() {
     $(this).replaceWith($(this)[0].innerText)
   })
+  // collapse all learning outcomes:
+  $("div.panel-collapse").removeClass("show")
+
 
 
   // only start highlighting the "hits" after at least
   // 2 characters have been typed
   if (term.length > 1) {
     $("div.concept.search:contains(" + term + ")").addClass('hit').removeClass('search')
+
+    // show all the learning outcomes that contain the search term:
+    $("div.panel-collapse:contains(" + term + ")").addClass('show')
   }
 
   // if there are any hits, hide the concepts that don't have any hits
