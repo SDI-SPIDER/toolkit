@@ -19,27 +19,43 @@ function search() {
     $("div.concept.search:contains(" + term + ")").addClass('hit').removeClass('search')
   }
 
-  // if there are any hits, make the remaining search boxes semi-transparent
+  // if there are any hits, hide the concepts that don't have any hits
   if ($(".hit").length > 0) {
     $(".search").addClass("hide").removeClass("search")
   }
 
-
-  $(".hit").find('*').each(function(){
+  // highlight the words containing the search string
+  $(".hit").find('*').each(function() {
     $.each(this.childNodes, function() {
-        if (this.nodeType === 3) {
-          // find all words containing our search term (whole word!)
-          regex = new RegExp('\\b\\w*' + term + '\\w*\\b', 'gi')
-          //surround it with a span to style it
-          replacement = this.data.replace(regex, "<span class='stabilo'>$&</span>")
-          // ... and replace the whole node with the updated content
-          this.replaceWith($("<span>"+replacement+"</span>")[0]);
-        }
+      if (this.nodeType === 3) {
+        // find all words containing our search term (whole word!)
+        regex = new RegExp('\\b\\w*' + term + '\\w*\\b', 'gi')
+        //surround it with a span to style it
+        replacement = this.data.replace(regex, "<span class='stabilo'>$&</span>")
+        // ... and replace the whole node with the updated content
+        this.replaceWith($("<span>" + replacement + "</span>")[0]);
+      }
     })
   });
 
+  // update
+  updateCounter()
 
 
+}
+
+// update the conceptcounter and hide/show the "show all concepts" link
+function updateCounter() {
+  ccount = $("div.concept").length
+  hcount = $("div.concept.hide").length
+
+  if (hcount == 0) {
+    $("span#conceptcounter").text("all " + ccount)
+    $("a#resetfilter").addClass("hidelink")
+  } else {
+    $("span#conceptcounter").text(ccount-hcount + " out of " + ccount)
+    $("a#resetfilter").removeClass("hidelink")
+  }
 
 
 }
@@ -230,6 +246,9 @@ $.getJSON("toolkit.json", function(data) {
 
       // update the topic counter at the top of the page:
       $("span#topiccount").text($("a.topicbutton").length)
+
+      // update the concept counter:
+      updateCounter()
 
     });
 
