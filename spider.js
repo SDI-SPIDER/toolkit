@@ -7,32 +7,40 @@ function search() {
   activity = $("#activitySelect option:selected").val();
 
   // reset:
-  $(".hit, .pale").addClass("search").removeClass("hit pale")
+  $(".hit, .hide").addClass("search").removeClass("hit hide")
   $(".stabilo").each(function() {
-    $(this).replaceWith($(this)[0].innerText)  // bug somewhere around here!
+    $(this).replaceWith($(this)[0].innerText)
   })
 
 
   // only start highlighting the "hits" after at least
   // 2 characters have been typed
   if (term.length > 1) {
-    $(".search:contains(" + term + ")").addClass('hit').removeClass('search')
+    $("div.concept.search:contains(" + term + ")").addClass('hit').removeClass('search')
   }
 
   // if there are any hits, make the remaining search boxes semi-transparent
   if ($(".hit").length > 0) {
-    $(".search").addClass("pale").removeClass("search")
+    $(".search").addClass("hide").removeClass("search")
   }
 
-  // highlight the whole word including the search term:
-  $(".hit").each(function() {
-    oldHTML = $(this).html()
-    $(this).html(oldHTML.replace(new RegExp('\\b\\w*' + term + '\\w*\\b', 'gi'), "<span class='stabilo'>$&</span>"))
-  })
+
+  $(".hit").find('*').each(function(){
+    $.each(this.childNodes, function() {
+        if (this.nodeType === 3) {
+          // find all words containing our search term (whole word!)
+          regex = new RegExp('\\b\\w*' + term + '\\w*\\b', 'gi')
+          //surround it with a span to style it
+          replacement = this.data.replace(regex, "<span class='stabilo'>$&</span>")
+          // ... and replace the whole node with the updated content
+          this.replaceWith($("<span>"+replacement+"</span>")[0]);
+        }
+    })
+  });
 
 
 
-  ;
+
 
 }
 
@@ -122,121 +130,121 @@ function addTopicButton(topic) {
 /* Read in the toolkit data in JSON format and insert into the page */
 $.getJSON("toolkit.json", function(data) {
 
-      // keep track of all kinds of teaching activities
-      // and bloom levels found in the Data
-      // so we can add them to the selection menues later
-      activities = []
-      blooms = []
+  // keep track of all kinds of teaching activities
+  // and bloom levels found in the Data
+  // so we can add them to the selection menues later
+  activities = []
+  blooms = []
 
-      $.each(data["Topics"],
-        function(i, topics) {
+  $.each(data["Topics"],
+    function(i, topics) {
 
-          // loop through all the topics
-          $.each(topics, function(topic, topicContent) {
+      // loop through all the topics
+      $.each(topics, function(topic, topicContent) {
 
-            // format the topic. Everything else will be appended to this one.
+        // format the topic. Everything else will be appended to this one.
 
-            ft = formatTopic(topic)
-            addTopicButton(topic)
+        ft = formatTopic(topic)
+        addTopicButton(topic)
 
-            // loop through concepts in this topic
-            $.each(topicContent["Concepts"],
-              function(c, conceptContent) {
+        // loop through concepts in this topic
+        $.each(topicContent["Concepts"],
+          function(c, conceptContent) {
 
-                // add title and description for each concept
-                fc = formatConcept(conceptContent)
+            // add title and description for each concept
+            fc = formatConcept(conceptContent)
 
-                $.each(conceptContent["Learning outcomes"],
-                  function(l, learningOutcome) {
+            $.each(conceptContent["Learning outcomes"],
+              function(l, learningOutcome) {
 
 
-                    //keep track of all bloom levels used in the data
-                    // so we can list them in the drop down selection
-                    // menu at the end
+                //keep track of all bloom levels used in the data
+                // so we can list them in the drop down selection
+                // menu at the end
 
-                    if (!blooms.includes(learningOutcome["Bloom level"])) {
-                      blooms.push(learningOutcome["Bloom level"])
+                if (!blooms.includes(learningOutcome["Bloom level"])) {
+                  blooms.push(learningOutcome["Bloom level"])
+                }
+
+
+
+                // teaching activities for this LO:
+                taList = $('<ol id ="TAs`+id(learningOutcome["Title"])+`" class="activities" ></ol>')
+
+                $.each(learningOutcome["Teaching activies"],
+                  function(t, teachingActivity) {
+
+                    // keep track of activity types:
+                    if (!activities.includes(teachingActivity["Title"])) {
+                      activities.push(teachingActivity["Title"])
                     }
 
+                    ta = formatTA(teachingActivity)
 
+                    // add any potential materials to this activity:
+                    if (teachingActivity["Materials"]) {
+                      ta.append(formatMaterials(teachingActivity["Materials"]))
+                    }
 
-                    // teaching activities for this LO:
-                    taList = $('<ol id ="TAs`+id(learningOutcome["Title"])+`" class="activities" ></ol>')
-
-                    $.each(learningOutcome["Teaching activies"],
-                      function(t, teachingActivity) {
-
-                        // keep track of activity types:
-                        if (!activities.includes(teachingActivity["Title"])) {
-                          activities.push(teachingActivity["Title"])
-                        }
-
-                        ta = formatTA(teachingActivity)
-
-                        // add any potential materials to this activity:
-                        if (teachingActivity["Materials"]) {
-                          ta.append(formatMaterials(teachingActivity["Materials"]))
-                        }
-
-                        taList.append(ta)
-                      });
-
-                    // re-assable: List of teaching activities to panel body content
-                    lopbc = formatLOPanelBodyContent(learningOutcome)
-                    lopbc.append(taList)
-
-                    // assessment methods to the body content:
-                    $.each(learningOutcome["Assessment"],
-                      function(l, assessment) {
-                        lopbc.append(formatAssessment(assessment))
-                      });
-
-                    // … panel body content to panel body
-                    lopb = formatLOPanelBody(learningOutcome)
-                    lopb.append(lopbc)
-
-                    // panel body to panel header
-                    loph = formatLOPanelHeader(learningOutcome)
-                    loph.append(lopb)
-
-                    // attach the whole learning objective to the concept
-                    fc.append(loph)
+                    taList.append(ta)
                   });
 
-                // and finally the concept to the topic
-                ft.append(fc)
+                // re-assable: List of teaching activities to panel body content
+                lopbc = formatLOPanelBodyContent(learningOutcome)
+                lopbc.append(taList)
 
+                // assessment methods to the body content:
+                $.each(learningOutcome["Assessment"],
+                  function(l, assessment) {
+                    lopbc.append(formatAssessment(assessment))
+                  });
+
+                // … panel body content to panel body
+                lopb = formatLOPanelBody(learningOutcome)
+                lopb.append(lopbc)
+
+                // panel body to panel header
+                loph = formatLOPanelHeader(learningOutcome)
+                loph.append(lopb)
+
+                // attach the whole learning objective to the concept
+                fc.append(loph)
               });
 
-
-            // after adding all information on the concept, add it to the page:
-            $("main").append(ft)
+            // and finally the concept to the topic
+            ft.append(fc)
 
           });
 
-          // add all bloom levels discovered in the data to the select menu
-          blooms.sort().forEach(item => $("#bloomSelect").append("<option>" + item + "</option>"));
 
-          // same for the activities
-          activities.sort().forEach(item => $("#activitySelect").append("<option>" + item + "</option>"));
+        // after adding all information on the concept, add it to the page:
+        $("main").append(ft)
 
-          // update the topic counter at the top of the page:
-          $("span#topiccount").text($("a.topicbutton").length)
+      });
 
-        });
+      // add all bloom levels discovered in the data to the select menu
+      blooms.sort().forEach(item => $("#bloomSelect").append("<option>" + item + "</option>"));
+
+      // same for the activities
+      activities.sort().forEach(item => $("#activitySelect").append("<option>" + item + "</option>"));
+
+      // update the topic counter at the top of the page:
+      $("span#topiccount").text($("a.topicbutton").length)
+
+    });
 
 
-      // after adding the whole content to the page, add a change listener to the search field:
+  // after adding the whole content to the page, add a change listener to the search field:
 
-      // to do that, we'll first override jQuery's 'contains' selector to
-      // ignore case (https://stackoverflow.com/questions/8746882/jquery-contains-selector-uppercase-and-lower-case-issue)
+  // to do that, we'll first override jQuery's 'contains' selector to
+  // ignore case (https://stackoverflow.com/questions/8746882/jquery-contains-selector-uppercase-and-lower-case-issue)
 
-      jQuery.expr[':'].contains = function(a, i, m) {
-        return jQuery(a).text().toUpperCase()
-          .indexOf(m[3].toUpperCase()) >= 0;
-      };
+  jQuery.expr[':'].contains = function(a, i, m) {
+    return jQuery(a).text().toUpperCase()
+      .indexOf(m[3].toUpperCase()) >= 0;
+  };
 
-      // when any of the form fields change, call the search function:
-      $(".trigger").on("change", search);
-      $("#searchField").on("input", search);
+  // when any of the form fields change, call the search function:
+  $(".trigger").on("change", search);
+  $("#searchField").on("input", search);
 });

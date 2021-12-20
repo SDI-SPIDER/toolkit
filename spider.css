@@ -80,12 +80,8 @@ h3.panel-title a{
   border: 5px solid transparent
 }
 
-.hit{
-  border: 5px solid yellow
-}
-
-.pale{
-  opacity: .3
+.hide{
+  display: none;
 }
 
 .stabilo{
