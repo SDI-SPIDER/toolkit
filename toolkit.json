@@ -5,8 +5,8 @@
           "Title": "Evolution of SDIs & Citizens",
           "Description": "Discuss the main objectives and key components of SDI generationand introduce to the voluntereed GI",
           "Learning outcomes": [{
-              "Title": "Students are able to describe the importance and advantages of an SDI.\r\n",
-              "Description": "Describing the importance of developing the SDI.\r\n",
+              "Title": "Students are able to describe the importance and advantages of an SDI.",
+              "Description": "Describing the importance of developing the SDI.",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
                 "Assessment method": "Quiz",
@@ -34,7 +34,7 @@
                   "Materials": ""
                 },
                 {
-                  "Title": "Asking Question",
+                  "Title": "Asking Questions",
                   "Description": "If there is something unclear, discussion with questions is opened and students are helped to understand it better"
                 }
               ]
@@ -50,7 +50,7 @@
               }],
               "Teaching activies": [{
                 "Title": "Lecture",
-                "Description": "Introductory lecture on Volunteered Geographic Information as a form of \r\nuser-generated content",
+                "Description": "Introductory lecture on Volunteered Geographic Information as a form of user-generated content",
                 "Materials": ""
               }]
             },
@@ -79,7 +79,7 @@
                 "Assessment method type": "Summative"
               }],
               "Teaching activies": [{
-                "Title": "In Class Quizzes",
+                "Title": "In-Class Quizzes",
                 "Description": "Students take quizzes with questions on differences between SDI generations",
                 "Materials": ""
               }]
@@ -118,7 +118,7 @@
                   "Description": "Introductory lecture on basics of cost benefit analysis"
                 },
                 {
-                  "Title": "Asking questions",
+                  "Title": "Asking Questions",
                   "Description": "If there is something unclear, discussion with questions is opened and students are helped to understand it better"
                 }
               ]
@@ -134,7 +134,7 @@
               }],
               "Teaching activies": [{
                 "Title": "Class Discussion",
-                "Description": "Group discussion about main points relevant to SDI cost-benefit consideration\r\n"
+                "Description": "Group discussion about main points relevant to SDI cost-benefit consideration"
               }]
             },
             {
@@ -158,650 +158,650 @@
             },
             {
               "Title": "Students are able to elaborate SDI implementation costs for given case study.",
-              "Description": "Identification and analysis of SDI implementation costs for given case study.\r\n",
+              "Description": "Identification and analysis of SDI implementation costs for given case study.",
               "Bloom level": "Design/Create",
               "Assessment": [{
-                  "Assessment method": "Student presentation\r\n",
-                  "Assessment method description": "Students need to elaborate SDI implementation costs for given case study\r\n",
-                  "Assessment method type": "Formative\r\n"
+                  "Assessment method": "Student presentation",
+                  "Assessment method description": "Students need to elaborate SDI implementation costs for given case study",
+                  "Assessment method type": "Formative"
                 },
                 {
-                  "Assessment method": "Feedback\r\n",
-                  "Assessment method description": "Students receive feedback on their case studies\r\n\r\n",
-                  "Assessment method type": "Formative\r\n"
+                  "Assessment method": "Feedback",
+                  "Assessment method description": "Students receive feedback on their case studies",
+                  "Assessment method type": "Formative"
                 }
               ],
               "Teaching activies": [{
                 "Title": "Case study",
-                "Description": "Identification and analysis of SDI implementation costs for given spatial/administrative unit\r\n"
+                "Description": "Identification and analysis of SDI implementation costs for given spatial/administrative unit"
               }]
             }
           ]
         },
         {
-          "Title": "SDI practices/examples (Hierarchy, Academic SDI, National SDIs, INSPIRE)\r\n",
-          "Description": "Overview of SDI practices; examples of different level/extent of SDI implementation\r\n",
+          "Title": "SDI practices/examples (Hierarchy, Academic SDI, National SDIs, INSPIRE)",
+          "Description": "Overview of SDI practices; examples of different level/extent of SDI implementation",
           "Learning outcomes": [{
               "Title": "Students are able to remember and explain the national, regional and global SDI through SDI hierarchy",
-              "Description": "Memorizing the views of SDI hierarchy that include SDIs developed at levels\r\n",
+              "Description": "Memorizing the views of SDI hierarchy that include SDIs developed at levels",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
-                "Assessment method": "Written exam\r\n",
-                "Assessment method description": "Students take a written exam about different levels of SDI and hierarchy that is applied to SDIs' concept.\r\n",
+                "Assessment method": "Written exam",
+                "Assessment method description": "Students take a written exam about different levels of SDI and hierarchy that is applied to SDIs' concept.",
                 "Assessment method type": "Summative"
               }],
               "Teaching activies": [{
-                  "Title": "Lecture\r\n",
-                  "Description": "Introductory lecture on views of SDI hierarchy and SDIs developed at levels\r\n"
+                  "Title": "Lecture",
+                  "Description": "Introductory lecture on views of SDI hierarchy and SDIs developed at levels"
                 },
                 {
-                  "Title": "Asking Question\r\n",
-                  "Description": "If there is something unclear, discussion with questions is opened and students are helped to understand it better\r\n"
+                  "Title": "Asking Questions",
+                  "Description": "If there is something unclear, discussion with questions is opened and students are helped to understand it better"
                 }
               ]
             },
             {
-              "Title": "Students are able to discuss the differences between NSDI generations.\r\n",
-              "Description": "Describing differences between NSDI generations.\r\n",
+              "Title": "Students are able to discuss the differences between NSDI generations.",
+              "Description": "Describing differences between NSDI generations.",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
-                "Assessment method": "Quiz\r\n",
-                "Assessment method description": "Based on a presented lecture on nature of NSDIs, students take quizzes with questions about examples of NDSI\r\n",
-                "Assessment method type": "Formative\r\n"
+                "Assessment method": "Quiz",
+                "Assessment method description": "Based on a presented lecture on nature of NSDIs, students take quizzes with questions about examples of NDSI",
+                "Assessment method type": "Formative"
               }],
               "Teaching activies": [{
-                "Title": "Lecture\r\n",
-                "Description": "An overview the experiences of NSDI through the generations.\r\n\r\n"
+                "Title": "Lecture",
+                "Description": "An overview the experiences of NSDI through the generations."
               }]
             },
             {
-              "Title": "Students are able to examine the needs, components of a RSDI and difficulties inherent in RSDI development.\r\n",
-              "Description": "Outlining the needs, components and difficulties inherent in RSDI development.\r\n",
-              "Bloom level": "Apply\r\n",
+              "Title": "Students are able to examine the needs, components of a RSDI and difficulties inherent in RSDI development.",
+              "Description": "Outlining the needs, components and difficulties inherent in RSDI development.",
+              "Bloom level": "Apply",
               "Assessment": [{
-                "Assessment method": "In-class debate\r\n",
-                "Assessment method description": "Students collecitvely discuss about their conlusion, moderated by teacher\r\n",
-                "Assessment method type": "Formative\r\n"
+                "Assessment method": "In-class debate",
+                "Assessment method description": "Students collecitvely discuss about their conlusion, moderated by teacher",
+                "Assessment method type": "Formative"
               }],
               "Teaching activies": [{
-                "Title": "Paper review\r\n",
-                "Description": "Students read scientific journal articles about needs, components and difficulties inherent in RSDI development\r\n"
+                "Title": "Paper review",
+                "Description": "Students read scientific journal articles about needs, components and difficulties inherent in RSDI development"
               }]
             },
             {
-              "Title": "Students are able to analyze the role of GDI and examples which supportglobal spatial\r\ndata infrastructure\r\n",
-              "Description": "Structuring the role of GDI and examples which supportglobal spatial data infrastructure\r\n\r\n",
+              "Title": "Students are able to analyze the role of GDI and examples which supportglobal spatialdata infrastructure",
+              "Description": "Structuring the role of GDI and examples which supportglobal spatial data infrastructure",
               "Bloom level": "Analyze/Evaluate",
               "Assessment": [{
-                "Assessment method": "Short essay\r\n",
-                "Assessment method description": "Students need to write final thoughts about GSDI\r\n\r\n",
-                "Assessment method type": "Formative\r\n"
+                "Assessment method": "Short essay",
+                "Assessment method description": "Students need to write final thoughts about GSDI",
+                "Assessment method type": "Formative"
               }],
               "Teaching activies": [{
-                "Title": "Class Discussion\r\n",
-                "Description": "Students search for examples which support the global spatial data infrastructure\r\n"
+                "Title": "Class Discussion",
+                "Description": "Students search for examples which support the global spatial data infrastructure"
               }]
             },
             {
               "Title": "Students are able to propose possible future scenarios of SDI",
               "Description": "Applying the acquired knowledge to make conclusions about the possible future of SDI",
-              "Bloom level": "Design/Create\r\n",
+              "Bloom level": "Design/Create",
               "Assessment": [{
-                "Assessment method": "Feedback\r\n\r\n",
-                "Assessment method description": "Students are given feedback after the class discussion\r\n",
-                "Assessment method type": "Formative\r\n"
+                "Assessment method": "Feedback",
+                "Assessment method description": "Students are given feedback after the class discussion",
+                "Assessment method type": "Formative"
               }],
               "Teaching activies": [{
-                "Title": "Class Discussion\r\n",
-                "Description": "Based on given literature, students give their opinion of the future of SDI\r\n"
+                "Title": "Class Discussion",
+                "Description": "Based on given literature, students give their opinion of the future of SDI"
               }]
             }
           ]
         },
         {
-          "Title": "SDI, Objectives and Components\r\n",
-          "Description": "Describing what is an SDI, what are the main components and what is to be achieved with an SDI\r\n",
+          "Title": "SDI, Objectives and Components",
+          "Description": "Describing what is an SDI, what are the main components and what is to be achieved with an SDI",
           "Learning outcomes": [{
-              "Title": "Students are able to understand the concept of SDI through its definition and main objectives\r\n",
-              "Description": "This LO deals with the concept od SDI; its definition and main objectives\r\n\r\n",
-              "Bloom level": "Remember/Understand\r\n",
-              "Assessment": [{
-                "Assessment method": "Written exam\r\n\r\n",
-                "Assessment method description": "Students are given written exam with questions regarding covered topic. Example of a question: Explain how SDI helped with sharing the data.\r\n",
-                "Assessment method type": "Summative\r\n"
-              }],
-              "Teaching activies": [{
-                  "Title": "Brainstorm\r\n",
-                  "Description": "As an introduction, students are asked to interpret meaning of the words 'spatial', 'data' and 'infrastructure' and try to give an answer what SDI could be. After concluding what SDI is they discuss why was it invented/introduced\r\n\r\n"
-                },
-                {
-                  "Title": "Lecture\r\n",
-                  "Description": "Lecture on what is an SDI and what are the objectives of SDI\r\n"
-                },
-                {
-                  "Title": "Asking Question\r\n",
-                  "Description": "During lecture, students can ask questions\r\n"
-                },
-                {
-                  "Title": "In Class Quizzes\r\n",
-                  "Description": "At the end of the lecture/topic, students take quiz to see how well they understood the topic. If the lecture covers other topics, this teaching activity can include questions related to different topics\r\n"
-                }
-              ]
-            },
-            {
-              "Title": "Student are able to understand main components of SDI and their mutual relations\r\n",
-              "Description": "This LO deals with the main components of SDI and their relations\r\n",
+              "Title": "Students are able to understand the concept of SDI through its definition and main objectives",
+              "Description": "This LO deals with the concept od SDI; its definition and main objectives",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
-                "Assessment method": "Written exam\r\n",
-                "Assessment method description": "Students are given written exam with questions regarding topic covered. Example of a question: Name five main components of an SDI and briefly explain importance of policies and institutional arrangements on well-functioning of an SDI\r\n",
-                "Assessment method type": "Summative\r\n"
+                "Assessment method": "Written exam",
+                "Assessment method description": "Students are given written exam with questions regarding covered topic. Example of a question: Explain how SDI helped with sharing the data.",
+                "Assessment method type": "Summative"
               }],
               "Teaching activies": [{
-                  "Title": "One-minute paper\r\n",
-                  "Description": "Students are asked to write down what they think are the main components of an SDI based on the knowledge they already have\r\n"
+                  "Title": "Brainstorm",
+                  "Description": "As an introduction, students are asked to interpret meaning of the words 'spatial', 'data' and 'infrastructure' and try to give an answer what SDI could be. After concluding what SDI is they discuss why was it invented/introduced"
                 },
                 {
-                  "Title": "Lecture\r\n",
-                  "Description": "Lecture on main coponents of SDI\r\n"
+                  "Title": "Lecture",
+                  "Description": "Lecture on what is an SDI and what are the objectives of SDI"
                 },
                 {
-                  "Title": "Asking Question\r\n",
-                  "Description": "Students can ask questions during class\r\n"
+                  "Title": "Asking Questions",
+                  "Description": "During lecture, students can ask questions"
                 },
                 {
-                  "Title": "Class discussion\r\n",
-                  "Description": "Students are asked to explain the possible interconnection among SDI components and understand why those categories cover all the relevant aspects of SDI\r\n"
-                },
-                {
-                  "Title": "Muddiest point\r\n",
-                  "Description": "At the end of the topic, students write down things they don't feel to understand\r\n"
+                  "Title": "In-Class Quizzes",
+                  "Description": "At the end of the lecture/topic, students take quiz to see how well they understood the topic. If the lecture covers other topics, this teaching activity can include questions related to different topics"
                 }
               ]
             },
             {
-              "Title": "Students are able to apply knowledge in distinction between categories in SDI components\r\n",
-              "Description": "This LO deals with disctinction of categories in SDI components\r\n",
-              "Bloom level": "Apply\r\n",
+              "Title": "Student are able to understand main components of SDI and their mutual relations",
+              "Description": "This LO deals with the main components of SDI and their relations",
+              "Bloom level": "Remember/Understand",
               "Assessment": [{
-                "Assessment method": "Written exam\r\n",
+                "Assessment method": "Written exam",
+                "Assessment method description": "Students are given written exam with questions regarding topic covered. Example of a question: Name five main components of an SDI and briefly explain importance of policies and institutional arrangements on well-functioning of an SDI",
+                "Assessment method type": "Summative"
+              }],
+              "Teaching activies": [{
+                  "Title": "One-Minute Paper",
+                  "Description": "Students are asked to write down what they think are the main components of an SDI based on the knowledge they already have"
+                },
+                {
+                  "Title": "Lecture",
+                  "Description": "Lecture on main coponents of SDI"
+                },
+                {
+                  "Title": "Asking Questions",
+                  "Description": "Students can ask questions during class"
+                },
+                {
+                  "Title": "Class Discussion",
+                  "Description": "Students are asked to explain the possible interconnection among SDI components and understand why those categories cover all the relevant aspects of SDI"
+                },
+                {
+                  "Title": "Muddiest Point",
+                  "Description": "At the end of the topic, students write down things they don't feel to understand"
+                }
+              ]
+            },
+            {
+              "Title": "Students are able to apply knowledge in distinction between categories in SDI components",
+              "Description": "This LO deals with disctinction of categories in SDI components",
+              "Bloom level": "Apply",
+              "Assessment": [{
+                "Assessment method": "Written exam",
                 "Assessment method description": "Students are given written exam with questions regarding topic covered. Example of a question: Identify at least three different stakeholder groups related to local level SDI",
-                "Assessment method type": "Summative\r\n"
+                "Assessment method type": "Summative"
               }],
               "Teaching activies": [{
-                  "Title": "Brainstorm\r\n",
-                  "Description": "Students try to think of different categories related to SDI (e.g. data standards, service standards, metadata standards, stakeholders, services, different datasets,�)\r\n"
+                  "Title": "Brainstorm",
+                  "Description": "Students try to think of different categories related to SDI (e.g. data standards, service standards, metadata standards, stakeholders, services, different datasets,�)"
                 },
                 {
-                  "Title": "Class discussion\r\n",
-                  "Description": "Students look for distinctions between features and try to categorize it under main components e.g. are policy makers stakeholders or not\r\n"
+                  "Title": "Class Discussion",
+                  "Description": "Students look for distinctions between features and try to categorize it under main components e.g. are policy makers stakeholders or not"
                 },
                 {
-                  "Title": "Polls\r\n",
-                  "Description": "After each feature is discussed, students vote in polls where that feature should be categorized\r\n"
+                  "Title": "Polls",
+                  "Description": "After each feature is discussed, students vote in polls where that feature should be categorized"
                 },
                 {
-                  "Title": "Lecture\r\n",
-                  "Description": "Short lecture on what every SDI component consists of\r\n"
+                  "Title": "Lecture",
+                  "Description": "Short lecture on what every SDI component consists of"
                 }
               ]
             },
             {
-              "Title": "Students are able to distinguish the difference between SDI and GIS while focusing on benefits of an SDI.\r\n",
-              "Description": "This LO explains the difference between SDI and GIS with focus on benefits of an SDI.\r\n",
-              "Bloom level": "Analyze/Evaluate\r\n",
+              "Title": "Students are able to distinguish the difference between SDI and GIS while focusing on benefits of an SDI.",
+              "Description": "This LO explains the difference between SDI and GIS with focus on benefits of an SDI.",
+              "Bloom level": "Analyze/Evaluate",
               "Assessment": [{
-                "Assessment method": "Written exam\r\n",
-                "Assessment method description": "Students take exam to show understanding of the topic. Example of a question: Choose the correct statements related to SDI. \r\nExplain why term high value dataset is more related to SDI and how it extends the term dataset coming from GIS",
-                "Assessment method type": "Summative\r\n"
+                "Assessment method": "Written exam",
+                "Assessment method description": "Students take exam to show understanding of the topic. Example of a question: Choose the correct statements related to SDI. Explain why term high value dataset is more related to SDI and how it extends the term dataset coming from GIS",
+                "Assessment method type": "Summative"
               }],
               "Teaching activies": [{
-                  "Title": "Short Quizzes\r\n",
-                  "Description": "Students take quiz with fact questions on SDI and GIS\r\n"
+                  "Title": "Short Quizzes",
+                  "Description": "Students take quiz with fact questions on SDI and GIS"
                 },
                 {
-                  "Title": "Class discussion\r\n",
-                  "Description": "Students analyze quiz questions and build on the answer on what is the difference between GIS and SDI and what is the benefit of SDI when compared GIS; while being led by the tutor.\r\n"
+                  "Title": "Class Discussion",
+                  "Description": "Students analyze quiz questions and build on the answer on what is the difference between GIS and SDI and what is the benefit of SDI when compared GIS; while being led by the tutor."
                 },
                 {
-                  "Title": "One-sentence Summary\r\n",
-                  "Description": "Students write down the difference between SDI and GIS and state its pros and cons\r\n"
+                  "Title": "One-sentence Summary",
+                  "Description": "Students write down the difference between SDI and GIS and state its pros and cons"
                 }
               ]
             },
             {
-              "Title": "Students are able to design new SDI based on their deeper understanding of components of SDI and ways of their application on different SDI levels\r\n",
-              "Description": "This LO focuses on deeper understanding of the components of SDI and ways of their application on different SDI levels\r\n",
-              "Bloom level": "Design/Create\r\n",
+              "Title": "Students are able to design new SDI based on their deeper understanding of components of SDI and ways of their application on different SDI levels",
+              "Description": "This LO focuses on deeper understanding of the components of SDI and ways of their application on different SDI levels",
+              "Bloom level": "Design/Create",
               "Assessment": [{
-                "Assessment method": "Excercise\r\n\r\n\r\n",
-                "Assessment method description": "Students use existing knowledge to solve the problem. Example of excercise: Draft a concept for a corporate level SDI, e.g. communication company, by following the definition of SDI and its components.\r\n",
-                "Assessment method type": "Formative\r\n"
+                "Assessment method": "Excercise",
+                "Assessment method description": "Students use existing knowledge to solve the problem. Example of excercise: Draft a concept for a corporate level SDI, e.g. communication company, by following the definition of SDI and its components.",
+                "Assessment method type": "Formative"
               }],
               "Teaching activies": [{
-                  "Title": "Case study\r\n",
-                  "Description": "Students get familiar with the extent of a certain SDI level\r\n"
+                  "Title": "Case study",
+                  "Description": "Students get familiar with the extent of a certain SDI level"
                 },
                 {
-                  "Title": "Demonstrations\r\n",
-                  "Description": "Students try to draft what conceptual model of that specific SDI should consist of based on definition of SDI components\r\n"
+                  "Title": "Demonstrations",
+                  "Description": "Students try to draft what conceptual model of that specific SDI should consist of based on definition of SDI components"
                 }
               ]
             }
           ]
         },
         {
-          "Title": "SDI Standards\r\n",
-          "Description": "What are the standards used within the SDI, ISO standards, different categories of standards\r\n",
+          "Title": "SDI Standards",
+          "Description": "What are the standards used within the SDI, ISO standards, different categories of standards",
           "Learning outcomes": [{
-              "Title": "Students are able to understand the importance of standards in SDI domain\r\n",
+              "Title": "Students are able to understand the importance of standards in SDI domain",
               "Description": "This LO deals with the importance of standards in SDI domain",
-              "Bloom level": "Remember/Understand\r\n",
+              "Bloom level": "Remember/Understand",
               "Assessment": [{
-                "Assessment method": "Written exam\r\n",
-                "Assessment method description": "Students are given exam with questions regarding topic covered. Example of a question: Explain why existence of standards is crutial for well functioning of an SDI\r\n",
-                "Assessment method type": "Summative\r\n"
+                "Assessment method": "Written exam",
+                "Assessment method description": "Students are given exam with questions regarding topic covered. Example of a question: Explain why existence of standards is crutial for well functioning of an SDI",
+                "Assessment method type": "Summative"
               }],
               "Teaching activies": [{
-                  "Title": "Class discussion\r\n",
-                  "Description": "Class discusses why standards are necessary; tutor leads the discussion\r\n"
+                  "Title": "Class Discussion",
+                  "Description": "Class discusses why standards are necessary; tutor leads the discussion"
                 },
                 {
-                  "Title": "One-sentence Summary\r\n",
-                  "Description": "Students write outcome of the discussion and in one sentence try to explain why standards are necessary\r\n"
+                  "Title": "One-sentence Summary",
+                  "Description": "Students write outcome of the discussion and in one sentence try to explain why standards are necessary"
                 }
               ]
             },
             {
-              "Title": "Students are able to classify standards based on the SDI component they belong to, level of standardization organization, applicable domain, etc.\r\n",
-              "Description": "This LO classifies standards based on the SDI component they belong to, level of standardization organization, applicable domain, etc.\r\n",
-              "Bloom level": "Remember/Understand\r\n",
+              "Title": "Students are able to classify standards based on the SDI component they belong to, level of standardization organization, applicable domain, etc.",
+              "Description": "This LO classifies standards based on the SDI component they belong to, level of standardization organization, applicable domain, etc.",
+              "Bloom level": "Remember/Understand",
               "Assessment": [{
-                "Assessment method": "Written exam\r\n",
-                "Assessment method description": "Students take exam with questions regarding topic covered. Example of a question: Write and explain standards related to 'data' SDI component.\r\n",
-                "Assessment method type": "Summative\r\n"
+                "Assessment method": "Written exam",
+                "Assessment method description": "Students take exam with questions regarding topic covered. Example of a question: Write and explain standards related to 'data' SDI component.",
+                "Assessment method type": "Summative"
               }],
               "Teaching activies": [{
-                "Title": "Lecture\r\n",
-                "Description": "Lecture on different groups of standards (e.g. metadata standards, data standards, web services standards, UTF standards, etc.)\r\n"
+                "Title": "Lecture",
+                "Description": "Lecture on different groups of standards (e.g. metadata standards, data standards, web services standards, UTF standards, etc.)"
               }]
             },
             {
-              "Title": "Students are able to name and describe institutions relevant for standardization in geospatial domain\r\n",
-              "Description": "This LO refers to institutions relevant for standardization in geospatial domain\r\n",
-              "Bloom level": "Remember/Understand\r\n",
+              "Title": "Students are able to name and describe institutions relevant for standardization in geospatial domain",
+              "Description": "This LO refers to institutions relevant for standardization in geospatial domain",
+              "Bloom level": "Remember/Understand",
               "Assessment": [{
-                "Assessment method": "Quiz\r\n",
-                "Assessment method description": "Based on presented research on standardization organizations, students take quiz with questions about standardization organizations relevant to SDI domain\r\n",
-                "Assessment method type": "Formative\r\n"
+                "Assessment method": "Quiz",
+                "Assessment method description": "Based on presented research on standardization organizations, students take quiz with questions about standardization organizations relevant to SDI domain",
+                "Assessment method type": "Formative"
               }],
               "Teaching activies": [{
-                  "Title": "Desk study\r\n",
-                  "Description": "Students do research on standardization ogranizations\r\n"
+                  "Title": "Desk study",
+                  "Description": "Students do research on standardization ogranizations"
                 },
                 {
-                  "Title": "Student Presentations\r\n",
-                  "Description": "Students are divided in groups and present different level standardization institutions\r\n"
+                  "Title": "Student Presentations",
+                  "Description": "Students are divided in groups and present different level standardization institutions"
                 }
               ]
             },
             {
-              "Title": "Students are able to apply the knowledge on standards when working with SDI\r\n",
-              "Description": "This LO shows how to apply knowledge of standards when working with SDI\r\n",
-              "Bloom level": "Apply\r\n",
+              "Title": "Students are able to apply the knowledge on standards when working with SDI",
+              "Description": "This LO shows how to apply knowledge of standards when working with SDI",
+              "Bloom level": "Apply",
               "Assessment": [{
-                "Assessment method": "Exercise\r\n",
-                "Assessment method description": "Students do small exercixes to show understanding of standards. Example of exercise: Convert propriatory format of a given dataset to a standardized and open one\r\n",
-                "Assessment method type": "Formative\r\n"
+                "Assessment method": "Exercise",
+                "Assessment method description": "Students do small exercixes to show understanding of standards. Example of exercise: Convert propriatory format of a given dataset to a standardized and open one",
+                "Assessment method type": "Formative"
               }],
               "Teaching activies": [{
-                  "Title": "Small project\r\n",
-                  "Description": "Students are given tasks to solve problems with standardization (e.g. data formats, web services formats, metadata formats,�)\r\n"
+                  "Title": "Small project",
+                  "Description": "Students are given tasks to solve problems with standardization (e.g. data formats, web services formats, metadata formats,�)"
                 },
                 {
-                  "Title": "Desk study\r\n",
-                  "Description": "Students do research on what standardization rules exist and apply it to the problem given\r\n"
+                  "Title": "Desk study",
+                  "Description": "Students do research on what standardization rules exist and apply it to the problem given"
                 }
               ]
             },
             {
-              "Title": "Students are able to compare different standards, within specific standards' group, coming from different organizations\r\n",
-              "Description": "This LO compares standards, within specific standard's group, coming from different organizations\r\n",
-              "Bloom level": "Analyze/Evaluate\r\n",
+              "Title": "Students are able to compare different standards, within specific standards' group, coming from different organizations",
+              "Description": "This LO compares standards, within specific standard's group, coming from different organizations",
+              "Bloom level": "Analyze/Evaluate",
               "Assessment": [{
-                "Assessment method": "Exercise\r\n",
-                "Assessment method description": "Students evaluate standards on different criteria (e.g. usage, openness, etc.). Example of exercise: Compare shapefile and geopackage formats.\r\n",
-                "Assessment method type": "Formative\r\n"
+                "Assessment method": "Exercise",
+                "Assessment method description": "Students evaluate standards on different criteria (e.g. usage, openness, etc.). Example of exercise: Compare shapefile and geopackage formats.",
+                "Assessment method type": "Formative"
               }],
               "Teaching activies": [{
-                  "Title": "Desk study\r\n",
-                  "Description": "Students do research and try to discover different standards related to same objects of SDI.\r\n"
+                  "Title": "Desk study",
+                  "Description": "Students do research and try to discover different standards related to same objects of SDI."
                 },
                 {
-                  "Title": "Demonstrations\r\n",
-                  "Description": "Students perform evaluation based on specified criteria. They compare standards coming from different organizations and evaluate which one suits best for specific purpose.\r\n"
+                  "Title": "Demonstrations",
+                  "Description": "Students perform evaluation based on specified criteria. They compare standards coming from different organizations and evaluate which one suits best for specific purpose."
                 }
               ]
             },
             {
-              "Title": "Student are able to standardize the content they create\r\n",
-              "Description": "This LO aims to create new standardized content\r\n",
-              "Bloom level": "Design/Create\r\n",
+              "Title": "Student are able to standardize the content they create",
+              "Description": "This LO aims to create new standardized content",
+              "Bloom level": "Design/Create",
               "Assessment": [{
-                "Assessment method": "Project\r\n",
-                "Assessment method description": "Students do projects which is leater evaluated. Example of a project: To a conceptual model of an organizational SDI, create appropriate metadata structure schema based on metadata standards.\r\n",
-                "Assessment method type": "Formative\r\n"
+                "Assessment method": "Project",
+                "Assessment method description": "Students do projects which is leater evaluated. Example of a project: To a conceptual model of an organizational SDI, create appropriate metadata structure schema based on metadata standards.",
+                "Assessment method type": "Formative"
               }],
               "Teaching activies": [{
-                  "Title": "Lecture\r\n",
-                  "Description": "Lecture on SDI standards across different SDI components. Presentation of use cases (e.g. INSPIRE).\r\n"
+                  "Title": "Lecture",
+                  "Description": "Lecture on SDI standards across different SDI components. Presentation of use cases (e.g. INSPIRE)."
                 },
                 {
-                  "Title": "Project\r\n",
-                  "Description": "Following the examples given, students do research on specific group of standards and draft its implentation for specific purpose, on conceptual level.\r\n"
+                  "Title": "Project",
+                  "Description": "Following the examples given, students do research on specific group of standards and draft its implentation for specific purpose, on conceptual level."
                 }
               ]
             }
           ]
         },
         {
-          "Title": "SDI & Digital Government\r\n",
-          "Description": "How SDI transformed government and made it more available to citizens\r\n",
+          "Title": "SDI & Digital Government",
+          "Description": "How SDI transformed government and made it more available to citizens",
           "Learning outcomes": [{
-              "Title": "Students are able to understand the benefits of SDI supporting eGovernment needs\r\n",
-              "Description": "This LO deals with benefits of SDI supporting eGovernment needs\r\n",
-              "Bloom level": "Remember/Understand\r\n",
+              "Title": "Students are able to understand the benefits of SDI supporting eGovernment needs",
+              "Description": "This LO deals with benefits of SDI supporting eGovernment needs",
+              "Bloom level": "Remember/Understand",
               "Assessment": [{
-                "Assessment method": "Written exam\r\n",
-                "Assessment method description": "Students take exam and answer questions related to the topic. Example of a question: Explain how SDI helped in transformation to eGovernment.\r\n",
-                "Assessment method type": "Summative\r\n"
+                "Assessment method": "Written exam",
+                "Assessment method description": "Students take exam and answer questions related to the topic. Example of a question: Explain how SDI helped in transformation to eGovernment.",
+                "Assessment method type": "Summative"
               }],
               "Teaching activies": [{
-                  "Title": "Clips\r\n",
-                  "Description": "Students watch short video clip about SDI and digital government prior to the class\r\n"
+                  "Title": "Clips",
+                  "Description": "Students watch short video clip about SDI and digital government prior to the class"
                 },
                 {
-                  "Title": "One minute essay\r\n",
-                  "Description": "Students write one minute essay about connection between SDI and eGovernment. Answers will be the input for the discussion.\r\n"
+                  "Title": "One-Minute Paper",
+                  "Description": "Students write one minute essay about connection between SDI and eGovernment. Answers will be the input for the discussion."
                 },
                 {
-                  "Title": "Class discussion\r\n",
-                  "Description": "Students discuss on connections of SDI and eGovernment with tutor leading the discussion in the right direction\r\n"
+                  "Title": "Class Discussion",
+                  "Description": "Students discuss on connections of SDI and eGovernment with tutor leading the discussion in the right direction"
                 },
                 {
-                  "Title": "Short Quizzes\r\n",
-                  "Description": "Students take quiz with questions related to the topic\r\n"
+                  "Title": "Short Quizzes",
+                  "Description": "Students take quiz with questions related to the topic"
                 }
               ]
             },
             {
-              "Title": "Students are able to analyzes the status of eGovernment services (with regard to SDI advancements)\r\n",
-              "Description": "This LO analyzes the status of eGovernment services (with regard to SDI advancements)\r\n",
-              "Bloom level": "Analyze/Evaluate\r\n",
+              "Title": "Students are able to analyzes the status of eGovernment services (with regard to SDI advancements)",
+              "Description": "This LO analyzes the status of eGovernment services (with regard to SDI advancements)",
+              "Bloom level": "Analyze/Evaluate",
               "Assessment": [{
-                "Assessment method": "Student presentation\r\n",
-                "Assessment method description": "Students need to present results of analisys on some of eGovernment services. Example of analysis: Identify gaps in existing national INSPIRE datasets and explain it.\r\n",
-                "Assessment method type": "Formative\r\n"
+                "Assessment method": "Student presentation",
+                "Assessment method description": "Students need to present results of analisys on some of eGovernment services. Example of analysis: Identify gaps in existing national INSPIRE datasets and explain it.",
+                "Assessment method type": "Formative"
               }],
               "Teaching activies": [{
-                  "Title": "Desk study\r\n",
-                  "Description": "Students do research on eGovernment services using Spatial data Infrastructure\r\n"
+                  "Title": "Desk study",
+                  "Description": "Students do research on eGovernment services using Spatial data Infrastructure"
                 },
                 {
-                  "Title": "Exercise\r\n",
-                  "Description": "Students analyze services from different aspects\r\n"
+                  "Title": "Exercise",
+                  "Description": "Students analyze services from different aspects"
                 },
                 {
-                  "Title": "Student presentations\r\n",
-                  "Description": "Students present their analisys in form of presentation\r\n"
+                  "Title": "Student Presentations",
+                  "Description": "Students present their analisys in form of presentation"
                 }
               ]
             },
             {
-              "Title": "Students are able to think of and designs new processes for eGovernment in which the geospatial data and processing are embedded\r\n",
-              "Description": "This LO designs new processes for eGovernment in which the geospatial data and processing are embedded\r\n",
-              "Bloom level": "Design/Create\r\n",
+              "Title": "Students are able to think of and designs new processes for eGovernment in which the geospatial data and processing are embedded",
+              "Description": "This LO designs new processes for eGovernment in which the geospatial data and processing are embedded",
+              "Bloom level": "Design/Create",
               "Assessment": [{
-                "Assessment method": "Class discussion\r\n",
-                "Assessment method description": "Students explain possible improvements in current eGovernment they came up with\r\n",
-                "Assessment method type": "Formative\r\n"
+                "Assessment method": "Class Discussion",
+                "Assessment method description": "Students explain possible improvements in current eGovernment they came up with",
+                "Assessment method type": "Formative"
               }],
               "Teaching activies": [{
-                  "Title": "Desk study\r\n",
-                  "Description": "Students are divided in groups 2-3 people. Need to look for literature about eGovernmnet processes prior to the class.\r\n"
+                  "Title": "Desk study",
+                  "Description": "Students are divided in groups 2-3 people. Need to look for literature about eGovernmnet processes prior to the class."
                 },
                 {
-                  "Title": "Brainstorm\r\n",
-                  "Description": "During class, students use relevant literature and try to think of new eGovernment processes using spatial data\r\n"
+                  "Title": "Brainstorm",
+                  "Description": "During class, students use relevant literature and try to think of new eGovernment processes using spatial data"
                 },
                 {
-                  "Title": "Quescussion\r\n",
-                  "Description": "Students present their ideas to the rest of the class where other students ask questions\r\n"
+                  "Title": "Quescussion",
+                  "Description": "Students present their ideas to the rest of the class where other students ask questions"
                 }
               ]
             }
           ]
         },
         {
-          "Title": "SDI interoperability\r\n",
-          "Description": "Introduction of levels and evolution of SDI interoperability \r\n",
+          "Title": "SDI interoperability",
+          "Description": "Introduction of levels and evolution of SDI interoperability ",
           "Learning outcomes": [{
-              "Title": "Students are able to define SDI Interoperability levels\r\n",
-              "Description": "This LO deals with the levels of SDI Interoperability \r\n",
-              "Bloom level": "Remember/Understand\r\n",
+              "Title": "Students are able to define SDI Interoperability levels",
+              "Description": "This LO deals with the levels of SDI Interoperability ",
+              "Bloom level": "Remember/Understand",
               "Assessment": [{
-                "Assessment method": "Written exam\r\n",
-                "Assessment method description": "Students are given exam with questions about basics of SDI interoperability. Example: What is required to achieve SDI Interoperability\r\n",
-                "Assessment method type": "Summative\r\n"
+                "Assessment method": "Written exam",
+                "Assessment method description": "Students are given exam with questions about basics of SDI interoperability. Example: What is required to achieve SDI Interoperability",
+                "Assessment method type": "Summative"
               }],
               "Teaching activies": [{
-                  "Title": "Lecture\r\n",
-                  "Description": "Lecture on SDI interoperability\r\n"
+                  "Title": "Lecture",
+                  "Description": "Lecture on SDI interoperability"
                 },
                 {
-                  "Title": "Paper review\r\n",
-                  "Description": "Students write one minute essay about connection between SDI and eGovernment. Answers will be the input for the discussion.\r\n"
+                  "Title": "Paper review",
+                  "Description": "Students write one minute essay about connection between SDI and eGovernment. Answers will be the input for the discussion."
                 }
               ]
             },
             {
-              "Title": "Students are able to describe evolution and levels of SDI interoperability\r\n",
-              "Description": "Overview of evolution and levels of SDI interoperability\r\n",
-              "Bloom level": "Remember/Understand\r\n",
+              "Title": "Students are able to describe evolution and levels of SDI interoperability",
+              "Description": "Overview of evolution and levels of SDI interoperability",
+              "Bloom level": "Remember/Understand",
               "Assessment": [{
-                "Assessment method": "Written exam\r\n",
-                "Assessment method description": "Students are given exam with questions about evolution and levels of SDI interoperability. Example:What are the main levels of SDI Interoperability\r\n",
-                "Assessment method type": "Summative\r\n"
+                "Assessment method": "Written exam",
+                "Assessment method description": "Students are given exam with questions about evolution and levels of SDI interoperability. Example:What are the main levels of SDI Interoperability",
+                "Assessment method type": "Summative"
               }],
               "Teaching activies": [{
-                  "Title": "Lecture\r\n",
-                  "Description": "Lecture about evolution and levels of SDI interoperabiility\r\n"
+                  "Title": "Lecture",
+                  "Description": "Lecture about evolution and levels of SDI interoperabiility"
                 },
                 {
-                  "Title": "Class Discussion\r\n",
-                  "Description": "Group discussions of diversity between levels of SDI interoperability\r\n"
+                  "Title": "Class Discussion",
+                  "Description": "Group discussions of diversity between levels of SDI interoperability"
                 }
               ]
             },
             {
-              "Title": "Students are able to think about benefits of SDI interoperability\r\n",
-              "Description": "Analyse benefits of SDI interoperability and their products: case study\r\n",
-              "Bloom level": "Analyze/Evaluate\r\n",
+              "Title": "Students are able to think about benefits of SDI interoperability",
+              "Description": "Analyse benefits of SDI interoperability and their products: case study",
+              "Bloom level": "Analyze/Evaluate",
               "Assessment": [{
-                "Assessment method": "Presentation\r\n",
-                "Assessment method description": "Students present their work\r\n",
-                "Assessment method type": "Formative\r\n"
+                "Assessment method": "Presentation",
+                "Assessment method description": "Students present their work",
+                "Assessment method type": "Formative"
               }],
               "Teaching activies": [{
-                  "Title": "Case study\r\n",
-                  "Description": "Identification and assessment of SDI interoperability and their products\r\n"
+                  "Title": "Case study",
+                  "Description": "Identification and assessment of SDI interoperability and their products"
                 },
                 {
-                  "Title": "Short Quizzes\r\n",
-                  "Description": "At the end of concept, students will take a quiz and answer questions about what they have learned about SDI interoperability\r\n"
+                  "Title": "Short Quizzes",
+                  "Description": "At the end of concept, students will take a quiz and answer questions about what they have learned about SDI interoperability"
                 }
               ]
             }
           ]
         },
         {
-          "Title": "Geospatial data (Data acqusition)\r\n",
-          "Description": "Overview of geospatial data and key components of data acquisition\r\n",
+          "Title": "Geospatial data (Data acqusition)",
+          "Description": "Overview of geospatial data and key components of data acquisition",
           "Learning outcomes": [{
-              "Title": "Students are able to describe basics of geospatial dana \r\n",
-              "Description": "Introduction to geospatial dana \r\n",
-              "Bloom level": "Remember/Understand\r\n",
+              "Title": "Students are able to describe basics of geospatial dana ",
+              "Description": "Introduction to geospatial dana ",
+              "Bloom level": "Remember/Understand",
               "Assessment": [{
-                "Assessment method": "Written exam\r\n",
-                "Assessment method description": "Students are given exam with questions about basics of geospatial data. Example: Types and examples of geospatial data\r\n",
-                "Assessment method type": "Summative\r\n"
+                "Assessment method": "Written exam",
+                "Assessment method description": "Students are given exam with questions about basics of geospatial data. Example: Types and examples of geospatial data",
+                "Assessment method type": "Summative"
               }],
               "Teaching activies": [{
-                  "Title": "Lecture\r\n",
-                  "Description": "Lecture on geospatial data and data acquisition\r\n"
+                  "Title": "Lecture",
+                  "Description": "Lecture on geospatial data and data acquisition"
                 },
                 {
-                  "Title": "Paper review\r\n",
-                  "Description": "Students read the scienific journal article about geospatial data and data acquisition\r\n"
+                  "Title": "Paper review",
+                  "Description": "Students read the scienific journal article about geospatial data and data acquisition"
                 }
               ]
             },
             {
-              "Title": "Students are able to describe national level of geospatial data\r\n",
-              "Description": "Introduce national level of geospatial data\r\n",
-              "Bloom level": "Remember/Understand\r\n",
+              "Title": "Students are able to describe national level of geospatial data",
+              "Description": "Introduce national level of geospatial data",
+              "Bloom level": "Remember/Understand",
               "Assessment": [{
-                "Assessment method": "Written exam\r\n",
-                "Assessment method description": "Students are given exam with questions about basics of national level of geospatial data. Example: Describe the role of government in national level of geospatial data\r\n",
-                "Assessment method type": "Summative\r\n"
+                "Assessment method": "Written exam",
+                "Assessment method description": "Students are given exam with questions about basics of national level of geospatial data. Example: Describe the role of government in national level of geospatial data",
+                "Assessment method type": "Summative"
               }],
               "Teaching activies": [{
-                  "Title": "Lecture\r\n",
-                  "Description": "Introduction on national level of geospatial data\r\n"
+                  "Title": "Lecture",
+                  "Description": "Introduction on national level of geospatial data"
                 },
                 {
-                  "Title": "Case study\r\n",
-                  "Description": "Students are using national infrastructure of geospatial data to make research project\r\n"
+                  "Title": "Case study",
+                  "Description": "Students are using national infrastructure of geospatial data to make research project"
                 }
               ]
             },
             {
-              "Title": "Students are able to analyze methods for geospatial data acqusition\r\n",
-              "Description": "Introduce the main methods for geospatial data acqusition\r\n",
-              "Bloom level": "Remember/Understand\r\n",
+              "Title": "Students are able to analyze methods for geospatial data acqusition",
+              "Description": "Introduce the main methods for geospatial data acqusition",
+              "Bloom level": "Remember/Understand",
               "Assessment": [{
-                "Assessment method": "Written exam\r\n",
-                "Assessment method description": "Students are given exam with questions about basics of methods for geospatial data aquisition. Example: Identify the main benefits of geospatial data acquisition standardization \r\n",
-                "Assessment method type": "Summative\r\n"
+                "Assessment method": "Written exam",
+                "Assessment method description": "Students are given exam with questions about basics of methods for geospatial data aquisition. Example: Identify the main benefits of geospatial data acquisition standardization ",
+                "Assessment method type": "Summative"
               }],
               "Teaching activies": [{
-                  "Title": "Lecture\r\n",
-                  "Description": "Lecture on data acquisition methods\r\n"
+                  "Title": "Lecture",
+                  "Description": "Lecture on data acquisition methods"
                 },
                 {
-                  "Title": "Class Discussion\r\n",
-                  "Description": "Students discuss about `prons` and `cons` on data acquisition methods\r\n"
+                  "Title": "Class Discussion",
+                  "Description": "Students discuss about `prons` and `cons` on data acquisition methods"
                 }
               ]
             }
           ]
         },
         {
-          "Title": "SDI Architecture & Technologies\r\n",
-          "Description": "Integration of technologies to SDI Architecture\r\n",
+          "Title": "SDI Architecture & Technologies",
+          "Description": "Integration of technologies to SDI Architecture",
           "Learning outcomes": [{
-              "Title": "Students are able to define basics of SDI Architecture\r\n",
-              "Description": "Introduce the key components of SDI Architecture\r\n",
-              "Bloom level": "Remember/Understand\r\n",
+              "Title": "Students are able to define basics of SDI Architecture",
+              "Description": "Introduce the key components of SDI Architecture",
+              "Bloom level": "Remember/Understand",
               "Assessment": [{
-                "Assessment method": "Short essay\r\n",
-                "Assessment method description": "Students write short essay about key componenets of SDI Architecture\r\n",
-                "Assessment method type": "Summative\r\n"
+                "Assessment method": "Short essay",
+                "Assessment method description": "Students write short essay about key componenets of SDI Architecture",
+                "Assessment method type": "Summative"
               }],
               "Teaching activies": [{
-                  "Title": "Lecture\r\n",
-                  "Description": "Introduction lecture on basics of SDI Architecture\r\n"
+                  "Title": "Lecture",
+                  "Description": "Introduction lecture on basics of SDI Architecture"
                 },
                 {
-                  "Title": "Asking Question\r\n",
-                  "Description": "During lecture, students can ask questions \r\n"
+                  "Title": "Asking Questions",
+                  "Description": "During lecture, students can ask questions "
                 }
               ]
             },
             {
-              "Title": "Students are able to understand the benefits of implemented technologies\r\n",
-              "Description": "Understand benefits of technology implementation\r\n",
-              "Bloom level": "Remember/Understand\r\n",
+              "Title": "Students are able to understand the benefits of implemented technologies",
+              "Description": "Understand benefits of technology implementation",
+              "Bloom level": "Remember/Understand",
               "Assessment": [{
-                "Assessment method": "In class debate\r\n",
-                "Assessment method description": "Students show their understanding of the topic by arguing for `prons` or `cons` for implementing technologies to SDI Architecture\r\n",
-                "Assessment method type": "Summative\r\n"
+                "Assessment method": "In class debate",
+                "Assessment method description": "Students show their understanding of the topic by arguing for `prons` or `cons` for implementing technologies to SDI Architecture",
+                "Assessment method type": "Summative"
               }],
               "Teaching activies": [{
-                  "Title": "Lecture\r\n",
-                  "Description": "Introduction on SDI implemented technologies\r\n"
+                  "Title": "Lecture",
+                  "Description": "Introduction on SDI implemented technologies"
                 },
                 {
-                  "Title": "Paper review\r\n",
-                  "Description": "Students read scientific journal articles about technologies\r\n"
+                  "Title": "Paper review",
+                  "Description": "Students read scientific journal articles about technologies"
                 }
               ]
             },
             {
-              "Title": "Students are able to analyze examples of technologies integrated to SDI Architecture: case study\r\n",
-              "Description": "Identify the best examples of integration technologies to SDI Architecture \r\n",
-              "Bloom level": "Remember/Understand\r\n",
+              "Title": "Students are able to analyze examples of technologies integrated to SDI Architecture: case study",
+              "Description": "Identify the best examples of integration technologies to SDI Architecture ",
+              "Bloom level": "Remember/Understand",
               "Assessment": [{
-                "Assessment method": "Presentation\r\n",
-                "Assessment method description": "Students present their work about best examples of integration technologies to SDI Architecture\r\n",
-                "Assessment method type": "Formative\r\n"
+                "Assessment method": "Presentation",
+                "Assessment method description": "Students present their work about best examples of integration technologies to SDI Architecture",
+                "Assessment method type": "Formative"
               }],
               "Teaching activies": [{
-                  "Title": "Student Presentations\r\n",
-                  "Description": "Students present examples of implemented technologies and their benefits\r\n"
+                  "Title": "Student Presentations",
+                  "Description": "Students present examples of implemented technologies and their benefits"
                 },
                 {
-                  "Title": "One-minute paper\r\n",
-                  "Description": "Students write short essay about benefits of implemented technologies\r\n"
+                  "Title": "One-Minute Paper",
+                  "Description": "Students write short essay about benefits of implemented technologies"
                 }
               ]
             }
           ]
         },
         {
-          "Title": "SDI & Sustainable Development\r\n",
-          "Description": "How SDI affects sustainable development and economy\r\n",
+          "Title": "SDI & Sustainable Development",
+          "Description": "How SDI affects sustainable development and economy",
           "Learning outcomes": [{
-              "Title": "Students are able to understand basics of sustainable development\r\n",
-              "Description": "Introduction to sustainable development\r\n",
-              "Bloom level": "Remember/Understand\r\n",
+              "Title": "Students are able to understand basics of sustainable development",
+              "Description": "Introduction to sustainable development",
+              "Bloom level": "Remember/Understand",
               "Assessment": [{
-                "Assessment method": "Written exam\r\n",
-                "Assessment method description": "Students are given exam with questions about correlation between SDI and sustainable development. Example: Describe how SDI affects sustainable development\r\n",
-                "Assessment method type": "Summative\r\n"
+                "Assessment method": "Written exam",
+                "Assessment method description": "Students are given exam with questions about correlation between SDI and sustainable development. Example: Describe how SDI affects sustainable development",
+                "Assessment method type": "Summative"
               }],
               "Teaching activies": [{
-                  "Title": "Lecture\r\n",
-                  "Description": "Lecture on basics of sustainable development\r\n"
+                  "Title": "Lecture",
+                  "Description": "Lecture on basics of sustainable development"
                 },
                 {
                   "Title": "",
-                  "Description": "Students can ask questions if anything is unclear the professor will help to understand it better\r\n"
+                  "Description": "Students can ask questions if anything is unclear the professor will help to understand it better"
                 }
               ]
             },
             {
-              "Title": "Students are able to understand how SDI implementation affects sustainable development\r\n",
-              "Description": "Identification of SDI implementation sustainable development\r\n",
-              "Bloom level": "Remember/Understand\r\n",
+              "Title": "Students are able to understand how SDI implementation affects sustainable development",
+              "Description": "Identification of SDI implementation sustainable development",
+              "Bloom level": "Remember/Understand",
               "Assessment": [{
-                "Assessment method": "Feedback\r\n",
-                "Assessment method description": "Students are given feedback on their work\r\n",
-                "Assessment method type": "Formative\r\n"
+                "Assessment method": "Feedback",
+                "Assessment method description": "Students are given feedback on their work",
+                "Assessment method type": "Formative"
               }],
               "Teaching activies": [{
                   "Title": "",
-                  "Description": "Students read the scienific journal article on SDI implementation sustainable development\r\n"
+                  "Description": "Students read the scienific journal article on SDI implementation sustainable development"
                 },
                 {
                   "Title": "",
@@ -810,21 +810,21 @@
               ]
             },
             {
-              "Title": "Students are able to analyze SDI implementation sustainable development - case study\r\n",
-              "Description": "Analysis of SDI implementation sustainable development\r\n",
-              "Bloom level": "Design/Create\r\n",
+              "Title": "Students are able to analyze SDI implementation sustainable development - case study",
+              "Description": "Analysis of SDI implementation sustainable development",
+              "Bloom level": "Design/Create",
               "Assessment": [{
-                "Assessment method": "Quiz\r\n",
-                "Assessment method description": "Quiz on the role of sustainable development in SDI\r\n",
-                "Assessment method type": "Formative\r\n"
+                "Assessment method": "Quiz",
+                "Assessment method description": "Quiz on the role of sustainable development in SDI",
+                "Assessment method type": "Formative"
               }],
               "Teaching activies": [{
                   "Title": "",
-                  "Description": "Identification and analysis of SDI implementation sustainable development\r\n"
+                  "Description": "Identification and analysis of SDI implementation sustainable development"
                 },
                 {
-                  "Title": "\r\n",
-                  "Description": "If there is something unclear, discussion with questions is opened and students are helped to understand it better\r\n"
+                  "Title": "",
+                  "Description": "If there is something unclear, discussion with questions is opened and students are helped to understand it better"
                 }
               ]
             }
@@ -834,293 +834,293 @@
     },
     "Tech I": {
       "Concepts": [{
-          "Title": "Web mapping\r\n",
-          "Description": "Introduce basic tools and techniques for web mapping\r\n",
+          "Title": "Web mapping",
+          "Description": "Introduce basic tools and techniques for web mapping",
           "Learning outcomes": [{
-              "Title": "Web map design \r\n",
-              "Description": "Introduction on HTML, CSS, and JavaScript for creating a web map client.\r\n",
+              "Title": "Web map design ",
+              "Description": "Introduction on HTML, CSS, and JavaScript for creating a web map client.",
               "Bloom level": "",
               "Assessment": [{
-                  "Assessment method": "Quiz\r\n",
-                  "Assessment method description": "Quiz on how to design a web map \r\n",
-                  "Assessment method type": "Formative\r\n"
+                  "Assessment method": "Quiz",
+                  "Assessment method description": "Quiz on how to design a web map ",
+                  "Assessment method type": "Formative"
                 },
                 {
-                  "Assessment method": "Feedback\r\n",
-                  "Assessment method description": "Feedback on students` questions\r\n",
-                  "Assessment method type": "Formative\r\n"
+                  "Assessment method": "Feedback",
+                  "Assessment method description": "Feedback on students` questions",
+                  "Assessment method type": "Formative"
                 }
               ],
               "Teaching activies": [{
                   "Title": "",
-                  "Description": "Read the recommended documents and look through the slides in advance\r\n"
+                  "Description": "Read the recommended documents and look through the slides in advance"
                 },
                 {
                   "Title": "",
-                  "Description": "Introductory lecture explaining web map client design and related concepts\r\n"
+                  "Description": "Introductory lecture explaining web map client design and related concepts"
                 },
                 {
                   "Title": "",
-                  "Description": "Give feedback to students on their questions in the lecture\r\n"
+                  "Description": "Give feedback to students on their questions in the lecture"
                 }
               ]
             },
             {
-              "Title": "Basic tools and techniques for web development \r\n",
-              "Description": "Explain the basic tools and techniques for web development\r\n",
+              "Title": "Basic tools and techniques for web development ",
+              "Description": "Explain the basic tools and techniques for web development",
               "Bloom level": "",
               "Assessment": [{
-                  "Assessment method": "Quiz\r\n",
-                  "Assessment method description": "Quiz on HTML and JavaScript\r\n",
-                  "Assessment method type": "Formative\r\n"
+                  "Assessment method": "Quiz",
+                  "Assessment method description": "Quiz on HTML and JavaScript",
+                  "Assessment method type": "Formative"
                 },
                 {
-                  "Assessment method": "Feedback\r\n",
-                  "Assessment method description": "Students receive feedback during the lecture\r\n",
-                  "Assessment method type": "Formative\r\n"
+                  "Assessment method": "Feedback",
+                  "Assessment method description": "Students receive feedback during the lecture",
+                  "Assessment method type": "Formative"
                 }
               ],
               "Teaching activies": [{
                   "Title": "",
-                  "Description": "Reading classic papers and websites (e.g. w3school) on basic techniques for web development\r\n"
+                  "Description": "Reading classic papers and websites (e.g. w3school) on basic techniques for web development"
                 },
                 {
                   "Title": "",
-                  "Description": "Lecture on basic techniques for portal development, including HTML, JavaScript\r\n"
+                  "Description": "Lecture on basic techniques for portal development, including HTML, JavaScript"
                 },
                 {
                   "Title": "",
-                  "Description": "Give feedback to students on their questions about the basic techniques\r\n"
+                  "Description": "Give feedback to students on their questions about the basic techniques"
                 }
               ]
             },
             {
-              "Title": "Web mapping, implementation perspective\r\n",
-              "Description": "Implement an static web map with the introduced techniques\r\n",
+              "Title": "Web mapping, implementation perspective",
+              "Description": "Implement an static web map with the introduced techniques",
               "Bloom level": "",
               "Assessment": [{
-                  "Assessment method": "Feedback\r\n",
-                  "Assessment method description": "Students receive feedback on their lab exercise\r\n",
-                  "Assessment method type": "Summative\r\n"
+                  "Assessment method": "Feedback",
+                  "Assessment method description": "Students receive feedback on their lab exercise",
+                  "Assessment method type": "Summative"
                 },
                 {
-                  "Assessment method": "Feedback\r\n",
-                  "Assessment method description": "Students receive feedback on their presentation\r\n",
-                  "Assessment method type": "Summative\r\n"
+                  "Assessment method": "Feedback",
+                  "Assessment method description": "Students receive feedback on their presentation",
+                  "Assessment method type": "Summative"
                 }
               ],
               "Teaching activies": [{
                   "Title": "",
-                  "Description": "Lab exercise on web development for static web mapping with the introduced techniques\r\n"
+                  "Description": "Lab exercise on web development for static web mapping with the introduced techniques"
                 },
                 {
                   "Title": "",
-                  "Description": "Students present their projects and peer review each other in small groups\r\n"
+                  "Description": "Students present their projects and peer review each other in small groups"
                 }
               ]
             }
           ]
         },
         {
-          "Title": "Geospatial web services\r\n",
-          "Description": "Interface standards that have been developed by Open Geospatial Consortium for creating interoperable web map services.\r\n",
+          "Title": "Geospatial web services",
+          "Description": "Interface standards that have been developed by Open Geospatial Consortium for creating interoperable web map services.",
           "Learning outcomes": [{
-              "Title": "Different types of interface standards\r\n",
-              "Description": "List different types of interface standards\r\n",
+              "Title": "Different types of interface standards",
+              "Description": "List different types of interface standards",
               "Bloom level": "",
               "Assessment": [{
-                  "Assessment method": "Quiz\r\n",
-                  "Assessment method description": "Quiz on different types of open interface standards\r\n",
-                  "Assessment method type": "Formative\r\n"
+                  "Assessment method": "Quiz",
+                  "Assessment method description": "Quiz on different types of open interface standards",
+                  "Assessment method type": "Formative"
                 },
                 {
-                  "Assessment method": "Feedback\r\n",
-                  "Assessment method description": "Students receive feedback on their questions\r\n",
-                  "Assessment method type": "Formative\r\n"
+                  "Assessment method": "Feedback",
+                  "Assessment method description": "Students receive feedback on their questions",
+                  "Assessment method type": "Formative"
                 }
               ],
               "Teaching activies": [{
                   "Title": "",
-                  "Description": "Reading papers to understand different types of interface standards\r\n"
+                  "Description": "Reading papers to understand different types of interface standards"
                 },
                 {
                   "Title": "",
-                  "Description": "Introductory lecture to different types of interface standards\r\n"
+                  "Description": "Introductory lecture to different types of interface standards"
                 }
               ]
             },
             {
-              "Title": "Publish geospatial web services\r\n",
-              "Description": "Publish geographic web services with open source software\r\n",
+              "Title": "Publish geospatial web services",
+              "Description": "Publish geographic web services with open source software",
               "Bloom level": "",
               "Assessment": [{
-                "Assessment method": "Feedback\r\n",
-                "Assessment method description": "Feedback and discussion on student presentations\r\n",
-                "Assessment method type": "Summative\r\n"
+                "Assessment method": "Feedback",
+                "Assessment method description": "Feedback and discussion on student presentations",
+                "Assessment method type": "Summative"
               }],
               "Teaching activies": [{
                   "Title": "",
-                  "Description": "Students try to publish standardized map services, e.g. WMS, using an open source software like GeoServer\r\n"
+                  "Description": "Students try to publish standardized map services, e.g. WMS, using an open source software like GeoServer"
                 },
                 {
                   "Title": "",
-                  "Description": "Students present the published map services \r\n"
+                  "Description": "Students present the published map services "
                 }
               ]
             },
             {
-              "Title": "How interface standards can be utilized\r\n",
-              "Description": "Design an interoperable web map tool using OGC WMS\r\n",
+              "Title": "How interface standards can be utilized",
+              "Description": "Design an interoperable web map tool using OGC WMS",
               "Bloom level": "",
               "Assessment": [{
-                "Assessment method": "Feedback\r\n",
-                "Assessment method description": "Assessment of the developed web map tool\r\n",
-                "Assessment method type": "Summative\r\n"
+                "Assessment method": "Feedback",
+                "Assessment method description": "Assessment of the developed web map tool",
+                "Assessment method type": "Summative"
               }],
               "Teaching activies": [{
                 "Title": "",
-                "Description": "Students develop a web map client that communicates with a Web map server (e.g. Geoserver), using WMS\r\n"
+                "Description": "Students develop a web map client that communicates with a Web map server (e.g. Geoserver), using WMS"
               }]
             },
             {
-              "Title": "OGC services for web mapping\r\n",
-              "Description": "Apply and evaluate the application of OGC services for web mapping and cartography\r\n",
+              "Title": "OGC services for web mapping",
+              "Description": "Apply and evaluate the application of OGC services for web mapping and cartography",
               "Bloom level": "",
               "Assessment": [{
-                  "Assessment method": "Feedback\r\n",
-                  "Assessment method description": "Students receive feedback on their project formulation\r\n",
-                  "Assessment method type": "Summative\r\n"
+                  "Assessment method": "Feedback",
+                  "Assessment method description": "Students receive feedback on their project formulation",
+                  "Assessment method type": "Summative"
                 },
                 {
-                  "Assessment method": "Feedback\r\n",
-                  "Assessment method description": "Students receive feedback on their project presentation\r\n",
-                  "Assessment method type": "Summative\r\n"
+                  "Assessment method": "Feedback",
+                  "Assessment method description": "Students receive feedback on their project presentation",
+                  "Assessment method type": "Summative"
                 }
               ],
               "Teaching activies": [{
                   "Title": "",
-                  "Description": "Formulate a problem statement that can be address by geopstial web services\r\n"
+                  "Description": "Formulate a problem statement that can be address by geopstial web services"
                 },
                 {
                   "Title": "",
-                  "Description": "Implement a geospatial web service, using open source software and library, e.g. Geoserver and OpenLayers, to address the problem stated efore.\r\n"
+                  "Description": "Implement a geospatial web service, using open source software and library, e.g. Geoserver and OpenLayers, to address the problem stated efore."
                 }
               ]
             }
           ]
         },
         {
-          "Title": "Encoding standards for geospatial data\r\n",
-          "Description": "Encoding standards that have been proposed for representing geospatial data\r\n",
+          "Title": "Encoding standards for geospatial data",
+          "Description": "Encoding standards that have been proposed for representing geospatial data",
           "Learning outcomes": [{
-              "Title": "Introduce well-known standards for encoding geospatial data\r\n",
-              "Description": "GML, KML, and GeoJSON file formats\r\n",
+              "Title": "Introduce well-known standards for encoding geospatial data",
+              "Description": "GML, KML, and GeoJSON file formats",
               "Bloom level": "",
               "Assessment": [{
-                "Assessment method": "Feedback\r\n",
-                "Assessment method description": "Students receive feedback on their questions\r\n",
-                "Assessment method type": "Formative\r\n"
+                "Assessment method": "Feedback",
+                "Assessment method description": "Students receive feedback on their questions",
+                "Assessment method type": "Formative"
               }],
               "Teaching activies": [{
                   "Title": "",
-                  "Description": "Introductory lecture to different types of encoding standards\r\n"
+                  "Description": "Introductory lecture to different types of encoding standards"
                 },
                 {
                   "Title": "",
-                  "Description": "One sentence summary for each encoding standard\r\n"
+                  "Description": "One sentence summary for each encoding standard"
                 }
               ]
             },
             {
-              "Title": "Create, read, and understand the content of KML, GML and GeoJSON files\r\n",
-              "Description": "Given a geographic dataset, create and analyze KML, GML , GeoJSON files\r\n",
+              "Title": "Create, read, and understand the content of KML, GML and GeoJSON files",
+              "Description": "Given a geographic dataset, create and analyze KML, GML , GeoJSON files",
               "Bloom level": "",
               "Assessment": [{
-                "Assessment method": "Feedback\r\n",
-                "Assessment method description": "Feedback on group discussion\r\n",
-                "Assessment method type": "Summative\r\n"
+                "Assessment method": "Feedback",
+                "Assessment method description": "Feedback on group discussion",
+                "Assessment method type": "Summative"
               }],
               "Teaching activies": [{
                   "Title": "",
-                  "Description": "Read and/or create GML, KML, GeoJSON files for a given dataset.\r\n"
+                  "Description": "Read and/or create GML, KML, GeoJSON files for a given dataset."
                 },
                 {
                   "Title": "",
-                  "Description": "Students discuss the similarity and difference /Advantages and disadvantages of GML, KML, and GeoJSON in small groups; including suitable application areas of each format. \r\n"
+                  "Description": "Students discuss the similarity and difference /Advantages and disadvantages of GML, KML, and GeoJSON in small groups; including suitable application areas of each format. "
                 }
               ]
             }
           ]
         },
         {
-          "Title": "Metadata\r\n",
-          "Description": "Introduction of metadata standards and exchange format\r\n",
+          "Title": "Metadata",
+          "Description": "Introduction of metadata standards and exchange format",
           "Learning outcomes": [{
-              "Title": "Definition of metadata in SDI\r\n",
-              "Description": "Introduce the definition of metadata and explain its application in SDI\r\n",
+              "Title": "Definition of metadata in SDI",
+              "Description": "Introduce the definition of metadata and explain its application in SDI",
               "Bloom level": "",
               "Assessment": [{
-                "Assessment method": "Feedback\r\n",
-                "Assessment method description": "Students receive feedback on one sentence summary\r\n",
-                "Assessment method type": "Formative\r\n"
+                "Assessment method": "Feedback",
+                "Assessment method description": "Students receive feedback on one sentence summary",
+                "Assessment method type": "Formative"
               }],
               "Teaching activies": [{
                   "Title": "",
-                  "Description": "Read documentations for metadata in SDI with a focus on the geographic data\r\n"
+                  "Description": "Read documentations for metadata in SDI with a focus on the geographic data"
                 },
                 {
                   "Title": "",
-                  "Description": "One sentence summary of metadata in SDI\r\n"
+                  "Description": "One sentence summary of metadata in SDI"
                 }
               ]
             },
             {
-              "Title": "Standards of metadata\r\n",
-              "Description": "Explain the standards of meatadata\r\n",
+              "Title": "Standards of metadata",
+              "Description": "Explain the standards of meatadata",
               "Bloom level": "",
               "Assessment": [{
-                  "Assessment method": "Quiz\r\n",
-                  "Assessment method description": "Quiz on metadata formats\r\n",
-                  "Assessment method type": "Formative\r\n"
+                  "Assessment method": "Quiz",
+                  "Assessment method description": "Quiz on metadata formats",
+                  "Assessment method type": "Formative"
                 },
                 {
-                  "Assessment method": "Feedback\r\n",
-                  "Assessment method description": "Feedback on students` questions\r\n",
-                  "Assessment method type": "Summative\r\n"
+                  "Assessment method": "Feedback",
+                  "Assessment method description": "Feedback on students` questions",
+                  "Assessment method type": "Summative"
                 }
               ],
               "Teaching activies": [{
                   "Title": "",
-                  "Description": "Introductory lecture on metadata standards like ISO 19115\r\n"
+                  "Description": "Introductory lecture on metadata standards like ISO 19115"
                 },
                 {
                   "Title": "",
-                  "Description": "Students are able to ask questions and express their understanding of metadata standards\r\n"
+                  "Description": "Students are able to ask questions and express their understanding of metadata standards"
                 }
               ]
             },
             {
-              "Title": "Introduction of metadata exchange format\r\n",
-              "Description": "Explain the typical metadata exchange format\r\n",
+              "Title": "Introduction of metadata exchange format",
+              "Description": "Explain the typical metadata exchange format",
               "Bloom level": "",
               "Assessment": [{
-                  "Assessment method": "Quiz\r\n",
-                  "Assessment method description": "Quiz on metadata exchange formats\r\n",
-                  "Assessment method type": "Formative\r\n"
+                  "Assessment method": "Quiz",
+                  "Assessment method description": "Quiz on metadata exchange formats",
+                  "Assessment method type": "Formative"
                 },
                 {
-                  "Assessment method": "Feedback\r\n",
-                  "Assessment method description": "Feedback on students` questions\r\n",
-                  "Assessment method type": "Summative\r\n"
+                  "Assessment method": "Feedback",
+                  "Assessment method description": "Feedback on students` questions",
+                  "Assessment method type": "Summative"
                 }
               ],
               "Teaching activies": [{
                   "Title": "",
-                  "Description": "Introductory lecture on metadata exchange formats\r\n"
+                  "Description": "Introductory lecture on metadata exchange formats"
                 },
                 {
                   "Title": "",
-                  "Description": "Students are able to ask questions on metadata exchange format\r\n"
+                  "Description": "Students are able to ask questions on metadata exchange format"
                 }
               ]
             }
@@ -1337,7 +1337,7 @@
                   "Description": "One sentence summary of what UML is"
                 },
                 {
-                  "Title": "Asking Question",
+                  "Title": "Asking Questions",
                   "Description": "There is a discussion during class where students are free to ask questions to better understand benefits of UML conceptual modelling"
                 }
               ]
@@ -1370,7 +1370,7 @@
                   "Description": "Students are able to express their understanding of structural components and relations via some online real-time survey"
                 },
                 {
-                  "Title": "Asking Question",
+                  "Title": "Asking Questions",
                   "Description": "If there is something unclear, discussion with questions is opened and students are helped to understand it better"
                 }
               ]
@@ -1483,7 +1483,7 @@
                 },
                 {
                   "Title": "Student Presentations",
-                  "Description": "Student presentations of different semantic web standards\r\n"
+                  "Description": "Student presentations of different semantic web standards"
                 },
                 {
                   "Title": "Class Discussion",
@@ -1640,7 +1640,7 @@
                   "Description": "Introductory lecture on OGC, ISO, W3C and how they work (as an organisation and what they standardize)"
                 },
                 {
-                  "Title": "Asking Question",
+                  "Title": "Asking Questions",
                   "Description": "Group discussions on why these different organisations and their approaches are required and how they fit together"
                 }
               ]
@@ -1683,7 +1683,7 @@
                   "Description": "Introductory lecture on GIS data models"
                 },
                 {
-                  "Title": "Asking Question",
+                  "Title": "Asking Questions",
                   "Description": "Discussion in class on differences and commonalities between data models, their strengths and weaknesses"
                 }
               ]
@@ -1740,7 +1740,7 @@
                   "Description": "Introductory lecture explaining the challenges of syntactic and semantic heterogeneity and how to overcome them"
                 },
                 {
-                  "Title": "Asking Question",
+                  "Title": "Asking Questions",
                   "Description": "Discussion in class on examples of syntactic and semantic heterogeneity"
                 }
               ]
@@ -1821,7 +1821,7 @@
                   "Description": "Introductory lecture on relevant aspects for data validation (geometry, topology, data values, schema) and how to define valid data (standards, schema)"
                 },
                 {
-                  "Title": "Asking Question",
+                  "Title": "Asking Questions",
                   "Description": "Quiz on data validation aspects"
                 }
               ]
@@ -1903,7 +1903,7 @@
                   "Description": "Literature on GIS data exchange formats"
                 },
                 {
-                  "Title": "Asking Question",
+                  "Title": "Asking Questions",
                   "Description": "Group discussion on differences between exchange formats and formats used in practical desktop GIS work "
                 }
               ]
@@ -2088,7 +2088,7 @@
                   "Description": "Lecture explaining the relevant legal issues and introducing different levels of (legal) openness"
                 },
                 {
-                  "Title": "Muddiest point",
+                  "Title": "Muddiest Point",
                   "Description": "During the lecture students have to describe the most difficult point of the lesson: What questions remain uppermost in your mind as we conclude this class session?"
                 },
                 {
@@ -2750,7 +2750,7 @@
             }
           ]
         }, {
-          "Title": "SDI Business Model domains\r\n",
+          "Title": "SDI Business Model domains",
           "Description": "Business model domains and value creation for spatial data organizations",
           "Learning outcomes": [{
               "Title": "business model domains / components",
@@ -2767,12 +2767,12 @@
                   "Assessment method type": "Summative"
                 },
                 {
-                  "Assessment method": "Short quiz\r\n",
+                  "Assessment method": "Short quiz",
                   "Assessment method description": "Students do a short quiz on which activity belongs to which business model component / domain during class",
                   "Assessment method type": "Formative"
                 },
                 {
-                  "Assessment method": "Oral feedback\r\n",
+                  "Assessment method": "Oral feedback",
                   "Assessment method description": "Students are asked direct questions during the lecture",
                   "Assessment method type": "Formative"
                 },
@@ -2807,7 +2807,7 @@
             {
               "Title": "Existing value propositions, value creation and value capture for spatial data",
               "Description": "Within a spatial data organization`sbusiness model, identify the currently employed value propositions, value creation and value capture",
-              "Bloom level": "Apply\r\n",
+              "Bloom level": "Apply",
               "Assessment": [{
                   "Assessment method": "Self-test quiz",
                   "Assessment method description": "Students do a short self-test outside class by answering a number of MC questions, and receive automated feedback responses for correct and incorrect answers",
@@ -2847,7 +2847,7 @@
                   "Description": "Lecture introducing Business Model theory and explaining Business Models domains / components"
                 },
                 {
-                  "Title": "Asking Question",
+                  "Title": "Asking Questions",
                   "Description": "Students have to answer questions asked during the lecture"
                 },
                 {
@@ -2859,7 +2859,7 @@
             {
               "Title": "Options for value propositions, value creation and value capture for open spatial data",
               "Description": "Within a spatial data organization`s business model, examine options for value propositions, value creation and value capture available to spatial data organizations in an open data ecosystem",
-              "Bloom level": "Analyze/Evaluate\r\n\r\n",
+              "Bloom level": "Analyze/Evaluate",
               "Assessment": [{
                   "Assessment method": "Student presentation",
                   "Assessment method description": "Students have to present the outcomes of their TPS / group discussion on a business model canvas via a common whiteboard / project bord",
@@ -2954,7 +2954,7 @@
             {
               "Title": "Data Commons for smart city`s digital twin(ing)",
               "Description": "Implementation of data commons in the context of SDI and smart city`s digital twinning",
-              "Bloom level": "Desgin/Create",
+              "Bloom level": "Design/Create",
               "Assessment": [{
                 "Assessment method": "Written group work, Roleplay",
                 "Assessment method description": "Weekly group work: students design guidelines for the conception and implementation of data commons in the context of SDI and smart city`s digital twin(ning),",
@@ -3018,7 +3018,7 @@
                   "Description": "Lecture explaining Revenue Models and Pricing Mechanisms available to public sector and private sector open data suppliers and (re)users"
                 },
                 {
-                  "Title": "Asking Question",
+                  "Title": "Asking Questions",
                   "Description": "Students have to answer questions asked during the lecture"
                 },
                 {
@@ -3133,7 +3133,7 @@
                 "Description": "Lecture explaining Revenue Models and Pricing Mechanisms available to public sector and private sector open data suppliers and (re)users"
               },
               {
-                "Title": "Asking Question",
+                "Title": "Asking Questions",
                 "Description": "Students have to answer questions asked during the lecture"
               },
               {
@@ -3201,7 +3201,7 @@
                   "Description": "Lecture introducing and explaining the financial aspects of SDIs and of self-funding agencies"
                 },
                 {
-                  "Title": "Asking Question",
+                  "Title": "Asking Questions",
                   "Description": "students are asked direct questions and/or questions asked via online poll during lecture as imput for a class discussion"
                 },
                 {
@@ -3253,7 +3253,7 @@
                   "Description": "Lecture introducing and explaining the financial aspects of SDIs and of self-funded agencies"
                 },
                 {
-                  "Title": "Asking Question",
+                  "Title": "Asking Questions",
                   "Description": "Students are asked direct questions and/or questions asked via online poll during lecture as imput for a class discussion"
                 },
                 {
@@ -3310,7 +3310,7 @@
                   "Description": "Lecture introducing and explaining the financial aspects of SDIs and of self-funded agencies"
                 },
                 {
-                  "Title": "Asking Question",
+                  "Title": "Asking Questions",
                   "Description": "Students are asked direct questions and/or questions asked via online poll during lecture as imput for a class discussion on potential funding strategies"
                 },
                 {
@@ -3354,7 +3354,7 @@
                 }
               ],
               "Teaching activies": [{
-                  "Title": "Muddiest point",
+                  "Title": "Muddiest Point",
                   "Description": "Students fill in an online poll listing the points they do not yet understand / want more information on, which are presented as a word cloud"
                 },
                 {
@@ -3366,7 +3366,7 @@
                   "Description": "Lecture introducing and explaining the financial aspects of SDIs and of self-funding agencies"
                 },
                 {
-                  "Title": "Asking Question",
+                  "Title": "Asking Questions",
                   "Description": "Students are asked direct questions and/or questions asked via online poll during lecture as imput for a class discussion"
                 },
                 {
@@ -3401,16 +3401,16 @@
                 }
               ],
               "Teaching activies": [{
-                  "Title": "Lecture\r\n",
-                  "Description": " Lecture explaining the types of (open) licences and licensing issues\r\n"
+                  "Title": "Lecture",
+                  "Description": " Lecture explaining the types of (open) licences and licensing issues"
                 },
                 {
-                  "Title": "Paper review\r\n",
-                  "Description": "Students have to read papers on different types of licences.\r\n"
+                  "Title": "Paper review",
+                  "Description": "Students have to read papers on different types of licences."
                 },
                 {
-                  "Title": "Clips\r\n",
-                  "Description": "Students have to watch a video clip on the core issues of licencing in SDI\r\n"
+                  "Title": "Clips",
+                  "Description": "Students have to watch a video clip on the core issues of licencing in SDI"
                 }
               ]
             },
@@ -3445,24 +3445,24 @@
                 }
               ],
               "Teaching activies": [{
-                  "Title": "Desk study\r\n",
-                  "Description": "Students explore on the INSPIRE portal (or another portal) the licenses for a certain type of geodata.\r\n"
+                  "Title": "Desk study",
+                  "Description": "Students explore on the INSPIRE portal (or another portal) the licenses for a certain type of geodata."
                 },
                 {
-                  "Title": "Class Discussion\r\n",
-                  "Description": "Students discuss in smaller groups their findings and differences of their findings\r\n"
+                  "Title": "Class Discussion",
+                  "Description": "Students discuss in smaller groups their findings and differences of their findings"
                 },
                 {
-                  "Title": "Class Discussion\r\n",
-                  "Description": "Students present the main outcomes of their group discussions in the main room\r\n"
+                  "Title": "Class Discussion",
+                  "Description": "Students present the main outcomes of their group discussions in the main room"
                 },
                 {
-                  "Title": "Class Discussion\r\n",
-                  "Description": "Teacher moderates discussion on the findings and their implications for SDI development.\r\n"
+                  "Title": "Class Discussion",
+                  "Description": "Teacher moderates discussion on the findings and their implications for SDI development."
                 },
                 {
-                  "Title": "Lecture\r\n",
-                  "Description": "Lecture on the role of (open) licenses in SDI development referring to SDI generations. \r\n"
+                  "Title": "Lecture",
+                  "Description": "Lecture on the role of (open) licenses in SDI development referring to SDI generations. "
                 }
               ]
             },
@@ -3497,24 +3497,24 @@
                 }
               ],
               "Teaching activies": [{
-                  "Title": "Desk study\r\n",
-                  "Description": "Students have to look at and analyze one license of one dataset in one EU country\r\n"
-                },
-                {
-                  "Title": "Class Discussion\r\n",
-                  "Description": "Students have to discuss and decide in smaller groups on the best and worst performing licence from the perspective of open SDI\r\n"
-                },
-                {
-                  "Title": "Class Discussion\r\n",
-                  "Description": "Plenary discussion on the best and worstperforming licence from the perspective of open SDI in Europe\r\n"
+                  "Title": "Desk study",
+                  "Description": "Students have to look at and analyze one license of one dataset in one EU country"
                 },
                 {
                   "Title": "Class Discussion",
-                  "Description": "Students have to discuss in smaller groups the impact of the implementation of open licences in their country (one focus on the user perspective, one on the data provider perspective)\r\n"
+                  "Description": "Students have to discuss and decide in smaller groups on the best and worst performing licence from the perspective of open SDI"
                 },
                 {
-                  "Title": "Lecture\r\n",
-                  "Description": "Lecture explaining the wider context/ dynamic environment in which open licences develop with a critical view on claims made such as on data quality impact\r\n"
+                  "Title": "Class Discussion",
+                  "Description": "Plenary discussion on the best and worstperforming licence from the perspective of open SDI in Europe"
+                },
+                {
+                  "Title": "Class Discussion",
+                  "Description": "Students have to discuss in smaller groups the impact of the implementation of open licences in their country (one focus on the user perspective, one on the data provider perspective)"
+                },
+                {
+                  "Title": "Lecture",
+                  "Description": "Lecture explaining the wider context/ dynamic environment in which open licences develop with a critical view on claims made such as on data quality impact"
                 }
               ]
             },
@@ -3544,20 +3544,20 @@
                 }
               ],
               "Teaching activies": [{
-                  "Title": "Desk study\r\n",
-                  "Description": "Students have to analyse existing licences for geodata in a specific country and use that experience to desgin recommendations to make the licence more user friendly from a technical (is it easy to find), and especially intellectual accessibility perspectives.\r\n"
+                  "Title": "Desk study",
+                  "Description": "Students have to analyse existing licences for geodata in a specific country and use that experience to design recommendations to make the licence more user friendly from a technical (is it easy to find), and especially intellectual accessibility perspectives."
                 },
                 {
                   "Title": "Class Discussion",
-                  "Description": "Students present and discuss their findings with students that studied countries with a similar level of SDI development \r\n"
+                  "Description": "Students present and discuss their findings with students that studied countries with a similar level of SDI development "
                 },
                 {
-                  "Title": "Class Discussion\r\n",
-                  "Description": "Group representative presents the main findings of the group plenary \r\n"
+                  "Title": "Class Discussion",
+                  "Description": "Group representative presents the main findings of the group plenary "
                 },
                 {
-                  "Title": "Class Discussion\r\n",
-                  "Description": "Teacher moderates discussion on the findings and their implications for SDI development\r\n"
+                  "Title": "Class Discussion",
+                  "Description": "Teacher moderates discussion on the findings and their implications for SDI development"
                 }
               ]
             }
@@ -3567,80 +3567,80 @@
           "Title": "Data protection and open SDI",
           "Description": "Description and discussion of the role of data protection legislation on the (open) SDI concept",
           "Learning outcomes": [{
-              "Title": "Privacy and GDPR\r\n",
-              "Description": "List and explain the key concepts of the General Data Protection Regulation (GDPR) (or another data protection law)\r\n",
+              "Title": "Privacy and GDPR",
+              "Description": "List and explain the key concepts of the General Data Protection Regulation (GDPR) (or another data protection law)",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
-                  "Assessment method": "Feedback by Q&A\r\n",
-                  "Assessment method description": "Moderator asks in depth questions clarifying the meaning of the presented perceptions\r\n",
+                  "Assessment method": "Feedback by Q&A",
+                  "Assessment method description": "Moderator asks in depth questions clarifying the meaning of the presented perceptions",
                   "Assessment method type": "Formative"
                 },
                 {
-                  "Assessment method": "Feedback by Q&A\r\n",
-                  "Assessment method description": "Moderator asks in depth questions clarifying the meaning of the presented perceptions\r\n",
+                  "Assessment method": "Feedback by Q&A",
+                  "Assessment method description": "Moderator asks in depth questions clarifying the meaning of the presented perceptions",
                   "Assessment method type": "Formative"
                 },
                 {
-                  "Assessment method": "Written exam\r\n",
-                  "Assessment method description": "An example question is: provide the GDPR definition of personal data and explain the different elements in this definition that together determine whether data is personal data or not.\r\n",
-                  "Assessment method type": "Summative\r\n"
+                  "Assessment method": "Written exam",
+                  "Assessment method description": "An example question is: provide the GDPR definition of personal data and explain the different elements in this definition that together determine whether data is personal data or not.",
+                  "Assessment method type": "Summative"
                 }
               ],
               "Teaching activies": [{
-                  "Title": "Feedback by Q&A\r\n",
-                  "Description": "Moderator asks in depth questions clarifying the meaning of the presented perceptions\r\n"
+                  "Title": "Feedback by Q&A",
+                  "Description": "Moderator asks in depth questions clarifying the meaning of the presented perceptions"
                 },
                 {
-                  "Title": "Feedback by Q&A\r\n",
-                  "Description": "Moderator asks in depth questions clarifying the meaning of the presented perceptions\r\n"
+                  "Title": "Feedback by Q&A",
+                  "Description": "Moderator asks in depth questions clarifying the meaning of the presented perceptions"
                 },
                 {
-                  "Title": "Written exam\r\n",
-                  "Description": "An example question is: provide the GDPR definition of personal data and explain the different elements in this definition that together determine whether data is personal data or not.\r\n"
+                  "Title": "Written exam",
+                  "Description": "An example question is: provide the GDPR definition of personal data and explain the different elements in this definition that together determine whether data is personal data or not."
                 }
               ]
             },
             {
-              "Title": "GDPR applied to geodata/ SDI\r\n",
-              "Description": "Apply the GDPR to geodata/ SDI\r\n",
+              "Title": "GDPR applied to geodata/ SDI",
+              "Description": "Apply the GDPR to geodata/ SDI",
               "Bloom level": "Apply",
               "Assessment": [{
-                  "Assessment method": "Quiz\r\n",
-                  "Assessment method description": "Short quiz on GDPR and geodata (e.g., show a map and ask whether the GDPR applies)\r\n",
+                  "Assessment method": "Quiz",
+                  "Assessment method description": "Short quiz on GDPR and geodata (e.g., show a map and ask whether the GDPR applies)",
                   "Assessment method type": "Formative"
                 },
                 {
-                  "Assessment method": "Written exam\r\n",
-                  "Assessment method description": "An example question is:  show a map and ask whether the GDPR applies\r\n",
-                  "Assessment method type": "Summative\r\n"
+                  "Assessment method": "Written exam",
+                  "Assessment method description": "An example question is:  show a map and ask whether the GDPR applies",
+                  "Assessment method type": "Summative"
                 },
                 {
-                  "Assessment method": "Written exam\r\n",
-                  "Assessment method description": "An example question is:  show a map and ask whether the GDPR applies\r\n",
-                  "Assessment method type": "Summative\r\n"
+                  "Assessment method": "Written exam",
+                  "Assessment method description": "An example question is:  show a map and ask whether the GDPR applies",
+                  "Assessment method type": "Summative"
                 }
               ],
               "Teaching activies": [{
-                  "Title": "Quiz\r\n",
-                  "Description": "Short quiz on GDPR and geodata (e.g., show a map and ask whether the GDPR applies)\r\n"
+                  "Title": "Quiz",
+                  "Description": "Short quiz on GDPR and geodata (e.g., show a map and ask whether the GDPR applies)"
                 },
                 {
-                  "Title": "Written exam\r\n",
-                  "Description": "An example question is:  show a map and ask whether the GDPR applies\r\n"
+                  "Title": "Written exam",
+                  "Description": "An example question is:  show a map and ask whether the GDPR applies"
                 },
                 {
-                  "Title": "Written exam\r\n",
-                  "Description": "An example question is:  show a map and ask whether the GDPR applies\r\n"
+                  "Title": "Written exam",
+                  "Description": "An example question is:  show a map and ask whether the GDPR applies"
                 }
               ]
             },
             {
-              "Title": "Impact GDPR on SDI evaluated\r\n",
-              "Description": "Analyze and evaluate the impact of the GDPR for the concept of open SDI\r\n",
+              "Title": "Impact GDPR on SDI evaluated",
+              "Description": "Analyze and evaluate the impact of the GDPR for the concept of open SDI",
               "Bloom level": "Analyze/Evaluate",
               "Assessment": [{
                   "Assessment method": "Small report",
-                  "Assessment method description": "Students receive feedback from their peers and teachers during the discussions\r\n",
+                  "Assessment method description": "Students receive feedback from their peers and teachers during the discussions",
                   "Assessment method type": "Formative"
                 },
                 {
@@ -3650,113 +3650,113 @@
                 },
                 {
                   "Assessment method": "Feedback",
-                  "Assessment method description": "Students receive feedback from their peers (as members of the audience) and the teacher (as moderator) during the debate\r\n",
+                  "Assessment method description": "Students receive feedback from their peers (as members of the audience) and the teacher (as moderator) during the debate",
                   "Assessment method type": "Formative"
                 }
               ],
               "Teaching activies": [{
-                  "Title": "small report\r\n",
-                  "Description": "Students receive feedback from their peers and teachers during the discussions\r\n"
+                  "Title": "small report",
+                  "Description": "Students receive feedback from their peers and teachers during the discussions"
                 },
                 {
-                  "Title": "Feedback\r\n",
-                  "Description": "Students receive feedback from their peers and teachers during the discussions\r\n"
+                  "Title": "Feedback",
+                  "Description": "Students receive feedback from their peers and teachers during the discussions"
                 },
                 {
-                  "Title": "Feedback\r\n",
-                  "Description": "Students receive feedback from their peers (as members of the audience) and the teacher (as moderator) during the debate\r\n"
+                  "Title": "Feedback",
+                  "Description": "Students receive feedback from their peers (as members of the audience) and the teacher (as moderator) during the debate"
                 }
               ]
             },
             {
-              "Title": "Making (open) SDI GDPR compliant\r\n",
-              "Description": "Propose innovative directions to implement open SDI complying to the GDPR\r\n",
+              "Title": "Making (open) SDI GDPR compliant",
+              "Description": "Propose innovative directions to implement open SDI complying to the GDPR",
               "Bloom level": "Design/Create",
               "Assessment": [{
-                  "Assessment method": "Feedback\r\n",
-                  "Assessment method description": "Students receive feedback from their peers (as members of the audience) and the teacher (as moderator) during the debate\r\n",
+                  "Assessment method": "Feedback",
+                  "Assessment method description": "Students receive feedback from their peers (as members of the audience) and the teacher (as moderator) during the debate",
                   "Assessment method type": "Formative"
                 },
                 {
                   "Assessment method": "Feedback",
-                  "Assessment method description": "Students receive feedback from their peers (as members of the audience) and the teacher (as moderator) during the debate\r\n",
+                  "Assessment method description": "Students receive feedback from their peers (as members of the audience) and the teacher (as moderator) during the debate",
                   "Assessment method type": "Formative"
                 },
                 {
                   "Assessment method": "Feedback",
-                  "Assessment method description": "Students receive feedback from their peers (as members of the audience) and the teacher (as moderator) during the debate\r\n",
+                  "Assessment method description": "Students receive feedback from their peers (as members of the audience) and the teacher (as moderator) during the debate",
                   "Assessment method type": "Formative"
                 }
               ],
               "Teaching activies": [{
-                  "Title": "Feedback\r\n",
-                  "Description": "Students receive feedback from their peers (as members of the audience) and the teacher (as moderator) during the debate\r\n"
+                  "Title": "Feedback",
+                  "Description": "Students receive feedback from their peers (as members of the audience) and the teacher (as moderator) during the debate"
                 },
                 {
-                  "Title": "Feedback\r\n",
-                  "Description": "Students receive feedback from their peers (as members of the audience) and the teacher (as moderator) during the debate\r\n"
+                  "Title": "Feedback",
+                  "Description": "Students receive feedback from their peers (as members of the audience) and the teacher (as moderator) during the debate"
                 },
                 {
-                  "Title": "Feedback\r\n",
-                  "Description": "Students receive feedback from their peers (as members of the audience) and the teacher (as moderator) during the debate\r\n"
+                  "Title": "Feedback",
+                  "Description": "Students receive feedback from their peers (as members of the audience) and the teacher (as moderator) during the debate"
                 }
               ]
             }
           ]
         },
         {
-          "Title": "SDI strategies and policies\r\n",
-          "Description": "Strategies and policies dealing with SDI and SDI implementation\r\n",
+          "Title": "SDI strategies and policies",
+          "Description": "Strategies and policies dealing with SDI and SDI implementation",
           "Learning outcomes": [{
-              "Title": "Definition of SDI strategies and policies\r\n",
-              "Description": "Explain what SDI strategies and policies are\r\n",
+              "Title": "Definition of SDI strategies and policies",
+              "Description": "Explain what SDI strategies and policies are",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
-                "Assessment method": "Written exam\r\n",
-                "Assessment method description": "Students are asked to explain what SDI strategies and policies are \r\n",
-                "Assessment method type": "Summative\r\n"
+                "Assessment method": "Written exam",
+                "Assessment method description": "Students are asked to explain what SDI strategies and policies are ",
+                "Assessment method type": "Summative"
               }],
               "Teaching activies": [{
-                  "Title": "Reading prior to class\r\n",
-                  "Description": "Students need to read a selection of SDI strategies and policies\r\n"
+                  "Title": "Reading prior to class",
+                  "Description": "Students need to read a selection of SDI strategies and policies"
                 },
                 {
-                  "Title": "Class Discussion\r\n",
-                  "Description": "Students discuss the key elements of these strategies and policies\r\n"
+                  "Title": "Class Discussion",
+                  "Description": "Students discuss the key elements of these strategies and policies"
                 }
               ]
             },
             {
-              "Title": "Content of strategies\r\n",
-              "Description": "Compare different SDI strategies\r\n",
+              "Title": "Content of strategies",
+              "Description": "Compare different SDI strategies",
               "Bloom level": "Analyze/Evaluate",
               "Assessment": [{
-                "Assessment method": "Assignment\r\n",
-                "Assessment method description": "Students are asked to write a short paper comparing different SDI strategies\r\n",
-                "Assessment method type": "Summative\r\n"
+                "Assessment method": "Assignment",
+                "Assessment method description": "Students are asked to write a short paper comparing different SDI strategies",
+                "Assessment method type": "Summative"
               }],
               "Teaching activies": [{
-                  "Title": "Class Discussion\r\n",
-                  "Description": "Students discuss the differences between different strategies and policies\r\n"
+                  "Title": "Class Discussion",
+                  "Description": "Students discuss the differences between different strategies and policies"
                 },
                 {
-                  "Title": "Paper writing\r\n",
-                  "Description": "Students write a short paper on comparing different strategies and policies\r\n"
+                  "Title": "Paper writing",
+                  "Description": "Students write a short paper on comparing different strategies and policies"
                 }
               ]
             },
             {
-              "Title": "Prepare strategy\r\n",
-              "Description": "Prepare an SDI strategy for a country \r\n",
+              "Title": "Prepare strategy",
+              "Description": "Prepare an SDI strategy for a country ",
               "Bloom level": "Design/Create",
               "Assessment": [{
-                "Assessment method": "Assignment\r\n",
-                "Assessment method description": "Students need to prepare a short SDI strategy\r\n",
+                "Assessment method": "Assignment",
+                "Assessment method description": "Students need to prepare a short SDI strategy",
                 "Assessment method type": "Formative"
               }],
               "Teaching activies": [{
-                "Title": "Think-pair-share\r\n",
-                "Description": "Students write a short strategy for implementing/developing an SDI in a particular country\r\n"
+                "Title": "Think-pair-share",
+                "Description": "Students write a short strategy for implementing/developing an SDI in a particular country"
               }]
             }
           ]
@@ -3765,437 +3765,437 @@
     },
     "Non-tech II": {
       "Concepts": [{
-          "Title": "SDI strategies and policies\r\n",
-          "Description": "Strategies and policies dealing with SDI and SDI implementation\r\n",
+          "Title": "SDI strategies and policies",
+          "Description": "Strategies and policies dealing with SDI and SDI implementation",
           "Learning outcomes": [{
-              "Title": "Definition of SDI strategies and policies\r\n",
-              "Description": "Explain what SDI strategies and policies are\r\n",
+              "Title": "Definition of SDI strategies and policies",
+              "Description": "Explain what SDI strategies and policies are",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
-                "Assessment method": "Written exam\r\n",
-                "Assessment method description": "Students are asked to explain what SDI strategies and policies are \r\n",
-                "Assessment method type": "Summative\r\n"
+                "Assessment method": "Written exam",
+                "Assessment method description": "Students are asked to explain what SDI strategies and policies are ",
+                "Assessment method type": "Summative"
               }],
               "Teaching activies": [{
-                  "Title": "Reading prior to class\r\n",
-                  "Description": "Students need to read a selection of SDI strategies and policies\r\n"
+                  "Title": "Reading prior to class",
+                  "Description": "Students need to read a selection of SDI strategies and policies"
                 },
                 {
-                  "Title": "Class Discussion\r\n",
-                  "Description": "Students discuss the key elements of these strategies and policies\r\n"
+                  "Title": "Class Discussion",
+                  "Description": "Students discuss the key elements of these strategies and policies"
                 }
               ]
             },
             {
-              "Title": "Content of strategies\r\n",
-              "Description": "Compare different SDI strategies\r\n",
+              "Title": "Content of strategies",
+              "Description": "Compare different SDI strategies",
               "Bloom level": "Analyze/Evaluate",
               "Assessment": [{
-                "Assessment method": "Assignment\r\n",
-                "Assessment method description": "Students are asked to write a short paper comparing different SDI strategies\r\n",
-                "Assessment method type": "Summative\r\n"
+                "Assessment method": "Assignment",
+                "Assessment method description": "Students are asked to write a short paper comparing different SDI strategies",
+                "Assessment method type": "Summative"
               }],
               "Teaching activies": [{
-                  "Title": "Class Discussion\r\n",
-                  "Description": "Students discuss the differences between different strategies and policies\r\n"
+                  "Title": "Class Discussion",
+                  "Description": "Students discuss the differences between different strategies and policies"
                 },
                 {
-                  "Title": "Paper writing\r\n",
-                  "Description": "Students write a short paper on comparing different strategies and policies\r\n"
+                  "Title": "Paper writing",
+                  "Description": "Students write a short paper on comparing different strategies and policies"
                 }
               ]
             },
             {
-              "Title": "Prepare strategy\r\n",
-              "Description": "Prepare an SDI strategy for a country \r\n",
+              "Title": "Prepare strategy",
+              "Description": "Prepare an SDI strategy for a country ",
               "Bloom level": "Design/Create",
               "Assessment": [{
-                "Assessment method": "Assignment\r\n",
-                "Assessment method description": "Students need to prepare a short SDI strategy\r\n",
+                "Assessment method": "Assignment",
+                "Assessment method description": "Students need to prepare a short SDI strategy",
                 "Assessment method type": "Formative"
               }],
               "Teaching activies": [{
-                "Title": "Think-pair-share\r\n",
-                "Description": "Students write a short strategy for implementing/developing an SDI in a particular country\r\n"
+                "Title": "Think-pair-share",
+                "Description": "Students write a short strategy for implementing/developing an SDI in a particular country"
               }]
             }
           ]
         },
         {
-          "Title": "SDI actors and stakeholders\r\n",
-          "Description": "Actors and stakeholders involved in the implementation of SDIs\r\n",
+          "Title": "SDI actors and stakeholders",
+          "Description": "Actors and stakeholders involved in the implementation of SDIs",
           "Learning outcomes": [{
-              "Title": "Name stakeholders\r\n",
-              "Description": "List the key SDI stakeholders\r\n",
+              "Title": "Name stakeholders",
+              "Description": "List the key SDI stakeholders",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
-                "Assessment method": "Written exam\r\n",
-                "Assessment method description": "Students are asked to name the key stakeholders in an SDI\r\n",
-                "Assessment method type": "Summative\r\n"
+                "Assessment method": "Written exam",
+                "Assessment method description": "Students are asked to name the key stakeholders in an SDI",
+                "Assessment method type": "Summative"
               }],
               "Teaching activies": [{
-                  "Title": "Brainstorm\r\n",
-                  "Description": "Students jointly develop a list of key SDI stakeholders\r\n"
+                  "Title": "Brainstorm",
+                  "Description": "Students jointly develop a list of key SDI stakeholders"
                 },
                 {
-                  "Title": "Lecture\r\n",
-                  "Description": "Lecture introducing and explaining main SDI stakeholders\r\n"
+                  "Title": "Lecture",
+                  "Description": "Lecture introducing and explaining main SDI stakeholders"
                 }
               ]
             },
             {
-              "Title": "Stakeholders roles\r\n",
-              "Description": "Explain the roles of different SDI stakeholders\r\n",
+              "Title": "Stakeholders roles",
+              "Description": "Explain the roles of different SDI stakeholders",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
-                "Assessment method": "Written exam\r\n",
-                "Assessment method description": "Students are asked to explain the roles of particular SDI stakeholders\r\n",
-                "Assessment method type": "Summative\r\n"
+                "Assessment method": "Written exam",
+                "Assessment method description": "Students are asked to explain the roles of particular SDI stakeholders",
+                "Assessment method type": "Summative"
               }],
               "Teaching activies": [{
-                  "Title": "Lecture\r\n",
-                  "Description": "Lecture explaining the key roles of different SDI stakeholders\r\n"
+                  "Title": "Lecture",
+                  "Description": "Lecture explaining the key roles of different SDI stakeholders"
                 },
                 {
-                  "Title": "Student Presentations\r\n",
-                  "Description": "Students prepare a short analysis of the stakeholders of a particular country\r\n"
+                  "Title": "Student Presentations",
+                  "Description": "Students prepare a short analysis of the stakeholders of a particular country"
                 }
               ]
             },
             {
-              "Title": "Stakeholder map\r\n",
-              "Description": "Prepare a stakeholder map of an SDI\r\n",
+              "Title": "Stakeholder map",
+              "Description": "Prepare a stakeholder map of an SDI",
               "Bloom level": "Apply",
               "Assessment": [{
-                "Assessment method": "Assignment\r\n",
-                "Assessment method description": "Students need to prepare SDI stakeholder map for a particular country\r\n",
+                "Assessment method": "Assignment",
+                "Assessment method description": "Students need to prepare SDI stakeholder map for a particular country",
                 "Assessment method type": "Formative"
               }],
               "Teaching activies": [{
-                  "Title": "Lecture\r\n",
-                  "Description": "Lecture explaining the basics of stakeholder mapping\r\n"
+                  "Title": "Lecture",
+                  "Description": "Lecture explaining the basics of stakeholder mapping"
                 },
                 {
-                  "Title": "Think-pair-share\r\n",
-                  "Description": "Students prepare a stakeholder map of a particular country\r\n"
+                  "Title": "Think-pair-share",
+                  "Description": "Students prepare a stakeholder map of a particular country"
                 }
               ]
             }
           ]
         },
         {
-          "Title": "SDI task allocation\r\n",
-          "Description": "Allocation of tasks related to the implementation of SDIs\r\n",
+          "Title": "SDI task allocation",
+          "Description": "Allocation of tasks related to the implementation of SDIs",
           "Learning outcomes": [{
-              "Title": "SDI Tasks\r\n",
-              "Description": "Explain the key tasks to be executed in implementing an SDI\r\n",
+              "Title": "SDI Tasks",
+              "Description": "Explain the key tasks to be executed in implementing an SDI",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
-                "Assessment method": "Written exam\r\n",
-                "Assessment method description": "Students need to list and explain key tasks to be done in SDI implementation\r\n",
-                "Assessment method type": "Summative\r\n"
+                "Assessment method": "Written exam",
+                "Assessment method description": "Students need to list and explain key tasks to be done in SDI implementation",
+                "Assessment method type": "Summative"
               }],
               "Teaching activies": [{
-                  "Title": "Class Discussion\r\n",
-                  "Description": "Students discuss about the key tasks to be done in implementing an SDI\r\n"
+                  "Title": "Class Discussion",
+                  "Description": "Students discuss about the key tasks to be done in implementing an SDI"
                 },
                 {
-                  "Title": "Lecture\r\n",
-                  "Description": "Lecture providing an overview of the key tasks\r\n"
+                  "Title": "Lecture",
+                  "Description": "Lecture providing an overview of the key tasks"
                 }
               ]
             },
             {
-              "Title": "Models of task allocation\r\n",
-              "Description": "Explain different models for allocating tasks\r\n",
+              "Title": "Models of task allocation",
+              "Description": "Explain different models for allocating tasks",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
-                "Assessment method": "Written exam\r\n",
-                "Assessment method description": "Students need to recognize a particular model of task allocation\r\n",
-                "Assessment method type": "Summative\r\n"
+                "Assessment method": "Written exam",
+                "Assessment method description": "Students need to recognize a particular model of task allocation",
+                "Assessment method type": "Summative"
               }],
               "Teaching activies": [{
-                "Title": "Demonstrations\r\n",
-                "Description": "Lecture providing examples of different models of allocating tasks\r\n"
+                "Title": "Demonstrations",
+                "Description": "Lecture providing examples of different models of allocating tasks"
               }]
             },
             {
-              "Title": "SDI tasksallocation\r\n",
-              "Description": "Analyse how tasks are allocated within a particular SDI\r\n",
+              "Title": "SDI tasksallocation",
+              "Description": "Analyse how tasks are allocated within a particular SDI",
               "Bloom level": "Analyze/Evaluate",
               "Assessment": [{
-                "Assessment method": "Assignment\r\n",
-                "Assessment method description": "Students need to write a report analysing the allocation of tasks in a particular country\r\n",
-                "Assessment method type": "Formative\r\n"
+                "Assessment method": "Assignment",
+                "Assessment method description": "Students need to write a report analysing the allocation of tasks in a particular country",
+                "Assessment method type": "Formative"
               }],
               "Teaching activies": [{
-                  "Title": "Class Discussion\r\n",
-                  "Description": "Students discuss about the strenghts and weakness of different models of task allocation\r\n"
+                  "Title": "Class Discussion",
+                  "Description": "Students discuss about the strenghts and weakness of different models of task allocation"
                 },
                 {
-                  "Title": "Paper writing\r\n",
-                  "Description": "Students write a paper analyzing the allocation of tasks within a particular country\r\n"
+                  "Title": "Paper writing",
+                  "Description": "Students write a paper analyzing the allocation of tasks within a particular country"
                 }
               ]
             }
           ]
         },
         {
-          "Title": "GI/SDI Management in organizations\r\n",
-          "Description": "Internal management of SDIs within organizations\r\n",
+          "Title": "GI/SDI Management in organizations",
+          "Description": "Internal management of SDIs within organizations",
           "Learning outcomes": [{
-              "Title": "Challenges\r\n",
-              "Description": "Explain the requirements and challenges an SDI brings to individual organizations\r\n",
+              "Title": "Challenges",
+              "Description": "Explain the requirements and challenges an SDI brings to individual organizations",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
-                "Assessment method": "Oral exam\r\n",
-                "Assessment method description": "Students need to explain the impact of an SDI to an individual organization\r\n",
-                "Assessment method type": "Summative\r\n"
+                "Assessment method": "Oral exam",
+                "Assessment method description": "Students need to explain the impact of an SDI to an individual organization",
+                "Assessment method type": "Summative"
               }],
               "Teaching activies": [{
-                  "Title": "Role Play\r\n",
-                  "Description": "Students discuss on the implications of an SDI for a particular SDI stakeholder\r\n"
+                  "Title": "Role Play",
+                  "Description": "Students discuss on the implications of an SDI for a particular SDI stakeholder"
                 },
                 {
-                  "Title": "Lecture\r\n",
-                  "Description": "Lecture explaining the impact of SDIs to individual organizations\r\n"
+                  "Title": "Lecture",
+                  "Description": "Lecture explaining the impact of SDIs to individual organizations"
                 }
               ]
             },
             {
-              "Title": "Approaches\r\n",
-              "Description": "Explain different approaches for internal management of SDIs\r\n",
+              "Title": "Approaches",
+              "Description": "Explain different approaches for internal management of SDIs",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
-                "Assessment method": "Written exam\r\n",
-                "Assessment method description": "Students need to explain different approaches for internal management\r\n",
-                "Assessment method type": "Summative\r\n"
+                "Assessment method": "Written exam",
+                "Assessment method description": "Students need to explain different approaches for internal management",
+                "Assessment method type": "Summative"
               }],
               "Teaching activies": [{
-                  "Title": "Lecture\r\n",
-                  "Description": "Lecture explaining elements of a strategy for SDI implementation within an organization\r\n"
+                  "Title": "Lecture",
+                  "Description": "Lecture explaining elements of a strategy for SDI implementation within an organization"
                 },
                 {
-                  "Title": "Demonstrations\r\n",
-                  "Description": "Examples of SDI implementations at individual organizations\r\n"
+                  "Title": "Demonstrations",
+                  "Description": "Examples of SDI implementations at individual organizations"
                 }
               ]
             },
             {
-              "Title": "Strategy\r\n",
-              "Description": "Develop an organizational strategy for SDI implementation\r\n",
+              "Title": "Strategy",
+              "Description": "Develop an organizational strategy for SDI implementation",
               "Bloom level": "Analyze/Evaluate",
               "Assessment": [{
-                "Assessment method": "Assignment\r\n",
-                "Assessment method description": "Students need to design an organization strategy for SDI implementation\r\n",
-                "Assessment method type": "Formative\r\n"
+                "Assessment method": "Assignment",
+                "Assessment method description": "Students need to design an organization strategy for SDI implementation",
+                "Assessment method type": "Formative"
               }],
               "Teaching activies": [{
-                "Title": "Think-pair-share\r\n",
-                "Description": "Students jointly prepare a strategy for SDI implementation at an organization\r\n"
-              }]
-            }
-          ]
-        },
-        {
-          "Title": "Governance of standards\r\n",
-          "Description": "Bodies involved in and process related to the development and adoption of standards\r\n",
-          "Learning outcomes": [{
-              "Title": "SDI Standardization bodies\r\n",
-              "Description": "List the main organizations involved in developing SDI standards\r\n",
-              "Bloom level": "Remember/Understand",
-              "Assessment": [{
-                "Assessment method": "Written exam\r\n",
-                "Assessment method description": "Students need to list the main standardization bodies in the SDI domain\r\n",
-                "Assessment method type": "Summative\r\n"
-              }],
-              "Teaching activies": [{
-                  "Title": "Reading prior to class\r\n",
-                  "Description": "Students have to visit websites of key bodies in SDI standardization\r\n"
-                },
-                {
-                  "Title": "Student Presentations\r\n",
-                  "Description": "Students briefly present the role, activities, functioning of a particular SDI standardization body\r\n"
-                }
-              ]
-            },
-            {
-              "Title": "Differences\r\n",
-              "Description": "Explain the differences and relationships between different SDI standardization bodies\r\n",
-              "Bloom level": "Remember/Understand",
-              "Assessment": [{
-                "Assessment method": "Written exam\r\n",
-                "Assessment method description": "Students need to explain the main differences and/or relationships between standardization bodies\r\n",
-                "Assessment method type": "Summative\r\n"
-              }],
-              "Teaching activies": [{
-                  "Title": "Think-pair-share\r\n",
-                  "Description": "Students discuss about the differences, similarities and links between SDI standardization bodies\r\n"
-                },
-                {
-                  "Title": "Lecture\r\n",
-                  "Description": "Lecture explaining how standardization bodies are similiar/different/related\r\n"
-                }
-              ]
-            },
-            {
-              "Title": "Standardization process\r\n",
-              "Description": "Explain the process of adopting and implementing SDI standards\r\n",
-              "Bloom level": "Remember/Understand",
-              "Assessment": [{
-                "Assessment method": "Written exam\r\n",
-                "Assessment method description": "Students need to explain the process of adopting and implementing SDI standards\r\n",
-                "Assessment method type": "Summative\r\n"
-              }],
-              "Teaching activies": [{
-                  "Title": "Lecture\r\n",
-                  "Description": "Lecture explaing the overall standardization process\r\n"
-                },
-                {
-                  "Title": "Demonstrations\r\n",
-                  "Description": "Students analyse the process of adopting/implementing a particular standard\r\n"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "Title": "SDI processes\r\n",
-          "Description": "Processes related to the implementation and use of SDIs\r\n",
-          "Learning outcomes": [{
-              "Title": "SDI and processes\r\n",
-              "Description": "Explain the relevance and importance of processes in SDI implementation\r\n",
-              "Bloom level": "Remember/Understand",
-              "Assessment": [{
-                "Assessment method": "Written exam\r\n",
-                "Assessment method description": "Students are asked to explain why processes are relevant in SDI implementation\r\n",
-                "Assessment method type": "Summative\r\n"
-              }],
-              "Teaching activies": [{
-                  "Title": "Lecture\r\n",
-                  "Description": "Lecture explaining the basics of processes and process management\r\n"
-                },
-                {
-                  "Title": "Think-pair-share\r\n",
-                  "Description": "Students discuss on the relevance of processes in SDI\r\n"
-                }
-              ]
-            },
-            {
-              "Title": "BPMN\r\n",
-              "Description": "Apply the essential elements of business process management to SDI processes\r\n",
-              "Bloom level": "Remember/Understand",
-              "Assessment": [{
-                "Assessment method": "Written exam\r\n",
-                "Assessment method description": "Students are asked to name the key elements of processes in BPMN and apply them to SDI \r\n",
-                "Assessment method type": "Summative\r\n"
-              }],
-              "Teaching activies": [{
-                  "Title": "Lecture\r\n",
-                  "Description": "Lecture explaining the basics of BPMN\r\n"
-                },
-                {
-                  "Title": "Active Writing\r\n",
-                  "Description": "Students apply BPMN to SDI processes\r\n"
-                }
-              ]
-            },
-            {
-              "Title": "Process model\r\n",
-              "Description": "Prepare a simple model of an SDI work process\r\n",
-              "Bloom level": "Analyze/Evaluate",
-              "Assessment": [{
-                "Assessment method": "Exercise\r\n",
-                "Assessment method description": "Students need to prepare a model of an SDI process\r\n",
-                "Assessment method type": "Formative\r\n"
-              }],
-              "Teaching activies": [{
-                "Title": "Active Writing\r\n",
-                "Description": "Students prepare a simple model of an SDI process\r\n"
+                "Title": "Think-pair-share",
+                "Description": "Students jointly prepare a strategy for SDI implementation at an organization"
               }]
             }
           ]
         },
         {
-          "Title": "SDI governance structure\r\n",
-          "Description": "Structures for governance of SDIs\r\n",
+          "Title": "Governance of standards",
+          "Description": "Bodies involved in and process related to the development and adoption of standards",
           "Learning outcomes": [{
-              "Title": "Explain SDI governance\r\n",
-              "Description": "Explain what SDI governance is and why it is important in the development and implementation of SDIs\r\n",
+              "Title": "SDI Standardization bodies",
+              "Description": "List the main organizations involved in developing SDI standards",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
-                "Assessment method": "Exam\r\n",
-                "Assessment method description": "Students have to explain what SDI governance is and why it is important\r\n",
-                "Assessment method type": "Summative\r\n"
+                "Assessment method": "Written exam",
+                "Assessment method description": "Students need to list the main standardization bodies in the SDI domain",
+                "Assessment method type": "Summative"
               }],
               "Teaching activies": [{
-                  "Title": "Demonstrations\r\n",
-                  "Description": "Lecturer presents an example of governance (and governance structures) in society\r\n"
+                  "Title": "Reading prior to class",
+                  "Description": "Students have to visit websites of key bodies in SDI standardization"
                 },
                 {
-                  "Title": "Student Presentations\r\n",
-                  "Description": "Students have to explain the governance of another real example of governance in society\r\n"
-                },
-                {
-                  "Title": "Lecture\r\n",
-                  "Description": "Lecturer provides a definition of governance and explains the key elements of governance, including why governance is needed in the context of SDIs\r\n"
+                  "Title": "Student Presentations",
+                  "Description": "Students briefly present the role, activities, functioning of a particular SDI standardization body"
                 }
               ]
             },
             {
-              "Title": "Existing governance structure\r\n",
-              "Description": "Discuss and analyse the governance structure in place of a particular country\r\n",
+              "Title": "Differences",
+              "Description": "Explain the differences and relationships between different SDI standardization bodies",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
-                "Assessment method": "Exam\r\n",
-                "Assessment method description": "Students have to recognize the key elements of an existing governance structure presented to them and briefly explain these elements\r\n",
-                "Assessment method type": "Summative\r\n"
+                "Assessment method": "Written exam",
+                "Assessment method description": "Students need to explain the main differences and/or relationships between standardization bodies",
+                "Assessment method type": "Summative"
               }],
               "Teaching activies": [{
-                  "Title": "Demonstrations\r\n",
-                  "Description": "Lecturer shows the governance structure of an existing SDI, and asks students to name and explain the different components\r\n"
+                  "Title": "Think-pair-share",
+                  "Description": "Students discuss about the differences, similarities and links between SDI standardization bodies"
                 },
                 {
-                  "Title": "Student Presentations\r\n",
-                  "Description": "Students have to explain the governance structure of an SDI that was assigned to them\r\n"
+                  "Title": "Lecture",
+                  "Description": "Lecture explaining how standardization bodies are similiar/different/related"
                 }
               ]
             },
             {
-              "Title": "Governance instruments\r\n",
-              "Description": "Explain the different instruments that could be used for SDI governance\r\n",
+              "Title": "Standardization process",
+              "Description": "Explain the process of adopting and implementing SDI standards",
+              "Bloom level": "Remember/Understand",
+              "Assessment": [{
+                "Assessment method": "Written exam",
+                "Assessment method description": "Students need to explain the process of adopting and implementing SDI standards",
+                "Assessment method type": "Summative"
+              }],
+              "Teaching activies": [{
+                  "Title": "Lecture",
+                  "Description": "Lecture explaing the overall standardization process"
+                },
+                {
+                  "Title": "Demonstrations",
+                  "Description": "Students analyse the process of adopting/implementing a particular standard"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Title": "SDI processes",
+          "Description": "Processes related to the implementation and use of SDIs",
+          "Learning outcomes": [{
+              "Title": "SDI and processes",
+              "Description": "Explain the relevance and importance of processes in SDI implementation",
+              "Bloom level": "Remember/Understand",
+              "Assessment": [{
+                "Assessment method": "Written exam",
+                "Assessment method description": "Students are asked to explain why processes are relevant in SDI implementation",
+                "Assessment method type": "Summative"
+              }],
+              "Teaching activies": [{
+                  "Title": "Lecture",
+                  "Description": "Lecture explaining the basics of processes and process management"
+                },
+                {
+                  "Title": "Think-pair-share",
+                  "Description": "Students discuss on the relevance of processes in SDI"
+                }
+              ]
+            },
+            {
+              "Title": "BPMN",
+              "Description": "Apply the essential elements of business process management to SDI processes",
+              "Bloom level": "Remember/Understand",
+              "Assessment": [{
+                "Assessment method": "Written exam",
+                "Assessment method description": "Students are asked to name the key elements of processes in BPMN and apply them to SDI ",
+                "Assessment method type": "Summative"
+              }],
+              "Teaching activies": [{
+                  "Title": "Lecture",
+                  "Description": "Lecture explaining the basics of BPMN"
+                },
+                {
+                  "Title": "Active Writing",
+                  "Description": "Students apply BPMN to SDI processes"
+                }
+              ]
+            },
+            {
+              "Title": "Process model",
+              "Description": "Prepare a simple model of an SDI work process",
+              "Bloom level": "Analyze/Evaluate",
+              "Assessment": [{
+                "Assessment method": "Exercise",
+                "Assessment method description": "Students need to prepare a model of an SDI process",
+                "Assessment method type": "Formative"
+              }],
+              "Teaching activies": [{
+                "Title": "Active Writing",
+                "Description": "Students prepare a simple model of an SDI process"
+              }]
+            }
+          ]
+        },
+        {
+          "Title": "SDI governance structure",
+          "Description": "Structures for governance of SDIs",
+          "Learning outcomes": [{
+              "Title": "Explain SDI governance",
+              "Description": "Explain what SDI governance is and why it is important in the development and implementation of SDIs",
+              "Bloom level": "Remember/Understand",
+              "Assessment": [{
+                "Assessment method": "Exam",
+                "Assessment method description": "Students have to explain what SDI governance is and why it is important",
+                "Assessment method type": "Summative"
+              }],
+              "Teaching activies": [{
+                  "Title": "Demonstrations",
+                  "Description": "Lecturer presents an example of governance (and governance structures) in society"
+                },
+                {
+                  "Title": "Student Presentations",
+                  "Description": "Students have to explain the governance of another real example of governance in society"
+                },
+                {
+                  "Title": "Lecture",
+                  "Description": "Lecturer provides a definition of governance and explains the key elements of governance, including why governance is needed in the context of SDIs"
+                }
+              ]
+            },
+            {
+              "Title": "Existing governance structure",
+              "Description": "Discuss and analyse the governance structure in place of a particular country",
+              "Bloom level": "Remember/Understand",
+              "Assessment": [{
+                "Assessment method": "Exam",
+                "Assessment method description": "Students have to recognize the key elements of an existing governance structure presented to them and briefly explain these elements",
+                "Assessment method type": "Summative"
+              }],
+              "Teaching activies": [{
+                  "Title": "Demonstrations",
+                  "Description": "Lecturer shows the governance structure of an existing SDI, and asks students to name and explain the different components"
+                },
+                {
+                  "Title": "Student Presentations",
+                  "Description": "Students have to explain the governance structure of an SDI that was assigned to them"
+                }
+              ]
+            },
+            {
+              "Title": "Governance instruments",
+              "Description": "Explain the different instruments that could be used for SDI governance",
               "Bloom level": "Apply",
               "Assessment": [{
-                "Assessment method": "Exam\r\n",
-                "Assessment method description": "Students have to recognize governance instruments applied in a country and briefly explain them\r\n",
-                "Assessment method type": "Formative\r\n"
+                "Assessment method": "Exam",
+                "Assessment method description": "Students have to recognize governance instruments applied in a country and briefly explain them",
+                "Assessment method type": "Formative"
               }],
               "Teaching activies": [{
-                  "Title": "Reading prior to class\r\n",
-                  "Description": "Students have to read the 2 018 Article �Governance of national spatial data infrastructures in Europe�\r\n"
+                  "Title": "Reading prior to class",
+                  "Description": "Students have to read the 2 018 Article �Governance of national spatial data infrastructures in Europe�"
                 },
                 {
-                  "Title": "Brainstorm\r\n",
-                  "Description": "Students have to brainstorm in smaller groups on a series of governance measures to address governance problems\r\n"
+                  "Title": "Brainstorm",
+                  "Description": "Students have to brainstorm in smaller groups on a series of governance measures to address governance problems"
                 },
                 {
-                  "Title": "Lecture\r\n",
-                  "Description": "Lecturer explains the different SDI governance instruments and how they are related to each other \r\n"
+                  "Title": "Lecture",
+                  "Description": "Lecturer explains the different SDI governance instruments and how they are related to each other "
                 }
               ]
             },
             {
-              "Title": "Governance structure design\r\n",
-              "Description": "Design an effective governance structure for a national SDI using different governance instruments\r\n",
+              "Title": "Governance structure design",
+              "Description": "Design an effective governance structure for a national SDI using different governance instruments",
               "Bloom level": "Analyze/Evaluate",
               "Assessment": [{
-                "Assessment method": "Assignment\r\n",
-                "Assessment method description": "Students have to assess the governance model of an existing SDI and formulate a series of recommendations on how to improve it \r\n",
-                "Assessment method type": "Formative\r\n"
+                "Assessment method": "Assignment",
+                "Assessment method description": "Students have to assess the governance model of an existing SDI and formulate a series of recommendations on how to improve it ",
+                "Assessment method type": "Formative"
               }],
               "Teaching activies": [{
-                "Title": "Active Writing\r\n",
-                "Description": "Students need to make an assessment of the SDI governance and governance structure of a particular country, including recommendations on how the governance can be improved\r\n"
+                "Title": "Active Writing",
+                "Description": "Students need to make an assessment of the SDI governance and governance structure of a particular country, including recommendations on how the governance can be improved"
               }]
             }
           ]
