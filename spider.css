@@ -1,5 +1,8 @@
 div#content{
   margin-bottom: 20px;
+  background-color: white;
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
 
 .topic, .concept, .goal, .assessment {
@@ -45,6 +48,10 @@ div#content{
   font-weight: 700;
 }
 
+h3.panel-title {
+  margin: 0;
+}
+
 h3.panel-title a{
   color: #3A5663;
   text-decoration: none;
@@ -52,7 +59,8 @@ h3.panel-title a{
 
 .goal {
   background-color: #40AFE3;
-
+  padding-bottom: 20px;
+  padding-right: 20px;
 }
 
 .activity {

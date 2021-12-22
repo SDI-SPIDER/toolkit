@@ -3,7 +3,7 @@
     "Fundamentals": {
       "Concepts": [{
           "Title": "Evolution of SDIs & Citizens",
-          "Description": "Discuss the main objectives and key components of SDI generationand introduce to the voluntereed GI",
+          "Description": "Discuss the main objectives and key components of SDI generationand introduce to the volunteered GI",
           "Learning outcomes": [{
               "Title": "Students are able to describe the importance and advantages of an SDI.",
               "Description": "Describing the importance of developing the SDI.",
@@ -40,12 +40,12 @@
               ]
             },
             {
-              "Title": "Students are able to describe the concepts of voluntereed GI",
-              "Description": "Introducing the concepts of voluntereed GI",
+              "Title": "Students are able to describe the concepts of volunteered GI",
+              "Description": "Introducing the concepts of volunteered GI",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
                 "Assessment method": "Written exam",
-                "Assessment method description": "Students take an written exam about concepts of voluntereed GI",
+                "Assessment method description": "Students take an written exam about concepts of volunteered GI",
                 "Assessment method type": "Summative"
               }],
               "Teaching activies": [{
@@ -95,7 +95,7 @@
               }],
               "Teaching activies": [{
                 "Title": "Student Presentations",
-                "Description": "Student presentations on examples of voluntereed GI",
+                "Description": "Student presentations on examples of volunteered GI",
                 "Materials": ""
               }]
             }
@@ -1397,7 +1397,7 @@
           ]
         },
         {
-          "Title": "Linked Data�& Geospatial Semantics",
+          "Title": "Linked Data & Geospatial Semantics",
           "Description": "Theoretical foundations and practical approaches for the specification of the semantics of geospatial data and its relevance for SDI",
           "Learning outcomes": [{
               "Title": "Semantic Interoperability definition",

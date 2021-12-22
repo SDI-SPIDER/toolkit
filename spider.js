@@ -8,9 +8,12 @@ function search() {
 
   // reset:
   $(".hit, .hide").addClass("search").removeClass("hit hide")
-  $(".stabilo").each(function() {
+  $("span.stabilo").each(function() {
     $(this).replaceWith($(this)[0].innerText)
   })
+  //remove hightlighted TAs:
+  $("li.stabilo").removeClass("stabilo")
+
   // collapse all learning outcomes:
   $("div.panel-collapse").removeClass("show")
 
@@ -19,10 +22,19 @@ function search() {
   // only start highlighting the "hits" after at least
   // 2 characters have been typed
   if (term.length > 1) {
+    // figure out whether the search should be limited to a given bloom level:
+    if (bloom == "Any Bloom level"){
+      bloomClass = ".learningOutcome"
+    } else {
+      bloomClass = "."+id(bloom)
+    }
+
+    // mark the concepts that contain a match ("hit")
     $("div.concept.search:contains(" + term + ")").addClass('hit').removeClass('search')
 
-    // show all the learning outcomes that contain the search term:
-    $("div.panel:contains(" + term + ")").children("div.panel-collapse").addClass('show')
+    // "un-collapse" all learning outcomes that contain the search term:
+    $("div"+bloomClass+":contains(" + term + ")").addClass('show')
+    // completely hide the others:
   }
 
   // if there are any hits, hide the concepts that don't have any hits
@@ -44,6 +56,11 @@ function search() {
     })
   });
 
+  // highlight the TAs matching the selected TA:
+  if(activity != "Any activity type"){
+    $("li."+id(activity)).addClass("stabilo")
+  }
+
   // update
   updateCounter()
 
@@ -54,8 +71,8 @@ function search() {
 // resets the search form to show all toolkit content
 function resetSearchForm(){
   $("#searchField").val("")
-  bloom = $("#bloomSelect").val("Any Bloom level");
-  activity = $("#activitySelect").val("Any activity type");
+  $("#bloomSelect").val("Any Bloom level");
+  $("#activitySelect").val("Any activity type");
   search();
 }
 
@@ -107,7 +124,7 @@ function formatLOPanelHeader(learningOutcome) {
 }
 
 function formatLOPanelBody(learningOutcome) {
-  return $(`<div id="collapse` + id(learningOutcome["Title"]) + `" class="panel-collapse collapse">
+  return $(`<div id="collapse` + id(learningOutcome["Title"]) + `" class="panel-collapse learningOutcome collapse ` + id(learningOutcome["Bloom level"]) + `">
 </div>`);
 }
 
@@ -121,7 +138,7 @@ function formatLOPanelBodyContent(learningOutcome) {
 /* Format a teachingActivity */
 function formatTA(ta) {
   return $(`
-    <li id="` + id(ta['Title'] + ta['Description']) + `">
+    <li class="teachingActivity `+ id(ta['Title']) +`" id="` + id(ta['Title'] + ta['Description']) + `">
     <strong>` + ta['Title'] + `</strong>:
     ` + ta['Description'] + `
     </li>`);
@@ -191,9 +208,9 @@ $.getJSON("toolkit.json", function(data) {
 
                 //keep track of all bloom levels used in the data
                 // so we can list them in the drop down selection
-                // menu at the end
+                // menu at the end; ignore the empty ones
 
-                if (!blooms.includes(learningOutcome["Bloom level"])) {
+                if (!blooms.includes(learningOutcome["Bloom level"]) && learningOutcome["Bloom level"] != "") {
                   blooms.push(learningOutcome["Bloom level"])
                 }
 
@@ -205,8 +222,8 @@ $.getJSON("toolkit.json", function(data) {
                 $.each(learningOutcome["Teaching activies"],
                   function(t, teachingActivity) {
 
-                    // keep track of activity types:
-                    if (!activities.includes(teachingActivity["Title"])) {
+                    // keep track of activity types; ignore the empty ones
+                    if (!activities.includes(teachingActivity["Title"]) && teachingActivity["Title"] != "") {
                       activities.push(teachingActivity["Title"])
                     }
 
