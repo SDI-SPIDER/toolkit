@@ -92,6 +92,20 @@ function updateCounter() {
     $("a#resetfilter").removeClass("hidelink")
   }
 
+  // update the individual counters for each topic:
+  $("div.topic").each(function(){
+    thisTopic = this.id;
+    // count the visible concepts under this topic:
+    numConcepts = $(this).find("div.concept").length
+    hiddenConcepts = $(this).find("div.concept.hide").length
+
+    if(hiddenConcepts == 0){
+        $("span.conceptcounter."+thisTopic).text(numConcepts)
+    }else{
+        $("span.conceptcounter."+thisTopic).text((numConcepts-hiddenConcepts)+"/"+numConcepts)
+    }
+
+  })
 
 }
 
@@ -99,8 +113,8 @@ function updateCounter() {
 function formatTopic(topic) {
   return $(`
       <div class="topic clearfix" id="` + id(topic) + `">
-      <h1 class="display-3">` + topic + `
-      <span class="display-5">concepts:</span></h1>
+      <h1 class="display-3">` + topic + `.
+      <span class="display-5"><span class="conceptcounter ` + id(topic) + `"></span> concepts:</span></h1>
       </div>`)
 }
 
