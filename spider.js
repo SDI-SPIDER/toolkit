@@ -7,7 +7,8 @@ function search() {
   activity = $("#activitySelect option:selected").val();
 
   // reset:
-  $(".hit, .hide").addClass("search").removeClass("hit hide")
+  $(".hit, .hide").removeClass("hit hide")
+  $(".concept").addClass("search")
   $("span.stabilo").each(function() {
     $(this).replaceWith($(this)[0].innerText)
   })
@@ -15,6 +16,7 @@ function search() {
   $("li.stabilo").removeClass("stabilo")
 
   // collapse all learning outcomes:
+  // $("div.panel-collapse").not(".show").parent().addClass("hide")
   $("div.panel-collapse").removeClass("show")
 
 
@@ -35,6 +37,7 @@ function search() {
     // "un-collapse" all learning outcomes that contain the search term:
     $("div"+bloomClass+":contains(" + term + ")").addClass('show')
     // completely hide the others:
+    $("div.panel-collapse").not(".show").parent().addClass("hide")
   }
 
   // if there are any hits, hide the concepts that don't have any hits
