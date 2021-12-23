@@ -189,7 +189,7 @@ function id(st) {
 
 /* Add a button at the top of the page that works as a direct link to the topic */
 function addTopicButton(topic) {
-  $('#topic-buttons').append('<a role="button" class="btn btn-outline-secondary topicbutton" href="#' + id(topic) + '">' + topic + '</a>');
+  $('#topic-buttons').append('<a role="button" class="btn btn-outline-dark topicbutton" href="#' + id(topic) + '">' + topic + '</a>');
 }
 
 /* Read in the toolkit data in JSON format and insert into the page */
