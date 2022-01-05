@@ -1,3 +1,7 @@
+html {
+  scroll-padding-top: 195px;
+}
+
 div#content{
   margin-bottom: 20px;
   background-color: white;
