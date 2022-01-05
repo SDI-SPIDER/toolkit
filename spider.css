@@ -61,6 +61,16 @@ h3.panel-title a{
   text-decoration: none;
 }
 
+h3.panel-title a::before{
+  content:url(icons/arrows-collapse.svg);
+  float: right;
+}
+
+h3.panel-title a.collapsed::before{
+  content:url(icons/arrows-expand.svg);
+  float: right;
+}
+
 .goal {
   background-color: #40AFE3;
   padding-bottom: 20px;

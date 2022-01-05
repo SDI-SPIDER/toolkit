@@ -134,7 +134,7 @@ function formatLOPanelHeader(learningOutcome) {
     <div class="panel panel-default">
       <div class="panel-heading goal">
         <h3 class="panel-title">
-          <a data-bs-toggle="collapse" href="#collapse` + id(learningOutcome["Title"]) + `">` + learningOutcome["Title"] + `</a>
+          <a data-bs-toggle="collapse" class="collapsed" href="#collapse` + id(learningOutcome["Title"]) + `">` + learningOutcome["Title"] + `</a>
         </h3>
       </div>
     </div>`);
