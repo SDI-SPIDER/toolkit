@@ -18,6 +18,7 @@ function search() {
   // collapse all learning outcomes:
   // $("div.panel-collapse").not(".show").parent().addClass("hide")
   $("div.panel-collapse").removeClass("show")
+  $("div.panel div.panel-heading h3 a").addClass('collapsed')    
 
 
 
@@ -36,6 +37,7 @@ function search() {
 
     // "un-collapse" all learning outcomes that contain the search term:
     $("div"+bloomClass+":contains(" + term + ")").addClass('show')
+    $("div.panel:contains(" + term + ") div.panel-heading h3 a").removeClass('collapsed')
     // completely hide the others:
     $("div.panel-collapse").not(".show").parent().addClass("hide")
   }
