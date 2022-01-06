@@ -18,7 +18,7 @@ function search() {
   // collapse all learning outcomes:
   // $("div.panel-collapse").not(".show").parent().addClass("hide")
   $("div.panel-collapse").removeClass("show")
-  $("div.panel div.panel-heading h3 a").addClass('collapsed')    
+  $("div.panel div.panel-heading h3 a").addClass('collapsed')
 
 
 
@@ -61,11 +61,6 @@ function search() {
     })
   });
 
-  // highlight the TAs matching the selected TA:
-  if(activity != "Any activity type"){
-    $("li."+id(activity)).addClass("stabilo")
-  }
-
   // update
   updateCounter()
 
@@ -83,6 +78,7 @@ function resetSearchForm(){
 
 // update the conceptcounter and hide/show the "show all concepts" link
 function updateCounter() {
+
   ccount = $("div.concept").length
   hcount = $("div.concept.hide").length
 
