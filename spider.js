@@ -24,19 +24,19 @@ function search() {
 
   // only start highlighting the "hits" after at least
   // 2 characters have been typed
-  if (term.length > 1) {
+  if ((term.length > 1) || (bloom != "Any Bloom level")) {
     // figure out whether the search should be limited to a given bloom level:
-    if (bloom == "Any Bloom level"){
+    if (bloom == "Any Bloom level") {
       bloomClass = ".learningOutcome"
     } else {
-      bloomClass = "."+id(bloom)
+      bloomClass = "." + id(bloom)
     }
 
     // mark the concepts that contain a match ("hit")
     $("div.concept.search:contains(" + term + ")").addClass('hit').removeClass('search')
 
     // "un-collapse" all learning outcomes that contain the search term:
-    $("div"+bloomClass+":contains(" + term + ")").addClass('show')
+    $("div" + bloomClass + ":contains(" + term + ")").addClass('show')
     $("div.panel:contains(" + term + ") div.panel-heading h3 a").removeClass('collapsed')
     // completely hide the others:
     $("div.panel-collapse").not(".show").parent().addClass("hide")
@@ -48,18 +48,20 @@ function search() {
   }
 
   // highlight the words containing the search string
-  $(".hit").find('*').each(function() {
-    $.each(this.childNodes, function() {
-      if (this.nodeType === 3) {
-        // find all words containing our search term (whole word!)
-        regex = new RegExp('\\b\\w*' + term + '\\w*\\b', 'gi')
-        //surround it with a span to style it
-        replacement = this.data.replace(regex, "<span class='stabilo'>$&</span>")
-        // ... and replace the whole node with the updated content
-        this.replaceWith($("<span>" + replacement + "</span>")[0]);
-      }
-    })
-  });
+  if (term.length > 1) { // only if at least 2 characters have been entered!
+    $(".hit").find('*').each(function() {
+      $.each(this.childNodes, function() {
+        if (this.nodeType === 3) {
+          // find all words containing our search term (whole word!)
+          regex = new RegExp('\\b\\w*' + term + '\\w*\\b', 'gi')
+          //surround it with a span to style it
+          replacement = this.data.replace(regex, "<span class='stabilo'>$&</span>")
+          // ... and replace the whole node with the updated content
+          this.replaceWith($("<span>" + replacement + "</span>")[0]);
+        }
+      })
+    });
+  }
 
   // update
   updateCounter()
@@ -69,7 +71,7 @@ function search() {
 
 
 // resets the search form to show all toolkit content
-function resetSearchForm(){
+function resetSearchForm() {
   $("#searchField").val("")
   $("#bloomSelect").val("Any Bloom level");
   $("#activitySelect").val("Any activity type");
@@ -86,21 +88,21 @@ function updateCounter() {
     $("span#conceptcounter").text("all " + ccount)
     $("a#resetfilter").addClass("hidelink")
   } else {
-    $("span#conceptcounter").text(ccount-hcount + " out of " + ccount)
+    $("span#conceptcounter").text(ccount - hcount + " out of " + ccount)
     $("a#resetfilter").removeClass("hidelink")
   }
 
   // update the individual counters for each topic:
-  $("div.topic").each(function(){
+  $("div.topic").each(function() {
     thisTopic = this.id;
     // count the visible concepts under this topic:
     numConcepts = $(this).find("div.concept").length
     hiddenConcepts = $(this).find("div.concept.hide").length
 
-    if(hiddenConcepts == 0){
-        $("span.conceptcounter."+thisTopic).text(numConcepts)
-    }else{
-        $("span.conceptcounter."+thisTopic).text((numConcepts-hiddenConcepts)+"/"+numConcepts)
+    if (hiddenConcepts == 0) {
+      $("span.conceptcounter." + thisTopic).text(numConcepts)
+    } else {
+      $("span.conceptcounter." + thisTopic).text((numConcepts - hiddenConcepts) + "/" + numConcepts)
     }
 
   })
@@ -153,7 +155,7 @@ function formatLOPanelBodyContent(learningOutcome) {
 /* Format a teachingActivity */
 function formatTA(ta) {
   return $(`
-    <li class="teachingActivity `+ id(ta['Title']) +`" id="` + id(ta['Title'] + ta['Description']) + `">
+    <li class="teachingActivity ` + id(ta['Title']) + `" id="` + id(ta['Title'] + ta['Description']) + `">
     <strong>` + ta['Title'] + `</strong>:
     ` + ta['Description'] + `
     </li>`);
