@@ -2,6 +2,11 @@ html {
   scroll-padding-top: 195px;
 }
 
+body {
+  position: relative;
+}
+
+
 div#content{
   margin-bottom: 20px;
   background-color: white;

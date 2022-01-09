@@ -30,7 +30,7 @@
 
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target="#navbar">
 
   <div class="col-lg-8 mx-auto p-3 py-md-5">
     <header class="d-flex align-items-center pb-3 mb-5 border-bottom">
@@ -50,9 +50,15 @@
       <div id="content" class="sticky-top">
         <p>The concepts covered in the toolkit have been organised into the following <span id="topiccount"></span> topic groups:</p>
 
-        <div id="topic-buttons" class="btn-group" role="group" aria-label="Toolkit Topics">
+        <!-- <div id="topic-buttons" class="btn-group" role="group" aria-label="Toolkit Topics">
+        </div> -->
+        <nav id="navbar" class="navbar navbar-light bg-light px-3">
+          <ul id="topic-buttons" class="nav nav-pills">
+          </ul>
+        </nav>
 
-        </div>
+
+
 
         <div class="mb-3 filter">
 
@@ -76,7 +82,7 @@
         </div>
       </div>
 
-
+      </div>
 
 
     </main>
