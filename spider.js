@@ -84,11 +84,13 @@ function updateCounter() {
   hcount = $("div.concept.hide").length
 
   if (hcount == 0) {
-    $("span#conceptcounter").text("all " + ccount)
-    $("a#resetfilter").addClass("hidelink")
+    $("span#conceptcounter").text("All " + ccount)
+    $("#resetfilter").addClass("hidelink")
+    $("#resetter").removeClass("btn-outline-primary").addClass("btn-outline-secondary disabled")
   } else {
-    $("span#conceptcounter").text(ccount - hcount + " out of " + ccount)
-    $("a#resetfilter").removeClass("hidelink")
+    $("span#conceptcounter").text(ccount - hcount + "/" + ccount)
+    $("#resetfilter").removeClass("hidelink")
+    $("#resetter").removeClass("btn-outline-secondary disabled").addClass("btn-outline-primary")
   }
 
   // update the individual counters for each topic:
@@ -293,9 +295,6 @@ $.getJSON("toolkit.json", function(data) {
       // same for the activities
       activities.sort().forEach(item => $("#activitySelect").append("<option>" + item + "</option>"));
 
-      // update the topic counter at the top of the page:
-      $("span#topiccount").text($("a.topicbutton").length)
-
       // update the concept counter:
       updateCounter()
 
@@ -316,5 +315,5 @@ $.getJSON("toolkit.json", function(data) {
   $(".trigger").on("change", search);
   $("#searchField").on("input", search);
 
-  $("a#resetfilter").on("click", resetSearchForm);
+  $("#resetter").on("click", resetSearchForm);
 });

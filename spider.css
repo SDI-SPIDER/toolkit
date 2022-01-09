@@ -1,6 +1,4 @@
-html {
-  scroll-padding-top: 195px;
-}
+
 
 body {
   position: relative;
@@ -25,6 +23,7 @@ div#content{
 
 .topic {
   background-color: #3188B0;
+  padding-top: 80px;
 }
 
 .topic h1 {
