@@ -2,11 +2,12 @@
 user changes one of the form fields */
 function search() {
 
+  // check what we're looking for
   term = $("#searchField").val()
   bloom = $("#bloomSelect option:selected").val();
   activity = $("#activitySelect option:selected").val();
 
-  // reset:
+  // reset everything from the previous search:
   $(".hit, .hide").removeClass("hit hide")
   $(".concept").addClass("search")
   $("span.stabilo").each(function() {
@@ -65,8 +66,6 @@ function search() {
 
   // update
   updateCounter()
-
-
 }
 
 

@@ -61,15 +61,37 @@ h3.panel-title a{
   text-decoration: none;
 }
 
+div#spinner{
+  opacity: 0;
+}
 
-h3.panel-title a::before{
-  content:url(icons/arrows-collapse.svg);
+div#spinner.visible{
+  opacity: 1;
+}
+
+.panel-heading a::before{
+  content:url(icons/caret-up-square.svg);
   float: right;
 }
 
-h3.panel-title a.collapsed::before{
-  content:url(icons/arrows-expand.svg);
+.panel-heading a.collapsed::before{
+  content:url(icons/caret-down-square.svg);
   float: right;
+}
+
+.panel-heading:hover a::before{
+  content:url(icons/caret-up-square-fill.svg);
+  float: right;
+}
+
+.panel-heading:hover a.collapsed::before{
+  content:url(icons/caret-down-square-fill.svg);
+  float: right;
+}
+
+
+.panel-heading:hover{
+  background-color: #26a3de;
 }
 
 .goal {
