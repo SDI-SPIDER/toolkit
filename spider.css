@@ -65,13 +65,22 @@ h3.panel-title a{
   text-decoration: none;
 }
 
-div#spinner{
-  opacity: 0;
+a.nav-link{
+  color: #6c757d
 }
 
-div#spinner.visible{
-  opacity: 1;
+a.nav-link:hover{
+  color: #495057
 }
+
+.nav-pills .nav-link.active{
+  background-color: #6c757d
+}
+
+.nav-pills .nav-link.active:hover{
+  background-color: #495057
+}
+
 
 .panel-heading a::before{
   content:url(icons/caret-up-square.svg);
