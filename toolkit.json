@@ -484,7 +484,7 @@
               ]
             },
             {
-              "Title": "Student are able to standardize the content they create",
+              "Title": "Students are able to standardize the content they create",
               "Description": "This LO aims to create new standardized content",
               "Bloom level": "Design/Create",
               "Assessment": [{
@@ -837,9 +837,9 @@
           "Title": "Web mapping",
           "Description": "Introduce basic tools and techniques for web mapping",
           "Learning outcomes": [{
-              "Title": "Web map design ",
+              "Title": "Students are able to design a basic web map",
               "Description": "Introduction on HTML, CSS, and JavaScript for creating a web map client.",
-              "Bloom level": "",
+              "Bloom level": "Apply",
               "Assessment": [{
                   "Assessment method": "Quiz",
                   "Assessment method description": "Quiz on how to design a web map ",
@@ -866,9 +866,9 @@
               ]
             },
             {
-              "Title": "Basic tools and techniques for web development ",
+              "Title": "Students are able to explain the basic tools and techniques for web development ",
               "Description": "Explain the basic tools and techniques for web development",
-              "Bloom level": "",
+              "Bloom level": "Remember/Understand",
               "Assessment": [{
                   "Assessment method": "Quiz",
                   "Assessment method description": "Quiz on HTML and JavaScript",
@@ -895,9 +895,9 @@
               ]
             },
             {
-              "Title": "Web mapping, implementation perspective",
-              "Description": "Implement an static web map with the introduced techniques",
-              "Bloom level": "",
+              "Title": "Students are able to implement a static web map",
+              "Description": "Implement a static web map with the introduced techniques",
+              "Bloom level": "Apply",
               "Assessment": [{
                   "Assessment method": "Feedback",
                   "Assessment method description": "Students receive feedback on their lab exercise",
@@ -925,9 +925,9 @@
           "Title": "Geospatial web services",
           "Description": "Interface standards that have been developed by Open Geospatial Consortium for creating interoperable web map services.",
           "Learning outcomes": [{
-              "Title": "Different types of interface standards",
+              "Title": "Students are able to list different types of interface standards",
               "Description": "List different types of interface standards",
-              "Bloom level": "",
+              "Bloom level": "Remember/Understand",
               "Assessment": [{
                   "Assessment method": "Quiz",
                   "Assessment method description": "Quiz on different types of open interface standards",
@@ -940,52 +940,52 @@
                 }
               ],
               "Teaching activies": [{
-                  "Title": "",
+                  "Title": "Reading papers",
                   "Description": "Reading papers to understand different types of interface standards"
                 },
                 {
-                  "Title": "",
+                  "Title": "Lecture",
                   "Description": "Introductory lecture to different types of interface standards"
                 }
               ]
             },
             {
-              "Title": "Publish geospatial web services",
+              "Title": "Students are able to publish geospatial web services",
               "Description": "Publish geographic web services with open source software",
-              "Bloom level": "",
+              "Bloom level": "Apply",
               "Assessment": [{
                 "Assessment method": "Feedback",
                 "Assessment method description": "Feedback and discussion on student presentations",
                 "Assessment method type": "Summative"
               }],
               "Teaching activies": [{
-                  "Title": "",
+                  "Title": "Implementation",
                   "Description": "Students try to publish standardized map services, e.g. WMS, using an open source software like GeoServer"
                 },
                 {
-                  "Title": "",
+                  "Title": "Presentation",
                   "Description": "Students present the published map services "
                 }
               ]
             },
             {
-              "Title": "How interface standards can be utilized",
+              "Title": "Students are able to explain how interface standards can be utilized",
               "Description": "Design an interoperable web map tool using OGC WMS",
-              "Bloom level": "",
+              "Bloom level": "Remember/Understand",
               "Assessment": [{
                 "Assessment method": "Feedback",
                 "Assessment method description": "Assessment of the developed web map tool",
                 "Assessment method type": "Summative"
               }],
               "Teaching activies": [{
-                "Title": "",
+                "Title": "Implementation",
                 "Description": "Students develop a web map client that communicates with a Web map server (e.g. Geoserver), using WMS"
               }]
             },
             {
-              "Title": "OGC services for web mapping",
+              "Title": "Students are able to apply and evaluate OGC services for web mapping",
               "Description": "Apply and evaluate the application of OGC services for web mapping and cartography",
-              "Bloom level": "",
+              "Bloom level": "Analyze/Evaluate",
               "Assessment": [{
                   "Assessment method": "Feedback",
                   "Assessment method description": "Students receive feedback on their project formulation",
@@ -998,11 +998,11 @@
                 }
               ],
               "Teaching activies": [{
-                  "Title": "",
+                  "Title": "Problem statement",
                   "Description": "Formulate a problem statement that can be address by geopstial web services"
                 },
                 {
-                  "Title": "",
+                  "Title": "Implementation",
                   "Description": "Implement a geospatial web service, using open source software and library, e.g. Geoserver and OpenLayers, to address the problem stated efore."
                 }
               ]
@@ -1324,7 +1324,7 @@
           "Title": "Unified Modelling Language (UML)",
           "Description": "Importance, application and benefits of using UML in spatial data modelling as part of Spatial Data Infrastructure",
           "Learning outcomes": [{
-              "Title": "UML definition and its benefits",
+              "Title": "Students are able to define UML and explain its benefits",
               "Description": "Explain what UML is and discuss its benefits in data modelling",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
@@ -1343,7 +1343,7 @@
               ]
             },
             {
-              "Title": "Use of UML in SDI Standards",
+              "Title": "Students are able to use UML to read SDI Standards",
               "Description": "Apply knowledge about UML to interpret SDI standards documents",
               "Bloom level": "Apply",
               "Assessment": [{
@@ -1357,7 +1357,7 @@
               }]
             },
             {
-              "Title": "Structure and types of UML diagrams",
+              "Title": "Students are able to interpret the structure and types of UML diagrams",
               "Description": "Interpret structural components (e.g. classes with attributes and functions), analyse relations among components (classes) and discuss different usage of UML diagrams",
               "Bloom level": "Analyze/Evaluate",
               "Assessment": [{
@@ -1376,7 +1376,7 @@
               ]
             },
             {
-              "Title": "Practical application of the UML",
+              "Title": "Students are able to apply UML in practice",
               "Description": "Choose appropriate UML diagram type, adapt it to the user`s needs and create conceptual model for a specific use",
               "Bloom level": "Design/Create",
               "Assessment": [{
@@ -1400,7 +1400,7 @@
           "Title": "Linked Data & Geospatial Semantics",
           "Description": "Theoretical foundations and practical approaches for the specification of the semantics of geospatial data and its relevance for SDI",
           "Learning outcomes": [{
-              "Title": "Semantic Interoperability definition",
+              "Title": "Students are able to define semantic interoperability",
               "Description": "Explain the difference between syntactic and semantic interoperability ",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
@@ -1429,7 +1429,7 @@
               ]
             },
             {
-              "Title": "Geospatial semantics",
+              "Title": "Students are able to explain the concept of geospatial semantics",
               "Description": "Explain the relevance of semantic interoperability for sharing spatial information",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
@@ -1458,7 +1458,7 @@
               ]
             },
             {
-              "Title": "Linked Data and Semantic Web",
+              "Title": "Students are able to explain the basic concepts of Linked Data and Semantic Web",
               "Description": "List and explain the core ideas behind relevant linked data and semantic web standards ",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
@@ -1492,8 +1492,8 @@
               ]
             },
             {
-              "Title": "Implementing semantically interoperable services",
-              "Description": "Implement semantically interoperable solutions based on linked data",
+              "Title": "Students are able to implement semantically interoperable services",
+              "Description": "Implement semantically interoperable solutions based on Linked Data",
               "Bloom level": "Apply",
               "Assessment": [{
                   "Assessment method": "Team project",
@@ -1521,7 +1521,7 @@
               ]
             },
             {
-              "Title": "Semantic interoperability problems",
+              "Title": "Students are able to identify semantic interoperability problems",
               "Description": "Identify semantic interoperability issues in an open SDI",
               "Bloom level": "Analyze/Evaluate",
               "Assessment": [{
@@ -1550,7 +1550,7 @@
               ]
             },
             {
-              "Title": "Ontologies",
+              "Title": "Students are able to develop ontologies",
               "Description": "Develop ontologies / vocabularies for geospatial applications",
               "Bloom level": "Design/Create",
               "Assessment": [{
@@ -1589,7 +1589,7 @@
           "Title": "Interoperability through standardization",
           "Description": "Introduce ISO, OGC, W3C approaches and abstraction levels",
           "Learning outcomes": [{
-              "Title": "Standards documents",
+              "Title": "Students are able to read standards documents",
               "Description": "Be able to read and interpret standards documents",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
@@ -1608,7 +1608,7 @@
               ]
             },
             {
-              "Title": "Standards implementation",
+              "Title": "Students are able to explain how tandards are implemented",
               "Description": "Understand how standards are implemented in SDIs and how to identify the relevant standards for a given tasks",
               "Bloom level": "Apply",
               "Assessment": [{
@@ -1627,9 +1627,9 @@
               ]
             },
             {
-              "Title": "Standardization organizations",
+              "Title": "Students are able to list the different standardization organizations and their responsibilities",
               "Description": "Analyze which parts of the \"standardisation chain\" the main standardization organisations are responsible for ",
-              "Bloom level": "Analyze/Evaluate",
+              "Bloom level": "Remember/Understand",
               "Assessment": [{
                 "Assessment method": "Quiz",
                 "Assessment method description": "Quiz on the main distinguishing points between the different standardization organisations, ",
@@ -1646,7 +1646,7 @@
               ]
             },
             {
-              "Title": "Standards in practice",
+              "Title": "Students are able apply SDI standards in practice",
               "Description": "Be able to set up a WMS/WFS",
               "Bloom level": "Design/Create",
               "Assessment": [{
@@ -1670,7 +1670,7 @@
           "Title": "Data models",
           "Description": "Overview of the most important data models in GIS and how they are formalized",
           "Learning outcomes": [{
-              "Title": "Main GIS data models",
+              "Title": "Students are able to explain the main GIS data models",
               "Description": "List the main kinds of GIS data models and explain their characteristics",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
@@ -1689,7 +1689,7 @@
               ]
             },
             {
-              "Title": "Selection of data models",
+              "Title": "Students are able to select a data model",
               "Description": "Identify the best fitting kind of data model for a given use case",
               "Bloom level": "Analyze/Evaluate",
               "Assessment": [{
@@ -1708,7 +1708,7 @@
               ]
             },
             {
-              "Title": "Development of data models",
+              "Title": "Students are able to develop a data models",
               "Description": "Develop a concrete data model for a given use case",
               "Bloom level": "Design/Create",
               "Assessment": [{
@@ -1727,7 +1727,7 @@
           "Title": "Data transformation & harmonization",
           "Description": "Introduction of ontology alignment approaches and extract-transform-load (ETL) processes",
           "Learning outcomes": [{
-              "Title": "The challenges of syntactic and semantic heterogeneity and how to overcome them",
+              "Title": "Students are able to explain the challenges of syntactic and semantic heterogeneity and how to overcome them",
               "Description": "Explain that proper data integration requires both a common format (syntax) and alignment of the ontology/vocabulary (semantics)",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
@@ -1746,7 +1746,7 @@
               ]
             },
             {
-              "Title": "Execute ETL processes",
+              "Title": "Students are able to execute ETL processes",
               "Description": "Know different tools that can execute spatial ETL processes",
               "Bloom level": "Apply",
               "Assessment": [{
@@ -1765,7 +1765,7 @@
               ]
             },
             {
-              "Title": "Ontology alignment",
+              "Title": "Students are able to explain different approaches to ontology alignment",
               "Description": "Explain different approaches to align different ontologies to each other",
               "Bloom level": "Analyze/Evaluate",
               "Assessment": [{
@@ -1784,7 +1784,7 @@
               ]
             },
             {
-              "Title": "ETL processes",
+              "Title": "Students are able to set up ETL processes",
               "Description": "Be able to develop and implement an Extract-Transform-Load process",
               "Bloom level": "Design/Create",
               "Assessment": [{
@@ -1808,7 +1808,7 @@
           "Title": "Data validation",
           "Description": "Aspects of an approaches for validation of geospatial data",
           "Learning outcomes": [{
-              "Title": "Aspects of data validation",
+              "Title": "Students are able to explain the different aspects of data validation",
               "Description": "Explain which aspects are relevant for data validation (geometry, topology, data values, schema) and how to define valid data (standards, schema)",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
@@ -1827,7 +1827,7 @@
               ]
             },
             {
-              "Title": "Extract information on spatial data quality from metadata",
+              "Title": "Students are able to extract information on spatial data quality from metadata",
               "Description": "Be able to find and use information on spatial data quality from metadata in an SDI",
               "Bloom level": "Apply",
               "Assessment": [{
@@ -1841,7 +1841,7 @@
               }]
             },
             {
-              "Title": "Definition of standards and schemas",
+              "Title": "Students are able to use standards and schemas for data validation",
               "Description": "Understand the purpose of standards and schemas for data validation and how to put them to use",
               "Bloom level": "Analyze/Evaluate",
               "Assessment": [{
@@ -1860,7 +1860,7 @@
               ]
             },
             {
-              "Title": "Validate and repair data sets",
+              "Title": "Students are able to validate and repair data sets",
               "Description": "Validate datasets, identify validation issues and fix them",
               "Bloom level": "Design/Create",
               "Assessment": [{
@@ -1890,7 +1890,7 @@
           "Title": "Data exchange formats",
           "Description": "Introduction of most relevant data exchange formats used in SDIs ",
           "Learning outcomes": [{
-              "Title": "List formats",
+              "Title": "Students are able to list data exchange formats",
               "Description": "Name the most important data exchange formats used in SDIs and explain their characteristristics",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
@@ -1909,7 +1909,7 @@
               ]
             },
             {
-              "Title": "Conceptual foundations",
+              "Title": "Students can explain the conceptual foundations behind data exchange formats",
               "Description": "Explain the conceptual foundations behind data exchange formats (e.g. ISO genereal feature model)",
               "Bloom level": "Apply",
               "Assessment": [{
@@ -1923,7 +1923,7 @@
               }]
             },
             {
-              "Title": "Identify standards in actual data",
+              "Title": "Students are able to identify standards in actual data",
               "Description": "Download data from WFS in national SDI and analyse references to standards",
               "Bloom level": "Analyze/Evaluate",
               "Assessment": [{
@@ -1937,7 +1937,7 @@
               }]
             },
             {
-              "Title": "Provision and consumption of exchange formats",
+              "Title": "Students are able to provide and consume exchange formats",
               "Description": "Set up the server software infrastructure to provide geospatial data in standard formats and can integrate them in a desktop GIS",
               "Bloom level": "Design/Create",
               "Assessment": [{
@@ -1961,7 +1961,7 @@
           "Title": "Data quality",
           "Description": "Introduction of principles and standards for the exchange of information about data quality",
           "Learning outcomes": [{
-              "Title": "Aspects of spatial data quality ",
+              "Title": "Students are able to explain the different aspects of spatial data quality ",
               "Description": "Name and explain the most relevant aspects of spatial data quality",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
@@ -1986,7 +1986,7 @@
               ]
             },
             {
-              "Title": "Standardization of spatial data quality elements",
+              "Title": "Students are able to explain the standardization of spatial data quality elements",
               "Description": "Explain how the relevant ISO standards around spatial data quality work and what the main spatial data quality elements in those standards are",
               "Bloom level": "Apply",
               "Assessment": [{
@@ -2011,7 +2011,7 @@
               ]
             },
             {
-              "Title": "Practical assessment of spatial data quality",
+              "Title": "Students are able to assess spatial data quality",
               "Description": "Be able to analyze the quality of a dataset and provide the collected information in the corresponding ISO standards",
               "Bloom level": "Analyze/Evaluate",
               "Assessment": [{
@@ -2025,7 +2025,7 @@
               }]
             },
             {
-              "Title": "Create ISO data quality metadata",
+              "Title": "Students are able to create ISO data quality metadata",
               "Description": "Students create ISO metadata for a given dataset",
               "Bloom level": "Design/Create",
               "Assessment": [{
