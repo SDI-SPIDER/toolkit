@@ -330,7 +330,7 @@
               }],
               "Teaching activies": [{
                   "Title": "Brainstorm",
-                  "Description": "Students try to think of different categories related to SDI (e.g. data standards, service standards, metadata standards, stakeholders, services, different datasets,�)"
+                  "Description": "Students try to think of different categories related to SDI (e.g. data standards, service standards, metadata standards, stakeholders, services, different datasets, …)"
                 },
                 {
                   "Title": "Class Discussion",
@@ -456,7 +456,7 @@
               }],
               "Teaching activies": [{
                   "Title": "Small project",
-                  "Description": "Students are given tasks to solve problems with standardization (e.g. data formats, web services formats, metadata formats,�)"
+                  "Description": "Students are given tasks to solve problems with standardization (e.g. data formats, web services formats, metadata formats, …)"
                 },
                 {
                   "Title": "Desk study",
@@ -1090,11 +1090,11 @@
                 }
               ],
               "Teaching activies": [{
-                  "Title": "",
+                  "Title": "Lecture",
                   "Description": "Introductory lecture on metadata standards like ISO 19115"
                 },
                 {
-                  "Title": "",
+                  "Title": "Asking questions",
                   "Description": "Students are able to ask questions and express their understanding of metadata standards"
                 }
               ]
@@ -1115,11 +1115,11 @@
                 }
               ],
               "Teaching activies": [{
-                  "Title": "",
+                  "Title": "Lecture",
                   "Description": "Introductory lecture on metadata exchange formats"
                 },
                 {
-                  "Title": "",
+                  "Title": "Asking questions",
                   "Description": "Students are able to ask questions on metadata exchange format"
                 }
               ]
@@ -1416,7 +1416,8 @@
               ],
               "Teaching activies": [{
                   "Title": "Paper review",
-                  "Description": "Read and discuss the classic �the semantic web� paper by Berners-Lee, Hendler and Lassila (Scientific American 211)"
+                  "Description": "Read and discuss the classic 'the semantic web' paper by Berners-Lee et al. (2001)",
+                  "Materials": "Berners-Lee, Tim, James Hendler, and Ora Lassila. <a href='https://www.jstor.org/stable/pdf/26059207.pdf?casa_token=rCCUUbD80GYAAAAA:6F6fQYAK8P43YXzL-kBHKPRjEbXr1vaTUfaoZf7zeCqwgZt0ekfgsVy1FjmHfJTQniD6swzxbD7RXQP3UqMRvsrEUWDQ8JL3n6esVRDtZ-ll3APlY0BD' target='_blank'>The Semantic Web</a>. Scientific American 284.5 (2001): 34-43."
                 },
                 {
                   "Title": "Paper review",
@@ -1478,6 +1479,10 @@
                 }
               ],
               "Teaching activies": [{
+                  "Title": "Watch clip",
+                  "Description": "Students watch Tim Berners-Lee's TED Talk on Linked Data",
+                  "Materials": "Tim Berners-Lee: <a href='https://www.youtube.com/watch?v=OM6XIICm_qo' target='_blank'>The next Web of open, linked data</a>"
+                },{
                   "Title": "Lecture",
                   "Description": "Introductory lecture to the semantic web stack"
                 },
@@ -2385,7 +2390,7 @@
                 },
                 {
                   "Title": "Debate",
-                  "Description": "Debate in which students have to �represent� their country and discuss next steps in open SDI development in their country + necessary actions at EC level"
+                  "Description": "Debate in which students have to 'represent' their country and discuss next steps in open SDI development in their country + necessary actions at EC level"
                 },
                 {
                   "Title": "Lecture",
@@ -2423,7 +2428,7 @@
                 },
                 {
                   "Assessment method": "Written essay",
-                  "Assessment method description": "Written essay: students pick a (open) spatial data-related news and write a short essay identifying and illustrating its ethical tensions. Guiding questions: What�s the context/scale in which SDI is set? What are the data presented and those missing? How are SDIs discursively framed? And why (who are the stakeholders involved)?",
+                  "Assessment method description": "Written essay: students pick a (open) spatial data-related news and write a short essay identifying and illustrating its ethical tensions. Guiding questions: What is the context/scale in which SDI is set? What are the data presented and those missing? How are SDIs discursively framed? And why (who are the stakeholders involved)?",
                   "Assessment method type": "Summative"
                 }
               ],
@@ -2505,13 +2510,13 @@
                 },
                 {
                   "Assessment method": "Written essay",
-                  "Assessment method description": "Students pick a SDI policy document (e.g. European Data Strategy, IGIF, etc.) and identify its underpinning discourses. The essay mus be a �response� to the doc, thus aligning to its audience and style. Guiding questions: To whom are these documents meant? What are their goals?",
+                  "Assessment method description": "Students pick a SDI policy document (e.g. European Data Strategy, IGIF, etc.) and identify its underpinning discourses. The essay mus be a 'response' to the doc, thus aligning to its audience and style. Guiding questions: To whom are these documents meant? What are their goals?",
                   "Assessment method type": "Summative"
                 }
               ],
               "Teaching activies": [{
                   "Title": "",
-                  "Description": "Mystery quotations: Media contents/policies/tech companies` statements as triggers to highlight discourses on open data and SDIs (e.g. �tech-universalism�, �tech-optimism�, �tech-solutionism�)"
+                  "Description": "Mystery quotations: Media contents/policies/tech companies` statements as triggers to highlight discourses on open data and SDIs (e.g. 'tech-universalism', 'tech-optimism', 'tech-solutionism')"
                 },
                 {
                   "Title": "Class Discussion",
@@ -2675,7 +2680,7 @@
               ],
               "Teaching activies": [{
                   "Title": "Brainstorm",
-                  "Description": "Pooling ideas on the students� understandings of the role of open SDI in �sustainability� and �smart city�"
+                  "Description": "Pooling ideas on the students' understandings of the role of open SDI in 'sustainability' and 'smart city'"
                 },
                 {
                   "Title": "Lecture",
@@ -2788,7 +2793,8 @@
                 },
                 {
                   "Title": "Paper review",
-                  "Description": "Read article �Vancauwenberghe, G., F. Welle Donker & B. Van Loenen (218). Business Models for Geographic Information. In: Kruse, J., J. Crompvoets & F. Pearlman (eds) The Socioeconomic Value of Geospatial Information. CRC Press Taylor & Francis Group, Boca Baton.� "
+                  "Description": "Read article by Vancauwenberghe et al. (2018) ",
+                  "Materials": "Vancauwenberghe, G., F. Welle Donker & B. Van Loenen (2018). <a href='https://www.taylorfrancis.com/chapters/edit/10.1201/9781315154640-7/business-models-geographic-information-glenn-vancauwenberghe-frederika-welle-donker-bastiaan-van-loenen' target='_blank'>Business Models for Geographic Information</a>. In: Kruse, J., J. Crompvoets & F. Pearlman (eds) The Socioeconomic Value of Geospatial Information. CRC Press Taylor & Francis Group, Boca Raton."
                 },
                 {
                   "Title": "Lecture",
@@ -2840,7 +2846,8 @@
                 },
                 {
                   "Title": "Paper review",
-                  "Description": "Read article �Vancauwenberghe, G., F. Welle Donker & B. Van Loenen (218). Business Models for Geographic Information. In: Kruse, J., J. Crompvoets & F. Pearlman (eds) The Socioeconomic Value of Geospatial Information. CRC Press Taylor & Francis Group, Boca Baton.� "
+                  "Description": "Read article by Vancauwenberghe et al. (2018) ",
+                  "Materials": "Vancauwenberghe, G., F. Welle Donker & B. Van Loenen (2018). <a href='https://www.taylorfrancis.com/chapters/edit/10.1201/9781315154640-7/business-models-geographic-information-glenn-vancauwenberghe-frederika-welle-donker-bastiaan-van-loenen' target='_blank'>Business Models for Geographic Information</a>. In: Kruse, J., J. Crompvoets & F. Pearlman (eds) The Socioeconomic Value of Geospatial Information. CRC Press Taylor & Francis Group, Boca Raton."
                 },
                 {
                   "Title": "Lecture",
@@ -3011,7 +3018,8 @@
                 },
                 {
                   "Title": "Paper review",
-                  "Description": "Read article �Welle Donker. F.M. 218, Funding Open Data , In: van Loenen, B. (ed.), Vancauwenberghe, G. (ed.) & Crompvoets, J. (ed.), 218, Open Data Exposed. The Hague: TMC Asser Press. 29 p. (Information Technology and Laws Series; vol. 3)\" and \"Welle Donker, F., & van Loenen, B. (216). Sustainable Business Models for Public Sector Open Data Providers. JeDEM eJournal of eDemocracy and Open Government, 8(1), 28-61� "
+                  "Description": "Read articles by Welle Donker (2018) and Welle Donker & van Loenen (2016)",
+                  "Materials": "Welle Donker. F.M. 2018, <a href='https://www.springerprofessional.de/funding-open-data/16226812' target='_blank'>Funding Open Data</a>, In: van Loenen, B. (ed.), Vancauwenberghe, G. (ed.) & Crompvoets, J. (ed.), 2018, Open Data Exposed. The Hague: TMC Asser Press. 29 p. (Information Technology and Laws Series; vol. 3)<br />Welle Donker, F., & van Loenen, B. (2016). <a href='http://pure.tudelft.nl/ws/portalfiles/portal/5617327/2016_FWD_BVL_JEDEM_390_1649_1_PB.pdf' target='_blank'>Sustainable Business Models for Public Sector Open Data Providers</a>. JeDEM eJournal of eDemocracy and Open Government, 8(1), 28-61"
                 },
                 {
                   "Title": "Lecture",
@@ -3062,7 +3070,7 @@
                 },
                 {
                   "Title": "Class Discussion",
-                  "Description": "Outcomes ofTPS / group exercises are used as input to class discussions"
+                  "Description": "Outcomes of TPS / group exercises are used as input to class discussions"
                 },
                 {
                   "Title": "Case study",
@@ -3126,7 +3134,8 @@
             ],
             "Teaching activies": [{
                 "Title": "Paper review",
-                "Description": "Read article �Welle Donker, F., Crompvoets, J. & van Loenen, B.(217). Adapting National Mapping and Cadastral Agencies business models to open data supply: the survey results. Leuven: EuroSDR Official Publication no. 67. 36 p.� "
+                "Description": "Read article by Welle Donker et al. (2017)",
+                "Materials": "Welle Donker, F., Crompvoets, J. & van Loenen, B.(2017). <a href='https://9lib.org/document/y96nv6dy-adapting-national-mapping-cadastral-agencies-business-models-supply.html' target='_blank'>Adapting National Mapping and Cadastral Agencies business models to open data supply: the survey results</a>. Leuven: EuroSDR Official Publication no. 67. 36 p."
               },
               {
                 "Title": "Lecture",
@@ -3146,7 +3155,7 @@
               },
               {
                 "Title": "Class Discussion",
-                "Description": "Outcomes ofTPS / group exercises are used as input to class discussions"
+                "Description": "Outcomes of TPS / group exercises are used as input to class discussions"
               },
               {
                 "Title": "Case study",
@@ -3163,7 +3172,7 @@
           "Title": "Funding Models for spatial data suppliers",
           "Description": "Relevance of funding models available to (self-funded) SDI organizations, access regimes for spatial data, assessment of costs and benefits of (open) spatial data",
           "Learning outcomes": [{
-              "Title": "funding models for self-funded spatial data suppliers",
+              "Title": "Funding models for self-funded spatial data suppliers",
               "Description": "Identity through desktop research how Self-Funding agencies are funded",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
@@ -3262,7 +3271,7 @@
                 },
                 {
                   "Title": "Debate",
-                  "Description": "Students argue their case for a recommendation of access rigimes to the President of�OpenDatia� during a class debate "
+                  "Description": "Students argue their case for a recommendation of access rigimes to the President of 'OpenDatia' during a class debate "
                 }
               ]
             },
@@ -3319,7 +3328,7 @@
                 },
                 {
                   "Title": "Debate",
-                  "Description": "Students argue their case for a recommendation of funding strategies to the President of�OpenDatia� during a class debate "
+                  "Description": "Students argue their case for a recommendation of funding strategies to the President of 'OpenDatia' during a class debate "
                 }
               ]
             },
@@ -3371,7 +3380,7 @@
                 },
                 {
                   "Title": "Class Discussion",
-                  "Description": "Students argue their case for the future of an open spatial data infrastructure to the President of�OpenDatia� during a class debate "
+                  "Description": "Students argue their case for the future of an open spatial data infrastructure to the President of 'OpenDatia' during a class debate "
                 }
               ]
             }
@@ -4172,7 +4181,8 @@
               }],
               "Teaching activies": [{
                   "Title": "Reading prior to class",
-                  "Description": "Students have to read the 2 018 Article �Governance of national spatial data infrastructures in Europe�"
+                  "Description": "Students have to read the article by Crompvoets et al. (2018)",
+                  "Materials": "Crompvoets, J., Vancauwenberghe, G., Ho, S., Masser, I., & De Vries, W. T. (2018). <a href='https://ijsdir.sadl.kuleuven.be/index.php/ijsdir/article/view/483' target='_blank'>Governance of national spatial data infrastructures in Europe</a>. International Journal of Spatial Data Infrastructures Research, 13, 253-285."
                 },
                 {
                   "Title": "Brainstorm",
