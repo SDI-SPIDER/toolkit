@@ -190,8 +190,19 @@ function id(st) {
 
 /* Add a button at the top of the page that works as a direct link to the topic */
 function addTopicButton(topic) {
-  //$('#topic-buttons').append('<a role="button" class="btn btn-outline-dark topicbutton" href="#' + id(topic) + '">' + topic + '</a>');
-  $('#topic-buttons').append('<li class="nav-item"><a class="nav-link" href="#' + id(topic) + '">' + topic + '</a></li>');
+  $('#topic-buttons').append(`<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+     href="#` + id(topic) + `" role="button" aria-haspopup="true" aria-expanded="false">` + topic + `</a>
+    <ul class="dropdown-menu" id="dropdown-` + id(topic) + `" aria-labelledby="navbarScrollingDropdown">
+      <li><a class="dropdown-item" href="#` + id(topic) + `"><strong>Overview</strong></a></li>
+    </ul>
+    </li>`);
+}
+
+/* Add an entry to the dropdown menu below the topic button */
+function addDropdownConceptToTopic(topic, concept){
+  $('ul#dropdown-' + id(topic)).append('<li><a class="dropdown-item" href="#' + id(concept) + '">'+concept+'</a></li>')
+
 }
 
 /* Read in the toolkit data in JSON format and insert into the page */
@@ -220,6 +231,9 @@ $.getJSON("toolkit.json", function(data) {
 
             // add title and description for each concept
             fc = formatConcept(conceptContent)
+
+            // add an item in the dropdown menu under the topic area:
+            addDropdownConceptToTopic(topic, conceptContent["Title"])
 
             $.each(conceptContent["Learning outcomes"],
               function(l, learningOutcome) {
@@ -289,6 +303,7 @@ $.getJSON("toolkit.json", function(data) {
 
       });
 
+
       // add all bloom levels discovered in the data to the select menu
       blooms.sort().forEach(item => $("#bloomSelect").append("<option>" + item + "</option>"));
 
@@ -316,4 +331,8 @@ $.getJSON("toolkit.json", function(data) {
   $("#searchField").on("input", search);
 
   $("#resetter").on("click", resetSearchForm);
+
+
+  console.log("ready")
+    $(".dropdown-toggle").dropdown();
 });
