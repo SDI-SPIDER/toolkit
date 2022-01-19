@@ -1,11 +1,12 @@
-
-
 body {
   position: relative;
 }
 
+#searchField, #bloomSelect {
+  width: 164px;
+}
 
-div#content{
+div#content {
   margin-bottom: 20px;
   background-color: white;
   padding-bottom: 15px;
@@ -17,7 +18,7 @@ div#content{
   margin-top: 5px
 }
 
-.panel-body{
+.panel-body {
   margin-top: 0
 }
 
@@ -37,13 +38,32 @@ div#content{
   margin-right: 2%
 }
 
+/* media queries for the display of the navbar and form */
+@media (max-width: 1800px) {
+  nav#navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+
+  header{
+    margin-top: 30px
+  }
+
+  p.mb-5 {
+    margin-bottom: 0rem !important;
+  }
+}
+
+/* media queries for the display of the concept boxes */
 @media (min-width: 1200px) {
   .concept {
     width: 48%;
     float: left;
   }
 }
-
 
 @media (min-width: 1950px) {
   .concept {
@@ -60,50 +80,48 @@ h3.panel-title {
   margin: 0;
 }
 
-h3.panel-title a{
+h3.panel-title a {
   color: #3A5663;
   text-decoration: none;
 }
 
-a.nav-link{
+a.nav-link {
   color: #6c757d
 }
 
-a.nav-link:hover{
+a.nav-link:hover {
   color: #495057
 }
 
-.nav-pills .nav-link.active{
+.nav-pills .nav-link.active {
   background-color: #6c757d
 }
 
-.nav-pills .nav-link.active:hover{
+.nav-pills .nav-link.active:hover {
   background-color: #495057
 }
 
-
-.panel-heading a::before{
-  content:url(icons/caret-up-square.svg);
+.panel-heading a::before {
+  content: url(icons/caret-up-square.svg);
   float: right;
 }
 
-.panel-heading a.collapsed::before{
-  content:url(icons/caret-down-square.svg);
+.panel-heading a.collapsed::before {
+  content: url(icons/caret-down-square.svg);
   float: right;
 }
 
-.panel-heading:hover a::before{
-  content:url(icons/caret-up-square-fill.svg);
+.panel-heading:hover a::before {
+  content: url(icons/caret-up-square-fill.svg);
   float: right;
 }
 
-.panel-heading:hover a.collapsed::before{
-  content:url(icons/caret-down-square-fill.svg);
+.panel-heading:hover a.collapsed::before {
+  content: url(icons/caret-down-square-fill.svg);
   float: right;
 }
 
-
-.panel-heading:hover{
+.panel-heading:hover {
   background-color: #26a3de;
 }
 
@@ -113,7 +131,7 @@ a.nav-link:hover{
   padding-right: 20px;
 }
 
-.panel-heading:hover{
+.panel-heading:hover {
   background-color: #26a3de;
 }
 
@@ -137,16 +155,15 @@ a.nav-link:hover{
   margin-top: 20px
 }
 
-
-.search{
+.search {
   border: 5px solid transparent;
   padding-bottom: 10px;
 }
 
-.hide, .hidelink{
+.hide, .hidelink {
   display: none;
 }
 
-.stabilo{
+.stabilo {
   background-color: yellow
 }
