@@ -2983,7 +2983,7 @@
           "Title": "Financial Models for spatial data suppliers",
           "Description": "Relevance of financial models available to (self-funded) SDI organizations, access regimes for spatial data, assessment of costs and benefits of (open) spatial data",
           "Learning outcomes": [{
-              "Title": "Existing revenue models and pricing mechanisms as part of the financial domain of a business model of a spatial data organization",
+              "Title": "Students are able to identify existing revenue models and pricing mechanisms as part of the financial domain of a business model of a spatial data organization",
               "Description": "Identify revenue models and pricing mechanisms available to spatial data organizations",
               "Bloom level": "Apply",
               "Assessment": [{
@@ -3036,7 +3036,7 @@
               ]
             },
             {
-              "Title": "Options for revenue models and pricing mechanisms as part of the financial domain of a business model of a spatial data organizations in an open data ecosystem",
+              "Title": "Students are able to analyse options for revenue models and pricing mechanisms as part of the financial domain of a business model of a spatial data organizations in an open data ecosystem",
               "Description": "Analyse in which way revenue models and pricing mechanisms can be adpated or adoptedto capture value in an open data ecosystem",
               "Bloom level": "Analyze/Evaluate",
               "Assessment": [{
@@ -3088,7 +3088,7 @@
           "Title": "SDI Business Models and Information Value Chains",
           "Description": "Business models for spatial data organizations and their role in the spatial information value chain",
           "Learning outcomes": [{
-            "Title": "Edaptations to spatial data organization`s business model and role in an open data ecosystem",
+            "Title": "Sudents are able to analyse the adaptations to spatial data organization`s business model and role in an open data ecosystem",
             "Description": "Evaluate how a spatial data organization can adapt its business model and, thereby, its role in the information value chain in an open data ecosystem",
             "Bloom level": "Analyze/Evaluate",
             "Assessment": [{
@@ -3172,7 +3172,7 @@
           "Title": "Funding Models for spatial data suppliers",
           "Description": "Relevance of funding models available to (self-funded) SDI organizations, access regimes for spatial data, assessment of costs and benefits of (open) spatial data",
           "Learning outcomes": [{
-              "Title": "Funding models for self-funded spatial data suppliers",
+              "Title": "Students are able to list and explain funding models for self-funded spatial data suppliers",
               "Description": "Identity through desktop research how Self-Funding agencies are funded",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
@@ -3224,7 +3224,7 @@
               ]
             },
             {
-              "Title": "available access regimes for spatial data",
+              "Title": "Students are able to assess access regimes for spatial data",
               "Description": "Appraise the pros and cons of SDI access regimes",
               "Bloom level": "Analyze/Evaluate",
               "Assessment": [{
@@ -3276,7 +3276,7 @@
               ]
             },
             {
-              "Title": "costs and benefits of open spatial data",
+              "Title": "Students are able to classify costs and benefits of open spatial data",
               "Description": "Classify the costs and benefits of open data supply for the data supplier",
               "Bloom level": "Analyze/Evaluate",
               "Assessment": [{
@@ -3333,7 +3333,7 @@
               ]
             },
             {
-              "Title": "adaptation of self-funded agencies to open spatial data supply",
+              "Title": "Students are able to adapt self-funded agencies to open spatial data supply",
               "Description": "Determine how self-funding agencies can adapt to open data supply",
               "Bloom level": "Analyze/Evaluate",
               "Assessment": [{
@@ -3390,7 +3390,7 @@
           "Title": "Open licensing",
           "Description": "Explanation and discussion of role of (open) licensing in (open) SDI",
           "Learning outcomes": [{
-              "Title": "Different types of licenses in SDI",
+              "Title": "Students are abble to differentiate the types of licenses in SDI",
               "Description": "List and describe the different types of licenses in SDI",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
@@ -3424,7 +3424,7 @@
               ]
             },
             {
-              "Title": "Different licences in practice",
+              "Title": "Students are able to identify and compare different licences in practice",
               "Description": "Recognise, compare and explain different licenses in the geo domain, identify the differences between them",
               "Bloom level": "Analyze/Evaluate",
               "Assessment": [{
@@ -3476,7 +3476,7 @@
               ]
             },
             {
-              "Title": "Different licences and impact on SDI",
+              "Title": "Students are able to evaluate different licences and explain the impact on SDI",
               "Description": "Analyze and evaluate (open) licences of a specific dataset in a country and explain the impact on SDI development at national and international levels",
               "Bloom level": "Analyze/Evaluate",
               "Assessment": [{
@@ -3528,7 +3528,7 @@
               ]
             },
             {
-              "Title": "Improved open licences for SDI",
+              "Title": "Students are able to improve open licences for SDI",
               "Description": "Develop guidelines for improved open licences in SDIs",
               "Bloom level": "Analyze/Evaluate",
               "Assessment": [{
@@ -3576,7 +3576,7 @@
           "Title": "Data protection and open SDI",
           "Description": "Description and discussion of the role of data protection legislation on the (open) SDI concept",
           "Learning outcomes": [{
-              "Title": "Privacy and GDPR",
+              "Title": "Students are able to understand the key concepts of GDPR",
               "Description": "List and explain the key concepts of the General Data Protection Regulation (GDPR) (or another data protection law)",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
@@ -3610,7 +3610,7 @@
               ]
             },
             {
-              "Title": "GDPR applied to geodata/ SDI",
+              "Title": "Students are able to appliy GDPR to geodata/ SDI",
               "Description": "Apply the GDPR to geodata/ SDI",
               "Bloom level": "Apply",
               "Assessment": [{
@@ -3644,7 +3644,7 @@
               ]
             },
             {
-              "Title": "Impact GDPR on SDI evaluated",
+              "Title": "Students ara able to evaluate the impact GDPR on SDI",
               "Description": "Analyze and evaluate the impact of the GDPR for the concept of open SDI",
               "Bloom level": "Analyze/Evaluate",
               "Assessment": [{
@@ -3678,7 +3678,7 @@
               ]
             },
             {
-              "Title": "Making (open) SDI GDPR compliant",
+              "Title": "Students are able to implement (open) SDI GDPR",
               "Description": "Propose innovative directions to implement open SDI complying to the GDPR",
               "Bloom level": "Design/Create",
               "Assessment": [{
@@ -3717,7 +3717,7 @@
           "Title": "SDI strategies and policies",
           "Description": "Strategies and policies dealing with SDI and SDI implementation",
           "Learning outcomes": [{
-              "Title": "Definition of SDI strategies and policies",
+              "Title": "Students are able to define SDI strategies and policies",
               "Description": "Explain what SDI strategies and policies are",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
@@ -3736,7 +3736,7 @@
               ]
             },
             {
-              "Title": "Content of strategies",
+              "Title": "Students are able to compare the content of strategies",
               "Description": "Compare different SDI strategies",
               "Bloom level": "Analyze/Evaluate",
               "Assessment": [{
@@ -3755,8 +3755,8 @@
               ]
             },
             {
-              "Title": "Prepare strategy",
-              "Description": "Prepare an SDI strategy for a country ",
+              "Title": "Students are able to prepare a strategy",
+              "Description": "Prepare a SDI strategy for a country ",
               "Bloom level": "Design/Create",
               "Assessment": [{
                 "Assessment method": "Assignment",
