@@ -2052,7 +2052,7 @@
           "Title": "Overview of open SDI Legislation",
           "Description": "Generic overview of the role of legislation in open SDI and a brief overview of relevant legislation in the EU ",
           "Learning outcomes": [{
-              "Title": "Relevant legal issues in open SDI",
+              "Title": "Students are able to explain relevant legal issues in open SDI",
               "Description": "List and explain the relevant legal issues around open spatial data infrastructures",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
@@ -2107,7 +2107,7 @@
               ]
             },
             {
-              "Title": "Describing main legal issues in open SDI and put them in context",
+              "Title": "Students are able to explain the main legal issues in open SDI in context",
               "Description": "Use the concentric shell model of `Backx` to describe the main legal issues around open SDI",
               "Bloom level": "Apply",
               "Assessment": [{
@@ -2142,7 +2142,7 @@
               ]
             },
             {
-              "Title": "Assess the legal openness of SDI",
+              "Title": "Students are able to assess the legal openness of SDI",
               "Description": "Assess the legal openness of SDI in a country of your choice",
               "Bloom level": "Analyze/Evaluate",
               "Assessment": [{
@@ -2167,7 +2167,7 @@
               ]
             },
             {
-              "Title": "Develop a legally open SDI",
+              "Title": "Students are able to develop a legally open SDI",
               "Description": "Develop requirements for a legally open SDI",
               "Bloom level": "Design/Create",
               "Assessment": [{
@@ -2186,7 +2186,7 @@
           "Title": "Open SDI & INSPIRE directive",
           "Description": "Explanation of INSPIRE and its role in open SDI",
           "Learning outcomes": [{
-              "Title": "INSPIRE directive and open SDI",
+              "Title": "Students are able to explain the relation beetween Open SDI and INSPIRE",
               "Description": "List and explain the core of the EU INSPIRE directive and its relevancy for open SDI",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
@@ -2220,7 +2220,7 @@
               ]
             },
             {
-              "Title": "Describe and compare the implementation of INSPIRE in EU Member States",
+              "Title": "Students are able to describe and compare the implementation of INSPIRE in EU Member States",
               "Description": "Describe and compare the implementation of INSPIRE in EU Member States",
               "Bloom level": "Apply",
               "Assessment": [{
@@ -2245,7 +2245,7 @@
               ]
             },
             {
-              "Title": "Analyze the implementation of INSPIRE in an EU MS including its openness",
+              "Title": "Students are able to analyze the implementation of INSPIRE in an EU MS including its openness",
               "Description": "Analyze the implementation of INSPIRE across the EU and assess its openness",
               "Bloom level": "Analyze/Evaluate",
               "Assessment": [{
@@ -2259,7 +2259,7 @@
               }]
             },
             {
-              "Title": "Improving openness of INSPIRE",
+              "Title": "Students are able to improve openness of INSPIRE",
               "Description": "Develop a strategy to improve the (legal) openness of the INSPIRE directive",
               "Bloom level": "Design/Create",
               "Assessment": [{
@@ -2278,7 +2278,7 @@
           "Title": "Open SDI & Open data and re-use of public sector information directive",
           "Description": "Explanation of the Open data directive and its role in open SDI in the EU",
           "Learning outcomes": [{
-              "Title": "Open data directive and open SDI",
+              "Title": "Students are able to explain Open data directive in context with open SDI",
               "Description": "List and explain the core of the EU Open data directive and its relevancy for open SDI",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
@@ -2312,7 +2312,7 @@
               ]
             },
             {
-              "Title": "Describe and compare the implementation of the Open data directive in EU Member States",
+              "Title": "Students are able to describe and compare the implementation of the Open data directive in EU Member States",
               "Description": "Describe and compare the implementation of the Open data directive in EU Member States",
               "Bloom level": "Apply",
               "Assessment": [{
@@ -2337,7 +2337,7 @@
               ]
             },
             {
-              "Title": "Analyze the implementation of the Open data directive in an EU MS and its contribution to open SDI",
+              "Title": "Students are able to analyze the implementation of the Open data directive in an EU MS and their contribution to open SDI",
               "Description": "Analyze the implementation of the Open data directive across the EU and assess its openness",
               "Bloom level": "Analyze/Evaluate",
               "Assessment": [{
@@ -2351,7 +2351,7 @@
               }]
             },
             {
-              "Title": "Improving legal openness of an SDI ",
+              "Title": "Students are able to improve legal openness of an SDI ",
               "Description": "Develop a strategy to improve the legal openness of an SDI initiative",
               "Bloom level": "Design/Create",
               "Assessment": [{
@@ -2408,7 +2408,7 @@
           "Title": "Data and tech-related ethical issues",
           "Description": "Mapping of the main data- and tech-related ethical issues",
           "Learning outcomes": [{
-              "Title": "Definitions of \"ethics\", \"data\" and \"technology/infrastructure\"",
+              "Title": "Students are able to define \"ethics\", \"data\" and \"technology/infrastructure\"",
               "Description": "Familiarize with different definitions of ethics, data and technology",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
@@ -2451,7 +2451,7 @@
               ]
             },
             {
-              "Title": "Ethical concerns about (open) data and SDIs",
+              "Title": "Students are able to explain ethical concerns about (open) data and SDIs",
               "Description": "Identify and explain current ethical issues related to (open) data and SDIs",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
@@ -2485,7 +2485,7 @@
               ]
             },
             {
-              "Title": "Core discourses about (open) data and SDIs",
+              "Title": "Students are able to discuss ethical concerns about (open) data and SDIs",
               "Description": "Critically unpack the ethical issues embedded in current open SDI documents",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
@@ -2542,7 +2542,7 @@
           "Title": "Ethical issues in context",
           "Description": "Data- and tech-related ethical issues at micro (e.g. city) and macro (global geopolitics) levels",
           "Learning outcomes": [{
-              "Title": "Apply the J-UDMA to a chosen SDI",
+              "Title": "Students are able to apply the J-UDMA to a chosen SDI",
               "Description": "Describe a chosen national SDI through the J-UDMA",
               "Bloom level": "Apply",
               "Assessment": [{
@@ -2585,7 +2585,7 @@
               ]
             },
             {
-              "Title": "Different frameworks/visions on tech innovation by geopolitical actors",
+              "Title": "Students are able to understand different frameworks/visions on tech innovation by geopolitical actors",
               "Description": "Familiarize with different frameworks/visions on tech innovation by different geopolitical actors (OECD, EU, China)",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
@@ -2610,7 +2610,7 @@
               ]
             },
             {
-              "Title": "Compare different frameworls/visions on tech innovation",
+              "Title": "Students are able to compare different frameworls/visions on tech innovation",
               "Description": "Compare different frameworks/visions on tech innovations from a geopolitical and ethical perspectives",
               "Bloom level": "Analyze/Evaluate",
               "Assessment": [{
@@ -2644,7 +2644,7 @@
               ]
             },
             {
-              "Title": "Core discourses about smart city and sustainability",
+              "Title": "Students are able to understand the role of open SDI in smart city and sustainability",
               "Description": "Recognize and map discourses on smart city and sustainability",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
@@ -2697,12 +2697,12 @@
               ]
             },
             {
-              "Title": "Ethical concerns about diigital twin(ning)",
+              "Title": "Studentsa are able to understand ethical concerns about diigital twin(ning)",
               "Description": "Identify and explain main ethical concerns about digital twin(ning)",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
                   "Assessment method": "Quiz",
-                  "Assessment method description": "Quiz on definitional, tech- and ethics-related concerns of/on digital twin,, , ",
+                  "Assessment method description": "Quiz on definitional, tech- and ethics-related concerns of/on digital twin",
                   "Assessment method type": "Formative"
                 },
                 {
@@ -2740,7 +2740,7 @@
               ]
             },
             {
-              "Title": "Smart city`s digital twin",
+              "Title": "Students are able to compare technical and ethical perspective of Smart city`s digital twin",
               "Description": "Compare two smart citiy`s digital twin(ning) projects from a technical and ethical perspectives",
               "Bloom level": "Analyze/Evaluate",
               "Assessment": [{
@@ -2758,7 +2758,7 @@
           "Title": "SDI Business Model domains",
           "Description": "Business model domains and value creation for spatial data organizations",
           "Learning outcomes": [{
-              "Title": "business model domains / components",
+              "Title": "Students are able to explain and differentiate business model domains / components",
               "Description": "Understand and explain the different domains / components of a business model",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
@@ -2811,7 +2811,7 @@
               ]
             },
             {
-              "Title": "Existing value propositions, value creation and value capture for spatial data",
+              "Title": "Students are able to identify existing value propositions, value creation and value capture for spatial data",
               "Description": "Within a spatial data organization`sbusiness model, identify the currently employed value propositions, value creation and value capture",
               "Bloom level": "Apply",
               "Assessment": [{
@@ -2864,7 +2864,7 @@
               ]
             },
             {
-              "Title": "Options for value propositions, value creation and value capture for open spatial data",
+              "Title": "Students are able to evaluate options for value propositions, value creation and value capture for open spatial data",
               "Description": "Within a spatial data organization`s business model, examine options for value propositions, value creation and value capture available to spatial data organizations in an open data ecosystem",
               "Bloom level": "Analyze/Evaluate",
               "Assessment": [{
@@ -2911,7 +2911,7 @@
           "Title": "Rethinking the ethics of open data and SDIs",
           "Description": "Discussion of alternative paths for tackling data- and tech-related ethical issues in the context of SDI",
           "Learning outcomes": [{
-              "Title": "Data Commons",
+              "Title": "Students are able to understand data commons in the context of SDI",
               "Description": "Familiarize with (pros and cons of) data commons in the context of SDI",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
@@ -2925,7 +2925,7 @@
               }]
             },
             {
-              "Title": "Data Commons in practice",
+              "Title": "Students are able to assess Data Commons",
               "Description": "Analyse how data commons can be applied to a chosen SDI from a technical and ethical perspectives",
               "Bloom level": "Analyze/Evaluate",
               "Assessment": [{
@@ -2959,7 +2959,7 @@
               ]
             },
             {
-              "Title": "Data Commons for smart city`s digital twin(ing)",
+              "Title": "Students are able to implement data commons for smart city`s digital twin(ing)",
               "Description": "Implementation of data commons in the context of SDI and smart city`s digital twinning",
               "Bloom level": "Design/Create",
               "Assessment": [{
