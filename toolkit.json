@@ -1013,7 +1013,7 @@
           "Title": "Encoding standards for geospatial data",
           "Description": "Encoding standards that have been proposed for representing geospatial data",
           "Learning outcomes": [{
-              "Title": "Introduce well-known standards for encoding geospatial data",
+              "Title": "Students are able to understand basics of well-known standards for encoding geospatial data",
               "Description": "GML, KML, and GeoJSON file formats",
               "Bloom level": "",
               "Assessment": [{
@@ -1032,7 +1032,7 @@
               ]
             },
             {
-              "Title": "Create, read, and understand the content of KML, GML and GeoJSON files",
+              "Title": "Students are able to create, read and understand the content of KML, GML and GeoJSON files",
               "Description": "Given a geographic dataset, create and analyze KML, GML , GeoJSON files",
               "Bloom level": "",
               "Assessment": [{
@@ -1056,7 +1056,7 @@
           "Title": "Metadata",
           "Description": "Introduction of metadata standards and exchange format",
           "Learning outcomes": [{
-              "Title": "Definition of metadata in SDI",
+              "Title": "Students are able to define metadata in SDI",
               "Description": "Introduce the definition of metadata and explain its application in SDI",
               "Bloom level": "",
               "Assessment": [{
@@ -1075,7 +1075,7 @@
               ]
             },
             {
-              "Title": "Standards of metadata",
+              "Title": "Students are able to explain standards of metadata",
               "Description": "Explain the standards of meatadata",
               "Bloom level": "",
               "Assessment": [{
@@ -1100,7 +1100,7 @@
               ]
             },
             {
-              "Title": "Introduction of metadata exchange format",
+              "Title": "Students are able to understand metadata exchange format",
               "Description": "Explain the typical metadata exchange format",
               "Bloom level": "",
               "Assessment": [{
@@ -1130,7 +1130,7 @@
           "Title": "Data Visualization",
           "Description": "Cartographic aspects for visualizing maps on web map portals.",
           "Learning outcomes": [{
-              "Title": "Definition of geovisualization",
+              "Title": "Students are able to define geovisualization",
               "Description": "Introduce what is geovisualization and how it works",
               "Bloom level": "",
               "Assessment": [{
@@ -1155,7 +1155,7 @@
               ]
             },
             {
-              "Title": "Applications of geovisualization in GIS",
+              "Title": "Students are able to select applications of geovisualization in GIS",
               "Description": "Choose appropriate applications of geovisualization in GIS ",
               "Bloom level": "",
               "Assessment": [{
@@ -1174,7 +1174,7 @@
               ]
             },
             {
-              "Title": "Cartographic visualization for web maps",
+              "Title": "Students are able to explain cartographic visualization for web maps",
               "Description": "Explain cartographic considerations for visualizing maps on internet.",
               "Bloom level": "",
               "Assessment": [{
@@ -1222,7 +1222,7 @@
           "Title": "Data Catalogue",
           "Description": "Data catalogue for the storage of spatial data and metadata",
           "Learning outcomes": [{
-              "Title": "What is data catalogue",
+              "Title": "Students are able to define data catalogue",
               "Description": "Introduce the definition of data catelogue",
               "Bloom level": "",
               "Assessment": [{
@@ -1241,7 +1241,7 @@
               ]
             },
             {
-              "Title": "DBMS for managing a data catalogue",
+              "Title": "Students are able to explain how they manage a data catalogue with a DBMS",
               "Description": "Introduce how to use a DBMS for managing a data catelogue",
               "Bloom level": "",
               "Assessment": [{
@@ -1266,7 +1266,7 @@
               ]
             },
             {
-              "Title": "UML for designing data catalogues ",
+              "Title": "Students are able to design data catalogues with UML",
               "Description": "Explain how to design data catelogue with UML",
               "Bloom level": "",
               "Assessment": [{
@@ -1291,7 +1291,7 @@
               ]
             },
             {
-              "Title": "SQL for database management and data retrieval",
+              "Title": "Students are able to implement database management and data retrieval with SQL",
               "Description": "Implement database management and data retrieval with SQL",
               "Bloom level": "",
               "Assessment": [{
