@@ -25,6 +25,8 @@ div#content {
 .topic {
   background-color: #3188B0;
   padding-top: 80px;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .topic h1 {
@@ -35,7 +37,8 @@ div#content {
 .concept {
   background-color: #86C9E8;
   color: #3A5663;
-  margin-right: 2%
+  margin-right: 2%;
+  widht: 98%;
 }
 
 /* media queries for the display of the navbar and form */
@@ -61,14 +64,12 @@ div#content {
 @media (min-width: 1200px) {
   .concept {
     width: 48%;
-    float: left;
   }
 }
 
 @media (min-width: 1950px) {
   .concept {
     width: 31%;
-    float: left;
   }
 }
 
