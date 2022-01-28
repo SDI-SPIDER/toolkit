@@ -3777,7 +3777,7 @@
           "Title": "SDI strategies and policies",
           "Description": "Strategies and policies dealing with SDI and SDI implementation",
           "Learning outcomes": [{
-              "Title": "Definition of SDI strategies and policies",
+              "Title": "Students are able to define SDI strategies and policies",
               "Description": "Explain what SDI strategies and policies are",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
@@ -3796,7 +3796,7 @@
               ]
             },
             {
-              "Title": "Content of strategies",
+              "Title": "Students are able to list the differences and similarieties of SDI strategies",
               "Description": "Compare different SDI strategies",
               "Bloom level": "Analyze/Evaluate",
               "Assessment": [{
@@ -3815,7 +3815,7 @@
               ]
             },
             {
-              "Title": "Prepare strategy",
+              "Title": "Students are able to prepare a strategy",
               "Description": "Prepare an SDI strategy for a country ",
               "Bloom level": "Design/Create",
               "Assessment": [{
@@ -3834,7 +3834,7 @@
           "Title": "SDI actors and stakeholders",
           "Description": "Actors and stakeholders involved in the implementation of SDIs",
           "Learning outcomes": [{
-              "Title": "Name stakeholders",
+              "Title": "Students are able to list the SDI stakeholders",
               "Description": "List the key SDI stakeholders",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
@@ -3853,7 +3853,7 @@
               ]
             },
             {
-              "Title": "Stakeholders roles",
+              "Title": "Studentents are able to differentiate the roles of SDI stakeholders",
               "Description": "Explain the roles of different SDI stakeholders",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
@@ -3872,7 +3872,7 @@
               ]
             },
             {
-              "Title": "Stakeholder map",
+              "Title": "Students are able to create a stakeholder map",
               "Description": "Prepare a stakeholder map of an SDI",
               "Bloom level": "Apply",
               "Assessment": [{
@@ -3896,7 +3896,7 @@
           "Title": "SDI task allocation",
           "Description": "Allocation of tasks related to the implementation of SDIs",
           "Learning outcomes": [{
-              "Title": "SDI Tasks",
+              "Title": "Students are able to explain the tasks for implementing an SDI",
               "Description": "Explain the key tasks to be executed in implementing an SDI",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
@@ -3915,7 +3915,7 @@
               ]
             },
             {
-              "Title": "Models of task allocation",
+              "Title": "Students are able to define models of task allocation",
               "Description": "Explain different models for allocating tasks",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
@@ -3929,7 +3929,7 @@
               }]
             },
             {
-              "Title": "SDI tasksallocation",
+              "Title": "Students are able to analyse the SDI tasksallocation",
               "Description": "Analyse how tasks are allocated within a particular SDI",
               "Bloom level": "Analyze/Evaluate",
               "Assessment": [{
@@ -3953,7 +3953,7 @@
           "Title": "GI/SDI Management in organizations",
           "Description": "Internal management of SDIs within organizations",
           "Learning outcomes": [{
-              "Title": "Challenges",
+              "Title": "Students are able to describe the challenges to implement SDI",
               "Description": "Explain the requirements and challenges an SDI brings to individual organizations",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
@@ -3972,7 +3972,7 @@
               ]
             },
             {
-              "Title": "Approaches",
+              "Title": "Students are able to explain the different approaches",
               "Description": "Explain different approaches for internal management of SDIs",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
@@ -3991,7 +3991,7 @@
               ]
             },
             {
-              "Title": "Strategy",
+              "Title": "Students are able to develop a strategy to implement SDI",
               "Description": "Develop an organizational strategy for SDI implementation",
               "Bloom level": "Analyze/Evaluate",
               "Assessment": [{
@@ -4010,7 +4010,7 @@
           "Title": "Governance of standards",
           "Description": "Bodies involved in and process related to the development and adoption of standards",
           "Learning outcomes": [{
-              "Title": "SDI Standardization bodies",
+              "Title": "Students are able to name the main organisation of SDI Standardization",
               "Description": "List the main organizations involved in developing SDI standards",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
@@ -4029,7 +4029,7 @@
               ]
             },
             {
-              "Title": "Differences",
+              "Title": "Students are able to describe the differences between the standardization bodies",
               "Description": "Explain the differences and relationships between different SDI standardization bodies",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
@@ -4048,7 +4048,7 @@
               ]
             },
             {
-              "Title": "Standardization process",
+              "Title": "Students are able to explain the standardization process",
               "Description": "Explain the process of adopting and implementing SDI standards",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
@@ -4072,7 +4072,7 @@
           "Title": "SDI processes",
           "Description": "Processes related to the implementation and use of SDIs",
           "Learning outcomes": [{
-              "Title": "SDI and processes",
+              "Title": "Students are able to explain the relevance of processes",
               "Description": "Explain the relevance and importance of processes in SDI implementation",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
@@ -4091,7 +4091,7 @@
               ]
             },
             {
-              "Title": "BPMN",
+              "Title": "Students are able to apply elements of BPMN",
               "Description": "Apply the essential elements of business process management to SDI processes",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
@@ -4110,7 +4110,7 @@
               ]
             },
             {
-              "Title": "Process model",
+              "Title": "Students are able to create a process model",
               "Description": "Prepare a simple model of an SDI work process",
               "Bloom level": "Analyze/Evaluate",
               "Assessment": [{
@@ -4129,7 +4129,7 @@
           "Title": "SDI governance structure",
           "Description": "Structures for governance of SDIs",
           "Learning outcomes": [{
-              "Title": "Explain SDI governance",
+              "Title": "Students are able to explain SDI governance",
               "Description": "Explain what SDI governance is and why it is important in the development and implementation of SDIs",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
@@ -4152,7 +4152,7 @@
               ]
             },
             {
-              "Title": "Existing governance structure",
+              "Title": "Students are able to know existing governance structure",
               "Description": "Discuss and analyse the governance structure in place of a particular country",
               "Bloom level": "Remember/Understand",
               "Assessment": [{
@@ -4171,7 +4171,7 @@
               ]
             },
             {
-              "Title": "Governance instruments",
+              "Title": "Students are able to recognize governance instruments",
               "Description": "Explain the different instruments that could be used for SDI governance",
               "Bloom level": "Apply",
               "Assessment": [{
@@ -4195,7 +4195,7 @@
               ]
             },
             {
-              "Title": "Governance structure design",
+              "Title": "Students are able to design a governance structure",
               "Description": "Design an effective governance structure for a national SDI using different governance instruments",
               "Bloom level": "Analyze/Evaluate",
               "Assessment": [{
