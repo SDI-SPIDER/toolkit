@@ -170,3 +170,21 @@ a.nav-link:hover {
 .stabilo {
   background-color: yellow
 }
+
+.bok {
+	text-align: end;
+}
+
+.bok a::before {
+	content: ' \01F517 ';
+}
+
+.bok a {
+	color: #6c757d;
+	text-decoration: none;
+}
+
+.bok a:hover {
+	color: #495057;
+	text-decoroation: underline;
+}

@@ -4,6 +4,11 @@
       "Concepts": [{
           "Title": "Evolution of SDIs & Citizens",
           "Description": "Discuss the main objectives and key components of SDI generationand introduce to the volunteered GI",
+		  "BoK": [{
+			"Source": "example",
+			"URL": "https://sdispider.eu/wp/",
+			"Topic": "Example BoK Link to SDI-Spider Projekt"
+		  }],
           "Learning outcomes": [{
               "Title": "Students are able to describe the importance and advantages of an SDI.",
               "Description": "Describing the importance of developing the SDI.",
@@ -52,7 +57,16 @@
                 "Title": "Lecture",
                 "Description": "Introductory lecture on Volunteered Geographic Information as a form of user-generated content",
                 "Materials": ""
-              }]
+              }], 
+			  "BoK": [{
+				  "Source": "EO4GEO",
+				  "URL": "https://bok.eo4geo.eu/GS4-3b",
+				  "Topic": "Citizens and volunteered geographic information"
+			  },{
+				  "Source": "UCGIS",
+				  "URL": "https://gistbok.ucgis.org/bok-topics/volunteered-geographic-information",
+				  "Topic": "Volunteered Geographic Information"				  
+			  }]
             },
             {
               "Title": "Students are able to highlight the possible scenarios of VGI in the future",
