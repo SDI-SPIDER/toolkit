@@ -183,6 +183,16 @@ function formatMaterials(materials) {
     `);
 }
 
+/* Add a list of Bodies of Knowlege Links*/
+function addBokList(bokList) {
+	list = `<div class="bok">`;
+	bokList.foreach(function(bokItem) {
+		list.append(`<a href="` + bokItem["URL"] + `" alt="` + bokItem["Topic"] + `" target="_blank">` + bokItem["Source"] + `</a>`);
+	});
+	list.append(`</div>`);
+	return list;
+}
+
 /* Remove blanks and punctuation from a string so we can use it as ID for a node in the HTML tree */
 function id(st) {
   return st.replace(/[^\w\s]|_/g, "").replace(/\s+/g, "");
@@ -279,6 +289,11 @@ $.getJSON("toolkit.json", function(data) {
                   function(l, assessment) {
                     lopbc.append(formatAssessment(assessment))
                   });
+				  
+				// BoK to the body content, if existing:
+				if (learningOutcome["BoK"]) {
+					lopbc.append(addBokList(learningOutcome["BoK"]))
+				};
 
                 // … panel body content to panel body
                 lopb = formatLOPanelBody(learningOutcome)
