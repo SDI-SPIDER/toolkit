@@ -185,11 +185,11 @@ function formatMaterials(materials) {
 
 /* Add a list of Bodies of Knowlege Links*/
 function addBokList(bokList) {
-	list = `<div class="bok">`;
+	list = $(`<div class="bok">`);
 	bokList.forEach(function(bokItem) {
-		list .= `<a href="` + bokItem["URL"] + `" alt="` + bokItem["Topic"] + `" target="_blank">` + bokItem["Source"] + `</a>`;
+		list.append(`<a href="` + bokItem["URL"] + `" alt="` + bokItem["Topic"] + `" target="_blank">` + bokItem["Source"] + `</a>`);
 	});
-	list .= `</div>`;
+	list.append(`</div>`);
 	return list;
 }
 
