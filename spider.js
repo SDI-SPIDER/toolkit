@@ -187,9 +187,9 @@ function formatMaterials(materials) {
 function addBokList(bokList) {
 	list = `<div class="bok">`;
 	bokList.forEach(function(bokItem) {
-		list.append(`<a href="` + bokItem["URL"] + `" alt="` + bokItem["Topic"] + `" target="_blank">` + bokItem["Source"] + `</a>`);
+		list .= `<a href="` + bokItem["URL"] + `" alt="` + bokItem["Topic"] + `" target="_blank">` + bokItem["Source"] + `</a>`;
 	});
-	list.append(`</div>`);
+	list .= `</div>`;
 	return list;
 }
 
