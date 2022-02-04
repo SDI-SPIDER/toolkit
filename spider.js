@@ -296,6 +296,8 @@ $.getJSON("toolkit.json", function(data) {
 					lopbc.append(addBokList(learningOutcome["BoK"]))
 				};
 				} catch(err) {
+					alert(err.name);
+					alert (err.message);
 					alert(err.stack);
 				}
 				
