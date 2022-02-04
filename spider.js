@@ -187,7 +187,7 @@ function formatMaterials(materials) {
 function addBokList(bokList) {
 	list = $(`<div class="bok">`);
 	bokList.forEach(function(bokItem) {
-		list.append(`<a href="` + bokItem["URL"] + `" alt="` + bokItem["Topic"] + `" target="_blank">` + bokItem["Source"] + `</a>`);
+		list.append(`<a href="` + bokItem["URL"] + `" title="` + bokItem["Topic"] + `" target="_blank">` + bokItem["Source"] + `</a>`);
 	});
 	list.append(`</div>`);
 	return list;
@@ -291,15 +291,9 @@ $.getJSON("toolkit.json", function(data) {
                   });
 				  
 				// BoK to the body content, if existing:
-				try {
 				if (learningOutcome["BoK"]) {
 					lopbc.append(addBokList(learningOutcome["BoK"]))
 				};
-				} catch(err) {
-					alert(err.name);
-					alert (err.message);
-					alert(err.stack);
-				}
 				
                 // … panel body content to panel body
                 lopb = formatLOPanelBody(learningOutcome)
@@ -312,6 +306,11 @@ $.getJSON("toolkit.json", function(data) {
                 // attach the whole learning objective to the concept
                 fc.append(loph)
               });
+			
+			// BoK to the concept content, if existing:
+			if (conceptContent["BoK"]) {
+				fc.append(addBokList(conceptContent["BoK"]))
+			};
 
             // and finally the concept to the topic
             ft.append(fc)
