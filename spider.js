@@ -290,11 +290,11 @@ $.getJSON("toolkit.json", function(data) {
                     lopbc.append(formatAssessment(assessment))
                   });
 				  
-				// BoK to the body content, if existing:
+/*				// BoK to the body content, if existing:
 				if (learningOutcome["BoK"]) {
 					lopbc.append(addBokList(learningOutcome["BoK"]))
 				};
-
+*/
                 // … panel body content to panel body
                 lopb = formatLOPanelBody(learningOutcome)
                 lopb.append(lopbc)
