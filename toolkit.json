@@ -867,15 +867,15 @@
                 }
               ],
               "Teaching activies": [{
-                  "Title": "",
+                  "Title": "Reading documents",
                   "Description": "Read the recommended documents and look through the slides in advance"
                 },
                 {
-                  "Title": "",
+                  "Title": "Lecture",
                   "Description": "Introductory lecture explaining web map client design and related concepts"
                 },
                 {
-                  "Title": "",
+                  "Title": "Feedback",
                   "Description": "Give feedback to students on their questions in the lecture"
                 }
               ]
@@ -896,15 +896,15 @@
                 }
               ],
               "Teaching activies": [{
-                  "Title": "",
+                  "Title": "Reading papers",
                   "Description": "Reading classic papers and websites (e.g. w3school) on basic techniques for web development"
                 },
                 {
-                  "Title": "",
+                  "Title": "Lecture",
                   "Description": "Lecture on basic techniques for portal development, including HTML, JavaScript"
                 },
                 {
-                  "Title": "",
+                  "Title": "Feedback",
                   "Description": "Give feedback to students on their questions about the basic techniques"
                 }
               ]
@@ -925,11 +925,11 @@
                 }
               ],
               "Teaching activies": [{
-                  "Title": "",
+                  "Title": "Lab exercise",
                   "Description": "Lab exercise on web development for static web mapping with the introduced techniques"
                 },
                 {
-                  "Title": "",
+                  "Title": "Presenting projects",
                   "Description": "Students present their projects and peer review each other in small groups"
                 }
               ]
@@ -1037,11 +1037,11 @@
                 "Assessment method type": "Formative"
               }],
               "Teaching activies": [{
-                  "Title": "",
+                  "Title": "Lecture",
                   "Description": "Introductory lecture to different types of encoding standards"
                 },
                 {
-                  "Title": "",
+                  "Title": "Summary",
                   "Description": "One sentence summary for each encoding standard"
                 }
               ]
@@ -1056,11 +1056,11 @@
                 "Assessment method type": "Summative"
               }],
               "Teaching activies": [{
-                  "Title": "",
+                  "Title": "Creating files",
                   "Description": "Read and/or create GML, KML, GeoJSON files for a given dataset."
                 },
                 {
-                  "Title": "",
+                  "Title": "Discussion",
                   "Description": "Students discuss the similarity and difference /Advantages and disadvantages of GML, KML, and GeoJSON in small groups; including suitable application areas of each format. "
                 }
               ]
@@ -1080,11 +1080,11 @@
                 "Assessment method type": "Formative"
               }],
               "Teaching activies": [{
-                  "Title": "",
+                  "Title": "Reading documentations",
                   "Description": "Read documentations for metadata in SDI with a focus on the geographic data"
                 },
                 {
-                  "Title": "",
+                  "Title": "Summary",
                   "Description": "One sentence summary of metadata in SDI"
                 }
               ]
@@ -1164,7 +1164,7 @@
                   "Description": "Introductory lecture on relevant aspects for data visualization with a focus on geographic data"
                 },
                 {
-                  "Title": "",
+                  "Title": "Answering questions",
                   "Description": "If there is something unclear, students are helped to understand it better"
                 }
               ]
@@ -1179,11 +1179,11 @@
                 "Assessment method type": "Summative"
               }],
               "Teaching activies": [{
-                  "Title": "",
+                  "Title": "Reviewing example",
                   "Description": "Review example of geovisualization in GIS"
                 },
                 {
-                  "Title": "",
+                  "Title": "Group discussion",
                   "Description": "Group discussion on applications of geovisualization in reality in small groups"
                 }
               ]
@@ -1214,19 +1214,19 @@
                 }
               ],
               "Teaching activies": [{
-                  "Title": "",
+                  "Title": "Introduction",
                   "Description": "Introduction to cartographic design for web maps"
                 },
                 {
-                  "Title": "",
+                  "Title": "Asking questions",
                   "Description": "Students are able to ask questions and express their understanding of web cartography"
                 },
                 {
-                  "Title": "",
+                  "Title": "Formulating problem",
                   "Description": "Formulate a problem statement to create personalized web maps"
                 },
                 {
-                  "Title": "",
+                  "Title": "Presentation",
                   "Description": "Students present personalized web maps and discuss in small groups"
                 }
               ]
@@ -1246,11 +1246,11 @@
                 "Assessment method type": "Formative"
               }],
               "Teaching activies": [{
-                  "Title": "",
+                  "Title": "Reading documentations",
                   "Description": "Reading the documentations for data catalogue"
                 },
                 {
-                  "Title": "",
+                  "Title": "Summary",
                   "Description": "One sentence summary of data catalogue"
                 }
               ]
@@ -1271,11 +1271,11 @@
                 }
               ],
               "Teaching activies": [{
-                  "Title": "",
+                  "Title": "Introduction",
                   "Description": "Introduce how to use a DBMS for managing a data catelogue"
                 },
                 {
-                  "Title": "",
+                  "Title": "Asking questions",
                   "Description": "Students are able to ask questions if there is something unclear"
                 }
               ]
@@ -1296,11 +1296,11 @@
                 }
               ],
               "Teaching activies": [{
-                  "Title": "",
+                  "Title": "Introduction",
                   "Description": "Introduce how to design a data catelogue with UML"
                 },
                 {
-                  "Title": "",
+                  "Title": "Asking questions",
                   "Description": "Students are able to ask questions if there is something unclear"
                 }
               ]
@@ -1321,11 +1321,11 @@
                 }
               ],
               "Teaching activies": [{
-                  "Title": "",
+                  "Title": "Lecture",
                   "Description": "Introductory lecture on SQL"
                 },
                 {
-                  "Title": "",
+                  "Title": "Implementation",
                   "Description": "Students implement database management and data retrieval with SQL"
                 }
               ]
