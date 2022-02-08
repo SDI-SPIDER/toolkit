@@ -1030,7 +1030,7 @@
           "Learning outcomes": [{
               "Title": "Students are able to understand basics of well-known standards for encoding geospatial data",
               "Description": "GML, KML, and GeoJSON file formats",
-              "Bloom level": "",
+              "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
                 "Assessment method": "Feedback",
                 "Assessment method description": "Students receive feedback on their questions",
@@ -1049,7 +1049,7 @@
             {
               "Title": "Students are able to create, read and understand the content of KML, GML and GeoJSON files",
               "Description": "Given a geographic dataset, create and analyze KML, GML , GeoJSON files",
-              "Bloom level": "",
+              "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
                 "Assessment method": "Feedback",
                 "Assessment method description": "Feedback on group discussion",
@@ -1073,7 +1073,7 @@
           "Learning outcomes": [{
               "Title": "Students are able to define metadata in SDI",
               "Description": "Introduce the definition of metadata and explain its application in SDI",
-              "Bloom level": "",
+              "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
                 "Assessment method": "Feedback",
                 "Assessment method description": "Students receive feedback on one sentence summary",
@@ -1092,7 +1092,7 @@
             {
               "Title": "Students are able to explain standards of metadata",
               "Description": "Explain the standards of meatadata",
-              "Bloom level": "",
+              "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
                   "Assessment method": "Quiz",
                   "Assessment method description": "Quiz on metadata formats",
@@ -1117,7 +1117,7 @@
             {
               "Title": "Students are able to understand metadata exchange format",
               "Description": "Explain the typical metadata exchange format",
-              "Bloom level": "",
+              "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
                   "Assessment method": "Quiz",
                   "Assessment method description": "Quiz on metadata exchange formats",
@@ -1147,7 +1147,7 @@
           "Learning outcomes": [{
               "Title": "Students are able to define geovisualization",
               "Description": "Introduce what is geovisualization and how it works",
-              "Bloom level": "",
+              "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
                   "Assessment method": "Quiz",
                   "Assessment method description": "Quiz on data geovisualization",
@@ -1172,7 +1172,7 @@
             {
               "Title": "Students are able to select applications of geovisualization in GIS",
               "Description": "Choose appropriate applications of geovisualization in GIS ",
-              "Bloom level": "",
+              "Bloom level": "3 / 4 - Apply / Analyze",
               "Assessment": [{
                 "Assessment method": "Feedback",
                 "Assessment method description": "Feedback on group discussion",
@@ -1191,7 +1191,7 @@
             {
               "Title": "Students are able to explain cartographic visualization for web maps",
               "Description": "Explain cartographic considerations for visualizing maps on internet.",
-              "Bloom level": "",
+              "Bloom level": "1 / 2 / 3 - Remember / Understand / Apply",
               "Assessment": [{
                   "Assessment method": "Written exam",
                   "Assessment method description": "Exam on cartographic design for web maps",
@@ -1239,7 +1239,7 @@
           "Learning outcomes": [{
               "Title": "Students are able to define data catalogue",
               "Description": "Introduce the definition of data catelogue",
-              "Bloom level": "",
+              "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
                 "Assessment method": "Feedback",
                 "Assessment method description": "Students receive feedback on their questions",
@@ -1258,7 +1258,7 @@
             {
               "Title": "Students are able to explain how they manage a data catalogue with a DBMS",
               "Description": "Introduce how to use a DBMS for managing a data catelogue",
-              "Bloom level": "",
+              "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
                   "Assessment method": "Quiz",
                   "Assessment method description": "Quiz on DBMS for managing a data catalogue",
@@ -1283,7 +1283,7 @@
             {
               "Title": "Students are able to design data catalogues with UML",
               "Description": "Explain how to design data catelogue with UML",
-              "Bloom level": "",
+              "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
                   "Assessment method": "Quiz",
                   "Assessment method description": "Quiz on data catalogue design with UML",
@@ -1308,7 +1308,7 @@
             {
               "Title": "Students are able to implement database management and data retrieval with SQL",
               "Description": "Implement database management and data retrieval with SQL",
-              "Bloom level": "",
+              "Bloom level": "3 - Apply",
               "Assessment": [{
                   "Assessment method": "Feedback",
                   "Assessment method description": "Feedback on lecture",
