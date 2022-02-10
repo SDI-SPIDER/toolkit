@@ -176,7 +176,7 @@ a.nav-link:hover {
 }
 
 .bok a::before {
-	content: ' \01F517 ';
+	content: url(icons/link-45deg.svg);
 }
 
 .bok a {
