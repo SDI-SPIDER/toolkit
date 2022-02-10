@@ -4,13 +4,13 @@
       "Concepts": [{
           "Title": "Evolution of SDIs & Citizens",
           "Description": "Discuss the main objectives and key components of SDI generationand introduce to the volunteered GI",
-		  "BoK": [{
-			"Source": "example",
-			"URL": "https://sdispider.eu/wp/",
-			"Topic": "Example BoK Link to SDI-Spider Projekt"
-		  }],
           "Learning outcomes": [{
               "Title": "Students are able to describe the importance and advantages of an SDI.",
+			  "BoK": [{
+				"Source": "EO4GEO",
+				"URL": "https://bok.eo4geo.eu/OI3b",
+				"Topic": "Spatial Data Infrastructures"
+			  }],
               "Description": "Describing the importance of developing the SDI.",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -278,7 +278,7 @@
           "Description": "Describing what is an SDI, what are the main components and what is to be achieved with an SDI",
           "Learning outcomes": [{
               "Title": "Students are able to understand the concept of SDI through its definition and main objectives",
-              "Description": "This LO deals with the concept od SDI; its definition and main objectives",
+              "Description": "This LO deals with the concept of SDI; its definition and main objectives",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
                 "Assessment method": "Written exam",
@@ -408,6 +408,11 @@
         {
           "Title": "SDI Standards",
           "Description": "What are the standards used within the SDI, ISO standards, different categories of standards",
+		  "BoK": [{
+			"Source": "EO4GEO",
+			"URL": "https://bok.eo4geo.eu/IP4-1",
+			"Topic": "Data quality standards"
+		  }],
           "Learning outcomes": [{
               "Title": "Students are able to understand the importance of standards in SDI domain",
               "Description": "This LO deals with the importance of standards in SDI domain",
@@ -600,6 +605,11 @@
         {
           "Title": "SDI interoperability",
           "Description": "Introduction of levels and evolution of SDI interoperability ",
+		  "BoK": [{
+			"Source": "EO4GEO",
+			"URL": "https://bok.eo4geo.eu/DA3-2",
+			"Topic": "Interoperability"
+		  }],
           "Learning outcomes": [{
               "Title": "Students are able to define SDI Interoperability levels",
               "Description": "This LO deals with the levels of SDI Interoperability ",
@@ -662,9 +672,14 @@
         {
           "Title": "Geospatial data (Data acqusition)",
           "Description": "Overview of geospatial data and key components of data acquisition",
+		  "BoK": [{
+			"Source": "EO4GEO",
+			"URL": "https://bok.eo4geo.eu/GD",
+			"Topic": "Geospatial Data"
+		  }],
           "Learning outcomes": [{
-              "Title": "Students are able to describe basics of geospatial dana ",
-              "Description": "Introduction to geospatial dana ",
+              "Title": "Students are able to describe basics of geospatial data",
+              "Description": "Introduction to geospatial data",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
                 "Assessment method": "Written exam",
@@ -724,6 +739,11 @@
         {
           "Title": "SDI Architecture & Technologies",
           "Description": "Integration of technologies to SDI Architecture",
+		  "BoK": [{
+			"Source": "EO4GEO",
+			"URL": "https://bok.eo4geo.eu/OI3b",
+			"Topic": "Spatial Data Infrastructures"
+		  }],
           "Learning outcomes": [{
               "Title": "Students are able to define basics of SDI Architecture",
               "Description": "Introduce the key components of SDI Architecture",
@@ -851,6 +871,11 @@
       "Concepts": [{
           "Title": "Web mapping",
           "Description": "Introduce basic tools and techniques for web mapping",
+		  "BoK": [{
+			"Source": "EO4GEO",
+			"URL": "https://bok.eo4geo.eu/CV4-6",
+			"Topic": "Web mapping"
+		  }],
           "Learning outcomes": [{
               "Title": "Students are able to design a basic web map",
               "Description": "Introduction on HTML, CSS, and JavaScript for creating a web map client.",
@@ -939,6 +964,11 @@
         {
           "Title": "Geospatial web services",
           "Description": "Interface standards that have been developed by Open Geospatial Consortium for creating interoperable web map services.",
+		  "BoK": [{
+			"Source": "EO4GEO",
+			"URL": "https://bok.eo4geo.eu/WB1",
+			"Topic": "Web services"
+		  }],
           "Learning outcomes": [{
               "Title": "Students are able to list different types of interface standards",
               "Description": "List different types of interface standards",
@@ -995,7 +1025,12 @@
               "Teaching activies": [{
                 "Title": "Implementation",
                 "Description": "Students develop a web map client that communicates with a Web map server (e.g. Geoserver), using WMS"
-              }]
+              }],
+			  "BoK": [{
+				"Source": "EO4GEO",
+				"URL": "https://bok.eo4geo.eu/WB1-4",
+				"Topic": "OGC web services"
+		      }]			  
             },
             {
               "Title": "Students are able to apply and evaluate OGC services for web mapping",
@@ -1020,13 +1055,23 @@
                   "Title": "Implementation",
                   "Description": "Implement a geospatial web service, using open source software and library, e.g. Geoserver and OpenLayers, to address the problem stated efore."
                 }
-              ]
+              ],
+			  "BoK": [{
+				"Source": "EO4GEO",
+				"URL": "https://bok.eo4geo.eu/WB1-4",
+				"Topic": "OGC web services"
+		      }]
             }
           ]
         },
         {
           "Title": "Encoding standards for geospatial data",
           "Description": "Encoding standards that have been proposed for representing geospatial data",
+		  "BoK": [{
+			"Source": "EO4GEO",
+			"URL": "https://bok.eo4geo.eu/AM13-2",
+			"Topic": "Data model and format conversion"
+		  }],
           "Learning outcomes": [{
               "Title": "Students are able to understand basics of well-known standards for encoding geospatial data",
               "Description": "GML, KML, and GeoJSON file formats",
@@ -1070,6 +1115,16 @@
         {
           "Title": "Metadata",
           "Description": "Introduction of metadata standards and exchange format",
+		  "BoK": [{
+			"Source": "EO4GEO",
+			"URL": "https://bok.eo4geo.eu/GD12",
+			"Topic": "Metadata, standards, and infrastructures"
+	      },
+		  {
+			"Source": "EO4GEO",
+			"URL": "https://bok.eo4geo.eu/WB3-1",
+			"Topic": "Metadata and standards"
+	      }],
           "Learning outcomes": [{
               "Title": "Students are able to define metadata in SDI",
               "Description": "Introduce the definition of metadata and explain its application in SDI",
@@ -1143,7 +1198,12 @@
         },
         {
           "Title": "Data Visualization",
-          "Description": "Cartographic aspects for visualizing maps on web map portals.",
+          "Description": "Cartographic aspects for visualizing maps on web map portals",
+		  "BoK": [{
+			"Source": "EO4GEO",
+			"URL": "https://bok.eo4geo.eu/CV",
+			"Topic": "Cartography and Visualization"
+	      }],
           "Learning outcomes": [{
               "Title": "Students are able to define geovisualization",
               "Description": "Introduce what is geovisualization and how it works",
@@ -1328,7 +1388,12 @@
                   "Title": "Implementation",
                   "Description": "Students implement database management and data retrieval with SQL"
                 }
-              ]
+              ],
+			  "BoK": [{
+				"Source": "EO4GEO",
+				"URL": "https://bok.eo4geo.eu/AM2-2",
+				"Topic": "Structured Query Language (SQL) and attribute queries"
+			  }]
             }
           ]
         }
@@ -1338,6 +1403,11 @@
       "Concepts": [{
           "Title": "Unified Modelling Language (UML)",
           "Description": "Importance, application and benefits of using UML in spatial data modelling as part of Spatial Data Infrastructure",
+		  "BoK": [{
+			"Source": "EO4GEO",
+			"URL": "https://bok.eo4geo.eu/DM1-7",
+			"Topic": "UML introduction and class diagrams"
+		  }],
           "Learning outcomes": [{
               "Title": "Students are able to define UML and explain its benefits",
               "Description": "Explain what UML is and discuss its benefits in data modelling",
@@ -1601,13 +1671,28 @@
                   "Title": "Demonstrations",
                   "Description": "Students develop ontologies for a clearly define domain in small groups and peer review them"
                 }
-              ]
+              ],
+			  "BoK": [{
+				"Source": "EO4GEO",
+				"URL": "https://bok.eo4geo.eu/WB2-3",
+				"Topic": "Ontologies development reuse and patterns"
+			  }]
             }
           ]
         },
         {
           "Title": "Interoperability through standardization",
           "Description": "Introduce ISO, OGC, W3C approaches and abstraction levels",
+		  "BoK": [{
+			"Source": "EO4GEO",
+			"URL": "https://bok.eo4geo.eu/IP4-1",
+			"Topic": "Data quality standards"
+		  },
+		  {
+			"Source": "EO4GEO",
+			"URL": "https://bok.eo4geo.eu/DA3-2",
+			"Topic": "Interoperability"
+		  }],
           "Learning outcomes": [{
               "Title": "Students are able to read standards documents",
               "Description": "Be able to read and interpret standards documents",
@@ -1628,7 +1713,7 @@
               ]
             },
             {
-              "Title": "Students are able to explain how tandards are implemented",
+              "Title": "Students are able to explain how standards are implemented",
               "Description": "Understand how standards are implemented in SDIs and how to identify the relevant standards for a given tasks",
               "Bloom level": "3 - Apply",
               "Assessment": [{
@@ -1644,7 +1729,12 @@
                   "Title": "Case study",
                   "Description": "Students write a short paper analyzing a GML application schema from a national SDI focusing on the links between the schema and the basic GML schema "
                 }
-              ]
+              ],
+			  "BoK": [{
+				"Source": "EO4GEO",
+				"URL": "https://bok.eo4geo.eu/OI4-1",
+				"Topic": "Adoption and implementation of standards"
+			  }]
             },
             {
               "Title": "Students are able to list the different standardization organizations and their responsibilities",
@@ -1689,6 +1779,11 @@
         {
           "Title": "Data models",
           "Description": "Overview of the most important data models in GIS and how they are formalized",
+		  "BoK": [{
+			"Source": "EO4GEO",
+			"URL": "https://bok.eo4geo.eu/DM",
+			"Topic": "Data Modeling, Storage and Exploitation"
+		  }],
           "Learning outcomes": [{
               "Title": "Students are able to explain the main GIS data models",
               "Description": "List the main kinds of GIS data models and explain their characteristics",
@@ -1858,7 +1953,12 @@
               "Teaching activies": [{
                 "Title": "Case study",
                 "Description": "Students download metadata from the national SDI's catalogue and inspect the data quality information"
-              }]
+              }],
+			  "BoK": [{
+				"Source": "EO4GEO",
+				"URL": "https://bok.eo4geo.eu/GD4-1",
+				"Topic": "Data quality"
+			  }]
             },
             {
               "Title": "Students are able to use standards and schemas for data validation",
@@ -1980,6 +2080,11 @@
         {
           "Title": "Data quality",
           "Description": "Introduction of principles and standards for the exchange of information about data quality",
+		  "BoK": [{
+			"Source": "EO4GEO",
+			"URL": "https://bok.eo4geo.eu/GD4-1",
+			"Topic": "Data quality"
+		  }],
           "Learning outcomes": [{
               "Title": "Students are able to explain the different aspects of spatial data quality ",
               "Description": "Name and explain the most relevant aspects of spatial data quality",
