@@ -4283,6 +4283,11 @@
         {
           "Title": "SDI governance structure",
           "Description": "Structures for governance of SDIs",
+		  "BoK": [{
+			"Source": "EO4GEO",
+			"URL": "https://bok.eo4geo.eu/OI4-7",
+			"Topic": "SDI governance"
+		  }],
           "Learning outcomes": [{
               "Title": "Students are able to explain SDI governance",
               "Description": "Explain what SDI governance is and why it is important in the development and implementation of SDIs",
