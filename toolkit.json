@@ -2397,6 +2397,11 @@
         {
           "Title": "Open SDI & Open data and re-use of public sector information directive",
           "Description": "Explanation of the Open data directive and its role in open SDI in the EU",
+		  "BoK": [{
+			"Source": "EO4GEO",
+			"URL": "https://bok.eo4geo.eu/GS1-6",
+			"Topic": "Open data"
+		  }],
           "Learning outcomes": [{
               "Title": "Students are able to explain Open data directive in context with open SDI",
               "Description": "List and explain the core of the EU Open data directive and its relevancy for open SDI",
@@ -2527,6 +2532,11 @@
         {
           "Title": "Data and tech-related ethical issues",
           "Description": "Mapping of the main data- and tech-related ethical issues",
+  		  "BoK": [{
+			"Source": "EO4GEO",
+			"URL": "https://bok.eo4geo.eu/GS5",
+			"Topic": "Ethical aspects"
+		  }],
           "Learning outcomes": [{
               "Title": "Students are able to define \"ethics\", \"data\" and \"technology/infrastructure\"",
               "Description": "Familiarize with different definitions of ethics, data and technology",
@@ -2817,7 +2827,7 @@
               ]
             },
             {
-              "Title": "Studentsa are able to understand ethical concerns about diigital twin(ning)",
+              "Title": "Studentsa are able to understand ethical concerns about digital twin(ning)",
               "Description": "Identify and explain main ethical concerns about digital twin(ning)",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -2877,6 +2887,11 @@
         }, {
           "Title": "SDI Business Model domains",
           "Description": "Business model domains and value creation for spatial data organizations",
+		  "BoK": [{
+			"Source": "EO4GEO",
+			"URL": "https://bok.eo4geo.eu/GS2-1",
+			"Topic": "GI Business models"
+		  }],
           "Learning outcomes": [{
               "Title": "Students are able to explain and differentiate business model domains / components",
               "Description": "Understand and explain the different domains / components of a business model",
@@ -3207,6 +3222,11 @@
         {
           "Title": "SDI Business Models and Information Value Chains",
           "Description": "Business models for spatial data organizations and their role in the spatial information value chain",
+		  "BoK": [{
+			"Source": "EO4GEO",
+			"URL": "https://bok.eo4geo.eu/GS2-5",
+			"Topic": "Geo-information value chain"
+		  }],
           "Learning outcomes": [{
             "Title": "Sudents are able to analyse the adaptations to spatial data organization`s business model and role in an open data ecosystem",
             "Description": "Evaluate how a spatial data organization can adapt its business model and, thereby, its role in the information value chain in an open data ecosystem",
@@ -3291,6 +3311,11 @@
         {
           "Title": "Funding Models for spatial data suppliers",
           "Description": "Relevance of funding models available to (self-funded) SDI organizations, access regimes for spatial data, assessment of costs and benefits of (open) spatial data",
+		  "BoK": [{
+			"Source": "EO4GEO",
+			"URL": "https://bok.eo4geo.eu/OI4-5",
+			"Topic": "Funding an SDI"
+		  }],
           "Learning outcomes": [{
               "Title": "Students are able to list and explain funding models for self-funded spatial data suppliers",
               "Description": "Identity through desktop research how Self-Funding agencies are funded",
@@ -3836,6 +3861,11 @@
         {
           "Title": "SDI strategies and policies",
           "Description": "Strategies and policies dealing with SDI and SDI implementation",
+		  "BoK": [{
+			"Source": "EO4GEO",
+			"URL": "https://bok.eo4geo.eu/OI4-2",
+			"Topic": "Policies"
+		  }],
           "Learning outcomes": [{
               "Title": "Students are able to define SDI strategies and policies",
               "Description": "Explain what SDI strategies and policies are",
@@ -3896,6 +3926,11 @@
       "Concepts": [{
           "Title": "SDI strategies and policies",
           "Description": "Strategies and policies dealing with SDI and SDI implementation",
+		  "BoK": [{
+			"Source": "EO4GEO",
+			"URL": "https://bok.eo4geo.eu/OI4-2",
+			"Topic": "Policies"
+		  }],
           "Learning outcomes": [{
               "Title": "Students are able to define SDI strategies and policies",
               "Description": "Explain what SDI strategies and policies are",
