@@ -119,6 +119,11 @@
         {
           "Title": "SDI Costs & Benefits",
           "Description": "Overview of theoretical foundation and practical approaches of the SDI Cost-Benefit Analyses",
+		  "BoK": [{
+			  "Source": "UCGIS",
+			  "URL": "https://gistbok.ucgis.org/bok-topics/spatial-data-infrastructures",
+			  "Topic": "Spatial Data Infrastructures"				  
+		  }],
           "Learning outcomes": [{
               "Title": "Students are able to describe the basics of benefit-cost analysis",
               "Description": "Describing the basics and the elements of cost- benefit analysis",
@@ -227,7 +232,12 @@
               "Teaching activies": [{
                 "Title": "Lecture",
                 "Description": "An overview the experiences of NSDI through the generations."
-              }]
+              }],
+			  "BoK": [{
+				  "Source": "UCGIS",
+				  "URL": "https://gistbok.ucgis.org/bok-topics/spatial-data-infrastructures",
+				  "Topic": "U.S. National Spatial Data Infrastructure"				  
+			  }]
             },
             {
               "Title": "Students are able to examine the needs, components of a RSDI and difficulties inherent in RSDI development.",
@@ -276,6 +286,11 @@
         {
           "Title": "SDI, Objectives and Components",
           "Description": "Describing what is an SDI, what are the main components and what is to be achieved with an SDI",
+		  "BoK": [{
+			  "Source": "UCGIS",
+			  "URL": "https://gistbok.ucgis.org/bok-topics/spatial-data-infrastructures",
+			  "Topic": "Spatial Data Infrastructures"				  
+		  }],
           "Learning outcomes": [{
               "Title": "Students are able to understand the concept of SDI through its definition and main objectives",
               "Description": "This LO deals with the concept of SDI; its definition and main objectives",
@@ -875,6 +890,16 @@
 			"Source": "EO4GEO",
 			"URL": "https://bok.eo4geo.eu/CV4-6",
 			"Topic": "Web mapping"
+		  },
+		  {
+			"Source": "UCGIS",
+			"URL": "https://gistbok.ucgis.org/bok-topics/web-mapping",
+			"Topic": "Web mapping"
+		  },
+		  {
+			"Source": "UCGIS",
+			"URL": "https://gistbok.ucgis.org/bok-topics/web-gis",
+			"Topic": "Web GIS"
 		  }],
           "Learning outcomes": [{
               "Title": "Students are able to design a basic web map",
@@ -968,6 +993,11 @@
 			"Source": "EO4GEO",
 			"URL": "https://bok.eo4geo.eu/WB1",
 			"Topic": "Web services"
+		  },
+		  {
+			"Source": "UCGIS",
+			"URL": "https://gistbok.ucgis.org/bok-topics/web-gis",
+			"Topic": "Web GIS"
 		  }],
           "Learning outcomes": [{
               "Title": "Students are able to list different types of interface standards",
@@ -1124,6 +1154,11 @@
 			"Source": "EO4GEO",
 			"URL": "https://bok.eo4geo.eu/WB3-1",
 			"Topic": "Metadata and standards"
+	      },
+		  {
+			"Source": "UCGIS",
+			"URL": "https://gistbok.ucgis.org/bok-topics/metadata",
+			"Topic": "Metadata"
 	      }],
           "Learning outcomes": [{
               "Title": "Students are able to define metadata in SDI",
@@ -1338,7 +1373,12 @@
                   "Title": "Asking questions",
                   "Description": "Students are able to ask questions if there is something unclear"
                 }
-              ]
+              ],
+			  "BoK": [{
+				  "Source": "UCGIS",
+				  "URL": "https://gistbok.ucgis.org/bok-topics/spatial-database-management-systems",
+				  "Topic": "Spatial Database Management Systems"				  
+			   }]
             },
             {
               "Title": "Students are able to design data catalogues with UML",
@@ -1393,7 +1433,13 @@
 				"Source": "EO4GEO",
 				"URL": "https://bok.eo4geo.eu/AM2-2",
 				"Topic": "Structured Query Language (SQL) and attribute queries"
-			  }]
+			  },
+			  {
+			  	"Source": "UCGIS",
+				"URL": "https://gistbok.ucgis.org/bok-topics/structured-query-language-sql-and-attribute-queries",
+				"Topic": "Structured Query Language (SQL) and attribute queries"
+			  }
+			  ]
             }
           ]
         }
@@ -1783,6 +1829,11 @@
 			"Source": "EO4GEO",
 			"URL": "https://bok.eo4geo.eu/DM",
 			"Topic": "Data Modeling, Storage and Exploitation"
+		  },
+		  {
+			"Source": "UCGIS",
+			"URL": "https://gistbok.ucgis.org/bok-topics/conceptual-data-models",
+			"Topic": "Conceptual Data Models"
 		  }],
           "Learning outcomes": [{
               "Title": "Students are able to explain the main GIS data models",
@@ -2401,6 +2452,11 @@
 			"Source": "EO4GEO",
 			"URL": "https://bok.eo4geo.eu/GS1-6",
 			"Topic": "Open data"
+		  },
+		  {
+			"Source": "UCGIS",
+			"URL": "https://gistbok.ucgis.org/bok-topics/openness",
+			"Topic": "Openness"				  
 		  }],
           "Learning outcomes": [{
               "Title": "Students are able to explain Open data directive in context with open SDI",
@@ -3116,6 +3172,11 @@
         },
         {
           "Title": "Financial Models for spatial data suppliers",
+		  "BoK": [{
+			"Source": "UCGIS",
+			"URL": "https://gistbok.ucgis.org/bok-topics/commercialization-gis-applications",
+			"Topic": "Commercialization of GIS Applications"
+		  }],
           "Description": "Relevance of financial models available to (self-funded) SDI organizations, access regimes for spatial data, assessment of costs and benefits of (open) spatial data",
           "Learning outcomes": [{
               "Title": "Students are able to identify existing revenue models and pricing mechanisms as part of the financial domain of a business model of a spatial data organization",
@@ -3226,6 +3287,10 @@
 			"Source": "EO4GEO",
 			"URL": "https://bok.eo4geo.eu/GS2-5",
 			"Topic": "Geo-information value chain"
+		  },{
+			"Source": "UCGIS",
+			"URL": "https://gistbok.ucgis.org/bok-topics/value-of-professional-geospatial-organizations",
+			"Topic": "Value of Professional Geospatial Organizations"
 		  }],
           "Learning outcomes": [{
             "Title": "Sudents are able to analyse the adaptations to spatial data organization`s business model and role in an open data ecosystem",
@@ -3534,6 +3599,11 @@
         {
           "Title": "Open licensing",
           "Description": "Explanation and discussion of role of (open) licensing in (open) SDI",
+		  "BoK": [{
+			  "Source": "UCGIS",
+			  "URL": "https://gistbok.ucgis.org/bok-topics/openness",
+			  "Topic": "Openness"				  
+		  }],
           "Learning outcomes": [{
               "Title": "Students are abble to differentiate the types of licenses in SDI",
               "Description": "List and describe the different types of licenses in SDI",
@@ -3720,6 +3790,11 @@
         {
           "Title": "Data protection and open SDI",
           "Description": "Description and discussion of the role of data protection legislation on the (open) SDI concept",
+		  "BoK": [{
+			  "Source": "UCGIS",
+			  "URL": "https://gistbok.ucgis.org/bok-topics/openness",
+			  "Topic": "Openness"				  
+		  }],
           "Learning outcomes": [{
               "Title": "Students are able to understand the key concepts of GDPR",
               "Description": "List and explain the key concepts of the General Data Protection Regulation (GDPR) (or another data protection law)",
