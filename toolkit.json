@@ -5,7 +5,7 @@
           "Title": "Evolution of SDIs & Citizens",
           "Description": "Discuss the main objectives and key components of SDI generationand introduce to the volunteered GI",
           "Learning outcomes": [{
-              "Title": "Students are able to describe the importance and advantages of an SDI.",
+              "Title": "Students are able to describe the importance and advantages of an SDI",
 			  "BoK": [{
 				"Source": "EO4GEO",
 				"URL": "https://bok.eo4geo.eu/OI3b",
@@ -221,7 +221,7 @@
               ]
             },
             {
-              "Title": "Students are able to discuss the differences between NSDI generations.",
+              "Title": "Students are able to discuss the differences between NSDI generations",
               "Description": "Describing differences between NSDI generations.",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -377,7 +377,7 @@
               ]
             },
             {
-              "Title": "Students are able to distinguish the difference between SDI and GIS while focusing on benefits of an SDI.",
+              "Title": "Students are able to distinguish the difference between SDI and GIS while focusing on benefits of an SDI",
               "Description": "This LO explains the difference between SDI and GIS with focus on benefits of an SDI.",
               "Bloom level": "4  / 5 - Analyze / Evaluate",
               "Assessment": [{
@@ -542,6 +542,11 @@
         {
           "Title": "SDI & Digital Government",
           "Description": "How SDI transformed government and made it more available to citizens",
+		  "BoK": [{
+			  "Source": "UCGIS",
+			  "URL": "https://gistbok.ucgis.org/bok-topics/spatial-data-infrastructures",
+			  "Topic": "U.S. National Spatial Data Infrastructure"				  
+		  }],
           "Learning outcomes": [{
               "Title": "Students are able to understand the benefits of SDI supporting eGovernment needs",
               "Description": "This LO deals with benefits of SDI supporting eGovernment needs",
@@ -988,7 +993,7 @@
         },
         {
           "Title": "Geospatial web services",
-          "Description": "Interface standards that have been developed by Open Geospatial Consortium for creating interoperable web map services.",
+          "Description": "Interface standards that have been developed by Open Geospatial Consortium for creating interoperable web map services",
 		  "BoK": [{
 			"Source": "EO4GEO",
 			"URL": "https://bok.eo4geo.eu/WB1",
@@ -1403,7 +1408,12 @@
                   "Title": "Asking questions",
                   "Description": "Students are able to ask questions if there is something unclear"
                 }
-              ]
+              ],
+			  "BoK": [{
+				"Source": "EO4GEO",
+				"URL": "https://bok.eo4geo.eu/DM1-7",
+				"Topic": "UML introduction and class diagrams"
+			  }]
             },
             {
               "Title": "Students are able to implement database management and data retrieval with SQL",
