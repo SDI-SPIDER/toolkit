@@ -126,7 +126,7 @@ function formatConcept(conceptContent) {
        <h2 id="` + id(conceptContent["Title"]) + `">
        ` + conceptContent["Title"] + `</h2>
        <p class="lead">` + conceptContent["Description"] + `.</p>
-	   <p><strong>Learning&nbsp;outcomes:</strong>
+	   <p class="lead"><strong>Learning&nbsp;outcomes:</strong>
 	   <br>Students are able to ...</p>
     </div>`)
 }
