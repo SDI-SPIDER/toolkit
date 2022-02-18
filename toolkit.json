@@ -5,7 +5,7 @@
           "Title": "Evolution of SDIs & Citizens",
           "Description": "Discuss the main objectives and key components of SDI generationand introduce to the volunteered GI",
           "Learning outcomes": [{
-              "Title": "Students are able to describe the importance and advantages of an SDI",
+              "Title": "describe the importance and advantages of an SDI",
 			  "BoK": [{
 				"Source": "EO4GEO",
 				"URL": "https://bok.eo4geo.eu/OI3b",
@@ -25,7 +25,7 @@
               }]
             },
             {
-              "Title": "Students are able to explain SDI generations",
+              "Title": "explain SDI generations",
               "Description": "Introducing the main objectives and key components of SDI generations",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -45,7 +45,7 @@
               ]
             },
             {
-              "Title": "Students are able to describe the concepts of volunteered GI",
+              "Title": "describe the concepts of volunteered GI",
               "Description": "Introducing the concepts of volunteered GI",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -70,7 +70,7 @@
 			  }]
             },
             {
-              "Title": "Students are able to highlight the possible scenarios of VGI in the future",
+              "Title": "highlight the possible scenarios of VGI in the future",
               "Description": "Point out the possible situations of VGI in the future taking into account the data quality as a major issue related to present VGI",
               "Bloom level": "3 - Apply",
               "Assessment": [{
@@ -85,7 +85,7 @@
               }]
             },
             {
-              "Title": "Students are able to analyze the differences between SDI generations",
+              "Title": "analyze the differences between SDI generations",
               "Description": "Identify and discuss the differences between SDI generations",
               "Bloom level": "4  / 5 - Analyze / Evaluate",
               "Assessment": [{
@@ -100,7 +100,7 @@
               }]
             },
             {
-              "Title": "Students are able to discuss examples of citizen volunteered GI",
+              "Title": "discuss examples of citizen volunteered GI",
               "Description": "Discussing available crowdsourced datasets",
               "Bloom level": "6 - Design / Create",
               "Assessment": [{
@@ -125,7 +125,7 @@
 			  "Topic": "Spatial Data Infrastructures"				  
 		  }],
           "Learning outcomes": [{
-              "Title": "Students are able to describe the basics of benefit-cost analysis",
+              "Title": "describe the basics of benefit-cost analysis",
               "Description": "Describing the basics and the elements of cost- benefit analysis",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -144,7 +144,7 @@
               ]
             },
             {
-              "Title": "Students are able to classify the main points relevant to SDI cost-benefit consideration",
+              "Title": "classify the main points relevant to SDI cost-benefit consideration",
               "Description": "Summarising and classifying the main points relevant to SDI cost-benefit consideration. Benefits will be divided into groups: direct user value, social value and operational benefits for institutions",
               "Bloom level": "3 - Apply",
               "Assessment": [{
@@ -158,7 +158,7 @@
               }]
             },
             {
-              "Title": "Students are able to analyze the existing cost-benefit analysis: case study",
+              "Title": "analyze the existing cost-benefit analysis: case study",
               "Description": "Analysing and comparing exisiting case studies of cost-benefit analysis",
               "Bloom level": "4  / 5 - Analyze / Evaluate",
               "Assessment": [{
@@ -177,7 +177,7 @@
               ]
             },
             {
-              "Title": "Students are able to elaborate SDI implementation costs for given case study",
+              "Title": "elaborate SDI implementation costs for given case study",
               "Description": "Identification and analysis of SDI implementation costs for given case study.",
               "Bloom level": "6 - Design / Create",
               "Assessment": [{
@@ -202,7 +202,7 @@
           "Title": "SDI practices/examples (Hierarchy, Academic SDI, National SDIs, INSPIRE)",
           "Description": "Overview of SDI practices; examples of different level/extent of SDI implementation",
           "Learning outcomes": [{
-              "Title": "Students are able to remember and explain the national, regional and global SDI through SDI hierarchy",
+              "Title": "remember and explain the national, regional and global SDI through SDI hierarchy",
               "Description": "Memorizing the views of SDI hierarchy that include SDIs developed at levels",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -221,7 +221,7 @@
               ]
             },
             {
-              "Title": "Students are able to discuss the differences between NSDI generations",
+              "Title": "discuss the differences between NSDI generations",
               "Description": "Describing differences between NSDI generations.",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -240,7 +240,7 @@
 			  }]
             },
             {
-              "Title": "Students are able to examine the needs, components of a RSDI and difficulties inherent in RSDI development.",
+              "Title": "examine the needs, components of a RSDI and difficulties inherent in RSDI development.",
               "Description": "Outlining the needs, components and difficulties inherent in RSDI development.",
               "Bloom level": "3 - Apply",
               "Assessment": [{
@@ -254,7 +254,7 @@
               }]
             },
             {
-              "Title": "Students are able to analyze the role of GDI and examples which supportglobal spatialdata infrastructure",
+              "Title": "analyze the role of GDI and examples which supportglobal spatialdata infrastructure",
               "Description": "Structuring the role of GDI and examples which supportglobal spatial data infrastructure",
               "Bloom level": "4  / 5 - Analyze / Evaluate",
               "Assessment": [{
@@ -268,7 +268,7 @@
               }]
             },
             {
-              "Title": "Students are able to propose possible future scenarios of SDI",
+              "Title": "propose possible future scenarios of SDI",
               "Description": "Applying the acquired knowledge to make conclusions about the possible future of SDI",
               "Bloom level": "6 - Design / Create",
               "Assessment": [{
@@ -292,7 +292,7 @@
 			  "Topic": "Spatial Data Infrastructures"				  
 		  }],
           "Learning outcomes": [{
-              "Title": "Students are able to understand the concept of SDI through its definition and main objectives",
+              "Title": "understand the concept of SDI through its definition and main objectives",
               "Description": "This LO deals with the concept of SDI; its definition and main objectives",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -350,7 +350,7 @@
               ]
             },
             {
-              "Title": "Students are able to apply knowledge in distinction between categories in SDI components",
+              "Title": "apply knowledge in distinction between categories in SDI components",
               "Description": "This LO deals with disctinction of categories in SDI components",
               "Bloom level": "3 - Apply",
               "Assessment": [{
@@ -377,7 +377,7 @@
               ]
             },
             {
-              "Title": "Students are able to distinguish the difference between SDI and GIS while focusing on benefits of an SDI",
+              "Title": "distinguish the difference between SDI and GIS while focusing on benefits of an SDI",
               "Description": "This LO explains the difference between SDI and GIS with focus on benefits of an SDI.",
               "Bloom level": "4  / 5 - Analyze / Evaluate",
               "Assessment": [{
@@ -400,7 +400,7 @@
               ]
             },
             {
-              "Title": "Students are able to design new SDI based on their deeper understanding of components of SDI and ways of their application on different SDI levels",
+              "Title": "design new SDI based on their deeper understanding of components of SDI and ways of their application on different SDI levels",
               "Description": "This LO focuses on deeper understanding of the components of SDI and ways of their application on different SDI levels",
               "Bloom level": "6 - Design / Create",
               "Assessment": [{
@@ -429,7 +429,7 @@
 			"Topic": "Data quality standards"
 		  }],
           "Learning outcomes": [{
-              "Title": "Students are able to understand the importance of standards in SDI domain",
+              "Title": "understand the importance of standards in SDI domain",
               "Description": "This LO deals with the importance of standards in SDI domain",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -448,7 +448,7 @@
               ]
             },
             {
-              "Title": "Students are able to classify standards based on the SDI component they belong to, level of standardization organization, applicable domain, etc.",
+              "Title": "classify standards based on the SDI component they belong to, level of standardization organization, applicable domain, etc.",
               "Description": "This LO classifies standards based on the SDI component they belong to, level of standardization organization, applicable domain, etc.",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -462,7 +462,7 @@
               }]
             },
             {
-              "Title": "Students are able to name and describe institutions relevant for standardization in geospatial domain",
+              "Title": "name and describe institutions relevant for standardization in geospatial domain",
               "Description": "This LO refers to institutions relevant for standardization in geospatial domain",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -481,7 +481,7 @@
               ]
             },
             {
-              "Title": "Students are able to apply the knowledge on standards when working with SDI",
+              "Title": "apply the knowledge on standards when working with SDI",
               "Description": "This LO shows how to apply knowledge of standards when working with SDI",
               "Bloom level": "3 - Apply",
               "Assessment": [{
@@ -500,7 +500,7 @@
               ]
             },
             {
-              "Title": "Students are able to compare different standards, within specific standards' group, coming from different organizations",
+              "Title": "compare different standards, within specific standards' group, coming from different organizations",
               "Description": "This LO compares standards, within specific standard's group, coming from different organizations",
               "Bloom level": "4  / 5 - Analyze / Evaluate",
               "Assessment": [{
@@ -519,7 +519,7 @@
               ]
             },
             {
-              "Title": "Students are able to standardize the content they create",
+              "Title": "standardize the content they create",
               "Description": "This LO aims to create new standardized content",
               "Bloom level": "6 - Design / Create",
               "Assessment": [{
@@ -548,7 +548,7 @@
 			  "Topic": "U.S. National Spatial Data Infrastructure"				  
 		  }],
           "Learning outcomes": [{
-              "Title": "Students are able to understand the benefits of SDI supporting eGovernment needs",
+              "Title": "understand the benefits of SDI supporting eGovernment needs",
               "Description": "This LO deals with benefits of SDI supporting eGovernment needs",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -575,7 +575,7 @@
               ]
             },
             {
-              "Title": "Students are able to analyzes the status of eGovernment services (with regard to SDI advancements)",
+              "Title": "analyzes the status of eGovernment services (with regard to SDI advancements)",
               "Description": "This LO analyzes the status of eGovernment services (with regard to SDI advancements)",
               "Bloom level": "4  / 5 - Analyze / Evaluate",
               "Assessment": [{
@@ -598,7 +598,7 @@
               ]
             },
             {
-              "Title": "Students are able to think of and designs new processes for eGovernment in which the geospatial data and processing are embedded",
+              "Title": "think of and designs new processes for eGovernment in which the geospatial data and processing are embedded",
               "Description": "This LO designs new processes for eGovernment in which the geospatial data and processing are embedded",
               "Bloom level": "6 - Design / Create",
               "Assessment": [{
@@ -631,7 +631,7 @@
 			"Topic": "Interoperability"
 		  }],
           "Learning outcomes": [{
-              "Title": "Students are able to define SDI Interoperability levels",
+              "Title": "define SDI Interoperability levels",
               "Description": "This LO deals with the levels of SDI Interoperability ",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -650,7 +650,7 @@
               ]
             },
             {
-              "Title": "Students are able to describe evolution and levels of SDI interoperability",
+              "Title": "describe evolution and levels of SDI interoperability",
               "Description": "Overview of evolution and levels of SDI interoperability",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -669,7 +669,7 @@
               ]
             },
             {
-              "Title": "Students are able to think about benefits of SDI interoperability",
+              "Title": "think about benefits of SDI interoperability",
               "Description": "Analyse benefits of SDI interoperability and their products: case study",
               "Bloom level": "4  / 5 - Analyze / Evaluate",
               "Assessment": [{
@@ -698,7 +698,7 @@
 			"Topic": "Geospatial Data"
 		  }],
           "Learning outcomes": [{
-              "Title": "Students are able to describe basics of geospatial data",
+              "Title": "describe basics of geospatial data",
               "Description": "Introduction to geospatial data",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -717,7 +717,7 @@
               ]
             },
             {
-              "Title": "Students are able to describe national level of geospatial data",
+              "Title": "describe national level of geospatial data",
               "Description": "Introduce national level of geospatial data",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -736,7 +736,7 @@
               ]
             },
             {
-              "Title": "Students are able to analyze methods for geospatial data acqusition",
+              "Title": "analyze methods for geospatial data acqusition",
               "Description": "Introduce the main methods for geospatial data acqusition",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -765,7 +765,7 @@
 			"Topic": "Spatial Data Infrastructures"
 		  }],
           "Learning outcomes": [{
-              "Title": "Students are able to define basics of SDI Architecture",
+              "Title": "define basics of SDI Architecture",
               "Description": "Introduce the key components of SDI Architecture",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -784,7 +784,7 @@
               ]
             },
             {
-              "Title": "Students are able to understand the benefits of implemented technologies",
+              "Title": "understand the benefits of implemented technologies",
               "Description": "Understand benefits of technology implementation",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -803,7 +803,7 @@
               ]
             },
             {
-              "Title": "Students are able to analyze examples of technologies integrated to SDI Architecture: case study",
+              "Title": "analyze examples of technologies integrated to SDI Architecture: case study",
               "Description": "Identify the best examples of integration technologies to SDI Architecture ",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -827,7 +827,7 @@
           "Title": "SDI & Sustainable Development",
           "Description": "How SDI affects sustainable development and economy",
           "Learning outcomes": [{
-              "Title": "Students are able to understand basics of sustainable development",
+              "Title": "understand basics of sustainable development",
               "Description": "Introduction to sustainable development",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -846,7 +846,7 @@
               ]
             },
             {
-              "Title": "Students are able to understand how SDI implementation affects sustainable development",
+              "Title": "understand how SDI implementation affects sustainable development",
               "Description": "Identification of SDI implementation sustainable development",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -865,7 +865,7 @@
               ]
             },
             {
-              "Title": "Students are able to analyze SDI implementation sustainable development - case study",
+              "Title": "analyze SDI implementation sustainable development - case study",
               "Description": "Analysis of SDI implementation sustainable development",
               "Bloom level": "6 - Design / Create",
               "Assessment": [{
@@ -907,7 +907,7 @@
 			"Topic": "Web GIS"
 		  }],
           "Learning outcomes": [{
-              "Title": "Students are able to design a basic web map",
+              "Title": "design a basic web map",
               "Description": "Introduction on HTML, CSS, and JavaScript for creating a web map client.",
               "Bloom level": "3 - Apply",
               "Assessment": [{
@@ -936,7 +936,7 @@
               ]
             },
             {
-              "Title": "Students are able to explain the basic tools and techniques for web development",
+              "Title": "explain the basic tools and techniques for web development",
               "Description": "Explain the basic tools and techniques for web development",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -965,7 +965,7 @@
               ]
             },
             {
-              "Title": "Students are able to implement a static web map",
+              "Title": "implement a static web map",
               "Description": "Implement a static web map with the introduced techniques",
               "Bloom level": "3 - Apply",
               "Assessment": [{
@@ -1005,7 +1005,7 @@
 			"Topic": "Web GIS"
 		  }],
           "Learning outcomes": [{
-              "Title": "Students are able to list different types of interface standards",
+              "Title": "list different types of interface standards",
               "Description": "List different types of interface standards",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -1030,7 +1030,7 @@
               ]
             },
             {
-              "Title": "Students are able to publish geospatial web services",
+              "Title": "publish geospatial web services",
               "Description": "Publish geographic web services with open source software",
               "Bloom level": "3 - Apply",
               "Assessment": [{
@@ -1049,7 +1049,7 @@
               ]
             },
             {
-              "Title": "Students are able to explain how interface standards can be utilized",
+              "Title": "explain how interface standards can be utilized",
               "Description": "Design an interoperable web map tool using OGC WMS",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -1068,7 +1068,7 @@
 		      }]			  
             },
             {
-              "Title": "Students are able to apply and evaluate OGC services for web mapping",
+              "Title": "apply and evaluate OGC services for web mapping",
               "Description": "Apply and evaluate the application of OGC services for web mapping and cartography",
               "Bloom level": "4  / 5 - Analyze / Evaluate",
               "Assessment": [{
@@ -1108,7 +1108,7 @@
 			"Topic": "Data model and format conversion"
 		  }],
           "Learning outcomes": [{
-              "Title": "Students are able to understand basics of well-known standards for encoding geospatial data",
+              "Title": "understand basics of well-known standards for encoding geospatial data",
               "Description": "GML, KML, and GeoJSON file formats",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -1127,7 +1127,7 @@
               ]
             },
             {
-              "Title": "Students are able to create, read and understand the content of KML, GML and GeoJSON files",
+              "Title": "create, read and understand the content of KML, GML and GeoJSON files",
               "Description": "Given a geographic dataset, create and analyze KML, GML , GeoJSON files",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -1166,7 +1166,7 @@
 			"Topic": "Metadata"
 	      }],
           "Learning outcomes": [{
-              "Title": "Students are able to define metadata in SDI",
+              "Title": "define metadata in SDI",
               "Description": "Introduce the definition of metadata and explain its application in SDI",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -1185,7 +1185,7 @@
               ]
             },
             {
-              "Title": "Students are able to explain standards of metadata",
+              "Title": "explain standards of metadata",
               "Description": "Explain the standards of meatadata",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -1205,12 +1205,12 @@
                 },
                 {
                   "Title": "Asking questions",
-                  "Description": "Students are able to ask questions and express their understanding of metadata standards"
+                  "Description": "ask questions and express their understanding of metadata standards"
                 }
               ]
             },
             {
-              "Title": "Students are able to understand metadata exchange format",
+              "Title": "understand metadata exchange format",
               "Description": "Explain the typical metadata exchange format",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -1230,7 +1230,7 @@
                 },
                 {
                   "Title": "Asking questions",
-                  "Description": "Students are able to ask questions on metadata exchange format"
+                  "Description": "ask questions on metadata exchange format"
                 }
               ]
             }
@@ -1245,7 +1245,7 @@
 			"Topic": "Cartography and Visualization"
 	      }],
           "Learning outcomes": [{
-              "Title": "Students are able to define geovisualization",
+              "Title": "define geovisualization",
               "Description": "Introduce what is geovisualization and how it works",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -1270,7 +1270,7 @@
               ]
             },
             {
-              "Title": "Students are able to select applications of geovisualization in GIS",
+              "Title": "select applications of geovisualization in GIS",
               "Description": "Choose appropriate applications of geovisualization in GIS ",
               "Bloom level": "3 / 4 - Apply / Analyze",
               "Assessment": [{
@@ -1289,7 +1289,7 @@
               ]
             },
             {
-              "Title": "Students are able to explain cartographic visualization for web maps",
+              "Title": "explain cartographic visualization for web maps",
               "Description": "Explain cartographic considerations for visualizing maps on internet.",
               "Bloom level": "1 / 2 / 3 - Remember / Understand / Apply",
               "Assessment": [{
@@ -1319,7 +1319,7 @@
                 },
                 {
                   "Title": "Asking questions",
-                  "Description": "Students are able to ask questions and express their understanding of web cartography"
+                  "Description": "ask questions and express their understanding of web cartography"
                 },
                 {
                   "Title": "Formulating problem",
@@ -1337,7 +1337,7 @@
           "Title": "Data Catalogue",
           "Description": "Data catalogue for the storage of spatial data and metadata",
           "Learning outcomes": [{
-              "Title": "Students are able to define data catalogue",
+              "Title": "define data catalogue",
               "Description": "Introduce the definition of data catelogue",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -1356,7 +1356,7 @@
               ]
             },
             {
-              "Title": "Students are able to explain how they manage a data catalogue with a DBMS",
+              "Title": "explain how they manage a data catalogue with a DBMS",
               "Description": "Introduce how to use a DBMS for managing a data catelogue",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -1376,7 +1376,7 @@
                 },
                 {
                   "Title": "Asking questions",
-                  "Description": "Students are able to ask questions if there is something unclear"
+                  "Description": "ask questions if there is something unclear"
                 }
               ],
 			  "BoK": [{
@@ -1386,7 +1386,7 @@
 			   }]
             },
             {
-              "Title": "Students are able to design data catalogues with UML",
+              "Title": "design data catalogues with UML",
               "Description": "Explain how to design data catelogue with UML",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -1406,7 +1406,7 @@
                 },
                 {
                   "Title": "Asking questions",
-                  "Description": "Students are able to ask questions if there is something unclear"
+                  "Description": "ask questions if there is something unclear"
                 }
               ],
 			  "BoK": [{
@@ -1416,7 +1416,7 @@
 			  }]
             },
             {
-              "Title": "Students are able to implement database management and data retrieval with SQL",
+              "Title": "implement database management and data retrieval with SQL",
               "Description": "Implement database management and data retrieval with SQL",
               "Bloom level": "3 - Apply",
               "Assessment": [{
@@ -1465,7 +1465,7 @@
 			"Topic": "UML introduction and class diagrams"
 		  }],
           "Learning outcomes": [{
-              "Title": "Students are able to define UML and explain its benefits",
+              "Title": "define UML and explain its benefits",
               "Description": "Explain what UML is and discuss its benefits in data modelling",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -1484,7 +1484,7 @@
               ]
             },
             {
-              "Title": "Students are able to use UML to read SDI Standards",
+              "Title": "use UML to read SDI Standards",
               "Description": "Apply knowledge about UML to interpret SDI standards documents",
               "Bloom level": "3 - Apply",
               "Assessment": [{
@@ -1498,7 +1498,7 @@
               }]
             },
             {
-              "Title": "Students are able to interpret the structure and types of UML diagrams",
+              "Title": "interpret the structure and types of UML diagrams",
               "Description": "Interpret structural components (e.g. classes with attributes and functions), analyse relations among components (classes) and discuss different usage of UML diagrams",
               "Bloom level": "4  / 5 - Analyze / Evaluate",
               "Assessment": [{
@@ -1508,7 +1508,7 @@
               }],
               "Teaching activies": [{
                   "Title": "Polls",
-                  "Description": "Students are able to express their understanding of structural components and relations via some online real-time survey"
+                  "Description": "express their understanding of structural components and relations via some online real-time survey"
                 },
                 {
                   "Title": "Asking Questions",
@@ -1517,7 +1517,7 @@
               ]
             },
             {
-              "Title": "Students are able to apply UML in practice",
+              "Title": "apply UML in practice",
               "Description": "Choose appropriate UML diagram type, adapt it to the user`s needs and create conceptual model for a specific use",
               "Bloom level": "6 - Design / Create",
               "Assessment": [{
@@ -1541,7 +1541,7 @@
           "Title": "Linked Data & Geospatial Semantics",
           "Description": "Theoretical foundations and practical approaches for the specification of the semantics of geospatial data and its relevance for SDI",
           "Learning outcomes": [{
-              "Title": "Students are able to define semantic interoperability",
+              "Title": "define semantic interoperability",
               "Description": "Explain the difference between syntactic and semantic interoperability ",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -1571,7 +1571,7 @@
               ]
             },
             {
-              "Title": "Students are able to explain the concept of geospatial semantics",
+              "Title": "explain the concept of geospatial semantics",
               "Description": "Explain the relevance of semantic interoperability for sharing spatial information",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -1600,7 +1600,7 @@
               ]
             },
             {
-              "Title": "Students are able to explain the basic concepts of Linked Data and Semantic Web",
+              "Title": "explain the basic concepts of Linked Data and Semantic Web",
               "Description": "List and explain the core ideas behind relevant linked data and semantic web standards ",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -1638,7 +1638,7 @@
               ]
             },
             {
-              "Title": "Students are able to implement semantically interoperable services",
+              "Title": "implement semantically interoperable services",
               "Description": "Implement semantically interoperable solutions based on Linked Data",
               "Bloom level": "3 - Apply",
               "Assessment": [{
@@ -1667,7 +1667,7 @@
               ]
             },
             {
-              "Title": "Students are able to identify semantic interoperability problems",
+              "Title": "identify semantic interoperability problems",
               "Description": "Identify semantic interoperability issues in an open SDI",
               "Bloom level": "4  / 5 - Analyze / Evaluate",
               "Assessment": [{
@@ -1696,7 +1696,7 @@
               ]
             },
             {
-              "Title": "Students are able to develop ontologies",
+              "Title": "develop ontologies",
               "Description": "Develop ontologies / vocabularies for geospatial applications",
               "Bloom level": "6 - Design / Create",
               "Assessment": [{
@@ -1750,7 +1750,7 @@
 			"Topic": "Interoperability"
 		  }],
           "Learning outcomes": [{
-              "Title": "Students are able to read standards documents",
+              "Title": "read standards documents",
               "Description": "Be able to read and interpret standards documents",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -1769,7 +1769,7 @@
               ]
             },
             {
-              "Title": "Students are able to explain how standards are implemented",
+              "Title": "explain how standards are implemented",
               "Description": "Understand how standards are implemented in SDIs and how to identify the relevant standards for a given tasks",
               "Bloom level": "3 - Apply",
               "Assessment": [{
@@ -1793,7 +1793,7 @@
 			  }]
             },
             {
-              "Title": "Students are able to list the different standardization organizations and their responsibilities",
+              "Title": "list the different standardization organizations and their responsibilities",
               "Description": "Analyze which parts of the \"standardisation chain\" the main standardization organisations are responsible for ",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -1846,7 +1846,7 @@
 			"Topic": "Conceptual Data Models"
 		  }],
           "Learning outcomes": [{
-              "Title": "Students are able to explain the main GIS data models",
+              "Title": "explain the main GIS data models",
               "Description": "List the main kinds of GIS data models and explain their characteristics",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -1865,7 +1865,7 @@
               ]
             },
             {
-              "Title": "Students are able to select a data model",
+              "Title": "select a data model",
               "Description": "Identify the best fitting kind of data model for a given use case",
               "Bloom level": "4  / 5 - Analyze / Evaluate",
               "Assessment": [{
@@ -1884,7 +1884,7 @@
               ]
             },
             {
-              "Title": "Students are able to develop a data models",
+              "Title": "develop a data models",
               "Description": "Develop a concrete data model for a given use case",
               "Bloom level": "6 - Design / Create",
               "Assessment": [{
@@ -1903,7 +1903,7 @@
           "Title": "Data transformation & harmonization",
           "Description": "Introduction of ontology alignment approaches and extract-transform-load (ETL) processes",
           "Learning outcomes": [{
-              "Title": "Students are able to explain the challenges of syntactic and semantic heterogeneity and how to overcome them",
+              "Title": "explain the challenges of syntactic and semantic heterogeneity and how to overcome them",
               "Description": "Explain that proper data integration requires both a common format (syntax) and alignment of the ontology/vocabulary (semantics)",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -1922,7 +1922,7 @@
               ]
             },
             {
-              "Title": "Students are able to execute ETL processes",
+              "Title": "execute ETL processes",
               "Description": "Know different tools that can execute spatial ETL processes",
               "Bloom level": "3 - Apply",
               "Assessment": [{
@@ -1941,7 +1941,7 @@
               ]
             },
             {
-              "Title": "Students are able to explain different approaches to ontology alignment",
+              "Title": "explain different approaches to ontology alignment",
               "Description": "Explain different approaches to align different ontologies to each other",
               "Bloom level": "4  / 5 - Analyze / Evaluate",
               "Assessment": [{
@@ -1960,7 +1960,7 @@
               ]
             },
             {
-              "Title": "Students are able to set up ETL processes",
+              "Title": "set up ETL processes",
               "Description": "Be able to develop and implement an Extract-Transform-Load process",
               "Bloom level": "6 - Design / Create",
               "Assessment": [{
@@ -1984,7 +1984,7 @@
           "Title": "Data validation",
           "Description": "Aspects of an approaches for validation of geospatial data",
           "Learning outcomes": [{
-              "Title": "Students are able to explain the different aspects of data validation",
+              "Title": "explain the different aspects of data validation",
               "Description": "Explain which aspects are relevant for data validation (geometry, topology, data values, schema) and how to define valid data (standards, schema)",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -2003,7 +2003,7 @@
               ]
             },
             {
-              "Title": "Students are able to extract information on spatial data quality from metadata",
+              "Title": "extract information on spatial data quality from metadata",
               "Description": "Be able to find and use information on spatial data quality from metadata in an SDI",
               "Bloom level": "3 - Apply",
               "Assessment": [{
@@ -2022,7 +2022,7 @@
 			  }]
             },
             {
-              "Title": "Students are able to use standards and schemas for data validation",
+              "Title": "use standards and schemas for data validation",
               "Description": "Understand the purpose of standards and schemas for data validation and how to put them to use",
               "Bloom level": "4  / 5 - Analyze / Evaluate",
               "Assessment": [{
@@ -2041,7 +2041,7 @@
               ]
             },
             {
-              "Title": "Students are able to validate and repair data sets",
+              "Title": "validate and repair data sets",
               "Description": "Validate datasets, identify validation issues and fix them",
               "Bloom level": "6 - Design / Create",
               "Assessment": [{
@@ -2071,7 +2071,7 @@
           "Title": "Data exchange formats",
           "Description": "Introduction of most relevant data exchange formats used in SDIs ",
           "Learning outcomes": [{
-              "Title": "Students are able to list data exchange formats",
+              "Title": "list data exchange formats",
               "Description": "Name the most important data exchange formats used in SDIs and explain their characteristristics",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -2104,7 +2104,7 @@
               }]
             },
             {
-              "Title": "Students are able to identify standards in actual data",
+              "Title": "identify standards in actual data",
               "Description": "Download data from WFS in national SDI and analyse references to standards",
               "Bloom level": "4  / 5 - Analyze / Evaluate",
               "Assessment": [{
@@ -2118,7 +2118,7 @@
               }]
             },
             {
-              "Title": "Students are able to provide and consume exchange formats",
+              "Title": "provide and consume exchange formats",
               "Description": "Set up the server software infrastructure to provide geospatial data in standard formats and can integrate them in a desktop GIS",
               "Bloom level": "6 - Design / Create",
               "Assessment": [{
@@ -2147,7 +2147,7 @@
 			"Topic": "Data quality"
 		  }],
           "Learning outcomes": [{
-              "Title": "Students are able to explain the different aspects of spatial data quality",
+              "Title": "explain the different aspects of spatial data quality",
               "Description": "Name and explain the most relevant aspects of spatial data quality",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -2172,7 +2172,7 @@
               ]
             },
             {
-              "Title": "Students are able to explain the standardization of spatial data quality elements",
+              "Title": "explain the standardization of spatial data quality elements",
               "Description": "Explain how the relevant ISO standards around spatial data quality work and what the main spatial data quality elements in those standards are",
               "Bloom level": "3 - Apply",
               "Assessment": [{
@@ -2197,7 +2197,7 @@
               ]
             },
             {
-              "Title": "Students are able to assess spatial data quality",
+              "Title": "assess spatial data quality",
               "Description": "Be able to analyze the quality of a dataset and provide the collected information in the corresponding ISO standards",
               "Bloom level": "4  / 5 - Analyze / Evaluate",
               "Assessment": [{
@@ -2211,7 +2211,7 @@
               }]
             },
             {
-              "Title": "Students are able to create ISO data quality metadata",
+              "Title": "create ISO data quality metadata",
               "Description": "Students create ISO metadata for a given dataset",
               "Bloom level": "6 - Design / Create",
               "Assessment": [{
@@ -2233,7 +2233,7 @@
           "Title": "Overview of open SDI Legislation",
           "Description": "Generic overview of the role of legislation in open SDI and a brief overview of relevant legislation in the EU ",
           "Learning outcomes": [{
-              "Title": "Students are able to explain relevant legal issues in open SDI",
+              "Title": "explain relevant legal issues in open SDI",
               "Description": "List and explain the relevant legal issues around open spatial data infrastructures",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -2288,7 +2288,7 @@
               ]
             },
             {
-              "Title": "Students are able to explain the main legal issues in open SDI in context",
+              "Title": "explain the main legal issues in open SDI in context",
               "Description": "Use the concentric shell model of `Backx` to describe the main legal issues around open SDI",
               "Bloom level": "3 - Apply",
               "Assessment": [{
@@ -2323,7 +2323,7 @@
               ]
             },
             {
-              "Title": "Students are able to assess the legal openness of SDI",
+              "Title": "assess the legal openness of SDI",
               "Description": "Assess the legal openness of SDI in a country of your choice",
               "Bloom level": "4  / 5 - Analyze / Evaluate",
               "Assessment": [{
@@ -2348,7 +2348,7 @@
               ]
             },
             {
-              "Title": "Students are able to develop a legally open SDI",
+              "Title": "develop a legally open SDI",
               "Description": "Develop requirements for a legally open SDI",
               "Bloom level": "6 - Design / Create",
               "Assessment": [{
@@ -2367,7 +2367,7 @@
           "Title": "Open SDI & INSPIRE directive",
           "Description": "Explanation of INSPIRE and its role in open SDI",
           "Learning outcomes": [{
-              "Title": "Students are able to explain the relation beetween Open SDI and INSPIRE",
+              "Title": "explain the relation beetween Open SDI and INSPIRE",
               "Description": "List and explain the core of the EU INSPIRE directive and its relevancy for open SDI",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -2401,7 +2401,7 @@
               ]
             },
             {
-              "Title": "Students are able to describe and compare the implementation of INSPIRE in EU Member States",
+              "Title": "describe and compare the implementation of INSPIRE in EU Member States",
               "Description": "Describe and compare the implementation of INSPIRE in EU Member States",
               "Bloom level": "3 - Apply",
               "Assessment": [{
@@ -2426,7 +2426,7 @@
               ]
             },
             {
-              "Title": "Students are able to analyze the implementation of INSPIRE in an EU MS including its openness",
+              "Title": "analyze the implementation of INSPIRE in an EU MS including its openness",
               "Description": "Analyze the implementation of INSPIRE across the EU and assess its openness",
               "Bloom level": "4  / 5 - Analyze / Evaluate",
               "Assessment": [{
@@ -2440,7 +2440,7 @@
               }]
             },
             {
-              "Title": "Students are able to improve openness of INSPIRE",
+              "Title": "improve openness of INSPIRE",
               "Description": "Develop a strategy to improve the (legal) openness of the INSPIRE directive",
               "Bloom level": "6 - Design / Create",
               "Assessment": [{
@@ -2469,7 +2469,7 @@
 			"Topic": "Openness"				  
 		  }],
           "Learning outcomes": [{
-              "Title": "Students are able to explain Open data directive in context with open SDI",
+              "Title": "explain Open data directive in context with open SDI",
               "Description": "List and explain the core of the EU Open data directive and its relevancy for open SDI",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -2503,7 +2503,7 @@
               ]
             },
             {
-              "Title": "Students are able to describe and compare the implementation of the Open data directive in EU Member States",
+              "Title": "describe and compare the implementation of the Open data directive in EU Member States",
               "Description": "Describe and compare the implementation of the Open data directive in EU Member States",
               "Bloom level": "3 - Apply",
               "Assessment": [{
@@ -2528,7 +2528,7 @@
               ]
             },
             {
-              "Title": "Students are able to analyze the implementation of the Open data directive in an EU MS and their contribution to open SDI",
+              "Title": "analyze the implementation of the Open data directive in an EU MS and their contribution to open SDI",
               "Description": "Analyze the implementation of the Open data directive across the EU and assess its openness",
               "Bloom level": "4  / 5 - Analyze / Evaluate",
               "Assessment": [{
@@ -2542,7 +2542,7 @@
               }]
             },
             {
-              "Title": "Students are able to improve legal openness of an SDI ",
+              "Title": "improve legal openness of an SDI ",
               "Description": "Develop a strategy to improve the legal openness of an SDI initiative",
               "Bloom level": "6 - Design / Create",
               "Assessment": [{
@@ -2604,7 +2604,7 @@
 			"Topic": "Ethical aspects"
 		  }],
           "Learning outcomes": [{
-              "Title": "Students are able to define \"ethics\", \"data\" and \"technology/infrastructure\"",
+              "Title": "define \"ethics\", \"data\" and \"technology/infrastructure\"",
               "Description": "Familiarize with different definitions of ethics, data and technology",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -2647,7 +2647,7 @@
               ]
             },
             {
-              "Title": "Students are able to explain ethical concerns about (open) data and SDIs",
+              "Title": "explain ethical concerns about (open) data and SDIs",
               "Description": "Identify and explain current ethical issues related to (open) data and SDIs",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -2681,7 +2681,7 @@
               ]
             },
             {
-              "Title": "Students are able to discuss ethical concerns about (open) data and SDIs",
+              "Title": "discuss ethical concerns about (open) data and SDIs",
               "Description": "Critically unpack the ethical issues embedded in current open SDI documents",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -2738,7 +2738,7 @@
           "Title": "Ethical issues in context",
           "Description": "Data- and tech-related ethical issues at micro (e.g. city) and macro (global geopolitics) levels",
           "Learning outcomes": [{
-              "Title": "Students are able to apply the J-UDMA to a chosen SDI",
+              "Title": "apply the J-UDMA to a chosen SDI",
               "Description": "Describe a chosen national SDI through the J-UDMA",
               "Bloom level": "3 - Apply",
               "Assessment": [{
@@ -2781,7 +2781,7 @@
               ]
             },
             {
-              "Title": "Students are able to understand different frameworks/visions on tech innovation by geopolitical actors",
+              "Title": "understand different frameworks/visions on tech innovation by geopolitical actors",
               "Description": "Familiarize with different frameworks/visions on tech innovation by different geopolitical actors (OECD, EU, China)",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -2806,7 +2806,7 @@
               ]
             },
             {
-              "Title": "Students are able to compare different frameworls/visions on tech innovation",
+              "Title": "compare different frameworls/visions on tech innovation",
               "Description": "Compare different frameworks/visions on tech innovations from a geopolitical and ethical perspectives",
               "Bloom level": "4  / 5 - Analyze / Evaluate",
               "Assessment": [{
@@ -2840,7 +2840,7 @@
               ]
             },
             {
-              "Title": "Students are able to understand the role of open SDI in smart city and sustainability",
+              "Title": "understand the role of open SDI in smart city and sustainability",
               "Description": "Recognize and map discourses on smart city and sustainability",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -2936,7 +2936,7 @@
               ]
             },
             {
-              "Title": "Students are able to compare technical and ethical perspective of Smart city`s digital twin",
+              "Title": "compare technical and ethical perspective of Smart city`s digital twin",
               "Description": "Compare two smart citiy`s digital twin(ning) projects from a technical and ethical perspectives",
               "Bloom level": "4  / 5 - Analyze / Evaluate",
               "Assessment": [{
@@ -2959,7 +2959,7 @@
 			"Topic": "GI Business models"
 		  }],
           "Learning outcomes": [{
-              "Title": "Students are able to explain and differentiate business model domains / components",
+              "Title": "explain and differentiate business model domains / components",
               "Description": "Understand and explain the different domains / components of a business model",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -3012,7 +3012,7 @@
               ]
             },
             {
-              "Title": "Students are able to identify existing value propositions, value creation and value capture for spatial data",
+              "Title": "identify existing value propositions, value creation and value capture for spatial data",
               "Description": "Within a spatial data organization`sbusiness model, identify the currently employed value propositions, value creation and value capture",
               "Bloom level": "3 - Apply",
               "Assessment": [{
@@ -3065,7 +3065,7 @@
               ]
             },
             {
-              "Title": "Students are able to evaluate options for value propositions, value creation and value capture for open spatial data",
+              "Title": "evaluate options for value propositions, value creation and value capture for open spatial data",
               "Description": "Within a spatial data organization`s business model, examine options for value propositions, value creation and value capture available to spatial data organizations in an open data ecosystem",
               "Bloom level": "4  / 5 - Analyze / Evaluate",
               "Assessment": [{
@@ -3112,7 +3112,7 @@
           "Title": "Rethinking the ethics of open data and SDIs",
           "Description": "Discussion of alternative paths for tackling data- and tech-related ethical issues in the context of SDI",
           "Learning outcomes": [{
-              "Title": "Students are able to understand data commons in the context of SDI",
+              "Title": "understand data commons in the context of SDI",
               "Description": "Familiarize with (pros and cons of) data commons in the context of SDI",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -3126,7 +3126,7 @@
               }]
             },
             {
-              "Title": "Students are able to assess Data Commons",
+              "Title": "assess Data Commons",
               "Description": "Analyse how data commons can be applied to a chosen SDI from a technical and ethical perspectives",
               "Bloom level": "4  / 5 - Analyze / Evaluate",
               "Assessment": [{
@@ -3160,7 +3160,7 @@
               ]
             },
             {
-              "Title": "Students are able to implement data commons for smart city`s digital twin(ing)",
+              "Title": "implement data commons for smart city`s digital twin(ing)",
               "Description": "Implementation of data commons in the context of SDI and smart city`s digital twinning",
               "Bloom level": "6 - Design / Create",
               "Assessment": [{
@@ -3189,7 +3189,7 @@
 		  }],
           "Description": "Relevance of financial models available to (self-funded) SDI organizations, access regimes for spatial data, assessment of costs and benefits of (open) spatial data",
           "Learning outcomes": [{
-              "Title": "Students are able to identify existing revenue models and pricing mechanisms as part of the financial domain of a business model of a spatial data organization",
+              "Title": "identify existing revenue models and pricing mechanisms as part of the financial domain of a business model of a spatial data organization",
               "Description": "Identify revenue models and pricing mechanisms available to spatial data organizations",
               "Bloom level": "3 - Apply",
               "Assessment": [{
@@ -3242,7 +3242,7 @@
               ]
             },
             {
-              "Title": "Students are able to analyse options for revenue models and pricing mechanisms as part of the financial domain of a business model of a spatial data organizations in an open data ecosystem",
+              "Title": "analyse options for revenue models and pricing mechanisms as part of the financial domain of a business model of a spatial data organizations in an open data ecosystem",
               "Description": "Analyse in which way revenue models and pricing mechanisms can be adpated or adoptedto capture value in an open data ecosystem",
               "Bloom level": "4  / 5 - Analyze / Evaluate",
               "Assessment": [{
@@ -3392,7 +3392,7 @@
 			"Topic": "Funding an SDI"
 		  }],
           "Learning outcomes": [{
-              "Title": "Students are able to list and explain funding models for self-funded spatial data suppliers",
+              "Title": "list and explain funding models for self-funded spatial data suppliers",
               "Description": "Identity through desktop research how Self-Funding agencies are funded",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -3444,7 +3444,7 @@
               ]
             },
             {
-              "Title": "Students are able to assess access regimes for spatial data",
+              "Title": "assess access regimes for spatial data",
               "Description": "Appraise the pros and cons of SDI access regimes",
               "Bloom level": "4  / 5 - Analyze / Evaluate",
               "Assessment": [{
@@ -3496,7 +3496,7 @@
               ]
             },
             {
-              "Title": "Students are able to classify costs and benefits of open spatial data",
+              "Title": "classify costs and benefits of open spatial data",
               "Description": "Classify the costs and benefits of open data supply for the data supplier",
               "Bloom level": "4  / 5 - Analyze / Evaluate",
               "Assessment": [{
@@ -3553,7 +3553,7 @@
               ]
             },
             {
-              "Title": "Students are able to adapt self-funded agencies to open spatial data supply",
+              "Title": "adapt self-funded agencies to open spatial data supply",
               "Description": "Determine how self-funding agencies can adapt to open data supply",
               "Bloom level": "4  / 5 - Analyze / Evaluate",
               "Assessment": [{
@@ -3649,7 +3649,7 @@
               ]
             },
             {
-              "Title": "Students are able to identify and compare different licences in practice",
+              "Title": "identify and compare different licences in practice",
               "Description": "Recognise, compare and explain different licenses in the geo domain, identify the differences between them",
               "Bloom level": "4  / 5 - Analyze / Evaluate",
               "Assessment": [{
@@ -3701,7 +3701,7 @@
               ]
             },
             {
-              "Title": "Students are able to evaluate different licences and explain the impact on SDI",
+              "Title": "evaluate different licences and explain the impact on SDI",
               "Description": "Analyze and evaluate (open) licences of a specific dataset in a country and explain the impact on SDI development at national and international levels",
               "Bloom level": "4  / 5 - Analyze / Evaluate",
               "Assessment": [{
@@ -3753,7 +3753,7 @@
               ]
             },
             {
-              "Title": "Students are able to improve open licences for SDI",
+              "Title": "improve open licences for SDI",
               "Description": "Develop guidelines for improved open licences in SDIs",
               "Bloom level": "4  / 5 - Analyze / Evaluate",
               "Assessment": [{
@@ -3806,7 +3806,7 @@
 			  "Topic": "Openness"				  
 		  }],
           "Learning outcomes": [{
-              "Title": "Students are able to understand the key concepts of GDPR",
+              "Title": "understand the key concepts of GDPR",
               "Description": "List and explain the key concepts of the General Data Protection Regulation (GDPR) (or another data protection law)",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -3840,7 +3840,7 @@
               ]
             },
             {
-              "Title": "Students are able to appliy GDPR to geodata/ SDI",
+              "Title": "appliy GDPR to geodata/ SDI",
               "Description": "Apply the GDPR to geodata/ SDI",
               "Bloom level": "3 - Apply",
               "Assessment": [{
@@ -3908,7 +3908,7 @@
               ]
             },
             {
-              "Title": "Students are able to implement (open) SDI GDPR",
+              "Title": "implement (open) SDI GDPR",
               "Description": "Propose innovative directions to implement open SDI complying to the GDPR",
               "Bloom level": "6 - Design / Create",
               "Assessment": [{
@@ -3952,7 +3952,7 @@
 			"Topic": "Policies"
 		  }],
           "Learning outcomes": [{
-              "Title": "Students are able to define SDI strategies and policies",
+              "Title": "define SDI strategies and policies",
               "Description": "Explain what SDI strategies and policies are",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -3971,7 +3971,7 @@
               ]
             },
             {
-              "Title": "Students are able to compare the content of strategies",
+              "Title": "compare the content of strategies",
               "Description": "Compare different SDI strategies",
               "Bloom level": "4  / 5 - Analyze / Evaluate",
               "Assessment": [{
@@ -3990,7 +3990,7 @@
               ]
             },
             {
-              "Title": "Students are able to prepare a strategy",
+              "Title": "prepare a strategy",
               "Description": "Prepare a SDI strategy for a country ",
               "Bloom level": "6 - Design / Create",
               "Assessment": [{
@@ -4017,7 +4017,7 @@
 			"Topic": "Policies"
 		  }],
           "Learning outcomes": [{
-              "Title": "Students are able to define SDI strategies and policies",
+              "Title": "define SDI strategies and policies",
               "Description": "Explain what SDI strategies and policies are",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -4036,7 +4036,7 @@
               ]
             },
             {
-              "Title": "Students are able to list the differences and similarieties of SDI strategies",
+              "Title": "list the differences and similarieties of SDI strategies",
               "Description": "Compare different SDI strategies",
               "Bloom level": "4  / 5 - Analyze / Evaluate",
               "Assessment": [{
@@ -4055,7 +4055,7 @@
               ]
             },
             {
-              "Title": "Students are able to prepare a strategy",
+              "Title": "prepare a strategy",
               "Description": "Prepare an SDI strategy for a country ",
               "Bloom level": "6 - Design / Create",
               "Assessment": [{
@@ -4074,7 +4074,7 @@
           "Title": "SDI actors and stakeholders",
           "Description": "Actors and stakeholders involved in the implementation of SDIs",
           "Learning outcomes": [{
-              "Title": "Students are able to list the SDI stakeholders",
+              "Title": "list the SDI stakeholders",
               "Description": "List the key SDI stakeholders",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -4112,7 +4112,7 @@
               ]
             },
             {
-              "Title": "Students are able to create a stakeholder map",
+              "Title": "create a stakeholder map",
               "Description": "Prepare a stakeholder map of an SDI",
               "Bloom level": "3 - Apply",
               "Assessment": [{
@@ -4136,7 +4136,7 @@
           "Title": "SDI task allocation",
           "Description": "Allocation of tasks related to the implementation of SDIs",
           "Learning outcomes": [{
-              "Title": "Students are able to explain the tasks for implementing an SDI",
+              "Title": "explain the tasks for implementing an SDI",
               "Description": "Explain the key tasks to be executed in implementing an SDI",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -4155,7 +4155,7 @@
               ]
             },
             {
-              "Title": "Students are able to define models of task allocation",
+              "Title": "define models of task allocation",
               "Description": "Explain different models for allocating tasks",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -4169,7 +4169,7 @@
               }]
             },
             {
-              "Title": "Students are able to analyse the SDI tasksallocation",
+              "Title": "analyse the SDI tasksallocation",
               "Description": "Analyse how tasks are allocated within a particular SDI",
               "Bloom level": "4  / 5 - Analyze / Evaluate",
               "Assessment": [{
@@ -4193,7 +4193,7 @@
           "Title": "GI/SDI Management in organizations",
           "Description": "Internal management of SDIs within organizations",
           "Learning outcomes": [{
-              "Title": "Students are able to describe the challenges to implement SDI",
+              "Title": "describe the challenges to implement SDI",
               "Description": "Explain the requirements and challenges an SDI brings to individual organizations",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -4212,7 +4212,7 @@
               ]
             },
             {
-              "Title": "Students are able to explain the different approaches",
+              "Title": "explain the different approaches",
               "Description": "Explain different approaches for internal management of SDIs",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -4231,7 +4231,7 @@
               ]
             },
             {
-              "Title": "Students are able to develop a strategy to implement SDI",
+              "Title": "develop a strategy to implement SDI",
               "Description": "Develop an organizational strategy for SDI implementation",
               "Bloom level": "4  / 5 - Analyze / Evaluate",
               "Assessment": [{
@@ -4250,7 +4250,7 @@
           "Title": "Governance of standards",
           "Description": "Bodies involved in and process related to the development and adoption of standards",
           "Learning outcomes": [{
-              "Title": "Students are able to name the main organisation of SDI Standardization",
+              "Title": "name the main organisation of SDI Standardization",
               "Description": "List the main organizations involved in developing SDI standards",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -4269,7 +4269,7 @@
               ]
             },
             {
-              "Title": "Students are able to describe the differences between the standardization bodies",
+              "Title": "describe the differences between the standardization bodies",
               "Description": "Explain the differences and relationships between different SDI standardization bodies",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -4288,7 +4288,7 @@
               ]
             },
             {
-              "Title": "Students are able to explain the standardization process",
+              "Title": "explain the standardization process",
               "Description": "Explain the process of adopting and implementing SDI standards",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -4312,7 +4312,7 @@
           "Title": "SDI processes",
           "Description": "Processes related to the implementation and use of SDIs",
           "Learning outcomes": [{
-              "Title": "Students are able to explain the relevance of processes",
+              "Title": "explain the relevance of processes",
               "Description": "Explain the relevance and importance of processes in SDI implementation",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -4331,7 +4331,7 @@
               ]
             },
             {
-              "Title": "Students are able to apply elements of BPMN",
+              "Title": "apply elements of BPMN",
               "Description": "Apply the essential elements of business process management to SDI processes",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -4350,7 +4350,7 @@
               ]
             },
             {
-              "Title": "Students are able to create a process model",
+              "Title": "create a process model",
               "Description": "Prepare a simple model of an SDI work process",
               "Bloom level": "4  / 5 - Analyze / Evaluate",
               "Assessment": [{
@@ -4374,7 +4374,7 @@
 			"Topic": "SDI governance"
 		  }],
           "Learning outcomes": [{
-              "Title": "Students are able to explain SDI governance",
+              "Title": "explain SDI governance",
               "Description": "Explain what SDI governance is and why it is important in the development and implementation of SDIs",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -4397,7 +4397,7 @@
               ]
             },
             {
-              "Title": "Students are able to know existing governance structure",
+              "Title": "know existing governance structure",
               "Description": "Discuss and analyse the governance structure in place of a particular country",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -4416,7 +4416,7 @@
               ]
             },
             {
-              "Title": "Students are able to recognize governance instruments",
+              "Title": "recognize governance instruments",
               "Description": "Explain the different instruments that could be used for SDI governance",
               "Bloom level": "3 - Apply",
               "Assessment": [{
@@ -4440,7 +4440,7 @@
               ]
             },
             {
-              "Title": "Students are able to design a governance structure",
+              "Title": "design a governance structure",
               "Description": "Design an effective governance structure for a national SDI using different governance instruments",
               "Bloom level": "4  / 5 - Analyze / Evaluate",
               "Assessment": [{

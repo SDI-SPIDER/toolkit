@@ -125,7 +125,9 @@ function formatConcept(conceptContent) {
     <div class="concept search panel-group">
        <h2 id="` + id(conceptContent["Title"]) + `">
        ` + conceptContent["Title"] + `</h2>
-       <p class="lead">` + conceptContent["Description"] + `. <strong>Learning&nbsp;outcomes:</strong></p>
+       <p class="lead">` + conceptContent["Description"] + `.</p>
+	   <p><strong>Learning&nbsp;outcomes:</strong>
+	   <br>Students are able to ...</p>
     </div>`)
 }
 
@@ -135,7 +137,7 @@ function formatLOPanelHeader(learningOutcome) {
     <div class="panel panel-default">
       <div class="panel-heading goal">
         <h3 class="panel-title">
-          <a data-bs-toggle="collapse" class="collapsed" href="#collapse` + id(learningOutcome["Title"]) + `">` + learningOutcome["Title"] + `</a>
+          <a data-bs-toggle="collapse" class="collapsed" href="#collapse` + id(learningOutcome["Title"]) + `">... ` + learningOutcome["Title"] + `</a>
         </h3>
       </div>
     </div>`);
