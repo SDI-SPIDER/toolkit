@@ -158,7 +158,7 @@
               }]
             },
             {
-              "Title": "Students are able to analyze the existing cost-benefit analysis: case study.",
+              "Title": "Students are able to analyze the existing cost-benefit analysis: case study",
               "Description": "Analysing and comparing exisiting case studies of cost-benefit analysis",
               "Bloom level": "4  / 5 - Analyze / Evaluate",
               "Assessment": [{
@@ -177,7 +177,7 @@
               ]
             },
             {
-              "Title": "Students are able to elaborate SDI implementation costs for given case study.",
+              "Title": "Students are able to elaborate SDI implementation costs for given case study",
               "Description": "Identification and analysis of SDI implementation costs for given case study.",
               "Bloom level": "6 - Design / Create",
               "Assessment": [{
@@ -936,7 +936,7 @@
               ]
             },
             {
-              "Title": "Students are able to explain the basic tools and techniques for web development ",
+              "Title": "Students are able to explain the basic tools and techniques for web development",
               "Description": "Explain the basic tools and techniques for web development",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -2147,7 +2147,7 @@
 			"Topic": "Data quality"
 		  }],
           "Learning outcomes": [{
-              "Title": "Students are able to explain the different aspects of spatial data quality ",
+              "Title": "Students are able to explain the different aspects of spatial data quality",
               "Description": "Name and explain the most relevant aspects of spatial data quality",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
