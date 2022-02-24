@@ -123,7 +123,8 @@ function formatTopic(topic) {
 function formatConcept(conceptContent) {
   return $(`
     <div class="concept search panel-group">
-       <h2 id="` + id(conceptContent["Title"]) + `">
+	   <div id="` + id(conceptContent["Title"]) + `" class="anchor"></div>
+       <h2>
        ` + conceptContent["Title"] + `</h2>
        <p class="lead">` + conceptContent["Description"] + `.</p>
 	   <p class="lead"><strong>Learning&nbsp;outcomes:</strong>
