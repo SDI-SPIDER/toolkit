@@ -176,7 +176,7 @@ a.nav-link:hover {
 }
 
 .bok a::before {
-	content: url(icons/link-45deg.svg);
+	content: url(icons/box-arrow-up-right.svg);
 }
 
 .bok a {
