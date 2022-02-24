@@ -189,20 +189,21 @@ a.nav-link:hover {
 	text-decoration: underline;
 }
 
+/* move anchor depending on height of nav-bar and content*/
 .anchor {
 	visibility: hidden;
 	height: 0px !important;
 	position: absolute;
-	margin: -60px;
+	margin: -90px;
 }
 
-@media(max-width: 1150px) {
+@media (min-width: 1150px) and (max-width: 1800px) {
 	.anchor {
-		margin: -90px;
+		margin: -60px;
 	}
 }
 
-@media(max-width: 650px) {
+@media (max-width: 650px) {
 	.anchor {
 		margin: -160px;
 	}
