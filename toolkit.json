@@ -690,7 +690,7 @@
           ]
         },
         {
-          "Title": "Geospatial data (Data acqusition)",
+          "Title": "Geospatial data (Data acquisition)",
           "Description": "Overview of geospatial data and key components of data acquisition",
 		  "BoK": [{
 			"Source": "EO4GEO",
@@ -736,7 +736,7 @@
               ]
             },
             {
-              "Title": "analyze methods for geospatial data acqusition",
+              "Title": "analyze methods for geospatial data acquisition",
               "Description": "Introduce the main methods for geospatial data acqusition",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -2596,6 +2596,927 @@
           ]
         },
         {
+          "Title": "Data protection and open SDI",
+          "Description": "Description and discussion of the role of data protection legislation on the (open) SDI concept",
+		  "BoK": [{
+			  "Source": "UCGIS",
+			  "URL": "https://gistbok.ucgis.org/bok-topics/openness",
+			  "Topic": "Openness"
+		  }],
+          "Learning outcomes": [{
+              "Title": "understand the key concepts of GDPR",
+              "Description": "List and explain the key concepts of the General Data Protection Regulation (GDPR) (or another data protection law)",
+              "Bloom level": "1 / 2 - Remember / Understand",
+              "Assessment": [{
+                  "Assessment method": "Feedback by Q&A",
+                  "Assessment method description": "Moderator asks in depth questions clarifying the meaning of the presented perceptions",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Feedback by Q&A",
+                  "Assessment method description": "Moderator asks in depth questions clarifying the meaning of the presented perceptions",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Written exam",
+                  "Assessment method description": "An example question is: provide the GDPR definition of personal data and explain the different elements in this definition that together determine whether data is personal data or not.",
+                  "Assessment method type": "Summative"
+                }
+              ],
+              "Teaching activies": [{
+                  "Title": "Feedback by Q&A",
+                  "Description": "Moderator asks in depth questions clarifying the meaning of the presented perceptions"
+                },
+                {
+                  "Title": "Feedback by Q&A",
+                  "Description": "Moderator asks in depth questions clarifying the meaning of the presented perceptions"
+                },
+                {
+                  "Title": "Written exam",
+                  "Description": "An example question is: provide the GDPR definition of personal data and explain the different elements in this definition that together determine whether data is personal data or not."
+                }
+              ]
+            },
+            {
+              "Title": "appliy GDPR to geodata/ SDI",
+              "Description": "Apply the GDPR to geodata/ SDI",
+              "Bloom level": "3 - Apply",
+              "Assessment": [{
+                  "Assessment method": "Quiz",
+                  "Assessment method description": "Short quiz on GDPR and geodata (e.g., show a map and ask whether the GDPR applies)",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Written exam",
+                  "Assessment method description": "An example question is:  show a map and ask whether the GDPR applies",
+                  "Assessment method type": "Summative"
+                },
+                {
+                  "Assessment method": "Written exam",
+                  "Assessment method description": "An example question is:  show a map and ask whether the GDPR applies",
+                  "Assessment method type": "Summative"
+                }
+              ],
+              "Teaching activies": [{
+                  "Title": "Quiz",
+                  "Description": "Short quiz on GDPR and geodata (e.g., show a map and ask whether the GDPR applies)"
+                },
+                {
+                  "Title": "Written exam",
+                  "Description": "An example question is:  show a map and ask whether the GDPR applies"
+                },
+                {
+                  "Title": "Written exam",
+                  "Description": "An example question is:  show a map and ask whether the GDPR applies"
+                }
+              ]
+            },
+            {
+              "Title": "Students ara able to evaluate the impact GDPR on SDI",
+              "Description": "Analyze and evaluate the impact of the GDPR for the concept of open SDI",
+              "Bloom level": "4  / 5 - Analyze / Evaluate",
+              "Assessment": [{
+                  "Assessment method": "Small report",
+                  "Assessment method description": "Students receive feedback from their peers and teachers during the discussions",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Feedback",
+                  "Assessment method description": "Students receive feedback from their peers and teachers during the discussions",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Feedback",
+                  "Assessment method description": "Students receive feedback from their peers (as members of the audience) and the teacher (as moderator) during the debate",
+                  "Assessment method type": "Formative"
+                }
+              ],
+              "Teaching activies": [{
+                  "Title": "small report",
+                  "Description": "Students receive feedback from their peers and teachers during the discussions"
+                },
+                {
+                  "Title": "Feedback",
+                  "Description": "Students receive feedback from their peers and teachers during the discussions"
+                },
+                {
+                  "Title": "Feedback",
+                  "Description": "Students receive feedback from their peers (as members of the audience) and the teacher (as moderator) during the debate"
+                }
+              ]
+            },
+            {
+              "Title": "implement (open) SDI GDPR",
+              "Description": "Propose innovative directions to implement open SDI complying to the GDPR",
+              "Bloom level": "6 - Design / Create",
+              "Assessment": [{
+                  "Assessment method": "Feedback",
+                  "Assessment method description": "Students receive feedback from their peers (as members of the audience) and the teacher (as moderator) during the debate",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Feedback",
+                  "Assessment method description": "Students receive feedback from their peers (as members of the audience) and the teacher (as moderator) during the debate",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Feedback",
+                  "Assessment method description": "Students receive feedback from their peers (as members of the audience) and the teacher (as moderator) during the debate",
+                  "Assessment method type": "Formative"
+                }
+              ],
+              "Teaching activies": [{
+                  "Title": "Feedback",
+                  "Description": "Students receive feedback from their peers (as members of the audience) and the teacher (as moderator) during the debate"
+                },
+                {
+                  "Title": "Feedback",
+                  "Description": "Students receive feedback from their peers (as members of the audience) and the teacher (as moderator) during the debate"
+                },
+                {
+                  "Title": "Feedback",
+                  "Description": "Students receive feedback from their peers (as members of the audience) and the teacher (as moderator) during the debate"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Title": "Open licensing",
+          "Description": "Explanation and discussion of role of (open) licensing in (open) SDI",
+		  "BoK": [{
+			  "Source": "UCGIS",
+			  "URL": "https://gistbok.ucgis.org/bok-topics/openness",
+			  "Topic": "Openness"
+		  }],
+          "Learning outcomes": [{
+              "Title": "Students are abble to differentiate the types of licenses in SDI",
+              "Description": "List and describe the different types of licenses in SDI",
+              "Bloom level": "1 / 2 - Remember / Understand",
+              "Assessment": [{
+                  "Assessment method": "Quiz",
+                  "Assessment method description": "Short quiz on licencing issues: example question may be: Typical licensing issues are: availability of licensing terms, intellectual capacity of users to understand the licensing terms, the interoperability of different licences, other",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Quiz",
+                  "Assessment method description": "Short quiz on typical (open) licences challenges in SDI.",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Quiz",
+                  "Assessment method description": "Short quiz on which types of (open) licences exist.",
+                  "Assessment method type": "Formative"
+                }
+              ],
+              "Teaching activies": [{
+                  "Title": "Lecture",
+                  "Description": " Lecture explaining the types of (open) licences and licensing issues"
+                },
+                {
+                  "Title": "Paper review",
+                  "Description": "Students have to read papers on different types of licences."
+                },
+                {
+                  "Title": "Clips",
+                  "Description": "Students have to watch a video clip on the core issues of licencing in SDI"
+                }
+              ]
+            },
+            {
+              "Title": "identify and compare different licences in practice",
+              "Description": "Recognise, compare and explain different licenses in the geo domain, identify the differences between them",
+              "Bloom level": "4  / 5 - Analyze / Evaluate",
+              "Assessment": [{
+                  "Assessment method": "Small report",
+                  "Assessment method description": "Students receive feedback",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Feedback",
+                  "Assessment method description": "Students receive feedback during the presentation/discussion of the differences.",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Feedback",
+                  "Assessment method description": "Students receive feedback during the presentation/discussion of the differences.",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Feedback",
+                  "Assessment method description": "Students receive feedback during the presentation/discussion of the differences.",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Written exam",
+                  "Assessment method description": "this LO is assessed with one question of written exam, e.g. An example licensing text is provided not allowing for the development of derivative works (CC-ND) and students have to argue whether this fits the objectives of third generation SDIs (aiming at stimulating value added use).",
+                  "Assessment method type": "Summative"
+                }
+              ],
+              "Teaching activies": [{
+                  "Title": "Desk study",
+                  "Description": "Students explore on the INSPIRE portal (or another portal) the licenses for a certain type of geodata."
+                },
+                {
+                  "Title": "Class Discussion",
+                  "Description": "Students discuss in smaller groups their findings and differences of their findings"
+                },
+                {
+                  "Title": "Class Discussion",
+                  "Description": "Students present the main outcomes of their group discussions in the main room"
+                },
+                {
+                  "Title": "Class Discussion",
+                  "Description": "Teacher moderates discussion on the findings and their implications for SDI development."
+                },
+                {
+                  "Title": "Lecture",
+                  "Description": "Lecture on the role of (open) licenses in SDI development referring to SDI generations. "
+                }
+              ]
+            },
+            {
+              "Title": "evaluate different licences and explain the impact on SDI",
+              "Description": "Analyze and evaluate (open) licences of a specific dataset in a country and explain the impact on SDI development at national and international levels",
+              "Bloom level": "4  / 5 - Analyze / Evaluate",
+              "Assessment": [{
+                  "Assessment method": "Small report",
+                  "Assessment method description": "Students receive feedback from their peers",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Feedback",
+                  "Assessment method description": "Students receive feedback from their peers and teachers during the discussions",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Feedback",
+                  "Assessment method description": "Students receive feedback from their peers and teachers during the discussions",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Feedback",
+                  "Assessment method description": "Students receive feedback from their peers and teachers during the discussions",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Debate",
+                  "Assessment method description": "",
+                  "Assessment method type": ""
+                }
+              ],
+              "Teaching activies": [{
+                  "Title": "Desk study",
+                  "Description": "Students have to look at and analyze one license of one dataset in one EU country"
+                },
+                {
+                  "Title": "Class Discussion",
+                  "Description": "Students have to discuss and decide in smaller groups on the best and worst performing licence from the perspective of open SDI"
+                },
+                {
+                  "Title": "Class Discussion",
+                  "Description": "Plenary discussion on the best and worstperforming licence from the perspective of open SDI in Europe"
+                },
+                {
+                  "Title": "Class Discussion",
+                  "Description": "Students have to discuss in smaller groups the impact of the implementation of open licences in their country (one focus on the user perspective, one on the data provider perspective)"
+                },
+                {
+                  "Title": "Lecture",
+                  "Description": "Lecture explaining the wider context/ dynamic environment in which open licences develop with a critical view on claims made such as on data quality impact"
+                }
+              ]
+            },
+            {
+              "Title": "improve open licences for SDI",
+              "Description": "Develop guidelines for improved open licences in SDIs",
+              "Bloom level": "4  / 5 - Analyze / Evaluate",
+              "Assessment": [{
+                  "Assessment method": "small report",
+                  "Assessment method description": "Students receive feedback from teachers",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Feedback",
+                  "Assessment method description": "Students receive feedback from their peers and teachers (as moderators) during the discussions",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Feedback",
+                  "Assessment method description": "Students receive feedback from their peers and teachers (as moderators) during the discussions",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Feedback",
+                  "Assessment method description": "Students receive feedback from their peers and teachers (as moderators) during the discussions",
+                  "Assessment method type": "Formative"
+                }
+              ],
+              "Teaching activies": [{
+                  "Title": "Desk study",
+                  "Description": "Students have to analyse existing licences for geodata in a specific country and use that experience to design recommendations to make the licence more user friendly from a technical (is it easy to find), and especially intellectual accessibility perspectives."
+                },
+                {
+                  "Title": "Class Discussion",
+                  "Description": "Students present and discuss their findings with students that studied countries with a similar level of SDI development "
+                },
+                {
+                  "Title": "Class Discussion",
+                  "Description": "Group representative presents the main findings of the group plenary "
+                },
+                {
+                  "Title": "Class Discussion",
+                  "Description": "Teacher moderates discussion on the findings and their implications for SDI development"
+                }
+              ]
+            }
+          ]
+        },
+		{
+          "Title": "SDI Business Model domains",
+          "Description": "Business model domains and value creation for spatial data organizations",
+		  "BoK": [{
+			"Source": "EO4GEO",
+			"URL": "https://bok.eo4geo.eu/GS2-1",
+			"Topic": "GI Business models"
+		  }],
+          "Learning outcomes": [{
+              "Title": "explain and differentiate business model domains / components",
+              "Description": "Understand and explain the different domains / components of a business model",
+              "Bloom level": "1 / 2 - Remember / Understand",
+              "Assessment": [{
+                  "Assessment method": "self-test quiz",
+                  "Assessment method description": "Students do a short self-test outside class by answering a number of MC questions, and receive automated feedback responses for correct and incorrect answers",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Written exam question",
+                  "Assessment method description": "This LO is assessed as an introductory question (Qa) to an exam question, in which business model components have to be listed",
+                  "Assessment method type": "Summative"
+                },
+                {
+                  "Assessment method": "Short quiz",
+                  "Assessment method description": "Students do a short quiz on which activity belongs to which business model component / domain during class",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Oral feedback",
+                  "Assessment method description": "Students are asked direct questions during the lecture",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Case study report",
+                  "Assessment method description": "Groups of 3-4 students carry out a case study as Problem-Based Learning. This LO is assessed as a case study sub-report, whereby students receive written and oral feedback ",
+                  "Assessment method type": "Summative"
+                }
+              ],
+              "Teaching activies": [{
+                  "Title": "Clips",
+                  "Description": "Watch the introductory video on business models for open data "
+                },
+                {
+                  "Title": "Paper review",
+                  "Description": "Read article by Vancauwenberghe et al. (2018) ",
+                  "Materials": "Vancauwenberghe, G., F. Welle Donker & B. Van Loenen (2018). <a href='https://www.taylorfrancis.com/chapters/edit/10.1201/9781315154640-7/business-models-geographic-information-glenn-vancauwenberghe-frederika-welle-donker-bastiaan-van-loenen' target='_blank'>Business Models for Geographic Information</a>. In: Kruse, J., J. Crompvoets & F. Pearlman (eds) The Socioeconomic Value of Geospatial Information. CRC Press Taylor & Francis Group, Boca Raton."
+                },
+                {
+                  "Title": "Lecture",
+                  "Description": "Lecture introducing Business Model theory and explaining Business Models domains / components"
+                },
+                {
+                  "Title": "Short Quizzes",
+                  "Description": "Students have to answer a short quiz question during class, and explain their answer"
+                },
+                {
+                  "Title": "Case study",
+                  "Description": "Groups of 3-4 students have to identify the business model domains / components applicable to their group`s case study organization"
+                }
+              ]
+            },
+            {
+              "Title": "identify existing value propositions, value creation and value capture for spatial data",
+              "Description": "Within a spatial data organization`sbusiness model, identify the currently employed value propositions, value creation and value capture",
+              "Bloom level": "3 - Apply",
+              "Assessment": [{
+                  "Assessment method": "Self-test quiz",
+                  "Assessment method description": "Students do a short self-test outside class by answering a number of MC questions, and receive automated feedback responses for correct and incorrect answers",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "written exam question",
+                  "Assessment method description": "This LO is assessed as an introductory question (Qa) to an exam question, in which business model components have to be summarized",
+                  "Assessment method type": "Summative"
+                },
+                {
+                  "Assessment method": "short quiz",
+                  "Assessment method description": "students do a short quiz during class and receive oral feedback",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "oral feedback",
+                  "Assessment method description": "students are asked direct questions, which are used as input for a class discussion whereby the class receives oral feedback during the discussion",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "short quiz",
+                  "Assessment method description": "students do a short quiz during class and receive oral feedback",
+                  "Assessment method type": "Formative"
+                }
+              ],
+              "Teaching activies": [{
+                  "Title": "Clips",
+                  "Description": "Watch the introductory video on business models for open data "
+                },
+                {
+                  "Title": "Paper review",
+                  "Description": "Read article by Vancauwenberghe et al. (2018) ",
+                  "Materials": "Vancauwenberghe, G., F. Welle Donker & B. Van Loenen (2018). <a href='https://www.taylorfrancis.com/chapters/edit/10.1201/9781315154640-7/business-models-geographic-information-glenn-vancauwenberghe-frederika-welle-donker-bastiaan-van-loenen' target='_blank'>Business Models for Geographic Information</a>. In: Kruse, J., J. Crompvoets & F. Pearlman (eds) The Socioeconomic Value of Geospatial Information. CRC Press Taylor & Francis Group, Boca Raton."
+                },
+                {
+                  "Title": "Lecture",
+                  "Description": "Lecture introducing Business Model theory and explaining Business Models domains / components"
+                },
+                {
+                  "Title": "Asking Questions",
+                  "Description": "Students have to answer questions asked during the lecture"
+                },
+                {
+                  "Title": "Short Quizzes",
+                  "Description": "Students have to respond to a short quiz question / online poll during class"
+                }
+              ]
+            },
+            {
+              "Title": "evaluate options for value propositions, value creation and value capture for open spatial data",
+              "Description": "Within a spatial data organization`s business model, examine options for value propositions, value creation and value capture available to spatial data organizations in an open data ecosystem",
+              "Bloom level": "4  / 5 - Analyze / Evaluate",
+              "Assessment": [{
+                  "Assessment method": "Student presentation",
+                  "Assessment method description": "Students have to present the outcomes of their TPS / group discussion on a business model canvas via a common whiteboard / project bord",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "oral feedback",
+                  "Assessment method description": "2-3 pairs / groups of students have to explain their choices and receive oral feedback during the class discussion on the business model canvas presented on the whiteboard / project board, ",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "case study report",
+                  "Assessment method description": "Groups of 3-4 students carry out a case study as Problem-Based Learning. This LO is assessed as a case study sub-report, whereby students receive written and oral feedback ",
+                  "Assessment method type": "Sumative"
+                }
+              ],
+              "Teaching activies": [{
+                  "Title": "Think-pair-share",
+                  "Description": "Students have to identify the value proposition(s) of a National Mapping Agency, and to which group of stakeholders the value proposition is offered"
+                },
+                {
+                  "Title": "Think-pair-share",
+                  "Description": "Students have to identify the value creation of a National Mapping Agency"
+                },
+                {
+                  "Title": "Think-pair-share",
+                  "Description": "Students have to identify the value capture of a National Mapping Agency"
+                },
+                {
+                  "Title": "Class Discussion",
+                  "Description": "Students add their outcomes of the TPS / group exercises to a business model canvas displayed on a (online) whiteboard / project board as input to a class discussion "
+                },
+                {
+                  "Title": "Case study",
+                  "Description": "Students identify and classify business model value components of their case study organization "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Title": "SDI Business Models and Information Value Chains",
+          "Description": "Business models for spatial data organizations and their role in the spatial information value chain",
+		  "BoK": [{
+			"Source": "EO4GEO",
+			"URL": "https://bok.eo4geo.eu/GS2-5",
+			"Topic": "Geo-information value chain"
+		  },{
+			"Source": "UCGIS",
+			"URL": "https://gistbok.ucgis.org/bok-topics/value-of-professional-geospatial-organizations",
+			"Topic": "Value of Professional Geospatial Organizations"
+		  }],
+          "Learning outcomes": [{
+            "Title": "Sudents are able to analyse the adaptations to spatial data organization`s business model and role in an open data ecosystem",
+            "Description": "Evaluate how a spatial data organization can adapt its business model and, thereby, its role in the information value chain in an open data ecosystem",
+            "Bloom level": "4  / 5 - Analyze / Evaluate",
+            "Assessment": [{
+                "Assessment method": "Self-test quiz",
+                "Assessment method description": "students do a short self-test outside class by answering s number of MC questions, and receive automated feedback responses for correct and incorrect answers",
+                "Assessment method type": "Formative"
+              },
+              {
+                "Assessment method": "written exam question",
+                "Assessment method description": " this LO is assessed as a sub-question, in which students have to appraise which strategies and changes to the business model are  most appropriate for a given spatial data organization having to supply high-value datasets",
+                "Assessment method type": "Summative"
+              },
+              {
+                "Assessment method": "oral feedback",
+                "Assessment method description": "students are asked direct questions and receive oral feedback",
+                "Assessment method type": "Formative"
+              },
+              {
+                "Assessment method": "oral feedback",
+                "Assessment method description": "students are asked direct questions, which are used as input for a class discussion whereby the class receives oral feedback during the discussion",
+                "Assessment method type": "Formative"
+              },
+              {
+                "Assessment method": "oral feedback",
+                "Assessment method description": "students have to present the outcomes of their TPS / group discussion orally to the class",
+                "Assessment method type": "Formative"
+              },
+              {
+                "Assessment method": "oral feedback",
+                "Assessment method description": "2-3 pairs / groups of students have to explain their outcomes of their TPS / group discussion in a class discussion",
+                "Assessment method type": "Formative"
+              },
+              {
+                "Assessment method": "case study report",
+                "Assessment method description": "Groups of 3-4 students carry out a case study as Problem-Based Learning. This LO is assessed as a case study sub-report, whereby students receive written and oral feedback",
+                "Assessment method type": "Summative"
+              },
+              {
+                "Assessment method": "case study report",
+                "Assessment method description": "Students have to convince a neutral person (President of OpenDatia) of which business model and role within the information value chain are best suited to the National Mapping Agency of OpenDatia",
+                "Assessment method type": "Formative"
+              }
+            ],
+            "Teaching activies": [{
+                "Title": "Paper review",
+                "Description": "Read article by Welle Donker et al. (2017)",
+                "Materials": "Welle Donker, F., Crompvoets, J. & van Loenen, B.(2017). <a href='https://9lib.org/document/y96nv6dy-adapting-national-mapping-cadastral-agencies-business-models-supply.html' target='_blank'>Adapting National Mapping and Cadastral Agencies business models to open data supply: the survey results</a>. Leuven: EuroSDR Official Publication no. 67. 36 p."
+              },
+              {
+                "Title": "Lecture",
+                "Description": "Lecture explaining Revenue Models and Pricing Mechanisms available to public sector and private sector open data suppliers and (re)users"
+              },
+              {
+                "Title": "Asking Questions",
+                "Description": "Students have to answer questions asked during the lecture"
+              },
+              {
+                "Title": "Think-pair-share",
+                "Description": "Students have to identify the position and role of an spatial data organization in the information value chain"
+              },
+              {
+                "Title": "Think-pair-share",
+                "Description": "Students have to discuss which strategies are available to adapt the spatial data organization to adapt its role and/or positions in the information value chain when switching to open data"
+              },
+              {
+                "Title": "Class Discussion",
+                "Description": "Outcomes of TPS / group exercises are used as input to class discussions"
+              },
+              {
+                "Title": "Case study",
+                "Description": "Students identify and analyse the role and position of case study organization in the information value chain, evaluate the implications of a switch to open data for the case study organization and propose strategies to counteract negative consequences / make the most of positive consequences"
+              },
+              {
+                "Title": "Debate",
+                "Description": "Students use the analysis of their case study to convince a neutral person (President of OpenDatia) of how to adapt the business model and role within the information value chain of the National Mapping Agency of OpenDatia to ensure financial sustainability of the SDI of OpenDatia"
+              }
+            ]
+          }]
+        },
+        {
+          "Title": "Financial Models for spatial data suppliers",
+		  "BoK": [{
+			"Source": "UCGIS",
+			"URL": "https://gistbok.ucgis.org/bok-topics/commercialization-gis-applications",
+			"Topic": "Commercialization of GIS Applications"
+		  }],
+          "Description": "Relevance of financial models available to (self-funded) SDI organizations, access regimes for spatial data, assessment of costs and benefits of (open) spatial data",
+          "Learning outcomes": [{
+              "Title": "identify existing revenue models and pricing mechanisms as part of the financial domain of a business model of a spatial data organization",
+              "Description": "Identify revenue models and pricing mechanisms available to spatial data organizations",
+              "Bloom level": "3 - Apply",
+              "Assessment": [{
+                  "Assessment method": "Self-test quiz",
+                  "Assessment method description": "students do a short self-test outside class by answering s number of MC questions, and receive automated feedback responses for correct and incorrect answers",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": " short quiz",
+                  "Assessment method description": "this LO is assessed as a sub-question of an exam question, in which students have to choose and explain which revenue models and pricing mechanisms are best suitable to a given spatial data organization",
+                  "Assessment method type": "Summative"
+                },
+                {
+                  "Assessment method": " short quiz",
+                  "Assessment method description": "this LO is assessed as a sub-question of an exam question, in which students have to choose and explain which revenue models and pricing mechanisms are best suitable to a given spatial data organization",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "oral feedback",
+                  "Assessment method description": "students are asked direct questions during class and receive oral feedback",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "oral feedback",
+                  "Assessment method description": "students are asked direct questions during class and receive oral feedback",
+                  "Assessment method type": "Formative"
+                }
+              ],
+              "Teaching activies": [{
+                  "Title": "Clips",
+                  "Description": "Watch the introductory videos on `funding open data`"
+                },
+                {
+                  "Title": "Paper review",
+                  "Description": "Read articles by Welle Donker (2018) and Welle Donker & van Loenen (2016)",
+                  "Materials": "Welle Donker. F.M. 2018, <a href='https://www.springerprofessional.de/funding-open-data/16226812' target='_blank'>Funding Open Data</a>, In: van Loenen, B. (ed.), Vancauwenberghe, G. (ed.) & Crompvoets, J. (ed.), 2018, Open Data Exposed. The Hague: TMC Asser Press. 29 p. (Information Technology and Laws Series; vol. 3)<br />Welle Donker, F., & van Loenen, B. (2016). <a href='http://pure.tudelft.nl/ws/portalfiles/portal/5617327/2016_FWD_BVL_JEDEM_390_1649_1_PB.pdf' target='_blank'>Sustainable Business Models for Public Sector Open Data Providers</a>. JeDEM eJournal of eDemocracy and Open Government, 8(1), 28-61"
+                },
+                {
+                  "Title": "Lecture",
+                  "Description": "Lecture explaining Revenue Models and Pricing Mechanisms available to public sector and private sector open data suppliers and (re)users"
+                },
+                {
+                  "Title": "Asking Questions",
+                  "Description": "Students have to answer questions asked during the lecture"
+                },
+                {
+                  "Title": "Short Quizzes",
+                  "Description": "Students have to answer a short quiz question during class related to the suitability of `Advertising` as a pricing mechanism for government organizations, and explain their answer"
+                }
+              ]
+            },
+            {
+              "Title": "analyse options for revenue models and pricing mechanisms as part of the financial domain of a business model of a spatial data organizations in an open data ecosystem",
+              "Description": "Analyse in which way revenue models and pricing mechanisms can be adpated or adoptedto capture value in an open data ecosystem",
+              "Bloom level": "4  / 5 - Analyze / Evaluate",
+              "Assessment": [{
+                  "Assessment method": "Oral feedback",
+                  "Assessment method description": "Students have to present the outcomes of their TPS / group discussion orally to the class, ",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "oral feedback",
+                  "Assessment method description": "2-3 pairs / groups of students have to explain their outcomes of their TPS / group discussion in a class discussion, ",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "case study report",
+                  "Assessment method description": "Groups of 3-4 students carry out a case study as Problem-Based Learning. This LO is assessed as a case study sub-report, whereby students receive written and oral feedback",
+                  "Assessment method type": "Summative"
+                },
+                {
+                  "Assessment method": "self-test quiz",
+                  "Assessment method description": "students do a short self-test outside class by answering s number of MC questions, and receive automated feedback responses for correct and incorrect answers ",
+                  "Assessment method type": "Formative"
+                }
+              ],
+              "Teaching activies": [{
+                  "Title": "Think-pair-share",
+                  "Description": "Students have to identify the financial domain of a given spatial data organization, and discuss which revenue models are currently employed by this organization"
+                },
+                {
+                  "Title": "Think-pair-share",
+                  "Description": "Students have to identify and discuss which pricing mechanisms are currently employed by a given spatial data organization"
+                },
+                {
+                  "Title": "Class Discussion",
+                  "Description": "Outcomes of TPS / group exercises are used as input to class discussions"
+                },
+                {
+                  "Title": "Case study",
+                  "Description": "Students identify and analyse the role and position of case study organization in the information value chain, evaluate the implications of a switch to open data for the case study organization and propose strategies to counteract negative consequences / make the most of positive consequences"
+                },
+                {
+                  "Title": "Clips",
+                  "Description": "Watch the introductory videos on `business models for national data providers`, `funding open data` and `societal cost benefit analysis open data`"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Title": "Funding Models for spatial data suppliers",
+          "Description": "Relevance of funding models available to (self-funded) SDI organizations, access regimes for spatial data, assessment of costs and benefits of (open) spatial data",
+		  "BoK": [{
+			"Source": "EO4GEO",
+			"URL": "https://bok.eo4geo.eu/OI4-5",
+			"Topic": "Funding an SDI"
+		  }],
+          "Learning outcomes": [{
+              "Title": "list and explain funding models for self-funded spatial data suppliers",
+              "Description": "Identity through desktop research how Self-Funding agencies are funded",
+              "Bloom level": "1 / 2 - Remember / Understand",
+              "Assessment": [{
+                  "Assessment method": "Oral feedback",
+                  "Assessment method description": "Students are asked if they have any questions related to the video clip",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Short quiz",
+                  "Assessment method description": "students do a short quiz during lecture related to whether open data should be considered to be a commodity, a public good or a club good",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Written exam",
+                  "Assessment method description": "students do a short quiz during lecture related to whether open data should be considered to be a commodity, a public good or a club good",
+                  "Assessment method type": "Summative"
+                },
+                {
+                  "Assessment method": "oral feedback",
+                  "Assessment method description": "students are asked direct questions during the lecture",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "oral feedback",
+                  "Assessment method description": "results of internet review are discussed in class",
+                  "Assessment method type": "Formative"
+                }
+              ],
+              "Teaching activies": [{
+                  "Title": "Clips",
+                  "Description": "Students have to watch the introductory video on Funding Models"
+                },
+                {
+                  "Title": "Lecture",
+                  "Description": "Lecture introducing and explaining the financial aspects of SDIs and of self-funding agencies"
+                },
+                {
+                  "Title": "Asking Questions",
+                  "Description": "students are asked direct questions and/or questions asked via online poll during lecture as imput for a class discussion"
+                },
+                {
+                  "Title": "Desk study",
+                  "Description": "Students do an internet search to identify the funding model of a National Mapping Agency of their assigned case study country"
+                },
+                {
+                  "Title": "Class Discussion",
+                  "Description": "Students discuss their initial findings of their internet search on the funding model of the National Mapping Agency of their case study during group discussion"
+                }
+              ]
+            },
+            {
+              "Title": "assess access regimes for spatial data",
+              "Description": "Appraise the pros and cons of SDI access regimes",
+              "Bloom level": "4  / 5 - Analyze / Evaluate",
+              "Assessment": [{
+                  "Assessment method": "Oral feedback",
+                  "Assessment method description": "Students are asked if they have any questions related to the video clip, , this LO is assessed with one question of written exam, e.g. ie.g. identify and describe pros and cons of identified access regimes and analyse their consequences for different types of SDI users",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Short quiz",
+                  "Assessment method description": "students do a short quiz during class and receive oral feedback",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Written exam",
+                  "Assessment method description": "this LO is assessed with one question of written exam, e.g. ie.g. identify and describe pros and cons of identified access regimes and analyse their consequences for different types of SDI users",
+                  "Assessment method type": "Summative"
+                },
+                {
+                  "Assessment method": "oral feedback",
+                  "Assessment method description": "students receive oral feedback during class discussion",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Class debate",
+                  "Assessment method description": "students have to apply gained knowledge to convince a neutral person (President of OpenDatia) of the pros of the selected funding model for the SDI of OpenDatia ",
+                  "Assessment method type": "Formative"
+                }
+              ],
+              "Teaching activies": [{
+                  "Title": "Clips",
+                  "Description": "Students have to watch the introductory video on Access Regimes"
+                },
+                {
+                  "Title": "Lecture",
+                  "Description": "Lecture introducing and explaining the financial aspects of SDIs and of self-funded agencies"
+                },
+                {
+                  "Title": "Asking Questions",
+                  "Description": "Students are asked direct questions and/or questions asked via online poll during lecture as imput for a class discussion"
+                },
+                {
+                  "Title": "Desk study",
+                  "Description": "Students do a literature review of recommended literature + literature sourced themselves on access regimes of National Mapping Agencies and use this review to prepare arguments for class debate on most suitable access regime for National Mapping Agency of`OpenDatia`"
+                },
+                {
+                  "Title": "Debate",
+                  "Description": "Students argue their case for a recommendation of access rigimes to the President of 'OpenDatia' during a class debate "
+                }
+              ]
+            },
+            {
+              "Title": "classify costs and benefits of open spatial data",
+              "Description": "Classify the costs and benefits of open data supply for the data supplier",
+              "Bloom level": "4  / 5 - Analyze / Evaluate",
+              "Assessment": [{
+                  "Assessment method": "Oral feedback",
+                  "Assessment method description": "Students are asked if they have any questions related to the video clip",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Short quiz",
+                  "Assessment method description": "students do a short quiz during class and receive oral feedback",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Written exam",
+                  "Assessment method description": "this LO is assessed with one question of written exam, e.g. identify and describe pros and cons of identified access regimes and analyse their consequences for different types of SDI users",
+                  "Assessment method type": "Summative"
+                },
+                {
+                  "Assessment method": "Written exam",
+                  "Assessment method description": "  students are asked direct questions during the lecture and receive oral feedback",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Oral feedback",
+                  "Assessment method description": "students receive oral feedback during class discussion",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Class debate",
+                  "Assessment method description": "students have to apply gained knowledge to convince a neutral person (President of OpenDatia) of the positive balance between benefits and costs of the selected funding model for the SDI of OpenDatia ",
+                  "Assessment method type": "Formative"
+                }
+              ],
+              "Teaching activies": [{
+                  "Title": "Clips",
+                  "Description": "Students have to watch the introductory video on SDI Information Value Chains"
+                },
+                {
+                  "Title": "Lecture",
+                  "Description": "Lecture introducing and explaining the financial aspects of SDIs and of self-funded agencies"
+                },
+                {
+                  "Title": "Asking Questions",
+                  "Description": "Students are asked direct questions and/or questions asked via online poll during lecture as imput for a class discussion on potential funding strategies"
+                },
+                {
+                  "Title": "Class Discussion",
+                  "Description": "Class discussion on potential strategies for National Mapping Agencies to adapt from cost recovery regime to open data supply"
+                },
+                {
+                  "Title": "Debate",
+                  "Description": "Students argue their case for a recommendation of funding strategies to the President of 'OpenDatia' during a class debate "
+                }
+              ]
+            },
+            {
+              "Title": "adapt self-funded agencies to open spatial data supply",
+              "Description": "Determine how self-funding agencies can adapt to open data supply",
+              "Bloom level": "4  / 5 - Analyze / Evaluate",
+              "Assessment": [{
+                  "Assessment method": "Oral feedback",
+                  "Assessment method description": "Students receive oral feedback during class discussion on muddiest points",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Oral feedback",
+                  "Assessment method description": "students do a short quiz during class and receive oral feedback",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Written exam",
+                  "Assessment method description": "this LO is assessed with one question of written exam, e.g. identify cost categories for open spatial data suppliers and analyse which of these costs will have the biggest impact on the spatial data supplier, and evaluate whether identified benefits will outweigh the incurred cost",
+                  "Assessment method type": "Summative"
+                },
+                {
+                  "Assessment method": "Oral feedback",
+                  "Assessment method description": "students are asked direct questions during the lecture",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Class debate",
+                  "Assessment method description": "students have to apply gained knowledge to convince a neutral person (President of OpenDatia) of how to adaptat the funding model of the spatial data supplier to ensure financial sustainability of the SDI of OpenDatia ",
+                  "Assessment method type": "Formative"
+                }
+              ],
+              "Teaching activies": [{
+                  "Title": "Muddiest Point",
+                  "Description": "Students fill in an online poll listing the points they do not yet understand / want more information on, which are presented as a word cloud"
+                },
+                {
+                  "Title": "Class Discussion",
+                  "Description": "Discussion of the muddiest points presented in the word cloud"
+                },
+                {
+                  "Title": "Lecture",
+                  "Description": "Lecture introducing and explaining the financial aspects of SDIs and of self-funding agencies"
+                },
+                {
+                  "Title": "Asking Questions",
+                  "Description": "Students are asked direct questions and/or questions asked via online poll during lecture as imput for a class discussion"
+                },
+                {
+                  "Title": "Class Discussion",
+                  "Description": "Students argue their case for the future of an open spatial data infrastructure to the President of 'OpenDatia' during a class debate "
+                }
+              ]
+            }
+          ]
+        },
+        {
           "Title": "Data and tech-related ethical issues",
           "Description": "Mapping of the main data- and tech-related ethical issues",
   		  "BoK": [{
@@ -2950,163 +3871,6 @@
               }]
             }
           ]
-        }, {
-          "Title": "SDI Business Model domains",
-          "Description": "Business model domains and value creation for spatial data organizations",
-		  "BoK": [{
-			"Source": "EO4GEO",
-			"URL": "https://bok.eo4geo.eu/GS2-1",
-			"Topic": "GI Business models"
-		  }],
-          "Learning outcomes": [{
-              "Title": "explain and differentiate business model domains / components",
-              "Description": "Understand and explain the different domains / components of a business model",
-              "Bloom level": "1 / 2 - Remember / Understand",
-              "Assessment": [{
-                  "Assessment method": "self-test quiz",
-                  "Assessment method description": "Students do a short self-test outside class by answering a number of MC questions, and receive automated feedback responses for correct and incorrect answers",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Written exam question",
-                  "Assessment method description": "This LO is assessed as an introductory question (Qa) to an exam question, in which business model components have to be listed",
-                  "Assessment method type": "Summative"
-                },
-                {
-                  "Assessment method": "Short quiz",
-                  "Assessment method description": "Students do a short quiz on which activity belongs to which business model component / domain during class",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Oral feedback",
-                  "Assessment method description": "Students are asked direct questions during the lecture",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Case study report",
-                  "Assessment method description": "Groups of 3-4 students carry out a case study as Problem-Based Learning. This LO is assessed as a case study sub-report, whereby students receive written and oral feedback ",
-                  "Assessment method type": "Summative"
-                }
-              ],
-              "Teaching activies": [{
-                  "Title": "Clips",
-                  "Description": "Watch the introductory video on business models for open data "
-                },
-                {
-                  "Title": "Paper review",
-                  "Description": "Read article by Vancauwenberghe et al. (2018) ",
-                  "Materials": "Vancauwenberghe, G., F. Welle Donker & B. Van Loenen (2018). <a href='https://www.taylorfrancis.com/chapters/edit/10.1201/9781315154640-7/business-models-geographic-information-glenn-vancauwenberghe-frederika-welle-donker-bastiaan-van-loenen' target='_blank'>Business Models for Geographic Information</a>. In: Kruse, J., J. Crompvoets & F. Pearlman (eds) The Socioeconomic Value of Geospatial Information. CRC Press Taylor & Francis Group, Boca Raton."
-                },
-                {
-                  "Title": "Lecture",
-                  "Description": "Lecture introducing Business Model theory and explaining Business Models domains / components"
-                },
-                {
-                  "Title": "Short Quizzes",
-                  "Description": "Students have to answer a short quiz question during class, and explain their answer"
-                },
-                {
-                  "Title": "Case study",
-                  "Description": "Groups of 3-4 students have to identify the business model domains / components applicable to their group`s case study organization"
-                }
-              ]
-            },
-            {
-              "Title": "identify existing value propositions, value creation and value capture for spatial data",
-              "Description": "Within a spatial data organization`sbusiness model, identify the currently employed value propositions, value creation and value capture",
-              "Bloom level": "3 - Apply",
-              "Assessment": [{
-                  "Assessment method": "Self-test quiz",
-                  "Assessment method description": "Students do a short self-test outside class by answering a number of MC questions, and receive automated feedback responses for correct and incorrect answers",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "written exam question",
-                  "Assessment method description": "This LO is assessed as an introductory question (Qa) to an exam question, in which business model components have to be summarized",
-                  "Assessment method type": "Summative"
-                },
-                {
-                  "Assessment method": "short quiz",
-                  "Assessment method description": "students do a short quiz during class and receive oral feedback",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "oral feedback",
-                  "Assessment method description": "students are asked direct questions, which are used as input for a class discussion whereby the class receives oral feedback during the discussion",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "short quiz",
-                  "Assessment method description": "students do a short quiz during class and receive oral feedback",
-                  "Assessment method type": "Formative"
-                }
-              ],
-              "Teaching activies": [{
-                  "Title": "Clips",
-                  "Description": "Watch the introductory video on business models for open data "
-                },
-                {
-                  "Title": "Paper review",
-                  "Description": "Read article by Vancauwenberghe et al. (2018) ",
-                  "Materials": "Vancauwenberghe, G., F. Welle Donker & B. Van Loenen (2018). <a href='https://www.taylorfrancis.com/chapters/edit/10.1201/9781315154640-7/business-models-geographic-information-glenn-vancauwenberghe-frederika-welle-donker-bastiaan-van-loenen' target='_blank'>Business Models for Geographic Information</a>. In: Kruse, J., J. Crompvoets & F. Pearlman (eds) The Socioeconomic Value of Geospatial Information. CRC Press Taylor & Francis Group, Boca Raton."
-                },
-                {
-                  "Title": "Lecture",
-                  "Description": "Lecture introducing Business Model theory and explaining Business Models domains / components"
-                },
-                {
-                  "Title": "Asking Questions",
-                  "Description": "Students have to answer questions asked during the lecture"
-                },
-                {
-                  "Title": "Short Quizzes",
-                  "Description": "Students have to respond to a short quiz question / online poll during class"
-                }
-              ]
-            },
-            {
-              "Title": "evaluate options for value propositions, value creation and value capture for open spatial data",
-              "Description": "Within a spatial data organization`s business model, examine options for value propositions, value creation and value capture available to spatial data organizations in an open data ecosystem",
-              "Bloom level": "4  / 5 - Analyze / Evaluate",
-              "Assessment": [{
-                  "Assessment method": "Student presentation",
-                  "Assessment method description": "Students have to present the outcomes of their TPS / group discussion on a business model canvas via a common whiteboard / project bord",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "oral feedback",
-                  "Assessment method description": "2-3 pairs / groups of students have to explain their choices and receive oral feedback during the class discussion on the business model canvas presented on the whiteboard / project board, ",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "case study report",
-                  "Assessment method description": "Groups of 3-4 students carry out a case study as Problem-Based Learning. This LO is assessed as a case study sub-report, whereby students receive written and oral feedback ",
-                  "Assessment method type": "Sumative"
-                }
-              ],
-              "Teaching activies": [{
-                  "Title": "Think-pair-share",
-                  "Description": "Students have to identify the value proposition(s) of a National Mapping Agency, and to which group of stakeholders the value proposition is offered"
-                },
-                {
-                  "Title": "Think-pair-share",
-                  "Description": "Students have to identify the value creation of a National Mapping Agency"
-                },
-                {
-                  "Title": "Think-pair-share",
-                  "Description": "Students have to identify the value capture of a National Mapping Agency"
-                },
-                {
-                  "Title": "Class Discussion",
-                  "Description": "Students add their outcomes of the TPS / group exercises to a business model canvas displayed on a (online) whiteboard / project board as input to a class discussion "
-                },
-                {
-                  "Title": "Case study",
-                  "Description": "Students identify and classify business model value components of their case study organization "
-                }
-              ]
-            }
-          ]
         },
         {
           "Title": "Rethinking the ethics of open data and SDIs",
@@ -3177,831 +3941,6 @@
                   "Description": "The following week the guidelines are presented in class in a roleplay (municipal steering group vs citizenry)"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "Title": "Financial Models for spatial data suppliers",
-		  "BoK": [{
-			"Source": "UCGIS",
-			"URL": "https://gistbok.ucgis.org/bok-topics/commercialization-gis-applications",
-			"Topic": "Commercialization of GIS Applications"
-		  }],
-          "Description": "Relevance of financial models available to (self-funded) SDI organizations, access regimes for spatial data, assessment of costs and benefits of (open) spatial data",
-          "Learning outcomes": [{
-              "Title": "identify existing revenue models and pricing mechanisms as part of the financial domain of a business model of a spatial data organization",
-              "Description": "Identify revenue models and pricing mechanisms available to spatial data organizations",
-              "Bloom level": "3 - Apply",
-              "Assessment": [{
-                  "Assessment method": "Self-test quiz",
-                  "Assessment method description": "students do a short self-test outside class by answering s number of MC questions, and receive automated feedback responses for correct and incorrect answers",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": " short quiz",
-                  "Assessment method description": "this LO is assessed as a sub-question of an exam question, in which students have to choose and explain which revenue models and pricing mechanisms are best suitable to a given spatial data organization",
-                  "Assessment method type": "Summative"
-                },
-                {
-                  "Assessment method": " short quiz",
-                  "Assessment method description": "this LO is assessed as a sub-question of an exam question, in which students have to choose and explain which revenue models and pricing mechanisms are best suitable to a given spatial data organization",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "oral feedback",
-                  "Assessment method description": "students are asked direct questions during class and receive oral feedback",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "oral feedback",
-                  "Assessment method description": "students are asked direct questions during class and receive oral feedback",
-                  "Assessment method type": "Formative"
-                }
-              ],
-              "Teaching activies": [{
-                  "Title": "Clips",
-                  "Description": "Watch the introductory videos on `funding open data`"
-                },
-                {
-                  "Title": "Paper review",
-                  "Description": "Read articles by Welle Donker (2018) and Welle Donker & van Loenen (2016)",
-                  "Materials": "Welle Donker. F.M. 2018, <a href='https://www.springerprofessional.de/funding-open-data/16226812' target='_blank'>Funding Open Data</a>, In: van Loenen, B. (ed.), Vancauwenberghe, G. (ed.) & Crompvoets, J. (ed.), 2018, Open Data Exposed. The Hague: TMC Asser Press. 29 p. (Information Technology and Laws Series; vol. 3)<br />Welle Donker, F., & van Loenen, B. (2016). <a href='http://pure.tudelft.nl/ws/portalfiles/portal/5617327/2016_FWD_BVL_JEDEM_390_1649_1_PB.pdf' target='_blank'>Sustainable Business Models for Public Sector Open Data Providers</a>. JeDEM eJournal of eDemocracy and Open Government, 8(1), 28-61"
-                },
-                {
-                  "Title": "Lecture",
-                  "Description": "Lecture explaining Revenue Models and Pricing Mechanisms available to public sector and private sector open data suppliers and (re)users"
-                },
-                {
-                  "Title": "Asking Questions",
-                  "Description": "Students have to answer questions asked during the lecture"
-                },
-                {
-                  "Title": "Short Quizzes",
-                  "Description": "Students have to answer a short quiz question during class related to the suitability of `Advertising` as a pricing mechanism for government organizations, and explain their answer"
-                }
-              ]
-            },
-            {
-              "Title": "analyse options for revenue models and pricing mechanisms as part of the financial domain of a business model of a spatial data organizations in an open data ecosystem",
-              "Description": "Analyse in which way revenue models and pricing mechanisms can be adpated or adoptedto capture value in an open data ecosystem",
-              "Bloom level": "4  / 5 - Analyze / Evaluate",
-              "Assessment": [{
-                  "Assessment method": "Oral feedback",
-                  "Assessment method description": "Students have to present the outcomes of their TPS / group discussion orally to the class, ",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "oral feedback",
-                  "Assessment method description": "2-3 pairs / groups of students have to explain their outcomes of their TPS / group discussion in a class discussion, ",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "case study report",
-                  "Assessment method description": "Groups of 3-4 students carry out a case study as Problem-Based Learning. This LO is assessed as a case study sub-report, whereby students receive written and oral feedback",
-                  "Assessment method type": "Summative"
-                },
-                {
-                  "Assessment method": "self-test quiz",
-                  "Assessment method description": "students do a short self-test outside class by answering s number of MC questions, and receive automated feedback responses for correct and incorrect answers ",
-                  "Assessment method type": "Formative"
-                }
-              ],
-              "Teaching activies": [{
-                  "Title": "Think-pair-share",
-                  "Description": "Students have to identify the financial domain of a given spatial data organization, and discuss which revenue models are currently employed by this organization"
-                },
-                {
-                  "Title": "Think-pair-share",
-                  "Description": "Students have to identify and discuss which pricing mechanisms are currently employed by a given spatial data organization"
-                },
-                {
-                  "Title": "Class Discussion",
-                  "Description": "Outcomes of TPS / group exercises are used as input to class discussions"
-                },
-                {
-                  "Title": "Case study",
-                  "Description": "Students identify and analyse the role and position of case study organization in the information value chain, evaluate the implications of a switch to open data for the case study organization and propose strategies to counteract negative consequences / make the most of positive consequences"
-                },
-                {
-                  "Title": "Clips",
-                  "Description": "Watch the introductory videos on `business models for national data providers`, `funding open data` and `societal cost benefit analysis open data`"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "Title": "SDI Business Models and Information Value Chains",
-          "Description": "Business models for spatial data organizations and their role in the spatial information value chain",
-		  "BoK": [{
-			"Source": "EO4GEO",
-			"URL": "https://bok.eo4geo.eu/GS2-5",
-			"Topic": "Geo-information value chain"
-		  },{
-			"Source": "UCGIS",
-			"URL": "https://gistbok.ucgis.org/bok-topics/value-of-professional-geospatial-organizations",
-			"Topic": "Value of Professional Geospatial Organizations"
-		  }],
-          "Learning outcomes": [{
-            "Title": "Sudents are able to analyse the adaptations to spatial data organization`s business model and role in an open data ecosystem",
-            "Description": "Evaluate how a spatial data organization can adapt its business model and, thereby, its role in the information value chain in an open data ecosystem",
-            "Bloom level": "4  / 5 - Analyze / Evaluate",
-            "Assessment": [{
-                "Assessment method": "Self-test quiz",
-                "Assessment method description": "students do a short self-test outside class by answering s number of MC questions, and receive automated feedback responses for correct and incorrect answers",
-                "Assessment method type": "Formative"
-              },
-              {
-                "Assessment method": "written exam question",
-                "Assessment method description": " this LO is assessed as a sub-question, in which students have to appraise which strategies and changes to the business model are  most appropriate for a given spatial data organization having to supply high-value datasets",
-                "Assessment method type": "Summative"
-              },
-              {
-                "Assessment method": "oral feedback",
-                "Assessment method description": "students are asked direct questions and receive oral feedback",
-                "Assessment method type": "Formative"
-              },
-              {
-                "Assessment method": "oral feedback",
-                "Assessment method description": "students are asked direct questions, which are used as input for a class discussion whereby the class receives oral feedback during the discussion",
-                "Assessment method type": "Formative"
-              },
-              {
-                "Assessment method": "oral feedback",
-                "Assessment method description": "students have to present the outcomes of their TPS / group discussion orally to the class",
-                "Assessment method type": "Formative"
-              },
-              {
-                "Assessment method": "oral feedback",
-                "Assessment method description": "2-3 pairs / groups of students have to explain their outcomes of their TPS / group discussion in a class discussion",
-                "Assessment method type": "Formative"
-              },
-              {
-                "Assessment method": "case study report",
-                "Assessment method description": "Groups of 3-4 students carry out a case study as Problem-Based Learning. This LO is assessed as a case study sub-report, whereby students receive written and oral feedback",
-                "Assessment method type": "Summative"
-              },
-              {
-                "Assessment method": "case study report",
-                "Assessment method description": "Students have to convince a neutral person (President of OpenDatia) of which business model and role within the information value chain are best suited to the National Mapping Agency of OpenDatia",
-                "Assessment method type": "Formative"
-              }
-            ],
-            "Teaching activies": [{
-                "Title": "Paper review",
-                "Description": "Read article by Welle Donker et al. (2017)",
-                "Materials": "Welle Donker, F., Crompvoets, J. & van Loenen, B.(2017). <a href='https://9lib.org/document/y96nv6dy-adapting-national-mapping-cadastral-agencies-business-models-supply.html' target='_blank'>Adapting National Mapping and Cadastral Agencies business models to open data supply: the survey results</a>. Leuven: EuroSDR Official Publication no. 67. 36 p."
-              },
-              {
-                "Title": "Lecture",
-                "Description": "Lecture explaining Revenue Models and Pricing Mechanisms available to public sector and private sector open data suppliers and (re)users"
-              },
-              {
-                "Title": "Asking Questions",
-                "Description": "Students have to answer questions asked during the lecture"
-              },
-              {
-                "Title": "Think-pair-share",
-                "Description": "Students have to identify the position and role of an spatial data organization in the information value chain"
-              },
-              {
-                "Title": "Think-pair-share",
-                "Description": "Students have to discuss which strategies are available to adapt the spatial data organization to adapt its role and/or positions in the information value chain when switching to open data"
-              },
-              {
-                "Title": "Class Discussion",
-                "Description": "Outcomes of TPS / group exercises are used as input to class discussions"
-              },
-              {
-                "Title": "Case study",
-                "Description": "Students identify and analyse the role and position of case study organization in the information value chain, evaluate the implications of a switch to open data for the case study organization and propose strategies to counteract negative consequences / make the most of positive consequences"
-              },
-              {
-                "Title": "Debate",
-                "Description": "Students use the analysis of their case study to convince a neutral person (President of OpenDatia) of how to adapt the business model and role within the information value chain of the National Mapping Agency of OpenDatia to ensure financial sustainability of the SDI of OpenDatia"
-              }
-            ]
-          }]
-        },
-        {
-          "Title": "Funding Models for spatial data suppliers",
-          "Description": "Relevance of funding models available to (self-funded) SDI organizations, access regimes for spatial data, assessment of costs and benefits of (open) spatial data",
-		  "BoK": [{
-			"Source": "EO4GEO",
-			"URL": "https://bok.eo4geo.eu/OI4-5",
-			"Topic": "Funding an SDI"
-		  }],
-          "Learning outcomes": [{
-              "Title": "list and explain funding models for self-funded spatial data suppliers",
-              "Description": "Identity through desktop research how Self-Funding agencies are funded",
-              "Bloom level": "1 / 2 - Remember / Understand",
-              "Assessment": [{
-                  "Assessment method": "Oral feedback",
-                  "Assessment method description": "Students are asked if they have any questions related to the video clip",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Short quiz",
-                  "Assessment method description": "students do a short quiz during lecture related to whether open data should be considered to be a commodity, a public good or a club good",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Written exam",
-                  "Assessment method description": "students do a short quiz during lecture related to whether open data should be considered to be a commodity, a public good or a club good",
-                  "Assessment method type": "Summative"
-                },
-                {
-                  "Assessment method": "oral feedback",
-                  "Assessment method description": "students are asked direct questions during the lecture",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "oral feedback",
-                  "Assessment method description": "results of internet review are discussed in class",
-                  "Assessment method type": "Formative"
-                }
-              ],
-              "Teaching activies": [{
-                  "Title": "Clips",
-                  "Description": "Students have to watch the introductory video on Funding Models"
-                },
-                {
-                  "Title": "Lecture",
-                  "Description": "Lecture introducing and explaining the financial aspects of SDIs and of self-funding agencies"
-                },
-                {
-                  "Title": "Asking Questions",
-                  "Description": "students are asked direct questions and/or questions asked via online poll during lecture as imput for a class discussion"
-                },
-                {
-                  "Title": "Desk study",
-                  "Description": "Students do an internet search to identify the funding model of a National Mapping Agency of their assigned case study country"
-                },
-                {
-                  "Title": "Class Discussion",
-                  "Description": "Students discuss their initial findings of their internet search on the funding model of the National Mapping Agency of their case study during group discussion"
-                }
-              ]
-            },
-            {
-              "Title": "assess access regimes for spatial data",
-              "Description": "Appraise the pros and cons of SDI access regimes",
-              "Bloom level": "4  / 5 - Analyze / Evaluate",
-              "Assessment": [{
-                  "Assessment method": "Oral feedback",
-                  "Assessment method description": "Students are asked if they have any questions related to the video clip, , this LO is assessed with one question of written exam, e.g. ie.g. identify and describe pros and cons of identified access regimes and analyse their consequences for different types of SDI users",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Short quiz",
-                  "Assessment method description": "students do a short quiz during class and receive oral feedback",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Written exam",
-                  "Assessment method description": "this LO is assessed with one question of written exam, e.g. ie.g. identify and describe pros and cons of identified access regimes and analyse their consequences for different types of SDI users",
-                  "Assessment method type": "Summative"
-                },
-                {
-                  "Assessment method": "oral feedback",
-                  "Assessment method description": "students receive oral feedback during class discussion",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Class debate",
-                  "Assessment method description": "students have to apply gained knowledge to convince a neutral person (President of OpenDatia) of the pros of the selected funding model for the SDI of OpenDatia ",
-                  "Assessment method type": "Formative"
-                }
-              ],
-              "Teaching activies": [{
-                  "Title": "Clips",
-                  "Description": "Students have to watch the introductory video on Access Regimes"
-                },
-                {
-                  "Title": "Lecture",
-                  "Description": "Lecture introducing and explaining the financial aspects of SDIs and of self-funded agencies"
-                },
-                {
-                  "Title": "Asking Questions",
-                  "Description": "Students are asked direct questions and/or questions asked via online poll during lecture as imput for a class discussion"
-                },
-                {
-                  "Title": "Desk study",
-                  "Description": "Students do a literature review of recommended literature + literature sourced themselves on access regimes of National Mapping Agencies and use this review to prepare arguments for class debate on most suitable access regime for National Mapping Agency of`OpenDatia`"
-                },
-                {
-                  "Title": "Debate",
-                  "Description": "Students argue their case for a recommendation of access rigimes to the President of 'OpenDatia' during a class debate "
-                }
-              ]
-            },
-            {
-              "Title": "classify costs and benefits of open spatial data",
-              "Description": "Classify the costs and benefits of open data supply for the data supplier",
-              "Bloom level": "4  / 5 - Analyze / Evaluate",
-              "Assessment": [{
-                  "Assessment method": "Oral feedback",
-                  "Assessment method description": "Students are asked if they have any questions related to the video clip",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Short quiz",
-                  "Assessment method description": "students do a short quiz during class and receive oral feedback",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Written exam",
-                  "Assessment method description": "this LO is assessed with one question of written exam, e.g. identify and describe pros and cons of identified access regimes and analyse their consequences for different types of SDI users",
-                  "Assessment method type": "Summative"
-                },
-                {
-                  "Assessment method": "Written exam",
-                  "Assessment method description": "  students are asked direct questions during the lecture and receive oral feedback",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Oral feedback",
-                  "Assessment method description": "students receive oral feedback during class discussion",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Class debate",
-                  "Assessment method description": "students have to apply gained knowledge to convince a neutral person (President of OpenDatia) of the positive balance between benefits and costs of the selected funding model for the SDI of OpenDatia ",
-                  "Assessment method type": "Formative"
-                }
-              ],
-              "Teaching activies": [{
-                  "Title": "Clips",
-                  "Description": "Students have to watch the introductory video on SDI Information Value Chains"
-                },
-                {
-                  "Title": "Lecture",
-                  "Description": "Lecture introducing and explaining the financial aspects of SDIs and of self-funded agencies"
-                },
-                {
-                  "Title": "Asking Questions",
-                  "Description": "Students are asked direct questions and/or questions asked via online poll during lecture as imput for a class discussion on potential funding strategies"
-                },
-                {
-                  "Title": "Class Discussion",
-                  "Description": "Class discussion on potential strategies for National Mapping Agencies to adapt from cost recovery regime to open data supply"
-                },
-                {
-                  "Title": "Debate",
-                  "Description": "Students argue their case for a recommendation of funding strategies to the President of 'OpenDatia' during a class debate "
-                }
-              ]
-            },
-            {
-              "Title": "adapt self-funded agencies to open spatial data supply",
-              "Description": "Determine how self-funding agencies can adapt to open data supply",
-              "Bloom level": "4  / 5 - Analyze / Evaluate",
-              "Assessment": [{
-                  "Assessment method": "Oral feedback",
-                  "Assessment method description": "Students receive oral feedback during class discussion on muddiest points",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Oral feedback",
-                  "Assessment method description": "students do a short quiz during class and receive oral feedback",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Written exam",
-                  "Assessment method description": "this LO is assessed with one question of written exam, e.g. identify cost categories for open spatial data suppliers and analyse which of these costs will have the biggest impact on the spatial data supplier, and evaluate whether identified benefits will outweigh the incurred cost",
-                  "Assessment method type": "Summative"
-                },
-                {
-                  "Assessment method": "Oral feedback",
-                  "Assessment method description": "students are asked direct questions during the lecture",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Class debate",
-                  "Assessment method description": "students have to apply gained knowledge to convince a neutral person (President of OpenDatia) of how to adaptat the funding model of the spatial data supplier to ensure financial sustainability of the SDI of OpenDatia ",
-                  "Assessment method type": "Formative"
-                }
-              ],
-              "Teaching activies": [{
-                  "Title": "Muddiest Point",
-                  "Description": "Students fill in an online poll listing the points they do not yet understand / want more information on, which are presented as a word cloud"
-                },
-                {
-                  "Title": "Class Discussion",
-                  "Description": "Discussion of the muddiest points presented in the word cloud"
-                },
-                {
-                  "Title": "Lecture",
-                  "Description": "Lecture introducing and explaining the financial aspects of SDIs and of self-funding agencies"
-                },
-                {
-                  "Title": "Asking Questions",
-                  "Description": "Students are asked direct questions and/or questions asked via online poll during lecture as imput for a class discussion"
-                },
-                {
-                  "Title": "Class Discussion",
-                  "Description": "Students argue their case for the future of an open spatial data infrastructure to the President of 'OpenDatia' during a class debate "
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "Title": "Open licensing",
-          "Description": "Explanation and discussion of role of (open) licensing in (open) SDI",
-		  "BoK": [{
-			  "Source": "UCGIS",
-			  "URL": "https://gistbok.ucgis.org/bok-topics/openness",
-			  "Topic": "Openness"
-		  }],
-          "Learning outcomes": [{
-              "Title": "Students are abble to differentiate the types of licenses in SDI",
-              "Description": "List and describe the different types of licenses in SDI",
-              "Bloom level": "1 / 2 - Remember / Understand",
-              "Assessment": [{
-                  "Assessment method": "Quiz",
-                  "Assessment method description": "Short quiz on licencing issues: example question may be: Typical licensing issues are: availability of licensing terms, intellectual capacity of users to understand the licensing terms, the interoperability of different licences, other",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Quiz",
-                  "Assessment method description": "Short quiz on typical (open) licences challenges in SDI.",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Quiz",
-                  "Assessment method description": "Short quiz on which types of (open) licences exist.",
-                  "Assessment method type": "Formative"
-                }
-              ],
-              "Teaching activies": [{
-                  "Title": "Lecture",
-                  "Description": " Lecture explaining the types of (open) licences and licensing issues"
-                },
-                {
-                  "Title": "Paper review",
-                  "Description": "Students have to read papers on different types of licences."
-                },
-                {
-                  "Title": "Clips",
-                  "Description": "Students have to watch a video clip on the core issues of licencing in SDI"
-                }
-              ]
-            },
-            {
-              "Title": "identify and compare different licences in practice",
-              "Description": "Recognise, compare and explain different licenses in the geo domain, identify the differences between them",
-              "Bloom level": "4  / 5 - Analyze / Evaluate",
-              "Assessment": [{
-                  "Assessment method": "Small report",
-                  "Assessment method description": "Students receive feedback",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Feedback",
-                  "Assessment method description": "Students receive feedback during the presentation/discussion of the differences.",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Feedback",
-                  "Assessment method description": "Students receive feedback during the presentation/discussion of the differences.",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Feedback",
-                  "Assessment method description": "Students receive feedback during the presentation/discussion of the differences.",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Written exam",
-                  "Assessment method description": "this LO is assessed with one question of written exam, e.g. An example licensing text is provided not allowing for the development of derivative works (CC-ND) and students have to argue whether this fits the objectives of third generation SDIs (aiming at stimulating value added use).",
-                  "Assessment method type": "Summative"
-                }
-              ],
-              "Teaching activies": [{
-                  "Title": "Desk study",
-                  "Description": "Students explore on the INSPIRE portal (or another portal) the licenses for a certain type of geodata."
-                },
-                {
-                  "Title": "Class Discussion",
-                  "Description": "Students discuss in smaller groups their findings and differences of their findings"
-                },
-                {
-                  "Title": "Class Discussion",
-                  "Description": "Students present the main outcomes of their group discussions in the main room"
-                },
-                {
-                  "Title": "Class Discussion",
-                  "Description": "Teacher moderates discussion on the findings and their implications for SDI development."
-                },
-                {
-                  "Title": "Lecture",
-                  "Description": "Lecture on the role of (open) licenses in SDI development referring to SDI generations. "
-                }
-              ]
-            },
-            {
-              "Title": "evaluate different licences and explain the impact on SDI",
-              "Description": "Analyze and evaluate (open) licences of a specific dataset in a country and explain the impact on SDI development at national and international levels",
-              "Bloom level": "4  / 5 - Analyze / Evaluate",
-              "Assessment": [{
-                  "Assessment method": "Small report",
-                  "Assessment method description": "Students receive feedback from their peers",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Feedback",
-                  "Assessment method description": "Students receive feedback from their peers and teachers during the discussions",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Feedback",
-                  "Assessment method description": "Students receive feedback from their peers and teachers during the discussions",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Feedback",
-                  "Assessment method description": "Students receive feedback from their peers and teachers during the discussions",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Debate",
-                  "Assessment method description": "",
-                  "Assessment method type": ""
-                }
-              ],
-              "Teaching activies": [{
-                  "Title": "Desk study",
-                  "Description": "Students have to look at and analyze one license of one dataset in one EU country"
-                },
-                {
-                  "Title": "Class Discussion",
-                  "Description": "Students have to discuss and decide in smaller groups on the best and worst performing licence from the perspective of open SDI"
-                },
-                {
-                  "Title": "Class Discussion",
-                  "Description": "Plenary discussion on the best and worstperforming licence from the perspective of open SDI in Europe"
-                },
-                {
-                  "Title": "Class Discussion",
-                  "Description": "Students have to discuss in smaller groups the impact of the implementation of open licences in their country (one focus on the user perspective, one on the data provider perspective)"
-                },
-                {
-                  "Title": "Lecture",
-                  "Description": "Lecture explaining the wider context/ dynamic environment in which open licences develop with a critical view on claims made such as on data quality impact"
-                }
-              ]
-            },
-            {
-              "Title": "improve open licences for SDI",
-              "Description": "Develop guidelines for improved open licences in SDIs",
-              "Bloom level": "4  / 5 - Analyze / Evaluate",
-              "Assessment": [{
-                  "Assessment method": "small report",
-                  "Assessment method description": "Students receive feedback from teachers",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Feedback",
-                  "Assessment method description": "Students receive feedback from their peers and teachers (as moderators) during the discussions",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Feedback",
-                  "Assessment method description": "Students receive feedback from their peers and teachers (as moderators) during the discussions",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Feedback",
-                  "Assessment method description": "Students receive feedback from their peers and teachers (as moderators) during the discussions",
-                  "Assessment method type": "Formative"
-                }
-              ],
-              "Teaching activies": [{
-                  "Title": "Desk study",
-                  "Description": "Students have to analyse existing licences for geodata in a specific country and use that experience to design recommendations to make the licence more user friendly from a technical (is it easy to find), and especially intellectual accessibility perspectives."
-                },
-                {
-                  "Title": "Class Discussion",
-                  "Description": "Students present and discuss their findings with students that studied countries with a similar level of SDI development "
-                },
-                {
-                  "Title": "Class Discussion",
-                  "Description": "Group representative presents the main findings of the group plenary "
-                },
-                {
-                  "Title": "Class Discussion",
-                  "Description": "Teacher moderates discussion on the findings and their implications for SDI development"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "Title": "Data protection and open SDI",
-          "Description": "Description and discussion of the role of data protection legislation on the (open) SDI concept",
-		  "BoK": [{
-			  "Source": "UCGIS",
-			  "URL": "https://gistbok.ucgis.org/bok-topics/openness",
-			  "Topic": "Openness"
-		  }],
-          "Learning outcomes": [{
-              "Title": "understand the key concepts of GDPR",
-              "Description": "List and explain the key concepts of the General Data Protection Regulation (GDPR) (or another data protection law)",
-              "Bloom level": "1 / 2 - Remember / Understand",
-              "Assessment": [{
-                  "Assessment method": "Feedback by Q&A",
-                  "Assessment method description": "Moderator asks in depth questions clarifying the meaning of the presented perceptions",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Feedback by Q&A",
-                  "Assessment method description": "Moderator asks in depth questions clarifying the meaning of the presented perceptions",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Written exam",
-                  "Assessment method description": "An example question is: provide the GDPR definition of personal data and explain the different elements in this definition that together determine whether data is personal data or not.",
-                  "Assessment method type": "Summative"
-                }
-              ],
-              "Teaching activies": [{
-                  "Title": "Feedback by Q&A",
-                  "Description": "Moderator asks in depth questions clarifying the meaning of the presented perceptions"
-                },
-                {
-                  "Title": "Feedback by Q&A",
-                  "Description": "Moderator asks in depth questions clarifying the meaning of the presented perceptions"
-                },
-                {
-                  "Title": "Written exam",
-                  "Description": "An example question is: provide the GDPR definition of personal data and explain the different elements in this definition that together determine whether data is personal data or not."
-                }
-              ]
-            },
-            {
-              "Title": "appliy GDPR to geodata/ SDI",
-              "Description": "Apply the GDPR to geodata/ SDI",
-              "Bloom level": "3 - Apply",
-              "Assessment": [{
-                  "Assessment method": "Quiz",
-                  "Assessment method description": "Short quiz on GDPR and geodata (e.g., show a map and ask whether the GDPR applies)",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Written exam",
-                  "Assessment method description": "An example question is:  show a map and ask whether the GDPR applies",
-                  "Assessment method type": "Summative"
-                },
-                {
-                  "Assessment method": "Written exam",
-                  "Assessment method description": "An example question is:  show a map and ask whether the GDPR applies",
-                  "Assessment method type": "Summative"
-                }
-              ],
-              "Teaching activies": [{
-                  "Title": "Quiz",
-                  "Description": "Short quiz on GDPR and geodata (e.g., show a map and ask whether the GDPR applies)"
-                },
-                {
-                  "Title": "Written exam",
-                  "Description": "An example question is:  show a map and ask whether the GDPR applies"
-                },
-                {
-                  "Title": "Written exam",
-                  "Description": "An example question is:  show a map and ask whether the GDPR applies"
-                }
-              ]
-            },
-            {
-              "Title": "Students ara able to evaluate the impact GDPR on SDI",
-              "Description": "Analyze and evaluate the impact of the GDPR for the concept of open SDI",
-              "Bloom level": "4  / 5 - Analyze / Evaluate",
-              "Assessment": [{
-                  "Assessment method": "Small report",
-                  "Assessment method description": "Students receive feedback from their peers and teachers during the discussions",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Feedback",
-                  "Assessment method description": "Students receive feedback from their peers and teachers during the discussions",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Feedback",
-                  "Assessment method description": "Students receive feedback from their peers (as members of the audience) and the teacher (as moderator) during the debate",
-                  "Assessment method type": "Formative"
-                }
-              ],
-              "Teaching activies": [{
-                  "Title": "small report",
-                  "Description": "Students receive feedback from their peers and teachers during the discussions"
-                },
-                {
-                  "Title": "Feedback",
-                  "Description": "Students receive feedback from their peers and teachers during the discussions"
-                },
-                {
-                  "Title": "Feedback",
-                  "Description": "Students receive feedback from their peers (as members of the audience) and the teacher (as moderator) during the debate"
-                }
-              ]
-            },
-            {
-              "Title": "implement (open) SDI GDPR",
-              "Description": "Propose innovative directions to implement open SDI complying to the GDPR",
-              "Bloom level": "6 - Design / Create",
-              "Assessment": [{
-                  "Assessment method": "Feedback",
-                  "Assessment method description": "Students receive feedback from their peers (as members of the audience) and the teacher (as moderator) during the debate",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Feedback",
-                  "Assessment method description": "Students receive feedback from their peers (as members of the audience) and the teacher (as moderator) during the debate",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Feedback",
-                  "Assessment method description": "Students receive feedback from their peers (as members of the audience) and the teacher (as moderator) during the debate",
-                  "Assessment method type": "Formative"
-                }
-              ],
-              "Teaching activies": [{
-                  "Title": "Feedback",
-                  "Description": "Students receive feedback from their peers (as members of the audience) and the teacher (as moderator) during the debate"
-                },
-                {
-                  "Title": "Feedback",
-                  "Description": "Students receive feedback from their peers (as members of the audience) and the teacher (as moderator) during the debate"
-                },
-                {
-                  "Title": "Feedback",
-                  "Description": "Students receive feedback from their peers (as members of the audience) and the teacher (as moderator) during the debate"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "Title": "SDI strategies and policies",
-          "Description": "Strategies and policies dealing with SDI and SDI implementation",
-		  "BoK": [{
-			"Source": "EO4GEO",
-			"URL": "https://bok.eo4geo.eu/OI4-2",
-			"Topic": "Policies"
-		  }],
-          "Learning outcomes": [{
-              "Title": "define SDI strategies and policies",
-              "Description": "Explain what SDI strategies and policies are",
-              "Bloom level": "1 / 2 - Remember / Understand",
-              "Assessment": [{
-                "Assessment method": "Written exam",
-                "Assessment method description": "Students are asked to explain what SDI strategies and policies are ",
-                "Assessment method type": "Summative"
-              }],
-              "Teaching activies": [{
-                  "Title": "Reading prior to class",
-                  "Description": "Students need to read a selection of SDI strategies and policies"
-                },
-                {
-                  "Title": "Class Discussion",
-                  "Description": "Students discuss the key elements of these strategies and policies"
-                }
-              ]
-            },
-            {
-              "Title": "compare the content of strategies",
-              "Description": "Compare different SDI strategies",
-              "Bloom level": "4  / 5 - Analyze / Evaluate",
-              "Assessment": [{
-                "Assessment method": "Assignment",
-                "Assessment method description": "Students are asked to write a short paper comparing different SDI strategies",
-                "Assessment method type": "Summative"
-              }],
-              "Teaching activies": [{
-                  "Title": "Class Discussion",
-                  "Description": "Students discuss the differences between different strategies and policies"
-                },
-                {
-                  "Title": "Paper writing",
-                  "Description": "Students write a short paper on comparing different strategies and policies"
-                }
-              ]
-            },
-            {
-              "Title": "prepare a strategy",
-              "Description": "Prepare a SDI strategy for a country ",
-              "Bloom level": "6 - Design / Create",
-              "Assessment": [{
-                "Assessment method": "Assignment",
-                "Assessment method description": "Students need to prepare a short SDI strategy",
-                "Assessment method type": "Formative"
-              }],
-              "Teaching activies": [{
-                "Title": "Think-pair-share",
-                "Description": "Students write a short strategy for implementing/developing an SDI in a particular country"
-              }]
             }
           ]
         }
