@@ -57,7 +57,7 @@
                 "Title": "Lecture",
                 "Description": "Introductory lecture on Volunteered Geographic Information as a form of user-generated content",
                 "Materials": ""
-              }], 
+              }],
 			  "BoK": [{
 				  "Source": "EO4GEO",
 				  "URL": "https://bok.eo4geo.eu/GS4-3b",
@@ -66,7 +66,7 @@
 			  {
 				  "Source": "UCGIS",
 				  "URL": "https://gistbok.ucgis.org/bok-topics/volunteered-geographic-information",
-				  "Topic": "Volunteered Geographic Information"				  
+				  "Topic": "Volunteered Geographic Information"
 			  }]
             },
             {
@@ -122,7 +122,7 @@
 		  "BoK": [{
 			  "Source": "UCGIS",
 			  "URL": "https://gistbok.ucgis.org/bok-topics/spatial-data-infrastructures",
-			  "Topic": "Spatial Data Infrastructures"				  
+			  "Topic": "Spatial Data Infrastructures"
 		  }],
           "Learning outcomes": [{
               "Title": "describe the basics of benefit-cost analysis",
@@ -236,7 +236,7 @@
 			  "BoK": [{
 				  "Source": "UCGIS",
 				  "URL": "https://gistbok.ucgis.org/bok-topics/spatial-data-infrastructures",
-				  "Topic": "U.S. National Spatial Data Infrastructure"				  
+				  "Topic": "U.S. National Spatial Data Infrastructure"
 			  }]
             },
             {
@@ -289,7 +289,7 @@
 		  "BoK": [{
 			  "Source": "UCGIS",
 			  "URL": "https://gistbok.ucgis.org/bok-topics/spatial-data-infrastructures",
-			  "Topic": "Spatial Data Infrastructures"				  
+			  "Topic": "Spatial Data Infrastructures"
 		  }],
           "Learning outcomes": [{
               "Title": "understand the concept of SDI through its definition and main objectives",
@@ -545,7 +545,7 @@
 		  "BoK": [{
 			  "Source": "UCGIS",
 			  "URL": "https://gistbok.ucgis.org/bok-topics/spatial-data-infrastructures",
-			  "Topic": "U.S. National Spatial Data Infrastructure"				  
+			  "Topic": "U.S. National Spatial Data Infrastructure"
 		  }],
           "Learning outcomes": [{
               "Title": "understand the benefits of SDI supporting eGovernment needs",
@@ -887,7 +887,7 @@
         }
       ]
     },
-    "Tech I": {
+    "Standards": {
       "Concepts": [{
           "Title": "Web mapping",
           "Description": "Introduce basic tools and techniques for web mapping",
@@ -1065,7 +1065,7 @@
 				"Source": "EO4GEO",
 				"URL": "https://bok.eo4geo.eu/WB1-4",
 				"Topic": "OGC web services"
-		      }]			  
+		      }]
             },
             {
               "Title": "apply and evaluate OGC services for web mapping",
@@ -1382,7 +1382,7 @@
 			  "BoK": [{
 				  "Source": "UCGIS",
 				  "URL": "https://gistbok.ucgis.org/bok-topics/spatial-database-management-systems",
-				  "Topic": "Spatial Database Management Systems"				  
+				  "Topic": "Spatial Database Management Systems"
 			   }]
             },
             {
@@ -1455,7 +1455,7 @@
         }
       ]
     },
-    "Tech II": {
+    "Data": {
       "Concepts": [{
           "Title": "Unified Modelling Language (UML)",
           "Description": "Importance, application and benefits of using UML in spatial data modelling as part of Spatial Data Infrastructure",
@@ -2466,7 +2466,7 @@
 		  {
 			"Source": "UCGIS",
 			"URL": "https://gistbok.ucgis.org/bok-topics/openness",
-			"Topic": "Openness"				  
+			"Topic": "Openness"
 		  }],
           "Learning outcomes": [{
               "Title": "explain Open data directive in context with open SDI",
@@ -3612,7 +3612,7 @@
 		  "BoK": [{
 			  "Source": "UCGIS",
 			  "URL": "https://gistbok.ucgis.org/bok-topics/openness",
-			  "Topic": "Openness"				  
+			  "Topic": "Openness"
 		  }],
           "Learning outcomes": [{
               "Title": "Students are abble to differentiate the types of licenses in SDI",
@@ -3803,7 +3803,7 @@
 		  "BoK": [{
 			  "Source": "UCGIS",
 			  "URL": "https://gistbok.ucgis.org/bok-topics/openness",
-			  "Topic": "Openness"				  
+			  "Topic": "Openness"
 		  }],
           "Learning outcomes": [{
               "Title": "understand the key concepts of GDPR",
@@ -4007,7 +4007,7 @@
         }
       ]
     },
-    "Non-tech II": {
+    "Institutional, Organisational": {
       "Concepts": [{
           "Title": "SDI strategies and policies",
           "Description": "Strategies and policies dealing with SDI and SDI implementation",
