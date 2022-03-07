@@ -1,7 +1,8 @@
 {
   "Topics": [{
     "Fundamentals": {
-      "Concepts": [{
+      "Concepts": [
+		{
           "Title": "Evolution of SDIs & Citizens",
           "Description": "Discuss the main objectives and key components of SDI generationand introduce to the volunteered GI",
           "Learning outcomes": [{
@@ -888,104 +889,179 @@
       ]
     },
     "Standards": {
-      "Concepts": [{
-          "Title": "Web mapping",
-          "Description": "Introduce basic tools and techniques for web mapping",
+      "Concepts": [
+        {
+          "Title": "Interoperability through standardization",
+          "Description": "Introduce ISO, OGC, W3C approaches and abstraction levels",
 		  "BoK": [{
 			"Source": "EO4GEO",
-			"URL": "https://bok.eo4geo.eu/CV4-6",
-			"Topic": "Web mapping"
+			"URL": "https://bok.eo4geo.eu/IP4-1",
+			"Topic": "Data quality standards"
 		  },
 		  {
-			"Source": "UCGIS",
-			"URL": "https://gistbok.ucgis.org/bok-topics/web-mapping",
-			"Topic": "Web mapping"
-		  },
-		  {
-			"Source": "UCGIS",
-			"URL": "https://gistbok.ucgis.org/bok-topics/web-gis",
-			"Topic": "Web GIS"
+			"Source": "EO4GEO",
+			"URL": "https://bok.eo4geo.eu/DA3-2",
+			"Topic": "Interoperability"
 		  }],
           "Learning outcomes": [{
-              "Title": "design a basic web map",
-              "Description": "Introduction on HTML, CSS, and JavaScript for creating a web map client.",
-              "Bloom level": "3 - Apply",
-              "Assessment": [{
-                  "Assessment method": "Quiz",
-                  "Assessment method description": "Quiz on how to design a web map ",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Feedback",
-                  "Assessment method description": "Feedback on students` questions",
-                  "Assessment method type": "Formative"
-                }
-              ],
-              "Teaching activies": [{
-                  "Title": "Reading documents",
-                  "Description": "Read the recommended documents and look through the slides in advance"
-                },
-                {
-                  "Title": "Lecture",
-                  "Description": "Introductory lecture explaining web map client design and related concepts"
-                },
-                {
-                  "Title": "Feedback",
-                  "Description": "Give feedback to students on their questions in the lecture"
-                }
-              ]
-            },
-            {
-              "Title": "explain the basic tools and techniques for web development",
-              "Description": "Explain the basic tools and techniques for web development",
+              "Title": "read standards documents",
+              "Description": "Be able to read and interpret standards documents",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
-                  "Assessment method": "Quiz",
-                  "Assessment method description": "Quiz on HTML and JavaScript",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Feedback",
-                  "Assessment method description": "Students receive feedback during the lecture",
-                  "Assessment method type": "Formative"
-                }
-              ],
+                "Assessment method": "Quiz, Feedback",
+                "Assessment method description": "Quiz on the language used in standards documents and Feedback and discussion on student presentations",
+                "Assessment method type": "Formative"
+              }],
               "Teaching activies": [{
-                  "Title": "Reading papers",
-                  "Description": "Reading classic papers and websites (e.g. w3school) on basic techniques for web development"
-                },
-                {
                   "Title": "Lecture",
-                  "Description": "Lecture on basic techniques for portal development, including HTML, JavaScript"
+                  "Description": "Short introductory lecture explaining the terminology used in standards documents"
                 },
                 {
-                  "Title": "Feedback",
-                  "Description": "Give feedback to students on their questions about the basic techniques"
+                  "Title": "Student Presentations",
+                  "Description": "Students present selected OGC, ISO, and W3C standards relevant for SDI"
                 }
               ]
             },
             {
-              "Title": "implement a static web map",
-              "Description": "Implement a static web map with the introduced techniques",
+              "Title": "explain how standards are implemented",
+              "Description": "Understand how standards are implemented in SDIs and how to identify the relevant standards for a given tasks",
               "Bloom level": "3 - Apply",
               "Assessment": [{
-                  "Assessment method": "Feedback",
-                  "Assessment method description": "Students receive feedback on their lab exercise",
-                  "Assessment method type": "Summative"
+                "Assessment method": "Paper",
+                "Assessment method description": "Paper summarizing the analysis",
+                "Assessment method type": "Summative"
+              }],
+              "Teaching activies": [{
+                  "Title": "Reading prior to class",
+                  "Description": "Students read the documentation for a national SDI, focusing on the application of the previously discussed standards"
                 },
                 {
-                  "Assessment method": "Feedback",
-                  "Assessment method description": "Students receive feedback on their presentation",
-                  "Assessment method type": "Summative"
+                  "Title": "Case study",
+                  "Description": "Students write a short paper analyzing a GML application schema from a national SDI focusing on the links between the schema and the basic GML schema "
                 }
               ],
+			  "BoK": [{
+				"Source": "EO4GEO",
+				"URL": "https://bok.eo4geo.eu/OI4-1",
+				"Topic": "Adoption and implementation of standards"
+			  }]
+            },
+            {
+              "Title": "list the different standardization organizations and their responsibilities",
+              "Description": "Analyze which parts of the \"standardisation chain\" the main standardization organisations are responsible for ",
+              "Bloom level": "1 / 2 - Remember / Understand",
+              "Assessment": [{
+                "Assessment method": "Quiz",
+                "Assessment method description": "Quiz on the main distinguishing points between the different standardization organisations, ",
+                "Assessment method type": "Formative"
+              }],
               "Teaching activies": [{
-                  "Title": "Lab exercise",
-                  "Description": "Lab exercise on web development for static web mapping with the introduced techniques"
+                  "Title": "Lecture",
+                  "Description": "Introductory lecture on OGC, ISO, W3C and how they work (as an organisation and what they standardize)"
                 },
                 {
-                  "Title": "Presenting projects",
-                  "Description": "Students present their projects and peer review each other in small groups"
+                  "Title": "Asking Questions",
+                  "Description": "Group discussions on why these different organisations and their approaches are required and how they fit together"
+                }
+              ]
+            },
+            {
+              "Title": "Students are able apply SDI standards in practice",
+              "Description": "Be able to set up a WMS/WFS",
+              "Bloom level": "6 - Design / Create",
+              "Assessment": [{
+                "Assessment method": "Paper",
+                "Assessment method description": "Paper explaining where their geoserver setup uses the different OGC/ISO standards",
+                "Assessment method type": "Summative"
+              }],
+              "Teaching activies": [{
+                  "Title": "Examples",
+                  "Description": "Students evaluate different WMS/WFS setups and discuss how they use the introduced standards"
+                },
+                {
+                  "Title": "Demonstrations",
+                  "Description": "Students set up a Geoserver instance, load data and connect it to QGIS"
+                }
+              ]
+            }
+          ]
+        },
+		{
+          "Title": "Unified Modelling Language (UML)",
+          "Description": "Importance, application and benefits of using UML in spatial data modelling as part of Spatial Data Infrastructure",
+		  "BoK": [{
+			"Source": "EO4GEO",
+			"URL": "https://bok.eo4geo.eu/DM1-7",
+			"Topic": "UML introduction and class diagrams"
+		  }],
+          "Learning outcomes": [{
+              "Title": "define UML and explain its benefits",
+              "Description": "Explain what UML is and discuss its benefits in data modelling",
+              "Bloom level": "1 / 2 - Remember / Understand",
+              "Assessment": [{
+                "Assessment method": "UML understanding",
+                "Assessment method description": "This LO is assessed with an oral exam. Example of question is: Could you explain why UML usage is so widely spread?",
+                "Assessment method type": "Formative"
+              }],
+              "Teaching activies": [{
+                  "Title": "One-sentence Summary",
+                  "Description": "One sentence summary of what UML is"
+                },
+                {
+                  "Title": "Asking Questions",
+                  "Description": "There is a discussion during class where students are free to ask questions to better understand benefits of UML conceptual modelling"
+                }
+              ]
+            },
+            {
+              "Title": "use UML to read SDI Standards",
+              "Description": "Apply knowledge about UML to interpret SDI standards documents",
+              "Bloom level": "3 - Apply",
+              "Assessment": [{
+                "Assessment method": "UML use in geospatial norms and standards",
+                "Assessment method description": "This LO is assessed with a presentation of the mind map",
+                "Assessment method type": "Formative"
+              }],
+              "Teaching activies": [{
+                "Title": "Mind Map",
+                "Description": "Students develop a mind map linking UML elements in the ISO general feature model to a WFS feature type description (GML application schema)"
+              }]
+            },
+            {
+              "Title": "interpret the structure and types of UML diagrams",
+              "Description": "Interpret structural components (e.g. classes with attributes and functions), analyse relations among components (classes) and discuss different usage of UML diagrams",
+              "Bloom level": "4  / 5 - Analyze / Evaluate",
+              "Assessment": [{
+                "Assessment method": "Classes and relations understanding assessment",
+                "Assessment method description": "This LO is assessed with written or oral exam. Example of question is:Given the UML diagram representation, interpret what type of UML is this, what are the main classes and how do they relate to each other.",
+                "Assessment method type": "Formative"
+              }],
+              "Teaching activies": [{
+                  "Title": "Polls",
+                  "Description": "express their understanding of structural components and relations via some online real-time survey"
+                },
+                {
+                  "Title": "Asking Questions",
+                  "Description": "If there is something unclear, discussion with questions is opened and students are helped to understand it better"
+                }
+              ]
+            },
+            {
+              "Title": "apply UML in practice",
+              "Description": "Choose appropriate UML diagram type, adapt it to the user`s needs and create conceptual model for a specific use",
+              "Bloom level": "6 - Design / Create",
+              "Assessment": [{
+                "Assessment method": "Team project",
+                "Assessment method description": "This LO is assessed as written report after project is done. Students revise the work done and create report explaining main steps they performed.",
+                "Assessment method type": "Summative"
+              }],
+              "Teaching activies": [{
+                  "Title": "Student Presentations",
+                  "Description": "Based on the project assigned (chosen), students prepare short presentation and give answers to what, how and why they are going to use in their project"
+                },
+                {
+                  "Title": "Case study",
+                  "Description": "On the basis of presentation, they create their own conceptual map designed for specific need"
                 }
               ]
             }
@@ -1099,6 +1175,109 @@
             }
           ]
         },
+		{
+          "Title": "Web mapping",
+          "Description": "Introduce basic tools and techniques for web mapping",
+		  "BoK": [{
+			"Source": "EO4GEO",
+			"URL": "https://bok.eo4geo.eu/CV4-6",
+			"Topic": "Web mapping"
+		  },
+		  {
+			"Source": "UCGIS",
+			"URL": "https://gistbok.ucgis.org/bok-topics/web-mapping",
+			"Topic": "Web mapping"
+		  },
+		  {
+			"Source": "UCGIS",
+			"URL": "https://gistbok.ucgis.org/bok-topics/web-gis",
+			"Topic": "Web GIS"
+		  }],
+          "Learning outcomes": [{
+              "Title": "design a basic web map",
+              "Description": "Introduction on HTML, CSS, and JavaScript for creating a web map client.",
+              "Bloom level": "3 - Apply",
+              "Assessment": [{
+                  "Assessment method": "Quiz",
+                  "Assessment method description": "Quiz on how to design a web map ",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Feedback",
+                  "Assessment method description": "Feedback on students` questions",
+                  "Assessment method type": "Formative"
+                }
+              ],
+              "Teaching activies": [{
+                  "Title": "Reading documents",
+                  "Description": "Read the recommended documents and look through the slides in advance"
+                },
+                {
+                  "Title": "Lecture",
+                  "Description": "Introductory lecture explaining web map client design and related concepts"
+                },
+                {
+                  "Title": "Feedback",
+                  "Description": "Give feedback to students on their questions in the lecture"
+                }
+              ]
+            },
+            {
+              "Title": "explain the basic tools and techniques for web development",
+              "Description": "Explain the basic tools and techniques for web development",
+              "Bloom level": "1 / 2 - Remember / Understand",
+              "Assessment": [{
+                  "Assessment method": "Quiz",
+                  "Assessment method description": "Quiz on HTML and JavaScript",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Feedback",
+                  "Assessment method description": "Students receive feedback during the lecture",
+                  "Assessment method type": "Formative"
+                }
+              ],
+              "Teaching activies": [{
+                  "Title": "Reading papers",
+                  "Description": "Reading classic papers and websites (e.g. w3school) on basic techniques for web development"
+                },
+                {
+                  "Title": "Lecture",
+                  "Description": "Lecture on basic techniques for portal development, including HTML, JavaScript"
+                },
+                {
+                  "Title": "Feedback",
+                  "Description": "Give feedback to students on their questions about the basic techniques"
+                }
+              ]
+            },
+            {
+              "Title": "implement a static web map",
+              "Description": "Implement a static web map with the introduced techniques",
+              "Bloom level": "3 - Apply",
+              "Assessment": [{
+                  "Assessment method": "Feedback",
+                  "Assessment method description": "Students receive feedback on their lab exercise",
+                  "Assessment method type": "Summative"
+                },
+                {
+                  "Assessment method": "Feedback",
+                  "Assessment method description": "Students receive feedback on their presentation",
+                  "Assessment method type": "Summative"
+                }
+              ],
+              "Teaching activies": [{
+                  "Title": "Lab exercise",
+                  "Description": "Lab exercise on web development for static web mapping with the introduced techniques"
+                },
+                {
+                  "Title": "Presenting projects",
+                  "Description": "Students present their projects and peer review each other in small groups"
+                }
+              ]
+            }
+          ]
+        },
         {
           "Title": "Encoding standards for geospatial data",
           "Description": "Encoding standards that have been proposed for representing geospatial data",
@@ -1142,396 +1321,6 @@
                 {
                   "Title": "Discussion",
                   "Description": "Students discuss the similarity and difference /Advantages and disadvantages of GML, KML, and GeoJSON in small groups; including suitable application areas of each format. "
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "Title": "Metadata",
-          "Description": "Introduction of metadata standards and exchange format",
-		  "BoK": [{
-			"Source": "EO4GEO",
-			"URL": "https://bok.eo4geo.eu/GD12",
-			"Topic": "Metadata, standards, and infrastructures"
-	      },
-		  {
-			"Source": "EO4GEO",
-			"URL": "https://bok.eo4geo.eu/WB3-1",
-			"Topic": "Metadata and standards"
-	      },
-		  {
-			"Source": "UCGIS",
-			"URL": "https://gistbok.ucgis.org/bok-topics/metadata",
-			"Topic": "Metadata"
-	      }],
-          "Learning outcomes": [{
-              "Title": "define metadata in SDI",
-              "Description": "Introduce the definition of metadata and explain its application in SDI",
-              "Bloom level": "1 / 2 - Remember / Understand",
-              "Assessment": [{
-                "Assessment method": "Feedback",
-                "Assessment method description": "Students receive feedback on one sentence summary",
-                "Assessment method type": "Formative"
-              }],
-              "Teaching activies": [{
-                  "Title": "Reading documentations",
-                  "Description": "Read documentations for metadata in SDI with a focus on the geographic data"
-                },
-                {
-                  "Title": "Summary",
-                  "Description": "One sentence summary of metadata in SDI"
-                }
-              ]
-            },
-            {
-              "Title": "explain standards of metadata",
-              "Description": "Explain the standards of meatadata",
-              "Bloom level": "1 / 2 - Remember / Understand",
-              "Assessment": [{
-                  "Assessment method": "Quiz",
-                  "Assessment method description": "Quiz on metadata formats",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Feedback",
-                  "Assessment method description": "Feedback on students` questions",
-                  "Assessment method type": "Summative"
-                }
-              ],
-              "Teaching activies": [{
-                  "Title": "Lecture",
-                  "Description": "Introductory lecture on metadata standards like ISO 19115"
-                },
-                {
-                  "Title": "Asking questions",
-                  "Description": "ask questions and express their understanding of metadata standards"
-                }
-              ]
-            },
-            {
-              "Title": "understand metadata exchange format",
-              "Description": "Explain the typical metadata exchange format",
-              "Bloom level": "1 / 2 - Remember / Understand",
-              "Assessment": [{
-                  "Assessment method": "Quiz",
-                  "Assessment method description": "Quiz on metadata exchange formats",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Feedback",
-                  "Assessment method description": "Feedback on students` questions",
-                  "Assessment method type": "Summative"
-                }
-              ],
-              "Teaching activies": [{
-                  "Title": "Lecture",
-                  "Description": "Introductory lecture on metadata exchange formats"
-                },
-                {
-                  "Title": "Asking questions",
-                  "Description": "ask questions on metadata exchange format"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "Title": "Data Visualization",
-          "Description": "Cartographic aspects for visualizing maps on web map portals",
-		  "BoK": [{
-			"Source": "EO4GEO",
-			"URL": "https://bok.eo4geo.eu/CV",
-			"Topic": "Cartography and Visualization"
-	      }],
-          "Learning outcomes": [{
-              "Title": "define geovisualization",
-              "Description": "Introduce what is geovisualization and how it works",
-              "Bloom level": "1 / 2 - Remember / Understand",
-              "Assessment": [{
-                  "Assessment method": "Quiz",
-                  "Assessment method description": "Quiz on data geovisualization",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Feedback",
-                  "Assessment method description": "Students receive feedback on their questions",
-                  "Assessment method type": "Formative"
-                }
-              ],
-              "Teaching activies": [{
-                  "Title": "Lecture",
-                  "Description": "Introductory lecture on relevant aspects for data visualization with a focus on geographic data"
-                },
-                {
-                  "Title": "Answering questions",
-                  "Description": "If there is something unclear, students are helped to understand it better"
-                }
-              ]
-            },
-            {
-              "Title": "select applications of geovisualization in GIS",
-              "Description": "Choose appropriate applications of geovisualization in GIS ",
-              "Bloom level": "3 / 4 - Apply / Analyze",
-              "Assessment": [{
-                "Assessment method": "Feedback",
-                "Assessment method description": "Feedback on group discussion",
-                "Assessment method type": "Summative"
-              }],
-              "Teaching activies": [{
-                  "Title": "Reviewing example",
-                  "Description": "Review example of geovisualization in GIS"
-                },
-                {
-                  "Title": "Group discussion",
-                  "Description": "Group discussion on applications of geovisualization in reality in small groups"
-                }
-              ]
-            },
-            {
-              "Title": "explain cartographic visualization for web maps",
-              "Description": "Explain cartographic considerations for visualizing maps on internet.",
-              "Bloom level": "1 / 2 / 3 - Remember / Understand / Apply",
-              "Assessment": [{
-                  "Assessment method": "Written exam",
-                  "Assessment method description": "Exam on cartographic design for web maps",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Feedback",
-                  "Assessment method description": "Feedback on students` questions",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Feedback",
-                  "Assessment method description": "Feedback on formulated problem statement",
-                  "Assessment method type": "Summative"
-                },
-                {
-                  "Assessment method": "Feedback",
-                  "Assessment method description": "Feedback on students` presentation",
-                  "Assessment method type": "Summative"
-                }
-              ],
-              "Teaching activies": [{
-                  "Title": "Introduction",
-                  "Description": "Introduction to cartographic design for web maps"
-                },
-                {
-                  "Title": "Asking questions",
-                  "Description": "ask questions and express their understanding of web cartography"
-                },
-                {
-                  "Title": "Formulating problem",
-                  "Description": "Formulate a problem statement to create personalized web maps"
-                },
-                {
-                  "Title": "Presentation",
-                  "Description": "Students present personalized web maps and discuss in small groups"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "Title": "Data Catalogue",
-          "Description": "Data catalogue for the storage of spatial data and metadata",
-          "Learning outcomes": [{
-              "Title": "define data catalogue",
-              "Description": "Introduce the definition of data catelogue",
-              "Bloom level": "1 / 2 - Remember / Understand",
-              "Assessment": [{
-                "Assessment method": "Feedback",
-                "Assessment method description": "Students receive feedback on their questions",
-                "Assessment method type": "Formative"
-              }],
-              "Teaching activies": [{
-                  "Title": "Reading documentations",
-                  "Description": "Reading the documentations for data catalogue"
-                },
-                {
-                  "Title": "Summary",
-                  "Description": "One sentence summary of data catalogue"
-                }
-              ]
-            },
-            {
-              "Title": "explain how they manage a data catalogue with a DBMS",
-              "Description": "Introduce how to use a DBMS for managing a data catelogue",
-              "Bloom level": "1 / 2 - Remember / Understand",
-              "Assessment": [{
-                  "Assessment method": "Quiz",
-                  "Assessment method description": "Quiz on DBMS for managing a data catalogue",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Feedback",
-                  "Assessment method description": "Feedback on questions",
-                  "Assessment method type": "Summative"
-                }
-              ],
-              "Teaching activies": [{
-                  "Title": "Introduction",
-                  "Description": "Introduce how to use a DBMS for managing a data catelogue"
-                },
-                {
-                  "Title": "Asking questions",
-                  "Description": "ask questions if there is something unclear"
-                }
-              ],
-			  "BoK": [{
-				  "Source": "UCGIS",
-				  "URL": "https://gistbok.ucgis.org/bok-topics/spatial-database-management-systems",
-				  "Topic": "Spatial Database Management Systems"
-			   }]
-            },
-            {
-              "Title": "design data catalogues with UML",
-              "Description": "Explain how to design data catelogue with UML",
-              "Bloom level": "1 / 2 - Remember / Understand",
-              "Assessment": [{
-                  "Assessment method": "Quiz",
-                  "Assessment method description": "Quiz on data catalogue design with UML",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Feedback",
-                  "Assessment method description": "Feedback on students` questions",
-                  "Assessment method type": "Summative"
-                }
-              ],
-              "Teaching activies": [{
-                  "Title": "Introduction",
-                  "Description": "Introduce how to design a data catelogue with UML"
-                },
-                {
-                  "Title": "Asking questions",
-                  "Description": "ask questions if there is something unclear"
-                }
-              ],
-			  "BoK": [{
-				"Source": "EO4GEO",
-				"URL": "https://bok.eo4geo.eu/DM1-7",
-				"Topic": "UML introduction and class diagrams"
-			  }]
-            },
-            {
-              "Title": "implement database management and data retrieval with SQL",
-              "Description": "Implement database management and data retrieval with SQL",
-              "Bloom level": "3 - Apply",
-              "Assessment": [{
-                  "Assessment method": "Feedback",
-                  "Assessment method description": "Feedback on lecture",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Written exam",
-                  "Assessment method description": "Exam on SQL for database management and data retrieval",
-                  "Assessment method type": "Summative"
-                }
-              ],
-              "Teaching activies": [{
-                  "Title": "Lecture",
-                  "Description": "Introductory lecture on SQL"
-                },
-                {
-                  "Title": "Implementation",
-                  "Description": "Students implement database management and data retrieval with SQL"
-                }
-              ],
-			  "BoK": [{
-				"Source": "EO4GEO",
-				"URL": "https://bok.eo4geo.eu/AM2-2",
-				"Topic": "Structured Query Language (SQL) and attribute queries"
-			  },
-			  {
-			  	"Source": "UCGIS",
-				"URL": "https://gistbok.ucgis.org/bok-topics/structured-query-language-sql-and-attribute-queries",
-				"Topic": "Structured Query Language (SQL) and attribute queries"
-			  }
-			  ]
-            }
-          ]
-        }
-      ]
-    },
-    "Data": {
-      "Concepts": [{
-          "Title": "Unified Modelling Language (UML)",
-          "Description": "Importance, application and benefits of using UML in spatial data modelling as part of Spatial Data Infrastructure",
-		  "BoK": [{
-			"Source": "EO4GEO",
-			"URL": "https://bok.eo4geo.eu/DM1-7",
-			"Topic": "UML introduction and class diagrams"
-		  }],
-          "Learning outcomes": [{
-              "Title": "define UML and explain its benefits",
-              "Description": "Explain what UML is and discuss its benefits in data modelling",
-              "Bloom level": "1 / 2 - Remember / Understand",
-              "Assessment": [{
-                "Assessment method": "UML understanding",
-                "Assessment method description": "This LO is assessed with an oral exam. Example of question is: Could you explain why UML usage is so widely spread?",
-                "Assessment method type": "Formative"
-              }],
-              "Teaching activies": [{
-                  "Title": "One-sentence Summary",
-                  "Description": "One sentence summary of what UML is"
-                },
-                {
-                  "Title": "Asking Questions",
-                  "Description": "There is a discussion during class where students are free to ask questions to better understand benefits of UML conceptual modelling"
-                }
-              ]
-            },
-            {
-              "Title": "use UML to read SDI Standards",
-              "Description": "Apply knowledge about UML to interpret SDI standards documents",
-              "Bloom level": "3 - Apply",
-              "Assessment": [{
-                "Assessment method": "UML use in geospatial norms and standards",
-                "Assessment method description": "This LO is assessed with a presentation of the mind map",
-                "Assessment method type": "Formative"
-              }],
-              "Teaching activies": [{
-                "Title": "Mind Map",
-                "Description": "Students develop a mind map linking UML elements in the ISO general feature model to a WFS feature type description (GML application schema)"
-              }]
-            },
-            {
-              "Title": "interpret the structure and types of UML diagrams",
-              "Description": "Interpret structural components (e.g. classes with attributes and functions), analyse relations among components (classes) and discuss different usage of UML diagrams",
-              "Bloom level": "4  / 5 - Analyze / Evaluate",
-              "Assessment": [{
-                "Assessment method": "Classes and relations understanding assessment",
-                "Assessment method description": "This LO is assessed with written or oral exam. Example of question is:Given the UML diagram representation, interpret what type of UML is this, what are the main classes and how do they relate to each other.",
-                "Assessment method type": "Formative"
-              }],
-              "Teaching activies": [{
-                  "Title": "Polls",
-                  "Description": "express their understanding of structural components and relations via some online real-time survey"
-                },
-                {
-                  "Title": "Asking Questions",
-                  "Description": "If there is something unclear, discussion with questions is opened and students are helped to understand it better"
-                }
-              ]
-            },
-            {
-              "Title": "apply UML in practice",
-              "Description": "Choose appropriate UML diagram type, adapt it to the user`s needs and create conceptual model for a specific use",
-              "Bloom level": "6 - Design / Create",
-              "Assessment": [{
-                "Assessment method": "Team project",
-                "Assessment method description": "This LO is assessed as written report after project is done. Students revise the work done and create report explaining main steps they performed.",
-                "Assessment method type": "Summative"
-              }],
-              "Teaching activies": [{
-                  "Title": "Student Presentations",
-                  "Description": "Based on the project assigned (chosen), students prepare short presentation and give answers to what, how and why they are going to use in their project"
-                },
-                {
-                  "Title": "Case study",
-                  "Description": "On the basis of presentation, they create their own conceptual map designed for specific need"
                 }
               ]
             }
@@ -1735,103 +1524,11 @@
 			  }]
             }
           ]
-        },
-        {
-          "Title": "Interoperability through standardization",
-          "Description": "Introduce ISO, OGC, W3C approaches and abstraction levels",
-		  "BoK": [{
-			"Source": "EO4GEO",
-			"URL": "https://bok.eo4geo.eu/IP4-1",
-			"Topic": "Data quality standards"
-		  },
-		  {
-			"Source": "EO4GEO",
-			"URL": "https://bok.eo4geo.eu/DA3-2",
-			"Topic": "Interoperability"
-		  }],
-          "Learning outcomes": [{
-              "Title": "read standards documents",
-              "Description": "Be able to read and interpret standards documents",
-              "Bloom level": "1 / 2 - Remember / Understand",
-              "Assessment": [{
-                "Assessment method": "Quiz, Feedback",
-                "Assessment method description": "Quiz on the language used in standards documents and Feedback and discussion on student presentations",
-                "Assessment method type": "Formative"
-              }],
-              "Teaching activies": [{
-                  "Title": "Lecture",
-                  "Description": "Short introductory lecture explaining the terminology used in standards documents"
-                },
-                {
-                  "Title": "Student Presentations",
-                  "Description": "Students present selected OGC, ISO, and W3C standards relevant for SDI"
-                }
-              ]
-            },
-            {
-              "Title": "explain how standards are implemented",
-              "Description": "Understand how standards are implemented in SDIs and how to identify the relevant standards for a given tasks",
-              "Bloom level": "3 - Apply",
-              "Assessment": [{
-                "Assessment method": "Paper",
-                "Assessment method description": "Paper summarizing the analysis",
-                "Assessment method type": "Summative"
-              }],
-              "Teaching activies": [{
-                  "Title": "Reading prior to class",
-                  "Description": "Students read the documentation for a national SDI, focusing on the application of the previously discussed standards"
-                },
-                {
-                  "Title": "Case study",
-                  "Description": "Students write a short paper analyzing a GML application schema from a national SDI focusing on the links between the schema and the basic GML schema "
-                }
-              ],
-			  "BoK": [{
-				"Source": "EO4GEO",
-				"URL": "https://bok.eo4geo.eu/OI4-1",
-				"Topic": "Adoption and implementation of standards"
-			  }]
-            },
-            {
-              "Title": "list the different standardization organizations and their responsibilities",
-              "Description": "Analyze which parts of the \"standardisation chain\" the main standardization organisations are responsible for ",
-              "Bloom level": "1 / 2 - Remember / Understand",
-              "Assessment": [{
-                "Assessment method": "Quiz",
-                "Assessment method description": "Quiz on the main distinguishing points between the different standardization organisations, ",
-                "Assessment method type": "Formative"
-              }],
-              "Teaching activies": [{
-                  "Title": "Lecture",
-                  "Description": "Introductory lecture on OGC, ISO, W3C and how they work (as an organisation and what they standardize)"
-                },
-                {
-                  "Title": "Asking Questions",
-                  "Description": "Group discussions on why these different organisations and their approaches are required and how they fit together"
-                }
-              ]
-            },
-            {
-              "Title": "Students are able apply SDI standards in practice",
-              "Description": "Be able to set up a WMS/WFS",
-              "Bloom level": "6 - Design / Create",
-              "Assessment": [{
-                "Assessment method": "Paper",
-                "Assessment method description": "Paper explaining where their geoserver setup uses the different OGC/ISO standards",
-                "Assessment method type": "Summative"
-              }],
-              "Teaching activies": [{
-                  "Title": "Examples",
-                  "Description": "Students evaluate different WMS/WFS setups and discuss how they use the introduced standards"
-                },
-                {
-                  "Title": "Demonstrations",
-                  "Description": "Students set up a Geoserver instance, load data and connect it to QGIS"
-                }
-              ]
-            }
-          ]
-        },
+        }
+      ]
+    },
+    "Data": {
+      "Concepts": [
         {
           "Title": "Data models",
           "Description": "Overview of the most important data models in GIS and how they are formalized",
@@ -2068,6 +1765,312 @@
           ]
         },
         {
+          "Title": "Metadata",
+          "Description": "Introduction of metadata standards and exchange format",
+		  "BoK": [{
+			"Source": "EO4GEO",
+			"URL": "https://bok.eo4geo.eu/GD12",
+			"Topic": "Metadata, standards, and infrastructures"
+	      },
+		  {
+			"Source": "EO4GEO",
+			"URL": "https://bok.eo4geo.eu/WB3-1",
+			"Topic": "Metadata and standards"
+	      },
+		  {
+			"Source": "UCGIS",
+			"URL": "https://gistbok.ucgis.org/bok-topics/metadata",
+			"Topic": "Metadata"
+	      }],
+          "Learning outcomes": [{
+              "Title": "define metadata in SDI",
+              "Description": "Introduce the definition of metadata and explain its application in SDI",
+              "Bloom level": "1 / 2 - Remember / Understand",
+              "Assessment": [{
+                "Assessment method": "Feedback",
+                "Assessment method description": "Students receive feedback on one sentence summary",
+                "Assessment method type": "Formative"
+              }],
+              "Teaching activies": [{
+                  "Title": "Reading documentations",
+                  "Description": "Read documentations for metadata in SDI with a focus on the geographic data"
+                },
+                {
+                  "Title": "Summary",
+                  "Description": "One sentence summary of metadata in SDI"
+                }
+              ]
+            },
+            {
+              "Title": "explain standards of metadata",
+              "Description": "Explain the standards of meatadata",
+              "Bloom level": "1 / 2 - Remember / Understand",
+              "Assessment": [{
+                  "Assessment method": "Quiz",
+                  "Assessment method description": "Quiz on metadata formats",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Feedback",
+                  "Assessment method description": "Feedback on students` questions",
+                  "Assessment method type": "Summative"
+                }
+              ],
+              "Teaching activies": [{
+                  "Title": "Lecture",
+                  "Description": "Introductory lecture on metadata standards like ISO 19115"
+                },
+                {
+                  "Title": "Asking questions",
+                  "Description": "ask questions and express their understanding of metadata standards"
+                }
+              ]
+            },
+            {
+              "Title": "understand metadata exchange format",
+              "Description": "Explain the typical metadata exchange format",
+              "Bloom level": "1 / 2 - Remember / Understand",
+              "Assessment": [{
+                  "Assessment method": "Quiz",
+                  "Assessment method description": "Quiz on metadata exchange formats",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Feedback",
+                  "Assessment method description": "Feedback on students` questions",
+                  "Assessment method type": "Summative"
+                }
+              ],
+              "Teaching activies": [{
+                  "Title": "Lecture",
+                  "Description": "Introductory lecture on metadata exchange formats"
+                },
+                {
+                  "Title": "Asking questions",
+                  "Description": "ask questions on metadata exchange format"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Title": "Data Catalogue",
+          "Description": "Data catalogue for the storage of spatial data and metadata",
+          "Learning outcomes": [{
+              "Title": "define data catalogue",
+              "Description": "Introduce the definition of data catelogue",
+              "Bloom level": "1 / 2 - Remember / Understand",
+              "Assessment": [{
+                "Assessment method": "Feedback",
+                "Assessment method description": "Students receive feedback on their questions",
+                "Assessment method type": "Formative"
+              }],
+              "Teaching activies": [{
+                  "Title": "Reading documentations",
+                  "Description": "Reading the documentations for data catalogue"
+                },
+                {
+                  "Title": "Summary",
+                  "Description": "One sentence summary of data catalogue"
+                }
+              ]
+            },
+            {
+              "Title": "explain how they manage a data catalogue with a DBMS",
+              "Description": "Introduce how to use a DBMS for managing a data catelogue",
+              "Bloom level": "1 / 2 - Remember / Understand",
+              "Assessment": [{
+                  "Assessment method": "Quiz",
+                  "Assessment method description": "Quiz on DBMS for managing a data catalogue",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Feedback",
+                  "Assessment method description": "Feedback on questions",
+                  "Assessment method type": "Summative"
+                }
+              ],
+              "Teaching activies": [{
+                  "Title": "Introduction",
+                  "Description": "Introduce how to use a DBMS for managing a data catelogue"
+                },
+                {
+                  "Title": "Asking questions",
+                  "Description": "ask questions if there is something unclear"
+                }
+              ],
+			  "BoK": [{
+				  "Source": "UCGIS",
+				  "URL": "https://gistbok.ucgis.org/bok-topics/spatial-database-management-systems",
+				  "Topic": "Spatial Database Management Systems"
+			   }]
+            },
+            {
+              "Title": "design data catalogues with UML",
+              "Description": "Explain how to design data catelogue with UML",
+              "Bloom level": "1 / 2 - Remember / Understand",
+              "Assessment": [{
+                  "Assessment method": "Quiz",
+                  "Assessment method description": "Quiz on data catalogue design with UML",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Feedback",
+                  "Assessment method description": "Feedback on students` questions",
+                  "Assessment method type": "Summative"
+                }
+              ],
+              "Teaching activies": [{
+                  "Title": "Introduction",
+                  "Description": "Introduce how to design a data catelogue with UML"
+                },
+                {
+                  "Title": "Asking questions",
+                  "Description": "ask questions if there is something unclear"
+                }
+              ],
+			  "BoK": [{
+				"Source": "EO4GEO",
+				"URL": "https://bok.eo4geo.eu/DM1-7",
+				"Topic": "UML introduction and class diagrams"
+			  }]
+            },
+            {
+              "Title": "implement database management and data retrieval with SQL",
+              "Description": "Implement database management and data retrieval with SQL",
+              "Bloom level": "3 - Apply",
+              "Assessment": [{
+                  "Assessment method": "Feedback",
+                  "Assessment method description": "Feedback on lecture",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Written exam",
+                  "Assessment method description": "Exam on SQL for database management and data retrieval",
+                  "Assessment method type": "Summative"
+                }
+              ],
+              "Teaching activies": [{
+                  "Title": "Lecture",
+                  "Description": "Introductory lecture on SQL"
+                },
+                {
+                  "Title": "Implementation",
+                  "Description": "Students implement database management and data retrieval with SQL"
+                }
+              ],
+			  "BoK": [{
+				"Source": "EO4GEO",
+				"URL": "https://bok.eo4geo.eu/AM2-2",
+				"Topic": "Structured Query Language (SQL) and attribute queries"
+			  },
+			  {
+			  	"Source": "UCGIS",
+				"URL": "https://gistbok.ucgis.org/bok-topics/structured-query-language-sql-and-attribute-queries",
+				"Topic": "Structured Query Language (SQL) and attribute queries"
+			  }
+			  ]
+            }
+          ]
+        },
+        {
+          "Title": "Data Visualization",
+          "Description": "Cartographic aspects for visualizing maps on web map portals",
+		  "BoK": [{
+			"Source": "EO4GEO",
+			"URL": "https://bok.eo4geo.eu/CV",
+			"Topic": "Cartography and Visualization"
+	      }],
+          "Learning outcomes": [{
+              "Title": "define geovisualization",
+              "Description": "Introduce what is geovisualization and how it works",
+              "Bloom level": "1 / 2 - Remember / Understand",
+              "Assessment": [{
+                  "Assessment method": "Quiz",
+                  "Assessment method description": "Quiz on data geovisualization",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Feedback",
+                  "Assessment method description": "Students receive feedback on their questions",
+                  "Assessment method type": "Formative"
+                }
+              ],
+              "Teaching activies": [{
+                  "Title": "Lecture",
+                  "Description": "Introductory lecture on relevant aspects for data visualization with a focus on geographic data"
+                },
+                {
+                  "Title": "Answering questions",
+                  "Description": "If there is something unclear, students are helped to understand it better"
+                }
+              ]
+            },
+            {
+              "Title": "select applications of geovisualization in GIS",
+              "Description": "Choose appropriate applications of geovisualization in GIS ",
+              "Bloom level": "3 / 4 - Apply / Analyze",
+              "Assessment": [{
+                "Assessment method": "Feedback",
+                "Assessment method description": "Feedback on group discussion",
+                "Assessment method type": "Summative"
+              }],
+              "Teaching activies": [{
+                  "Title": "Reviewing example",
+                  "Description": "Review example of geovisualization in GIS"
+                },
+                {
+                  "Title": "Group discussion",
+                  "Description": "Group discussion on applications of geovisualization in reality in small groups"
+                }
+              ]
+            },
+            {
+              "Title": "explain cartographic visualization for web maps",
+              "Description": "Explain cartographic considerations for visualizing maps on internet.",
+              "Bloom level": "1 / 2 / 3 - Remember / Understand / Apply",
+              "Assessment": [{
+                  "Assessment method": "Written exam",
+                  "Assessment method description": "Exam on cartographic design for web maps",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Feedback",
+                  "Assessment method description": "Feedback on students` questions",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Feedback",
+                  "Assessment method description": "Feedback on formulated problem statement",
+                  "Assessment method type": "Summative"
+                },
+                {
+                  "Assessment method": "Feedback",
+                  "Assessment method description": "Feedback on students` presentation",
+                  "Assessment method type": "Summative"
+                }
+              ],
+              "Teaching activies": [{
+                  "Title": "Introduction",
+                  "Description": "Introduction to cartographic design for web maps"
+                },
+                {
+                  "Title": "Asking questions",
+                  "Description": "ask questions and express their understanding of web cartography"
+                },
+                {
+                  "Title": "Formulating problem",
+                  "Description": "Formulate a problem statement to create personalized web maps"
+                },
+                {
+                  "Title": "Presentation",
+                  "Description": "Students present personalized web maps and discuss in small groups"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "Title": "Data exchange formats",
           "Description": "Introduction of most relevant data exchange formats used in SDIs ",
           "Learning outcomes": [{
@@ -2229,7 +2232,8 @@
       ]
     },
     "Legal, Economics, Ethics": {
-      "Concepts": [{
+      "Concepts": [
+		{
           "Title": "Overview of open SDI Legislation",
           "Description": "Generic overview of the role of legislation in open SDI and a brief overview of relevant legislation in the EU ",
           "Learning outcomes": [{
@@ -3947,7 +3951,8 @@
       ]
     },
     "Institutional, Organisational": {
-      "Concepts": [{
+      "Concepts": [
+		{
           "Title": "SDI strategies and policies",
           "Description": "Strategies and policies dealing with SDI and SDI implementation",
 		  "BoK": [{
