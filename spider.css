@@ -63,7 +63,7 @@ div#content {
 }
 
 /* media queries for the display of the concept boxes */
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   .concept {
     width: 48%;
   }
@@ -74,7 +74,7 @@ div#content {
     width: 31%;
   }
 }
-
+*/
 .concept h2 {
   font-weight: 700;
 }
