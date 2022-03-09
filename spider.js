@@ -127,9 +127,17 @@ function formatConcept(conceptContent) {
        <h2>
        ` + conceptContent["Title"] + `</h2>
        <p class="lead">` + conceptContent["Description"] + `.</p>
-	   <p class="lead"><strong>Learning&nbsp;outcomes:</strong>
-	   <br>Students are able to ...</p>
+	   <p class="lead"><a data-bs-toggle="collapse" class="collapseLO" href="#collapse` + id(conceptContent["Title"]) + `">` + conceptContent["Learning outcomes"].length + ` Learning outcomes</a>
     </div>`)
+}
+
+/* Format a learningOutcomepanel */
+function formatLOList (conceptContent) {
+	return $(`
+		<div id="collapse` + id(conceptContent["Title"]) + `" class="collapse">
+			<p class="lead">Students are able to ...</p>
+		</div>
+	`);
 }
 
 /* Format a learningOutcome panel header  */
@@ -244,6 +252,8 @@ $.getJSON("toolkit.json", function(data) {
 
             // add title and description for each concept
             fc = formatConcept(conceptContent)
+			
+			lol = formatLOList(conceptContent)
 
             // add an item in the dropdown menu under the topic area:
             addDropdownConceptToTopic(topic, conceptContent["Title"])
@@ -307,8 +317,11 @@ $.getJSON("toolkit.json", function(data) {
                 loph.append(lopb)
 
                 // attach the whole learning objective to the concept
-                fc.append(loph)
+                lol.append(loph)
               });
+			  
+			// lO List to concept content
+			fc.append(lol)
 			
 			// BoK to the concept content, if existing:
 			if (conceptContent["BoK"]) {
