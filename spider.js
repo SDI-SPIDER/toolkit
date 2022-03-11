@@ -114,8 +114,9 @@ function updateCounter() {
 function formatTopic(topic) {
   return $(`
       <div class="topic clearfix" id="` + id(topic) + `">
-      <h1 class="display-3">` + topic + `.
-      <span class="display-5"><span class="conceptcounter ` + id(topic) + `"></span> concepts:</span></h1>
+		<div class="ban">
+			<h1 class="display-3">` + topic + `.<span class="display-5"><span class="conceptcounter ` + id(topic) + `"></span> concepts:</span></h1>
+		</div>
       </div>`)
 }
 
@@ -127,7 +128,6 @@ function formatConcept(conceptContent) {
        <h2>
        ` + conceptContent["Title"] + `</h2>
        <p class="lead">` + conceptContent["Description"] + `.</p>
-	   <p class="lead"><a data-bs-toggle="collapse" class="collapseLO" href="#collapse` + id(conceptContent["Title"]) + `">` + conceptContent["Learning outcomes"].length + ` Learning outcomes</a>
     </div>`)
 }
 
@@ -137,6 +137,12 @@ function formatLOList (conceptContent) {
 		<div id="collapse` + id(conceptContent["Title"]) + `" class="collapse">
 			<p class="lead">Students are able to ...</p>
 		</div>
+	`);
+}
+
+function formatLOListLink (conceptContent) {
+	return $(`
+	   <a data-bs-toggle="collapse" class="lead collapseLO collapsed" href="#collapse` + id(conceptContent["Title"]) + `">` + conceptContent["Learning outcomes"].length + ` Learning outcomes</a>
 	`);
 }
 
@@ -160,7 +166,7 @@ function formatLOPanelBody(learningOutcome) {
 function formatLOPanelBodyContent(learningOutcome) {
   return $(`<div class="goal panel-body"><p>` + learningOutcome["Description"] + `<br />
          <strong>Bloom level: ` + learningOutcome["Bloom level"] + `</strong></p>
-         <p>Teaching activities:</p>
+         <h4>Teaching activities</h4>
   </div>`);
 }
 
@@ -174,14 +180,19 @@ function formatTA(ta) {
 }
 
 /* Format an assessment method */
-function formatAssessment(assessment) {
-  return $(`
-    <div class="assessment">
-      <h4>` + assessment["Assessment method type"] + ` assessment</h4>
-      <p><strong>` + assessment["Assessment method"] + `</strong>:
-      ` + assessment["Assessment method description"] + `</p>
-    </div>
-    `);
+function formatAssessment(assessments, assessmenttyp) {
+	as = $('')
+	if (assessments.length > 0) { 
+		aslist = $('<ul></ul>')
+		$.each(assessments,
+		  function(l, assessment) {
+			aslist.append(`<li><strong>` + assessment["Assessment method"] + `</strong>: ` + assessment["Assessment method description"] + `</li>`)
+		});
+		
+		as = $('<div class="assessment"><h4>' + assessmenttyp + ' assessment</h4></div>')
+		as.append(aslist)
+	}
+	return as;
 }
 
 /* Format the materials for a learning outcome */
@@ -195,12 +206,15 @@ function formatMaterials(materials) {
 }
 
 /* Add a list of Bodies of Knowlege Links*/
-function addBokList(bokList) {
-	list = $(`<div class="bok">`);
+function addBokList(bokList, type="short") {
+	list = $(`<ul class="bok ` + type + `"></ul>`);
 	bokList.forEach(function(bokItem) {
-		list.append(`<a href="` + bokItem["URL"] + `" title="` + bokItem["Topic"] + `" target="_blank">` + bokItem["Source"] + `</a>`);
+		if (type == "list") {
+			list.append(`<li><a href="` + bokItem["URL"] + `" title="` + bokItem["Topic"] + `" target="_blank"><strong>` + bokItem["Source"] + `</strong>: ` + bokItem["Topic"] + `</a></li>`);
+		} else {	
+			list.append(`<li><a href="` + bokItem["URL"] + `" title="` + bokItem["Topic"] + `" target="_blank">` + bokItem["Source"] + `</a></li>`);
+		}
 	});
-	list.append(`</div>`);
 	return list;
 }
 
@@ -296,16 +310,27 @@ $.getJSON("toolkit.json", function(data) {
                 // re-assable: List of teaching activities to panel body content
                 lopbc = formatLOPanelBodyContent(learningOutcome)
                 lopbc.append(taList)
+				
+				//seperate formative and summative assessments
+				afor = learningOutcome["Assessment"].filter(assessment => assessment["Assessment method type"] == "Formative")
+				asum = learningOutcome["Assessment"].filter(assessment => assessment["Assessment method type"] == "Summative")
 
-                // assessment methods to the body content:
-                $.each(learningOutcome["Assessment"],
-                  function(l, assessment) {
-                    lopbc.append(formatAssessment(assessment))
-                  });
-				  
-				// BoK to the body content, if existing:
+				lopbc.append(formatAssessment(afor, "Formative"))
+				lopbc.append(formatAssessment(asum, "Summative"))
+
+				// BoK from concept added in BoK List of LO
+				bok = [];
 				if (learningOutcome["BoK"]) {
-					lopbc.append(addBokList(learningOutcome["BoK"]))
+					bok = bok.concat(learningOutcome["BoK"])
+				}
+				if (conceptContent["BoK"]) {
+					bok = bok.concat(conceptContent["BoK"])
+				}
+				
+				// BoK's to the body content, if existing:
+				if (bok.length > 0) {
+					lopbc.append('<h4>more knowledge</h5>')
+					lopbc.append(addBokList(bok, "list"))
 				};
 				
                 // … panel body content to panel body
@@ -322,6 +347,7 @@ $.getJSON("toolkit.json", function(data) {
 			  
 			// lO List to concept content
 			fc.append(lol)
+			fc.append(formatLOListLink(conceptContent))
 			
 			// BoK to the concept content, if existing:
 			if (conceptContent["BoK"]) {
