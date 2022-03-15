@@ -257,19 +257,20 @@ a.permalink::before {
 	margin: -90px;
 }
 
+#settings.anchor {
+	margin: -10px;
+}
+
 @media (min-width: 1150px) and (max-width: 1800px) {
 	.anchor {
-		margin: -60px;
+		margin: -60px !important;
 	}
 }
 
 @media (max-width: 650px) {
 	.anchor {
-		margin: -160px;
+		margin: -160px !important;
 	}
-}
-#settings.anchor {
-	margin: -10px;
 }
 
 div.ban {
