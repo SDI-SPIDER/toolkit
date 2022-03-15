@@ -43,7 +43,26 @@ h4 {
 	border-bottom: 2px dotted #3188B0;
 }
 
-/* media queries for the display of the navbar and form */
+#shortmen {
+	display: flex !important;
+	flex-flow: row wrap;
+	align-items: stretch;
+	margin: 10% 0;
+}
+
+#shortmen a {
+	margin: 1%;
+	width: calc(100% / 3 - 2%);
+	font-size: 1.5rem;
+	text-decoration: none;
+	color: #fff;
+}
+
+#shortmen a div {
+	height: 100%;
+}
+
+/* media queries for the display of the navbar, shortmen and form */
 @media (max-width: 1800px) {
   nav#navbar {
     position: fixed;
@@ -59,6 +78,16 @@ h4 {
 
   p.mb-5 {
     margin-bottom: 0rem !important;
+  }
+  
+  #shortmen a {
+	  width: calc(100% / 2 - 2%);
+  }
+}
+
+@media (max-width: 480px) {
+  #shortmen a {
+	  width: 98%;
   }
 }
 
@@ -201,14 +230,23 @@ a.nav-link:hover {
 	margin-right: 4px;
 }
 
-.bok a {
+a.permalink::before {
+	content: url(icons/link-45deg.svg);
+	margin-right: 4px;
+}
+
+.bok a, .permalink {
 	color: #6c757d;
 	text-decoration: none;
 }
 
-.bok a:hover {
+.bok a:hover, .permalink:hover {
 	color: #495057;
 	text-decoration: underline;
+}
+
+.permalink {
+	float: right;
 }
 
 /* move anchor depending on height of nav-bar and content*/
@@ -236,7 +274,9 @@ a.nav-link:hover {
 
 div.ban {
 	background-image: url("banner/Fundamentals.jpg");
+	background-size: cover;
+	background-color: #000;
 	width: 100%;
-	background-position: center;
+	background-position: center center;
 	padding: 10% 2% 2% 2%;
 }

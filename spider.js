@@ -150,6 +150,7 @@ function formatLOListLink (conceptContent) {
 function formatLOPanelHeader(learningOutcome) {
   return $(`
     <div class="panel panel-default">
+	  <div id="` + id(learningOutcome["Title"]) + `" class="anchor"></div>
       <div class="panel-heading goal">
         <h3 class="panel-title">
           <a data-bs-toggle="collapse" class="collapsed" href="#collapse` + id(learningOutcome["Title"]) + `">... ` + learningOutcome["Title"] + `</a>
@@ -240,6 +241,26 @@ function addDropdownConceptToTopic(topic, concept){
 
 }
 
+function addShortMenuTopic (topic) {
+	$("div#shortmen").append(`
+		<a href="#` + id(topic) + `"> 
+			<div class="ban">
+				<strong>` + topic + `.</strong>
+				<br><span class="conceptcounter ` + id(topic) + `"></span> concepts
+			</div> 
+		</a>`)
+}
+
+function addPermalink (topic, description = false) {
+	url =  window.location.protocol + "//" + window.location.host + "#" + id(topic);
+	perma = $(`<a class="permalink" href="` + url + `" title="Permalink"></a>`);
+	if (description) {
+		perma.append('Permalink');
+	}
+	
+	return perma;
+}
+
 /* Read in the toolkit data in JSON format and insert into the page */
 $.getJSON("toolkit.json", function(data) {
 
@@ -248,6 +269,9 @@ $.getJSON("toolkit.json", function(data) {
   // so we can add them to the selection menues later
   activities = []
   blooms = []
+  
+  //strukture documentation to un-collapse by hash
+  hashStrukture = {}
 
   $.each(data["Topics"],
     function(i, topics) {
@@ -255,8 +279,10 @@ $.getJSON("toolkit.json", function(data) {
       // loop through all the topics
       $.each(topics, function(topic, topicContent) {
 
+		// add topic to ShortMenu
+		addShortMenuTopic(topic)
+	
         // format the topic. Everything else will be appended to this one.
-
         ft = formatTopic(topic)
         addTopicButton(topic)
 
@@ -284,7 +310,8 @@ $.getJSON("toolkit.json", function(data) {
                   blooms.push(learningOutcome["Bloom level"])
                 }
 
-
+				//track strukure
+				hashStrukture[id(learningOutcome["Title"])] = id(conceptContent["Title"])
 
                 // teaching activities for this LO:
                 taList = $('<ol id ="TAs`+id(learningOutcome["Title"])+`" class="activities" ></ol>')
@@ -335,7 +362,8 @@ $.getJSON("toolkit.json", function(data) {
 				
                 // … panel body content to panel body
                 lopb = formatLOPanelBody(learningOutcome)
-                lopb.append(lopbc)
+				lopb.append(addPermalink(learningOutcome["Title"]))	
+                lopb.append(lopbc)		
 
                 // panel body to panel header
                 loph = formatLOPanelHeader(learningOutcome)
@@ -344,15 +372,18 @@ $.getJSON("toolkit.json", function(data) {
                 // attach the whole learning objective to the concept
                 lol.append(loph)
               });
+
+			// Add Permalink with description
+			lol.append(addPermalink(conceptContent["Title"], true))
+		
+			// BoK to the concept content, if existing:
+			if (conceptContent["BoK"]) {
+				lol.append(addBokList(conceptContent["BoK"]))
+			};
 			  
 			// lO List to concept content
 			fc.append(lol)
 			fc.append(formatLOListLink(conceptContent))
-			
-			// BoK to the concept content, if existing:
-			if (conceptContent["BoK"]) {
-				fc.append(addBokList(conceptContent["BoK"]))
-			};
 
             // and finally the concept to the topic
             ft.append(fc)
@@ -394,6 +425,25 @@ $.getJSON("toolkit.json", function(data) {
 
   $("#resetter").on("click", resetSearchForm);
 
+  //read URL hash and open Concept
+  if (window.location.hash) {
+	 hash = window.location.hash.substring(1)
+	
+	// if hash = LO  open Concept and LO
+	if (hashStrukture[hash]) {
+		//open Concept
+		$("div#collapse" + hashStrukture[hash]).addClass('show');
+		$("div#collapse" + hashStrukture[hash] + " + a").removeClass('collapsed');
+		//open LO
+		$("div#collapse" + hash).addClass('show');
+		$('a[href*="#collapse' + hash + '"]').removeClass('collapsed')	
+
+	// if hash = Concept open Concept
+	}else if (Object.values(hashStrukture).includes(hash)) {
+		$("div#collapse" + hash).addClass('show');			
+		$("div#collapse" + hash + " + a").removeClass('collapsed');
+	}
+  }
 
   console.log("ready")
     $(".dropdown-toggle").dropdown();
