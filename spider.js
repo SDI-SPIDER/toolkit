@@ -105,9 +105,21 @@ function updateCounter() {
     } else {
       $("span.conceptcounter." + thisTopic).text((numConcepts - hiddenConcepts) + "/" + numConcepts)
     }
-
   })
 
+  // update the individual counters for each concept:
+  $("div.loList").each(function() {
+    thisConcept = this.id.slice(8); 	//ignore "collapse" (8) in id
+    // count the visible LO under this concept:
+    numLo = $(this).find("div.panel").length
+    hiddenLo = $(this).find("div.panel.hide").length
+
+    if (hiddenLo == 0) {
+      $("span.locounter." + thisConcept).text(numLo)
+    } else {
+      $("span.locounter." + thisConcept).text((numLo - hiddenLo) + "/" + numLo)
+    }
+  })
 }
 
 /* Format a topic */
@@ -134,7 +146,7 @@ function formatConcept(conceptContent) {
 /* Format a learningOutcomepanel */
 function formatLOList (conceptContent) {
 	return $(`
-		<div id="collapse` + id(conceptContent["Title"]) + `" class="collapse">
+		<div id="collapse` + id(conceptContent["Title"]) + `" class="collapse loList">
 			<p class="lead">Students are able to ...</p>
 		</div>
 	`);
@@ -142,7 +154,7 @@ function formatLOList (conceptContent) {
 
 function formatLOListLink (conceptContent) {
 	return $(`
-	   <a data-bs-toggle="collapse" class="lead collapseLO collapsed" href="#collapse` + id(conceptContent["Title"]) + `">` + conceptContent["Learning outcomes"].length + ` Learning outcomes</a>
+	   <a data-bs-toggle="collapse" class="lead collapseLO collapsed" href="#collapse` + id(conceptContent["Title"]) + `"><span class="locounter ` + id(conceptContent["Title"]) + `"></span> Learning outcomes</a>
 	`);
 }
 
