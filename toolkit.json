@@ -1149,12 +1149,7 @@
               "Bloom level": "4  / 5 - Analyze / Evaluate",
               "Assessment": [{
                   "Assessment method": "Feedback",
-                  "Assessment method description": "Students receive feedback on their project formulation",
-                  "Assessment method type": "Summative"
-                },
-                {
-                  "Assessment method": "Feedback",
-                  "Assessment method description": "Students receive feedback on their project presentation",
+                  "Assessment method description": "Students receive feedback on their project formulation / presentation",
                   "Assessment method type": "Summative"
                 }
               ],
@@ -2157,11 +2152,6 @@
                   "Assessment method": "Written exam",
                   "Assessment method description": "Combined written exam on LOs 8.1.1, 8.1.2, 8.2.1, and 8.2.2.",
                   "Assessment method type": "Summative"
-                },
-                {
-                  "Assessment method": "Written exam",
-                  "Assessment method description": "Combined written exam on LOs 8.1.1, 8.1.2, 8.2.1, and 8.2.2.",
-                  "Assessment method type": "Summative"
                 }
               ],
               "Teaching activies": [{
@@ -2179,11 +2169,6 @@
               "Description": "Explain how the relevant ISO standards around spatial data quality work and what the main spatial data quality elements in those standards are",
               "Bloom level": "3 - Apply",
               "Assessment": [{
-                  "Assessment method": "Written exam",
-                  "Assessment method description": "Combined written exam on Los 8.1.1, 8.1.2, 8.2.1, and 8.2.2.",
-                  "Assessment method type": "Summative"
-                },
-                {
                   "Assessment method": "Written exam",
                   "Assessment method description": "Combined written exam on Los 8.1.1, 8.1.2, 8.2.1, and 8.2.2.",
                   "Assessment method type": "Summative"
@@ -2309,11 +2294,6 @@
                   "Assessment method": "Written exam question",
                   "Assessment method description": "This LO is assessed with written or oral exam. Example of question is:Describe the model of Backx and explain for each circle how legislation may promote the openness of the SDI",
                   "Assessment method type": "Summative"
-                },
-                {
-                  "Assessment method": "Written exam question",
-                  "Assessment method description": "This LO is assessed with written or oral exam. Example of question is:Describe the model of Backx and explain for each circle how legislation may promote the openness of the SDI",
-                  "Assessment method type": "Summative"
                 }
               ],
               "Teaching activies": [{
@@ -2371,7 +2351,7 @@
           "Title": "Open SDI & INSPIRE directive",
           "Description": "Explanation of INSPIRE and its role in open SDI",
           "Learning outcomes": [{
-              "Title": "explain the relation beetween Open SDI and INSPIRE",
+              "Title": "explain the relation between Open SDI and INSPIRE",
               "Description": "List and explain the core of the EU INSPIRE directive and its relevancy for open SDI",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -2409,11 +2389,6 @@
               "Description": "Describe and compare the implementation of INSPIRE in EU Member States",
               "Bloom level": "3 - Apply",
               "Assessment": [{
-                  "Assessment method": "Feedback",
-                  "Assessment method description": "Students receive feedback during the presentation/discussion of their case findings",
-                  "Assessment method type": "Formative"
-                },
-                {
                   "Assessment method": "Feedback",
                   "Assessment method description": "Students receive feedback during the presentation/discussion of their case findings",
                   "Assessment method type": "Formative"
@@ -2476,11 +2451,7 @@
               "Title": "explain Open data directive in context with open SDI",
               "Description": "List and explain the core of the EU Open data directive and its relevancy for open SDI",
               "Bloom level": "1 / 2 - Remember / Understand",
-              "Assessment": [{
-                  "Assessment method": "Quiz see one line below",
-                  "Assessment method description": "",
-                  "Assessment method type": "Formative"
-                },
+              "Assessment": [
                 {
                   "Assessment method": "(1) Quiz: can be online quiz, but on site can choose interactive ways of (2) hand raising, (3) go to the right corner (four corners), (4) Active listening: students have to summarise the main parts of the ODD in their own words",
                   "Assessment method description": "Short quiz to summarise the main findings from the literature. Example quiz questions: The Open data directive requires that public sector information is published with an open licence (agree/ disagree); The ODD requires all PSI to be available through APIs (agree/disagree); The ODD is not important for open SDI development (agree/ disagree)",
@@ -2511,11 +2482,6 @@
               "Description": "Describe and compare the implementation of the Open data directive in EU Member States",
               "Bloom level": "3 - Apply",
               "Assessment": [{
-                  "Assessment method": "Feedback",
-                  "Assessment method description": "Students receive feedback during the presentation/discussion of their case findings",
-                  "Assessment method type": "Formative"
-                },
-                {
                   "Assessment method": "Feedback",
                   "Assessment method description": "Students receive feedback during the presentation/discussion of their case findings",
                   "Assessment method type": "Formative"
@@ -2604,8 +2570,8 @@
           "Description": "Description and discussion of the role of data protection legislation on the (open) SDI concept",
 		  "BoK": [{
 			  "Source": "UCGIS",
-			  "URL": "https://gistbok.ucgis.org/bok-topics/openness",
-			  "Topic": "Openness"
+			  "URL": "https://gistbok.ucgis.org/bok-topics/balancing-security-and-open-access-geospatial-information",
+			  "Topic": "Balancing security and open access to geospatial information"
 		  }],
           "Learning outcomes": [{
               "Title": "understand the key concepts of GDPR",
@@ -2617,21 +2583,12 @@
                   "Assessment method type": "Formative"
                 },
                 {
-                  "Assessment method": "Feedback by Q&A",
-                  "Assessment method description": "Moderator asks in depth questions clarifying the meaning of the presented perceptions",
-                  "Assessment method type": "Formative"
-                },
-                {
                   "Assessment method": "Written exam",
                   "Assessment method description": "An example question is: provide the GDPR definition of personal data and explain the different elements in this definition that together determine whether data is personal data or not.",
                   "Assessment method type": "Summative"
                 }
               ],
               "Teaching activies": [{
-                  "Title": "Feedback by Q&A",
-                  "Description": "Moderator asks in depth questions clarifying the meaning of the presented perceptions"
-                },
-                {
                   "Title": "Feedback by Q&A",
                   "Description": "Moderator asks in depth questions clarifying the meaning of the presented perceptions"
                 },
@@ -2654,11 +2611,6 @@
                   "Assessment method": "Written exam",
                   "Assessment method description": "An example question is:  show a map and ask whether the GDPR applies",
                   "Assessment method type": "Summative"
-                },
-                {
-                  "Assessment method": "Written exam",
-                  "Assessment method description": "An example question is:  show a map and ask whether the GDPR applies",
-                  "Assessment method type": "Summative"
                 }
               ],
               "Teaching activies": [{
@@ -2668,24 +2620,15 @@
                 {
                   "Title": "Written exam",
                   "Description": "An example question is:  show a map and ask whether the GDPR applies"
-                },
-                {
-                  "Title": "Written exam",
-                  "Description": "An example question is:  show a map and ask whether the GDPR applies"
                 }
               ]
             },
             {
-              "Title": "Students ara able to evaluate the impact GDPR on SDI",
+              "Title": "evaluate the impact GDPR on SDI",
               "Description": "Analyze and evaluate the impact of the GDPR for the concept of open SDI",
               "Bloom level": "4  / 5 - Analyze / Evaluate",
               "Assessment": [{
                   "Assessment method": "Small report",
-                  "Assessment method description": "Students receive feedback from their peers and teachers during the discussions",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Feedback",
                   "Assessment method description": "Students receive feedback from their peers and teachers during the discussions",
                   "Assessment method type": "Formative"
                 },
@@ -2717,27 +2660,9 @@
                   "Assessment method": "Feedback",
                   "Assessment method description": "Students receive feedback from their peers (as members of the audience) and the teacher (as moderator) during the debate",
                   "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Feedback",
-                  "Assessment method description": "Students receive feedback from their peers (as members of the audience) and the teacher (as moderator) during the debate",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Feedback",
-                  "Assessment method description": "Students receive feedback from their peers (as members of the audience) and the teacher (as moderator) during the debate",
-                  "Assessment method type": "Formative"
                 }
               ],
               "Teaching activies": [{
-                  "Title": "Feedback",
-                  "Description": "Students receive feedback from their peers (as members of the audience) and the teacher (as moderator) during the debate"
-                },
-                {
-                  "Title": "Feedback",
-                  "Description": "Students receive feedback from their peers (as members of the audience) and the teacher (as moderator) during the debate"
-                },
-                {
                   "Title": "Feedback",
                   "Description": "Students receive feedback from their peers (as members of the audience) and the teacher (as moderator) during the debate"
                 }
@@ -2802,16 +2727,6 @@
                   "Assessment method type": "Formative"
                 },
                 {
-                  "Assessment method": "Feedback",
-                  "Assessment method description": "Students receive feedback during the presentation/discussion of the differences.",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Feedback",
-                  "Assessment method description": "Students receive feedback during the presentation/discussion of the differences.",
-                  "Assessment method type": "Formative"
-                },
-                {
                   "Assessment method": "Written exam",
                   "Assessment method description": "this LO is assessed with one question of written exam, e.g. An example licensing text is provided not allowing for the development of derivative works (CC-ND) and students have to argue whether this fits the objectives of third generation SDIs (aiming at stimulating value added use).",
                   "Assessment method type": "Summative"
@@ -2852,21 +2767,6 @@
                   "Assessment method": "Feedback",
                   "Assessment method description": "Students receive feedback from their peers and teachers during the discussions",
                   "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Feedback",
-                  "Assessment method description": "Students receive feedback from their peers and teachers during the discussions",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Feedback",
-                  "Assessment method description": "Students receive feedback from their peers and teachers during the discussions",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Debate",
-                  "Assessment method description": "",
-                  "Assessment method type": ""
                 }
               ],
               "Teaching activies": [{
@@ -2898,16 +2798,6 @@
               "Assessment": [{
                   "Assessment method": "small report",
                   "Assessment method description": "Students receive feedback from teachers",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Feedback",
-                  "Assessment method description": "Students receive feedback from their peers and teachers (as moderators) during the discussions",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Feedback",
-                  "Assessment method description": "Students receive feedback from their peers and teachers (as moderators) during the discussions",
                   "Assessment method type": "Formative"
                 },
                 {
@@ -3010,11 +2900,6 @@
                   "Assessment method": "written exam question",
                   "Assessment method description": "This LO is assessed as an introductory question (Qa) to an exam question, in which business model components have to be summarized",
                   "Assessment method type": "Summative"
-                },
-                {
-                  "Assessment method": "short quiz",
-                  "Assessment method description": "students do a short quiz during class and receive oral feedback",
-                  "Assessment method type": "Formative"
                 },
                 {
                   "Assessment method": "oral feedback",
@@ -3208,16 +3093,6 @@
                   "Assessment method": " short quiz",
                   "Assessment method description": "this LO is assessed as a sub-question of an exam question, in which students have to choose and explain which revenue models and pricing mechanisms are best suitable to a given spatial data organization",
                   "Assessment method type": "Summative"
-                },
-                {
-                  "Assessment method": " short quiz",
-                  "Assessment method description": "this LO is assessed as a sub-question of an exam question, in which students have to choose and explain which revenue models and pricing mechanisms are best suitable to a given spatial data organization",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "oral feedback",
-                  "Assessment method description": "students are asked direct questions during class and receive oral feedback",
-                  "Assessment method type": "Formative"
                 },
                 {
                   "Assessment method": "oral feedback",
@@ -3581,7 +3456,7 @@
                   "Assessment method type": "Formative"
                 },
                 {
-                  "Assessment method": " Q&A",
+                  "Assessment method": "Q&A",
                   "Assessment method description": "Students are encouraged to ask questions on/engage with the lecture, ",
                   "Assessment method type": "Formative"
                 },
@@ -3625,19 +3500,14 @@
                   "Assessment method type": "Formative"
                 },
                 {
-                  "Assessment method": "Q&A, ",
-                  "Assessment method description": "Students present in class their work (done in small groups) and receive feedback from the teacher",
-                  "Assessment method type": "Formative"
-                },
-                {
                   "Assessment method": "Written essay",
                   "Assessment method description": "Students pick a SDI policy document (e.g. European Data Strategy, IGIF, etc.) and identify its underpinning discourses. The essay mus be a 'response' to the doc, thus aligning to its audience and style. Guiding questions: To whom are these documents meant? What are their goals?",
                   "Assessment method type": "Summative"
                 }
               ],
               "Teaching activies": [{
-                  "Title": "",
-                  "Description": "Mystery quotations: Media contents/policies/tech companies` statements as triggers to highlight discourses on open data and SDIs (e.g. 'tech-universalism', 'tech-optimism', 'tech-solutionism')"
+                  "Title": "Mystery quotations",
+                  "Description": "Media contents/policies/tech companies` statements as triggers to highlight discourses on open data and SDIs (e.g. 'tech-universalism', 'tech-optimism', 'tech-solutionism')"
                 },
                 {
                   "Title": "Class Discussion",
@@ -3710,7 +3580,7 @@
               "Description": "Familiarize with different frameworks/visions on tech innovation by different geopolitical actors (OECD, EU, China)",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
-                  "Assessment method": "Quiz, ",
+                  "Assessment method": "Quiz",
                   "Assessment method description": "Quiz covering all three frameworks as a trigger for the whole class",
                   "Assessment method type": "Formative"
                 },
@@ -3786,11 +3656,6 @@
                 {
                   "Assessment method": "Debate",
                   "Assessment method description": "In-class collective discussion on case studies ",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Quiz",
-                  "Assessment method description": "Quiz following the debate",
                   "Assessment method type": "Formative"
                 },
                 {
