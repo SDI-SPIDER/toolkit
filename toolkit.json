@@ -760,11 +760,6 @@
         {
           "Title": "SDI Architecture & Technologies",
           "Description": "Integration of technologies to SDI Architecture",
-		  "BoK": [{
-			"Source": "EO4GEO",
-			"URL": "https://bok.eo4geo.eu/OI3b",
-			"Topic": "Spatial Data Infrastructures"
-		  }],
           "Learning outcomes": [{
               "Title": "define basics of SDI Architecture",
               "Description": "Introduce the key components of SDI Architecture",
