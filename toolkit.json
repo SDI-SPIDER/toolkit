@@ -1543,7 +1543,8 @@
               }],
               "Teaching activies": [{
                   "Title": "Lecture",
-                  "Description": "Introductory lecture on GIS data models"
+                  "Description": "Introductory lecture on GIS data models",
+                  "Materials": "Complimentary readings: de Smith, Goodchild, Longley (2020) Geospatial Analysis - 6th Edition, Chapters 2.1: <a href='https://spatialanalysisonline.com/HTML/index.html?basic_primitives.htm'>Basic Primitives</a><br />Parent C., Spaccapietra S., Zimányi E. (2017) Modeling and Multiple Perceptions. In: Shekhar S., Xiong H., Zhou X. (eds) Encyclopedia of GIS. Springer, Cham. <a href='https://doi.org/10.1007/978-3-319-17885-1_805'>https://doi.org/10.1007/978-3-319-17885-1_805</a>"  
                 },
                 {
                   "Title": "Asking Questions",
@@ -1552,7 +1553,7 @@
               ]
             },
             {
-              "Title": "select a data model",
+              "Title": "Select a data model",
               "Description": "Identify the best fitting kind of data model for a given use case",
               "Bloom level": "4  / 5 - Analyze / Evaluate",
               "Assessment": [{
@@ -1562,7 +1563,7 @@
               }],
               "Teaching activies": [{
                   "Title": "Reading prior to class",
-                  "Description": "Read documentations for concrete dataset provided through an SDI (e.g. INSPIRE) with a focus on the data model"
+                  "Description": "Read documentations for a concrete dataset provided through an SDI (e.g. INSPIRE) with a focus on the data model"
                 },
                 {
                   "Title": "Student Presentations",
