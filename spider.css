@@ -7,27 +7,22 @@ body {
 }
 
 div#content {
-  margin-bottom: 20px;
   background-color: white;
   padding-bottom: 15px;
   padding-top: 15px;
 }
 
-.topic, .concept, .goal, .assessment {
-  padding: 20px 10px 5px 20px;
-  margin-top: 5px
+
+.topic, .concept, .goal {
+  padding: 2% 0;
+}
+
+.panel:not(:last-child) {
+	margin-bottom: .5%;
 }
 
 .panel-body {
   margin-top: 0
-}
-
-.topic {
-  background-color: #3188B0;
-  padding-top: 80px;
-  display: flex;
-  flex-flow: row wrap;
-  align-items: flex-start;
 }
 
 .topic h1 {
@@ -36,14 +31,38 @@ div#content {
   width: 100%;
 }
 
-.concept {
-  background-color: #86C9E8;
-  color: #3A5663;
-  margin-right: 2%;
-  width: 98%;
+h4 {
+	color: #3188B0;
 }
 
-/* media queries for the display of the navbar and form */
+.concept {
+  width: 100%;
+}
+
+.concept:not(:last-child) {
+	border-bottom: 2px dotted #3188B0;
+}
+
+#shortmen {
+	display: flex !important;
+	flex-flow: row wrap;
+	align-items: stretch;
+	margin: 10% 0;
+}
+
+#shortmen a {
+	margin: 1%;
+	width: calc(100% / 3 - 2%);
+	font-size: 1.5rem;
+	text-decoration: none;
+	color: #fff;
+}
+
+#shortmen a div {
+	height: 100%;
+}
+
+/* media queries for the display of the navbar, shortmen and form */
 @media (max-width: 1800px) {
   nav#navbar {
     position: fixed;
@@ -60,23 +79,40 @@ div#content {
   p.mb-5 {
     margin-bottom: 0rem !important;
   }
-}
-
-/* media queries for the display of the concept boxes */
-/* @media (min-width: 1200px) {
-  .concept {
-    width: 48%;
+  
+  #shortmen a {
+	  width: calc(100% / 2 - 2%);
   }
 }
 
-@media (min-width: 1950px) {
-  .concept {
-    width: 31%;
+@media (max-width: 480px) {
+  #shortmen a {
+	  width: 98%;
   }
 }
-*/
+
+#setting {
+	position: absolute;
+	right: 0;
+}
+
 .concept h2 {
   font-weight: 700;
+}
+
+a.collapseLO {
+	text-decoration: none;
+	color: var(--bs-dark);
+}
+a.collapseLO:hover {
+	text-decoration: underline;
+}
+
+a.collapseLO.collapsed::before {
+	content: "\00BB  ";
+}
+a.collapseLO::before {
+	content: "\00AB  close ";
 }
 
 h3.panel-title {
@@ -124,18 +160,23 @@ a.nav-link:hover {
   float: right;
 }
 
+.panel-heading {
+	background-color: #40AFE3;
+}
+
 .panel-heading:hover {
   background-color: #26a3de;
 }
 
 .goal {
-  background-color: #40AFE3;
-  padding-bottom: 20px;
-  padding-right: 20px;
+  padding: 2%;
+  /*padding-bottom: 20px;
+  padding-right: 20px; */
 }
 
-.panel-heading:hover {
-  background-color: #26a3de;
+.panel-body {
+  border: solid 1px var(--bs-gray-400);
+  border-top: none;
 }
 
 .activity {
@@ -150,8 +191,12 @@ a.nav-link:hover {
   margin-left: 20px;
 }
 
-.assessment {
-  background-color: #ccc;
+.panel-body ul, .panel-body ol {
+	padding-left: 0;
+}
+
+.assessment ul, ul.bok {
+	list-style-type: none;
 }
 
 .filter {
@@ -160,7 +205,6 @@ a.nav-link:hover {
 
 .search {
   border: 5px solid transparent;
-  padding-bottom: 10px;
 }
 
 .hide, .hidelink {
@@ -171,22 +215,38 @@ a.nav-link:hover {
   background-color: yellow
 }
 
-.bok {
+.bok.short {
 	text-align: end;
+	float: right;
+}
+
+.bok.short li {
+	display: inline;
+	margin-right: 5px;
 }
 
 .bok a::before {
 	content: url(icons/box-arrow-up-right.svg);
+	margin-right: 4px;
 }
 
-.bok a {
+a.permalink::before {
+	content: url(icons/link-45deg.svg);
+	margin-right: 4px;
+}
+
+.bok a, .permalink {
 	color: #6c757d;
 	text-decoration: none;
 }
 
-.bok a:hover {
+.bok a:hover, .permalink:hover {
 	color: #495057;
 	text-decoration: underline;
+}
+
+.permalink {
+	float: right;
 }
 
 /* move anchor depending on height of nav-bar and content*/
@@ -197,14 +257,27 @@ a.nav-link:hover {
 	margin: -90px;
 }
 
+#settings.anchor {
+	margin: -10px;
+}
+
 @media (min-width: 1150px) and (max-width: 1800px) {
 	.anchor {
-		margin: -60px;
+		margin: -60px !important;
 	}
 }
 
 @media (max-width: 650px) {
 	.anchor {
-		margin: -160px;
+		margin: -160px !important;
 	}
+}
+
+div.ban {
+	background-image: url("banner/Fundamentals.jpg");
+	background-size: cover;
+	background-color: #000;
+	width: 100%;
+	background-position: center center;
+	padding: 10% 2% 2% 2%;
 }

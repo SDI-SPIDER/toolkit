@@ -105,17 +105,30 @@ function updateCounter() {
     } else {
       $("span.conceptcounter." + thisTopic).text((numConcepts - hiddenConcepts) + "/" + numConcepts)
     }
-
   })
 
+  // update the individual counters for each concept:
+  $("div.loList").each(function() {
+    thisConcept = this.id.slice(8); 	//ignore "collapse" (8) in id
+    // count the visible LO under this concept:
+    numLo = $(this).find("div.panel").length
+    hiddenLo = $(this).find("div.panel.hide").length
+
+    if (hiddenLo == 0) {
+      $("span.locounter." + thisConcept).text(numLo)
+    } else {
+      $("span.locounter." + thisConcept).text((numLo - hiddenLo) + "/" + numLo)
+    }
+  })
 }
 
 /* Format a topic */
 function formatTopic(topic) {
   return $(`
       <div class="topic clearfix" id="` + id(topic) + `">
-      <h1 class="display-3">` + topic + `.
-      <span class="display-5"><span class="conceptcounter ` + id(topic) + `"></span> concepts:</span></h1>
+		<div class="ban">
+			<h1 class="display-3">` + topic + `.<span class="display-5"><span class="conceptcounter ` + id(topic) + `"></span> concepts:</span></h1>
+		</div>
       </div>`)
 }
 
@@ -127,15 +140,29 @@ function formatConcept(conceptContent) {
        <h2>
        ` + conceptContent["Title"] + `</h2>
        <p class="lead">` + conceptContent["Description"] + `.</p>
-	   <p class="lead"><strong>Learning&nbsp;outcomes:</strong>
-	   <br>Students are able to ...</p>
     </div>`)
+}
+
+/* Format a learningOutcomepanel */
+function formatLOList (conceptContent) {
+	return $(`
+		<div id="collapse` + id(conceptContent["Title"]) + `" class="collapse loList">
+			<p class="lead">Students are able to ...</p>
+		</div>
+	`);
+}
+
+function formatLOListLink (conceptContent) {
+	return $(`
+	   <a data-bs-toggle="collapse" class="lead collapseLO collapsed" href="#collapse` + id(conceptContent["Title"]) + `"><span class="locounter ` + id(conceptContent["Title"]) + `"></span> Learning outcomes</a>
+	`);
 }
 
 /* Format a learningOutcome panel header  */
 function formatLOPanelHeader(learningOutcome) {
   return $(`
     <div class="panel panel-default">
+	  <div id="` + id(learningOutcome["Title"]) + `" class="anchor"></div>
       <div class="panel-heading goal">
         <h3 class="panel-title">
           <a data-bs-toggle="collapse" class="collapsed" href="#collapse` + id(learningOutcome["Title"]) + `">... ` + learningOutcome["Title"] + `</a>
@@ -152,7 +179,7 @@ function formatLOPanelBody(learningOutcome) {
 function formatLOPanelBodyContent(learningOutcome) {
   return $(`<div class="goal panel-body"><p>` + learningOutcome["Description"] + `<br />
          <strong>Bloom level: ` + learningOutcome["Bloom level"] + `</strong></p>
-         <p>Teaching activities:</p>
+         <h4>Teaching activities</h4>
   </div>`);
 }
 
@@ -166,14 +193,19 @@ function formatTA(ta) {
 }
 
 /* Format an assessment method */
-function formatAssessment(assessment) {
-  return $(`
-    <div class="assessment">
-      <h4>` + assessment["Assessment method type"] + ` assessment</h4>
-      <p><strong>` + assessment["Assessment method"] + `</strong>:
-      ` + assessment["Assessment method description"] + `</p>
-    </div>
-    `);
+function formatAssessment(assessments, assessmenttyp) {
+	as = $('')
+	if (assessments.length > 0) { 
+		aslist = $('<ul></ul>')
+		$.each(assessments,
+		  function(l, assessment) {
+			aslist.append(`<li><strong>` + assessment["Assessment method"] + `</strong>: ` + assessment["Assessment method description"] + `</li>`)
+		});
+		
+		as = $('<div class="assessment"><h4>' + assessmenttyp + ' assessment</h4></div>')
+		as.append(aslist)
+	}
+	return as;
 }
 
 /* Format the materials for a learning outcome */
@@ -187,12 +219,15 @@ function formatMaterials(materials) {
 }
 
 /* Add a list of Bodies of Knowlege Links*/
-function addBokList(bokList) {
-	list = $(`<div class="bok">`);
+function addBokList(bokList, type="short") {
+	list = $(`<ul class="bok ` + type + `"></ul>`);
 	bokList.forEach(function(bokItem) {
-		list.append(`<a href="` + bokItem["URL"] + `" title="` + bokItem["Topic"] + `" target="_blank">` + bokItem["Source"] + `</a>`);
+		if (type == "list") {
+			list.append(`<li><a href="` + bokItem["URL"] + `" title="` + bokItem["Topic"] + `" target="_blank"><strong>` + bokItem["Source"] + `</strong>: ` + bokItem["Topic"] + `</a></li>`);
+		} else {	
+			list.append(`<li><a href="` + bokItem["URL"] + `" title="` + bokItem["Topic"] + `" target="_blank">` + bokItem["Source"] + `</a></li>`);
+		}
 	});
-	list.append(`</div>`);
 	return list;
 }
 
@@ -218,6 +253,26 @@ function addDropdownConceptToTopic(topic, concept){
 
 }
 
+function addShortMenuTopic (topic) {
+	$("div#shortmen").append(`
+		<a href="#` + id(topic) + `"> 
+			<div class="ban">
+				<strong>` + topic + `.</strong>
+				<br><span class="conceptcounter ` + id(topic) + `"></span> concepts
+			</div> 
+		</a>`)
+}
+
+function addPermalink (topic, description = false) {
+	url =  window.location.protocol + "//" + window.location.host + "#" + id(topic);
+	perma = $(`<a class="permalink" href="` + url + `" title="Permalink"></a>`);
+	if (description) {
+		perma.append('Permalink');
+	}
+	
+	return perma;
+}
+
 /* Read in the toolkit data in JSON format and insert into the page */
 $.getJSON("toolkit.json", function(data) {
 
@@ -226,6 +281,9 @@ $.getJSON("toolkit.json", function(data) {
   // so we can add them to the selection menues later
   activities = []
   blooms = []
+  
+  //strukture documentation to un-collapse by hash
+  hashStrukture = {}
 
   $.each(data["Topics"],
     function(i, topics) {
@@ -233,8 +291,10 @@ $.getJSON("toolkit.json", function(data) {
       // loop through all the topics
       $.each(topics, function(topic, topicContent) {
 
+		// add topic to ShortMenu
+		addShortMenuTopic(topic)
+	
         // format the topic. Everything else will be appended to this one.
-
         ft = formatTopic(topic)
         addTopicButton(topic)
 
@@ -244,6 +304,8 @@ $.getJSON("toolkit.json", function(data) {
 
             // add title and description for each concept
             fc = formatConcept(conceptContent)
+			
+			lol = formatLOList(conceptContent)
 
             // add an item in the dropdown menu under the topic area:
             addDropdownConceptToTopic(topic, conceptContent["Title"])
@@ -260,7 +322,8 @@ $.getJSON("toolkit.json", function(data) {
                   blooms.push(learningOutcome["Bloom level"])
                 }
 
-
+				//track strukure
+				hashStrukture[id(learningOutcome["Title"])] = id(conceptContent["Title"])
 
                 // teaching activities for this LO:
                 taList = $('<ol id ="TAs`+id(learningOutcome["Title"])+`" class="activities" ></ol>')
@@ -286,34 +349,53 @@ $.getJSON("toolkit.json", function(data) {
                 // re-assable: List of teaching activities to panel body content
                 lopbc = formatLOPanelBodyContent(learningOutcome)
                 lopbc.append(taList)
+				
+				//seperate formative and summative assessments
+				afor = learningOutcome["Assessment"].filter(assessment => assessment["Assessment method type"] == "Formative")
+				asum = learningOutcome["Assessment"].filter(assessment => assessment["Assessment method type"] == "Summative")
 
-                // assessment methods to the body content:
-                $.each(learningOutcome["Assessment"],
-                  function(l, assessment) {
-                    lopbc.append(formatAssessment(assessment))
-                  });
-				  
-				// BoK to the body content, if existing:
+				lopbc.append(formatAssessment(afor, "Formative"))
+				lopbc.append(formatAssessment(asum, "Summative"))
+
+				// BoK from concept added in BoK List of LO
+				bok = [];
 				if (learningOutcome["BoK"]) {
-					lopbc.append(addBokList(learningOutcome["BoK"]))
+					bok = bok.concat(learningOutcome["BoK"])
+				}
+				if (conceptContent["BoK"]) {
+					bok = bok.concat(conceptContent["BoK"])
+				}
+				
+				// BoK's to the body content, if existing:
+				if (bok.length > 0) {
+					lopbc.append('<h4>more knowledge</h5>')
+					lopbc.append(addBokList(bok, "list"))
 				};
 				
                 // … panel body content to panel body
                 lopb = formatLOPanelBody(learningOutcome)
-                lopb.append(lopbc)
+				lopb.append(addPermalink(learningOutcome["Title"]))	
+                lopb.append(lopbc)		
 
                 // panel body to panel header
                 loph = formatLOPanelHeader(learningOutcome)
                 loph.append(lopb)
 
                 // attach the whole learning objective to the concept
-                fc.append(loph)
+                lol.append(loph)
               });
-			
+
+			// Add Permalink with description
+			lol.append(addPermalink(conceptContent["Title"], true))
+		
 			// BoK to the concept content, if existing:
 			if (conceptContent["BoK"]) {
-				fc.append(addBokList(conceptContent["BoK"]))
+				lol.append(addBokList(conceptContent["BoK"]))
 			};
+			  
+			// lO List to concept content
+			fc.append(lol)
+			fc.append(formatLOListLink(conceptContent))
 
             // and finally the concept to the topic
             ft.append(fc)
@@ -355,6 +437,25 @@ $.getJSON("toolkit.json", function(data) {
 
   $("#resetter").on("click", resetSearchForm);
 
+  //read URL hash and open Concept
+  if (window.location.hash) {
+	 hash = window.location.hash.substring(1)
+	
+	// if hash = LO  open Concept and LO
+	if (hashStrukture[hash]) {
+		//open Concept
+		$("div#collapse" + hashStrukture[hash]).addClass('show');
+		$("div#collapse" + hashStrukture[hash] + " + a").removeClass('collapsed');
+		//open LO
+		$("div#collapse" + hash).addClass('show');
+		$('a[href*="#collapse' + hash + '"]').removeClass('collapsed')	
+
+	// if hash = Concept open Concept
+	}else if (Object.values(hashStrukture).includes(hash)) {
+		$("div#collapse" + hash).addClass('show');			
+		$("div#collapse" + hash + " + a").removeClass('collapsed');
+	}
+  }
 
   console.log("ready")
     $(".dropdown-toggle").dropdown();
