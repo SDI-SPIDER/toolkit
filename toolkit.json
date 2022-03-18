@@ -1540,7 +1540,7 @@
               "Teaching activies": [{
                   "Title": "Lecture",
                   "Description": "Introductory lecture on GIS data models",
-                  "Materials": "Complimentary readings: de Smith, Goodchild, Longley (2020) Geospatial Analysis - 6th Edition, Chapters 2.1: <a href='https://spatialanalysisonline.com/HTML/index.html?basic_primitives.htm'>Basic Primitives</a><br />Parent C., Spaccapietra S., Zimányi E. (2017) Modeling and Multiple Perceptions. In: Shekhar S., Xiong H., Zhou X. (eds) Encyclopedia of GIS. Springer, Cham. <a href='https://doi.org/10.1007/978-3-319-17885-1_805'>https://doi.org/10.1007/978-3-319-17885-1_805</a>"  
+                  "Materials": "Complimentary readings: de Smith, Goodchild, Longley (2020) Geospatial Analysis - 6th Edition, Chapters 2.1: <a href='https://spatialanalysisonline.com/HTML/index.html?basic_primitives.htm'>Basic Primitives</a><br />Parent C., Spaccapietra S., Zimányi E. (2017) Modeling and Multiple Perceptions. In: Shekhar S., Xiong H., Zhou X. (eds) Encyclopedia of GIS. Springer, Cham. <a href='https://doi.org/10.1007/978-3-319-17885-1_805'>https://doi.org/10.1007/978-3-319-17885-1_805</a>"
                 },
                 {
                   "Title": "Asking Questions",
@@ -1559,7 +1559,8 @@
               }],
               "Teaching activies": [{
                   "Title": "Reading prior to class",
-                  "Description": "Read documentations for a concrete dataset provided through an SDI (e.g. INSPIRE) with a focus on the data model"
+                  "Description": "Read documentations for a concrete dataset provided through an SDI (e.g. INSPIRE) with a focus on the data model",
+                  "Materials": "Examples for datasets to explore are the <a href='https://inspire-geoportal.ec.europa.eu/download_details.html?view=downloadDetails&resourceId=%2FINSPIRE-6e8353b4-de80-11e7-a188-52540023a883_20210925-085902%2Fservices%2F1%2FPullResults%2F261-280%2Fdatasets%2F9&expandedSection=metadata'>Danish river basins</a> or the <a href='https://inspire-geoportal.ec.europa.eu/download_details.html?view=downloadDetails&resourceId=%2FINSPIRE-61494ff5-6fad-11e8-b649-52540023a883_20220317-135302%2Fservices%2F1%2FPullResults%2F581-600%2Fdatasets%2F18&expandedSection=metadata'>50m DEM for Austria</a>; however, any other dataset from the <a href='https://inspire-geoportal.ec.europa.eu'>INSPIRE Geoportal</a> or national geoportals should work for this exercise."
                 },
                 {
                   "Title": "Student Presentations",
@@ -1568,7 +1569,7 @@
               ]
             },
             {
-              "Title": "develop a data models",
+              "Title": "develop a data model",
               "Description": "Develop a concrete data model for a given use case",
               "Bloom level": "6 - Design / Create",
               "Assessment": [{
@@ -1578,7 +1579,7 @@
               }],
               "Teaching activies": [{
                 "Title": "Case study",
-                "Description": "Group work to develop a data model for a concrete use case"
+                "Description": "Group work to develop a data model for a concrete local use case, such as identifying suitable locations for wind turbines in the students' local region, so that they can discuss and evaluate different options for data models."
               }]
             }
           ]
@@ -1601,7 +1602,8 @@
                 },
                 {
                   "Title": "Asking Questions",
-                  "Description": "Discussion in class on examples of syntactic and semantic heterogeneity"
+                  "Description": "Discussion in class on examples of syntactic and semantic heterogeneity",
+                  "Materials": "Reading: Harvey, Francis, et al. <em>Semantic interoperability: A central issue for sharing geographic information.</em> The annals of regional science 33.2 (1999): 213-232. "
                 }
               ]
             },
@@ -1616,11 +1618,13 @@
               }],
               "Teaching activies": [{
                   "Title": "Case study",
-                  "Description": "Spatial ETL in commercial tools"
+                  "Description": "Spatial ETL in commercial tools",
+                  "Materials: Educational license for <a href='https://www.safe.com'>FME</a>."
                 },
                 {
                   "Title": "Case study",
-                  "Description": "Open Source spatial ETL"
+                  "Description": "Open Source spatial ETL",
+                  "Materials": "<a href='https://gdal.org'>GDAL/OGR</a>, R with <a href='https://cran.r-project.org/web/packages/sf/vignettes/sf1.html'>Simple Features for R</a>; Python with <a href='https://geopandas.org/en/stable/'>Geopandas</a> and </a href='https://rasterio.readthedocs.io/en/latest/'>Rasterio</a>."
                 }
               ]
             },
