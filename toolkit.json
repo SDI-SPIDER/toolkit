@@ -2,224 +2,8 @@
   "Topics": [{
     "Fundamentals": {
       "Concepts": [
-        {
-          "Title": "Geospatial data",
-          "Description": "Overview of geospatial data and key components of data acquisition",
-		  "BoK": [{
-			"Source": "EO4GEO",
-			"URL": "https://bok.eo4geo.eu/GD",
-			"Topic": "Geospatial Data"
-		  }],
-          "Learning outcomes": [{
-              "Title": "describe basics of geospatial data",
-              "Description": "Introduction to geospatial data",
-              "Bloom level": "1 / 2 - Remember / Understand",
-              "Assessment": [{
-                "Assessment method": "Written exam",
-                "Assessment method description": "Students are given exam with questions about basics of geospatial data. Example: Types and examples of geospatial data",
-                "Assessment method type": "Summative"
-              }],
-              "Teaching activies": [{
-                  "Title": "Lecture",
-                  "Description": "Lecture on geospatial data and data acquisition"
-                },
-                {
-                  "Title": "Paper review",
-                  "Description": "Students read the scienific journal article about geospatial data and data acquisition"
-                }
-              ]
-            },
-            {
-              "Title": "describe national level of geospatial data",
-              "Description": "Introduce national level of geospatial data",
-              "Bloom level": "1 / 2 - Remember / Understand",
-              "Assessment": [{
-                "Assessment method": "Written exam",
-                "Assessment method description": "Students are given exam with questions about basics of national level of geospatial data. Example: Describe the role of government in national level of geospatial data",
-                "Assessment method type": "Summative"
-              }],
-              "Teaching activies": [{
-                  "Title": "Lecture",
-                  "Description": "Introduction on national level of geospatial data"
-                },
-                {
-                  "Title": "Case study",
-                  "Description": "Students are using national infrastructure of geospatial data to make research project"
-                }
-              ]
-            },
-            {
-              "Title": "analyze methods for geospatial data acquisition",
-              "Description": "Introduce the main methods for geospatial data acqusition",
-              "Bloom level": "1 / 2 - Remember / Understand",
-              "Assessment": [{
-                "Assessment method": "Written exam",
-                "Assessment method description": "Students are given exam with questions about basics of methods for geospatial data aquisition. Example: Identify the main benefits of geospatial data acquisition standardization ",
-                "Assessment method type": "Summative"
-              }],
-              "Teaching activies": [{
-                  "Title": "Lecture",
-                  "Description": "Lecture on data acquisition methods"
-                },
-                {
-                  "Title": "Class Discussion",
-                  "Description": "Students discuss about `prons` and `cons` on data acquisition methods"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "Title": "SDI Objectives",
-          "Description": "Describing what is an SDI, what are the main components and what is to be achieved with an SDI",
-		  "BoK": [{
-			  "Source": "UCGIS",
-			  "URL": "https://gistbok.ucgis.org/bok-topics/spatial-data-infrastructures",
-			  "Topic": "Spatial Data Infrastructures"
-		  }],
-          "Learning outcomes": [
-			{
-              "Title": "understand the concept of SDI through its definition and main objectives",
-              "Description": "This LO deals with the concept of SDI; its definition and main objectives",
-              "Bloom level": "1 / 2 - Remember / Understand",
-              "Assessment": [{
-                "Assessment method": "Written exam",
-                "Assessment method description": "Students are given written exam with questions regarding covered topic. Example of a question: Explain how SDI helped with sharing the data.",
-                "Assessment method type": "Summative"
-              }],
-              "Teaching activies": [{
-                  "Title": "Brainstorm",
-                  "Description": "As an introduction, students are asked to interpret meaning of the words 'spatial', 'data' and 'infrastructure' and try to give an answer what SDI could be. After concluding what SDI is they discuss why was it invented/introduced"
-                },
-                {
-                  "Title": "Lecture",
-                  "Description": "Lecture on what is an SDI and what are the objectives of SDI"
-                },
-                {
-                  "Title": "Asking Questions",
-                  "Description": "During lecture, students can ask questions"
-                },
-                {
-                  "Title": "In-Class Quizzes",
-                  "Description": "At the end of the lecture/topic, students take quiz to see how well they understood the topic. If the lecture covers other topics, this teaching activity can include questions related to different topics"
-                }
-              ]
-            },
-            {
-              "Title": "distinguish the difference between SDI and GIS while focusing on benefits of an SDI",
-              "Description": "This LO explains the difference between SDI and GIS with focus on benefits of an SDI.",
-              "Bloom level": "4  / 5 - Analyze / Evaluate",
-              "Assessment": [{
-                "Assessment method": "Written exam",
-                "Assessment method description": "Students take exam to show understanding of the topic. Example of a question: Choose the correct statements related to SDI. Explain why term high value dataset is more related to SDI and how it extends the term dataset coming from GIS",
-                "Assessment method type": "Summative"
-              }],
-              "Teaching activies": [{
-                  "Title": "Short Quizzes",
-                  "Description": "Students take quiz with fact questions on SDI and GIS"
-                },
-                {
-                  "Title": "Class Discussion",
-                  "Description": "Students analyze quiz questions and build on the answer on what is the difference between GIS and SDI and what is the benefit of SDI when compared GIS; while being led by the tutor."
-                },
-                {
-                  "Title": "One-sentence Summary",
-                  "Description": "Students write down the difference between SDI and GIS and state its pros and cons"
-                }
-              ]
-            }
-          ]
-        },
 		{
-          "Title": "SDI Components",
-          "Description": "Describing what is an SDI, what are the main components and what is to be achieved with an SDI",
-		  "BoK": [{
-			  "Source": "UCGIS",
-			  "URL": "https://gistbok.ucgis.org/bok-topics/spatial-data-infrastructures",
-			  "Topic": "Spatial Data Infrastructures"
-		  }],
-          "Learning outcomes": [
-            {
-              "Title": "understand main components of SDI and their mutual relations",
-              "Description": "This LO deals with the main components of SDI and their relations",
-              "Bloom level": "1 / 2 - Remember / Understand",
-              "Assessment": [{
-                "Assessment method": "Written exam",
-                "Assessment method description": "Students are given written exam with questions regarding topic covered. Example of a question: Name five main components of an SDI and briefly explain importance of policies and institutional arrangements on well-functioning of an SDI",
-                "Assessment method type": "Summative"
-              }],
-              "Teaching activies": [{
-                  "Title": "One-Minute Paper",
-                  "Description": "Students are asked to write down what they think are the main components of an SDI based on the knowledge they already have"
-                },
-                {
-                  "Title": "Lecture",
-                  "Description": "Lecture on main coponents of SDI"
-                },
-                {
-                  "Title": "Asking Questions",
-                  "Description": "Students can ask questions during class"
-                },
-                {
-                  "Title": "Class Discussion",
-                  "Description": "Students are asked to explain the possible interconnection among SDI components and understand why those categories cover all the relevant aspects of SDI"
-                },
-                {
-                  "Title": "Muddiest Point",
-                  "Description": "At the end of the topic, students write down things they don't feel to understand"
-                }
-              ]
-            },
-            {
-              "Title": "apply knowledge in distinction between categories in SDI components",
-              "Description": "This LO deals with disctinction of categories in SDI components",
-              "Bloom level": "3 - Apply",
-              "Assessment": [{
-                "Assessment method": "Written exam",
-                "Assessment method description": "Students are given written exam with questions regarding topic covered. Example of a question: Identify at least three different stakeholder groups related to local level SDI",
-                "Assessment method type": "Summative"
-              }],
-              "Teaching activies": [{
-                  "Title": "Brainstorm",
-                  "Description": "Students try to think of different categories related to SDI (e.g. data standards, service standards, metadata standards, stakeholders, services, different datasets, …)"
-                },
-                {
-                  "Title": "Class Discussion",
-                  "Description": "Students look for distinctions between features and try to categorize it under main components e.g. are policy makers stakeholders or not"
-                },
-                {
-                  "Title": "Polls",
-                  "Description": "After each feature is discussed, students vote in polls where that feature should be categorized"
-                },
-                {
-                  "Title": "Lecture",
-                  "Description": "Short lecture on what every SDI component consists of"
-                }
-              ]
-            },
-            {
-              "Title": "design new SDI based on their deeper understanding of components of SDI and ways of their application on different SDI levels",
-              "Description": "This LO focuses on deeper understanding of the components of SDI and ways of their application on different SDI levels",
-              "Bloom level": "6 - Design / Create",
-              "Assessment": [{
-                "Assessment method": "Excercise",
-                "Assessment method description": "Students use existing knowledge to solve the problem. Example of excercise: Draft a concept for a corporate level SDI, e.g. communication company, by following the definition of SDI and its components.",
-                "Assessment method type": "Formative"
-              }],
-              "Teaching activies": [{
-                  "Title": "Case study",
-                  "Description": "Students get familiar with the extent of a certain SDI level"
-                },
-                {
-                  "Title": "Demonstrations",
-                  "Description": "Students try to draft what conceptual model of that specific SDI should consist of based on definition of SDI components"
-                }
-              ]
-            }
-          ]
-        },
-		{
-          "Title": "Evolution of SDIs",
+          "Title": "Evolution of SDIs & Citizens",
           "Description": "Discuss the main objectives and key components of SDI generationand introduce to the volunteered GI",
           "Learning outcomes": [{
               "Title": "describe the importance and advantages of an SDI",
@@ -330,6 +114,310 @@
                 "Description": "Student presentations on examples of volunteered GI",
                 "Materials": ""
               }]
+            }
+          ]
+        },
+        {
+          "Title": "SDI Costs & Benefits",
+          "Description": "Overview of theoretical foundation and practical approaches of the SDI Cost-Benefit Analyses",
+		  "BoK": [{
+			  "Source": "UCGIS",
+			  "URL": "https://gistbok.ucgis.org/bok-topics/spatial-data-infrastructures",
+			  "Topic": "Spatial Data Infrastructures"
+		  }],
+          "Learning outcomes": [{
+              "Title": "describe the basics of benefit-cost analysis",
+              "Description": "Describing the basics and the elements of cost- benefit analysis",
+              "Bloom level": "1 / 2 - Remember / Understand",
+              "Assessment": [{
+                "Assessment method": "Written exam",
+                "Assessment method description": "Students take written exam on basic understanding of cost-benefit analysis. Example of question: What are the elements of typical cost-benefit analysis?",
+                "Assessment method type": "Summative"
+              }],
+              "Teaching activies": [{
+                  "Title": "Lecture",
+                  "Description": "Introductory lecture on basics of cost benefit analysis"
+                },
+                {
+                  "Title": "Asking Questions",
+                  "Description": "If there is something unclear, discussion with questions is opened and students are helped to understand it better"
+                }
+              ]
+            },
+            {
+              "Title": "classify the main points relevant to SDI cost-benefit consideration",
+              "Description": "Summarising and classifying the main points relevant to SDI cost-benefit consideration. Benefits will be divided into groups: direct user value, social value and operational benefits for institutions",
+              "Bloom level": "3 - Apply",
+              "Assessment": [{
+                "Assessment method": "Short essay",
+                "Assessment method description": "Students need to write how to highlight the possible benefits and make them visible to stakeholders",
+                "Assessment method type": "Formative"
+              }],
+              "Teaching activies": [{
+                "Title": "Class Discussion",
+                "Description": "Group discussion about main points relevant to SDI cost-benefit consideration"
+              }]
+            },
+            {
+              "Title": "analyze the existing cost-benefit analysis: case study",
+              "Description": "Analysing and comparing exisiting case studies of cost-benefit analysis",
+              "Bloom level": "4  / 5 - Analyze / Evaluate",
+              "Assessment": [{
+                "Assessment method": "Student presentation",
+                "Assessment method description": "Students need to researh the existing literature and analyse one case study of cost-benefit analysisthe the present their work about compared examples of citizen volunteered GI.",
+                "Assessment method type": "Formative"
+              }],
+              "Teaching activies": [{
+                  "Title": "Peer Review",
+                  "Description": "Students read scienific journal article on SDI implementation, cost-benefit analysis"
+                },
+                {
+                  "Title": "Class Discussion",
+                  "Description": "Group discussionsabout main conclusions which are arised after students presentations"
+                }
+              ]
+            },
+            {
+              "Title": "elaborate SDI implementation costs for given case study",
+              "Description": "Identification and analysis of SDI implementation costs for given case study.",
+              "Bloom level": "6 - Design / Create",
+              "Assessment": [{
+                  "Assessment method": "Student presentation",
+                  "Assessment method description": "Students need to elaborate SDI implementation costs for given case study",
+                  "Assessment method type": "Formative"
+                },
+                {
+                  "Assessment method": "Feedback",
+                  "Assessment method description": "Students receive feedback on their case studies",
+                  "Assessment method type": "Formative"
+                }
+              ],
+              "Teaching activies": [{
+                "Title": "Case study",
+                "Description": "Identification and analysis of SDI implementation costs for given spatial/administrative unit"
+              }]
+            }
+          ]
+        },
+        {
+          "Title": "SDI practices/examples (Hierarchy, Academic SDI, National SDIs, INSPIRE)",
+          "Description": "Overview of SDI practices; examples of different level/extent of SDI implementation",
+          "Learning outcomes": [{
+              "Title": "remember and explain the national, regional and global SDI through SDI hierarchy",
+              "Description": "Memorizing the views of SDI hierarchy that include SDIs developed at levels",
+              "Bloom level": "1 / 2 - Remember / Understand",
+              "Assessment": [{
+                "Assessment method": "Written exam",
+                "Assessment method description": "Students take a written exam about different levels of SDI and hierarchy that is applied to SDIs' concept.",
+                "Assessment method type": "Summative"
+              }],
+              "Teaching activies": [{
+                  "Title": "Lecture",
+                  "Description": "Introductory lecture on views of SDI hierarchy and SDIs developed at levels"
+                },
+                {
+                  "Title": "Asking Questions",
+                  "Description": "If there is something unclear, discussion with questions is opened and students are helped to understand it better"
+                }
+              ]
+            },
+            {
+              "Title": "discuss the differences between NSDI generations",
+              "Description": "Describing differences between NSDI generations.",
+              "Bloom level": "1 / 2 - Remember / Understand",
+              "Assessment": [{
+                "Assessment method": "Quiz",
+                "Assessment method description": "Based on a presented lecture on nature of NSDIs, students take quizzes with questions about examples of NDSI",
+                "Assessment method type": "Formative"
+              }],
+              "Teaching activies": [{
+                "Title": "Lecture",
+                "Description": "An overview the experiences of NSDI through the generations."
+              }],
+			  "BoK": [{
+				  "Source": "UCGIS",
+				  "URL": "https://gistbok.ucgis.org/bok-topics/spatial-data-infrastructures",
+				  "Topic": "U.S. National Spatial Data Infrastructure"
+			  }]
+            },
+            {
+              "Title": "examine the needs, components of a RSDI and difficulties inherent in RSDI development.",
+              "Description": "Outlining the needs, components and difficulties inherent in RSDI development.",
+              "Bloom level": "3 - Apply",
+              "Assessment": [{
+                "Assessment method": "In-class debate",
+                "Assessment method description": "Students collecitvely discuss about their conlusion, moderated by teacher",
+                "Assessment method type": "Formative"
+              }],
+              "Teaching activies": [{
+                "Title": "Paper review",
+                "Description": "Students read scientific journal articles about needs, components and difficulties inherent in RSDI development"
+              }]
+            },
+            {
+              "Title": "analyze the role of GDI and examples which supportglobal spatialdata infrastructure",
+              "Description": "Structuring the role of GDI and examples which supportglobal spatial data infrastructure",
+              "Bloom level": "4  / 5 - Analyze / Evaluate",
+              "Assessment": [{
+                "Assessment method": "Short essay",
+                "Assessment method description": "Students need to write final thoughts about GSDI",
+                "Assessment method type": "Formative"
+              }],
+              "Teaching activies": [{
+                "Title": "Class Discussion",
+                "Description": "Students search for examples which support the global spatial data infrastructure"
+              }]
+            },
+            {
+              "Title": "propose possible future scenarios of SDI",
+              "Description": "Applying the acquired knowledge to make conclusions about the possible future of SDI",
+              "Bloom level": "6 - Design / Create",
+              "Assessment": [{
+                "Assessment method": "Feedback",
+                "Assessment method description": "Students are given feedback after the class discussion",
+                "Assessment method type": "Formative"
+              }],
+              "Teaching activies": [{
+                "Title": "Class Discussion",
+                "Description": "Based on given literature, students give their opinion of the future of SDI"
+              }]
+            }
+          ]
+        },
+        {
+          "Title": "SDI, Objectives and Components",
+          "Description": "Describing what is an SDI, what are the main components and what is to be achieved with an SDI",
+		  "BoK": [{
+			  "Source": "UCGIS",
+			  "URL": "https://gistbok.ucgis.org/bok-topics/spatial-data-infrastructures",
+			  "Topic": "Spatial Data Infrastructures"
+		  }],
+          "Learning outcomes": [{
+              "Title": "understand the concept of SDI through its definition and main objectives",
+              "Description": "This LO deals with the concept of SDI; its definition and main objectives",
+              "Bloom level": "1 / 2 - Remember / Understand",
+              "Assessment": [{
+                "Assessment method": "Written exam",
+                "Assessment method description": "Students are given written exam with questions regarding covered topic. Example of a question: Explain how SDI helped with sharing the data.",
+                "Assessment method type": "Summative"
+              }],
+              "Teaching activies": [{
+                  "Title": "Brainstorm",
+                  "Description": "As an introduction, students are asked to interpret meaning of the words 'spatial', 'data' and 'infrastructure' and try to give an answer what SDI could be. After concluding what SDI is they discuss why was it invented/introduced"
+                },
+                {
+                  "Title": "Lecture",
+                  "Description": "Lecture on what is an SDI and what are the objectives of SDI"
+                },
+                {
+                  "Title": "Asking Questions",
+                  "Description": "During lecture, students can ask questions"
+                },
+                {
+                  "Title": "In-Class Quizzes",
+                  "Description": "At the end of the lecture/topic, students take quiz to see how well they understood the topic. If the lecture covers other topics, this teaching activity can include questions related to different topics"
+                }
+              ]
+            },
+            {
+              "Title": "Student are able to understand main components of SDI and their mutual relations",
+              "Description": "This LO deals with the main components of SDI and their relations",
+              "Bloom level": "1 / 2 - Remember / Understand",
+              "Assessment": [{
+                "Assessment method": "Written exam",
+                "Assessment method description": "Students are given written exam with questions regarding topic covered. Example of a question: Name five main components of an SDI and briefly explain importance of policies and institutional arrangements on well-functioning of an SDI",
+                "Assessment method type": "Summative"
+              }],
+              "Teaching activies": [{
+                  "Title": "One-Minute Paper",
+                  "Description": "Students are asked to write down what they think are the main components of an SDI based on the knowledge they already have"
+                },
+                {
+                  "Title": "Lecture",
+                  "Description": "Lecture on main coponents of SDI"
+                },
+                {
+                  "Title": "Asking Questions",
+                  "Description": "Students can ask questions during class"
+                },
+                {
+                  "Title": "Class Discussion",
+                  "Description": "Students are asked to explain the possible interconnection among SDI components and understand why those categories cover all the relevant aspects of SDI"
+                },
+                {
+                  "Title": "Muddiest Point",
+                  "Description": "At the end of the topic, students write down things they don't feel to understand"
+                }
+              ]
+            },
+            {
+              "Title": "apply knowledge in distinction between categories in SDI components",
+              "Description": "This LO deals with disctinction of categories in SDI components",
+              "Bloom level": "3 - Apply",
+              "Assessment": [{
+                "Assessment method": "Written exam",
+                "Assessment method description": "Students are given written exam with questions regarding topic covered. Example of a question: Identify at least three different stakeholder groups related to local level SDI",
+                "Assessment method type": "Summative"
+              }],
+              "Teaching activies": [{
+                  "Title": "Brainstorm",
+                  "Description": "Students try to think of different categories related to SDI (e.g. data standards, service standards, metadata standards, stakeholders, services, different datasets, …)"
+                },
+                {
+                  "Title": "Class Discussion",
+                  "Description": "Students look for distinctions between features and try to categorize it under main components e.g. are policy makers stakeholders or not"
+                },
+                {
+                  "Title": "Polls",
+                  "Description": "After each feature is discussed, students vote in polls where that feature should be categorized"
+                },
+                {
+                  "Title": "Lecture",
+                  "Description": "Short lecture on what every SDI component consists of"
+                }
+              ]
+            },
+            {
+              "Title": "distinguish the difference between SDI and GIS while focusing on benefits of an SDI",
+              "Description": "This LO explains the difference between SDI and GIS with focus on benefits of an SDI.",
+              "Bloom level": "4  / 5 - Analyze / Evaluate",
+              "Assessment": [{
+                "Assessment method": "Written exam",
+                "Assessment method description": "Students take exam to show understanding of the topic. Example of a question: Choose the correct statements related to SDI. Explain why term high value dataset is more related to SDI and how it extends the term dataset coming from GIS",
+                "Assessment method type": "Summative"
+              }],
+              "Teaching activies": [{
+                  "Title": "Short Quizzes",
+                  "Description": "Students take quiz with fact questions on SDI and GIS"
+                },
+                {
+                  "Title": "Class Discussion",
+                  "Description": "Students analyze quiz questions and build on the answer on what is the difference between GIS and SDI and what is the benefit of SDI when compared GIS; while being led by the tutor."
+                },
+                {
+                  "Title": "One-sentence Summary",
+                  "Description": "Students write down the difference between SDI and GIS and state its pros and cons"
+                }
+              ]
+            },
+            {
+              "Title": "design new SDI based on their deeper understanding of components of SDI and ways of their application on different SDI levels",
+              "Description": "This LO focuses on deeper understanding of the components of SDI and ways of their application on different SDI levels",
+              "Bloom level": "6 - Design / Create",
+              "Assessment": [{
+                "Assessment method": "Excercise",
+                "Assessment method description": "Students use existing knowledge to solve the problem. Example of excercise: Draft a concept for a corporate level SDI, e.g. communication company, by following the definition of SDI and its components.",
+                "Assessment method type": "Formative"
+              }],
+              "Teaching activies": [{
+                  "Title": "Case study",
+                  "Description": "Students get familiar with the extent of a certain SDI level"
+                },
+                {
+                  "Title": "Demonstrations",
+                  "Description": "Students try to draft what conceptual model of that specific SDI should consist of based on definition of SDI components"
+                }
+              ]
             }
           ]
         },
@@ -452,286 +540,6 @@
             }
           ]
         },
-		{
-          "Title": "SDI actors and stakeholders",
-          "Description": "Actors and stakeholders involved in the implementation of SDIs",
-          "Learning outcomes": [{
-              "Title": "list the SDI stakeholders",
-              "Description": "List the key SDI stakeholders",
-              "Bloom level": "1 / 2 - Remember / Understand",
-              "Assessment": [{
-                "Assessment method": "Written exam",
-                "Assessment method description": "Students are asked to name the key stakeholders in an SDI",
-                "Assessment method type": "Summative"
-              }],
-              "Teaching activies": [{
-                  "Title": "Brainstorm",
-                  "Description": "Students jointly develop a list of key SDI stakeholders"
-                },
-                {
-                  "Title": "Lecture",
-                  "Description": "Lecture introducing and explaining main SDI stakeholders"
-                }
-              ]
-            },
-            {
-              "Title": "differentiate the roles of SDI stakeholders",
-              "Description": "Explain the roles of different SDI stakeholders",
-              "Bloom level": "1 / 2 - Remember / Understand",
-              "Assessment": [{
-                "Assessment method": "Written exam",
-                "Assessment method description": "Students are asked to explain the roles of particular SDI stakeholders",
-                "Assessment method type": "Summative"
-              }],
-              "Teaching activies": [{
-                  "Title": "Lecture",
-                  "Description": "Lecture explaining the key roles of different SDI stakeholders"
-                },
-                {
-                  "Title": "Student Presentations",
-                  "Description": "Students prepare a short analysis of the stakeholders of a particular country"
-                }
-              ]
-            },
-            {
-              "Title": "create a stakeholder map",
-              "Description": "Prepare a stakeholder map of an SDI",
-              "Bloom level": "3 - Apply",
-              "Assessment": [{
-                "Assessment method": "Assignment",
-                "Assessment method description": "Students need to prepare SDI stakeholder map for a particular country",
-                "Assessment method type": "Formative"
-              }],
-              "Teaching activies": [{
-                  "Title": "Lecture",
-                  "Description": "Lecture explaining the basics of stakeholder mapping"
-                },
-                {
-                  "Title": "Think-pair-share",
-                  "Description": "Students prepare a stakeholder map of a particular country"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "Title": "SDI Architecture & Technologies",
-          "Description": "Integration of technologies to SDI Architecture",
-          "Learning outcomes": [{
-              "Title": "define basics of SDI Architecture",
-              "Description": "Introduce the key components of SDI Architecture",
-              "Bloom level": "1 / 2 - Remember / Understand",
-              "Assessment": [{
-                "Assessment method": "Short essay",
-                "Assessment method description": "Students write short essay about key componenets of SDI Architecture",
-                "Assessment method type": "Summative"
-              }],
-              "Teaching activies": [{
-                  "Title": "Lecture",
-                  "Description": "Introduction lecture on basics of SDI Architecture"
-                },
-                {
-                  "Title": "Asking Questions",
-                  "Description": "During lecture, students can ask questions "
-                }
-              ]
-            },
-            {
-              "Title": "understand the benefits of implemented technologies",
-              "Description": "Understand benefits of technology implementation",
-              "Bloom level": "1 / 2 - Remember / Understand",
-              "Assessment": [{
-                "Assessment method": "In class debate",
-                "Assessment method description": "Students show their understanding of the topic by arguing for `prons` or `cons` for implementing technologies to SDI Architecture",
-                "Assessment method type": "Summative"
-              }],
-              "Teaching activies": [{
-                  "Title": "Lecture",
-                  "Description": "Introduction on SDI implemented technologies"
-                },
-                {
-                  "Title": "Paper review",
-                  "Description": "Students read scientific journal articles about technologies"
-                }
-              ]
-            },
-            {
-              "Title": "analyze examples of technologies integrated to SDI Architecture: case study",
-              "Description": "Identify the best examples of integration technologies to SDI Architecture ",
-              "Bloom level": "1 / 2 - Remember / Understand",
-              "Assessment": [{
-                "Assessment method": "Presentation",
-                "Assessment method description": "Students present their work about best examples of integration technologies to SDI Architecture",
-                "Assessment method type": "Formative"
-              }],
-              "Teaching activies": [{
-                  "Title": "Student Presentations",
-                  "Description": "Students present examples of implemented technologies and their benefits"
-                },
-                {
-                  "Title": "One-Minute Paper",
-                  "Description": "Students write short essay about benefits of implemented technologies"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "Title": "SDI interoperability",
-          "Description": "Introduction of levels and evolution of SDI interoperability ",
-		  "BoK": [{
-			"Source": "EO4GEO",
-			"URL": "https://bok.eo4geo.eu/DA3-2",
-			"Topic": "Interoperability"
-		  }],
-          "Learning outcomes": [{
-              "Title": "define SDI Interoperability levels",
-              "Description": "This LO deals with the levels of SDI Interoperability ",
-              "Bloom level": "1 / 2 - Remember / Understand",
-              "Assessment": [{
-                "Assessment method": "Written exam",
-                "Assessment method description": "Students are given exam with questions about basics of SDI interoperability. Example: What is required to achieve SDI Interoperability",
-                "Assessment method type": "Summative"
-              }],
-              "Teaching activies": [{
-                  "Title": "Lecture",
-                  "Description": "Lecture on SDI interoperability"
-                },
-                {
-                  "Title": "Paper review",
-                  "Description": "Students write one minute essay about connection between SDI and eGovernment. Answers will be the input for the discussion."
-                }
-              ]
-            },
-            {
-              "Title": "describe evolution and levels of SDI interoperability",
-              "Description": "Overview of evolution and levels of SDI interoperability",
-              "Bloom level": "1 / 2 - Remember / Understand",
-              "Assessment": [{
-                "Assessment method": "Written exam",
-                "Assessment method description": "Students are given exam with questions about evolution and levels of SDI interoperability. Example:What are the main levels of SDI Interoperability",
-                "Assessment method type": "Summative"
-              }],
-              "Teaching activies": [{
-                  "Title": "Lecture",
-                  "Description": "Lecture about evolution and levels of SDI interoperabiility"
-                },
-                {
-                  "Title": "Class Discussion",
-                  "Description": "Group discussions of diversity between levels of SDI interoperability"
-                }
-              ]
-            },
-            {
-              "Title": "think about benefits of SDI interoperability",
-              "Description": "Analyse benefits of SDI interoperability and their products: case study",
-              "Bloom level": "4  / 5 - Analyze / Evaluate",
-              "Assessment": [{
-                "Assessment method": "Presentation",
-                "Assessment method description": "Students present their work",
-                "Assessment method type": "Formative"
-              }],
-              "Teaching activies": [{
-                  "Title": "Case study",
-                  "Description": "Identification and assessment of SDI interoperability and their products"
-                },
-                {
-                  "Title": "Short Quizzes",
-                  "Description": "At the end of concept, students will take a quiz and answer questions about what they have learned about SDI interoperability"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    "SDI applications": {
-      "Concepts": [
-        {
-          "Title": "SDI examples",
-          "Description": "Overview of SDI practices; examples of different level/extent of SDI implementation",
-          "Learning outcomes": [{
-              "Title": "remember and explain the national, regional and global SDI through SDI hierarchy",
-              "Description": "Memorizing the views of SDI hierarchy that include SDIs developed at levels",
-              "Bloom level": "1 / 2 - Remember / Understand",
-              "Assessment": [{
-                "Assessment method": "Written exam",
-                "Assessment method description": "Students take a written exam about different levels of SDI and hierarchy that is applied to SDIs' concept.",
-                "Assessment method type": "Summative"
-              }],
-              "Teaching activies": [{
-                  "Title": "Lecture",
-                  "Description": "Introductory lecture on views of SDI hierarchy and SDIs developed at levels"
-                },
-                {
-                  "Title": "Asking Questions",
-                  "Description": "If there is something unclear, discussion with questions is opened and students are helped to understand it better"
-                }
-              ]
-            },
-            {
-              "Title": "discuss the differences between NSDI generations",
-              "Description": "Describing differences between NSDI generations.",
-              "Bloom level": "1 / 2 - Remember / Understand",
-              "Assessment": [{
-                "Assessment method": "Quiz",
-                "Assessment method description": "Based on a presented lecture on nature of NSDIs, students take quizzes with questions about examples of NDSI",
-                "Assessment method type": "Formative"
-              }],
-              "Teaching activies": [{
-                "Title": "Lecture",
-                "Description": "An overview the experiences of NSDI through the generations."
-              }],
-			  "BoK": [{
-				  "Source": "UCGIS",
-				  "URL": "https://gistbok.ucgis.org/bok-topics/spatial-data-infrastructures",
-				  "Topic": "U.S. National Spatial Data Infrastructure"
-			  }]
-            },
-            {
-              "Title": "examine the needs, components of a RSDI and difficulties inherent in RSDI development.",
-              "Description": "Outlining the needs, components and difficulties inherent in RSDI development.",
-              "Bloom level": "3 - Apply",
-              "Assessment": [{
-                "Assessment method": "In-class debate",
-                "Assessment method description": "Students collecitvely discuss about their conlusion, moderated by teacher",
-                "Assessment method type": "Formative"
-              }],
-              "Teaching activies": [{
-                "Title": "Paper review",
-                "Description": "Students read scientific journal articles about needs, components and difficulties inherent in RSDI development"
-              }]
-            },
-            {
-              "Title": "analyze the role of GDI and examples which supportglobal spatialdata infrastructure",
-              "Description": "Structuring the role of GDI and examples which supportglobal spatial data infrastructure",
-              "Bloom level": "4  / 5 - Analyze / Evaluate",
-              "Assessment": [{
-                "Assessment method": "Short essay",
-                "Assessment method description": "Students need to write final thoughts about GSDI",
-                "Assessment method type": "Formative"
-              }],
-              "Teaching activies": [{
-                "Title": "Class Discussion",
-                "Description": "Students search for examples which support the global spatial data infrastructure"
-              }]
-            },
-            {
-              "Title": "propose possible future scenarios of SDI",
-              "Description": "Applying the acquired knowledge to make conclusions about the possible future of SDI",
-              "Bloom level": "6 - Design / Create",
-              "Assessment": [{
-                "Assessment method": "Feedback",
-                "Assessment method description": "Students are given feedback after the class discussion",
-                "Assessment method type": "Formative"
-              }],
-              "Teaching activies": [{
-                "Title": "Class Discussion",
-                "Description": "Based on given literature, students give their opinion of the future of SDI"
-              }]
-            }
-          ]
-        },
         {
           "Title": "SDI & Digital Government",
           "Description": "How SDI transformed government and made it more available to citizens",
@@ -810,6 +618,202 @@
                 {
                   "Title": "Quescussion",
                   "Description": "Students present their ideas to the rest of the class where other students ask questions"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Title": "SDI interoperability",
+          "Description": "Introduction of levels and evolution of SDI interoperability ",
+		  "BoK": [{
+			"Source": "EO4GEO",
+			"URL": "https://bok.eo4geo.eu/DA3-2",
+			"Topic": "Interoperability"
+		  }],
+          "Learning outcomes": [{
+              "Title": "define SDI Interoperability levels",
+              "Description": "This LO deals with the levels of SDI Interoperability ",
+              "Bloom level": "1 / 2 - Remember / Understand",
+              "Assessment": [{
+                "Assessment method": "Written exam",
+                "Assessment method description": "Students are given exam with questions about basics of SDI interoperability. Example: What is required to achieve SDI Interoperability",
+                "Assessment method type": "Summative"
+              }],
+              "Teaching activies": [{
+                  "Title": "Lecture",
+                  "Description": "Lecture on SDI interoperability"
+                },
+                {
+                  "Title": "Paper review",
+                  "Description": "Students write one minute essay about connection between SDI and eGovernment. Answers will be the input for the discussion."
+                }
+              ]
+            },
+            {
+              "Title": "describe evolution and levels of SDI interoperability",
+              "Description": "Overview of evolution and levels of SDI interoperability",
+              "Bloom level": "1 / 2 - Remember / Understand",
+              "Assessment": [{
+                "Assessment method": "Written exam",
+                "Assessment method description": "Students are given exam with questions about evolution and levels of SDI interoperability. Example:What are the main levels of SDI Interoperability",
+                "Assessment method type": "Summative"
+              }],
+              "Teaching activies": [{
+                  "Title": "Lecture",
+                  "Description": "Lecture about evolution and levels of SDI interoperabiility"
+                },
+                {
+                  "Title": "Class Discussion",
+                  "Description": "Group discussions of diversity between levels of SDI interoperability"
+                }
+              ]
+            },
+            {
+              "Title": "think about benefits of SDI interoperability",
+              "Description": "Analyse benefits of SDI interoperability and their products: case study",
+              "Bloom level": "4  / 5 - Analyze / Evaluate",
+              "Assessment": [{
+                "Assessment method": "Presentation",
+                "Assessment method description": "Students present their work",
+                "Assessment method type": "Formative"
+              }],
+              "Teaching activies": [{
+                  "Title": "Case study",
+                  "Description": "Identification and assessment of SDI interoperability and their products"
+                },
+                {
+                  "Title": "Short Quizzes",
+                  "Description": "At the end of concept, students will take a quiz and answer questions about what they have learned about SDI interoperability"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Title": "Geospatial data (Data acquisition)",
+          "Description": "Overview of geospatial data and key components of data acquisition",
+		  "BoK": [{
+			"Source": "EO4GEO",
+			"URL": "https://bok.eo4geo.eu/GD",
+			"Topic": "Geospatial Data"
+		  }],
+          "Learning outcomes": [{
+              "Title": "describe basics of geospatial data",
+              "Description": "Introduction to geospatial data",
+              "Bloom level": "1 / 2 - Remember / Understand",
+              "Assessment": [{
+                "Assessment method": "Written exam",
+                "Assessment method description": "Students are given exam with questions about basics of geospatial data. Example: Types and examples of geospatial data",
+                "Assessment method type": "Summative"
+              }],
+              "Teaching activies": [{
+                  "Title": "Lecture",
+                  "Description": "Lecture on geospatial data and data acquisition"
+                },
+                {
+                  "Title": "Paper review",
+                  "Description": "Students read the scienific journal article about geospatial data and data acquisition"
+                }
+              ]
+            },
+            {
+              "Title": "describe national level of geospatial data",
+              "Description": "Introduce national level of geospatial data",
+              "Bloom level": "1 / 2 - Remember / Understand",
+              "Assessment": [{
+                "Assessment method": "Written exam",
+                "Assessment method description": "Students are given exam with questions about basics of national level of geospatial data. Example: Describe the role of government in national level of geospatial data",
+                "Assessment method type": "Summative"
+              }],
+              "Teaching activies": [{
+                  "Title": "Lecture",
+                  "Description": "Introduction on national level of geospatial data"
+                },
+                {
+                  "Title": "Case study",
+                  "Description": "Students are using national infrastructure of geospatial data to make research project"
+                }
+              ]
+            },
+            {
+              "Title": "analyze methods for geospatial data acquisition",
+              "Description": "Introduce the main methods for geospatial data acqusition",
+              "Bloom level": "1 / 2 - Remember / Understand",
+              "Assessment": [{
+                "Assessment method": "Written exam",
+                "Assessment method description": "Students are given exam with questions about basics of methods for geospatial data aquisition. Example: Identify the main benefits of geospatial data acquisition standardization ",
+                "Assessment method type": "Summative"
+              }],
+              "Teaching activies": [{
+                  "Title": "Lecture",
+                  "Description": "Lecture on data acquisition methods"
+                },
+                {
+                  "Title": "Class Discussion",
+                  "Description": "Students discuss about `prons` and `cons` on data acquisition methods"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Title": "SDI Architecture & Technologies",
+          "Description": "Integration of technologies to SDI Architecture",
+          "Learning outcomes": [{
+              "Title": "define basics of SDI Architecture",
+              "Description": "Introduce the key components of SDI Architecture",
+              "Bloom level": "1 / 2 - Remember / Understand",
+              "Assessment": [{
+                "Assessment method": "Short essay",
+                "Assessment method description": "Students write short essay about key componenets of SDI Architecture",
+                "Assessment method type": "Summative"
+              }],
+              "Teaching activies": [{
+                  "Title": "Lecture",
+                  "Description": "Introduction lecture on basics of SDI Architecture"
+                },
+                {
+                  "Title": "Asking Questions",
+                  "Description": "During lecture, students can ask questions "
+                }
+              ]
+            },
+            {
+              "Title": "understand the benefits of implemented technologies",
+              "Description": "Understand benefits of technology implementation",
+              "Bloom level": "1 / 2 - Remember / Understand",
+              "Assessment": [{
+                "Assessment method": "In class debate",
+                "Assessment method description": "Students show their understanding of the topic by arguing for `prons` or `cons` for implementing technologies to SDI Architecture",
+                "Assessment method type": "Summative"
+              }],
+              "Teaching activies": [{
+                  "Title": "Lecture",
+                  "Description": "Introduction on SDI implemented technologies"
+                },
+                {
+                  "Title": "Paper review",
+                  "Description": "Students read scientific journal articles about technologies"
+                }
+              ]
+            },
+            {
+              "Title": "analyze examples of technologies integrated to SDI Architecture: case study",
+              "Description": "Identify the best examples of integration technologies to SDI Architecture ",
+              "Bloom level": "1 / 2 - Remember / Understand",
+              "Assessment": [{
+                "Assessment method": "Presentation",
+                "Assessment method description": "Students present their work about best examples of integration technologies to SDI Architecture",
+                "Assessment method type": "Formative"
+              }],
+              "Teaching activies": [{
+                  "Title": "Student Presentations",
+                  "Description": "Students present examples of implemented technologies and their benefits"
+                },
+                {
+                  "Title": "One-Minute Paper",
+                  "Description": "Students write short essay about benefits of implemented technologies"
                 }
               ]
             }
@@ -957,7 +961,7 @@
               ]
             },
             {
-              "Title": "apply SDI standards in practice",
+              "Title": "Students are able apply SDI standards in practice",
               "Description": "Be able to set up a WMS/WFS",
               "Bloom level": "6 - Design / Create",
               "Assessment": [{
@@ -2080,7 +2084,7 @@
               ]
             },
             {
-              "Title": "explain the conceptual foundations behind data exchange formats",
+              "Title": "Students can explain the conceptual foundations behind data exchange formats",
               "Description": "Explain the conceptual foundations behind data exchange formats (e.g. ISO genereal feature model)",
               "Bloom level": "3 - Apply",
               "Assessment": [{
@@ -2671,7 +2675,7 @@
 			  "Topic": "Openness"
 		  }],
           "Learning outcomes": [{
-              "Title": "differentiate the types of licenses in SDI",
+              "Title": "Students are abble to differentiate the types of licenses in SDI",
               "Description": "List and describe the different types of licenses in SDI",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -2984,7 +2988,7 @@
 			"Topic": "Value of Professional Geospatial Organizations"
 		  }],
           "Learning outcomes": [{
-            "Title": "analyse the adaptations to spatial data organization`s business model and role in an open data ecosystem",
+            "Title": "Sudents are able to analyse the adaptations to spatial data organization`s business model and role in an open data ecosystem",
             "Description": "Evaluate how a spatial data organization can adapt its business model and, thereby, its role in the information value chain in an open data ecosystem",
             "Bloom level": "4  / 5 - Analyze / Evaluate",
             "Assessment": [{
@@ -3063,88 +3067,6 @@
               }
             ]
           }]
-        },
-        {
-          "Title": "SDI Costs & Benefits",
-          "Description": "Overview of theoretical foundation and practical approaches of the SDI Cost-Benefit Analyses",
-		  "BoK": [{
-			  "Source": "UCGIS",
-			  "URL": "https://gistbok.ucgis.org/bok-topics/spatial-data-infrastructures",
-			  "Topic": "Spatial Data Infrastructures"
-		  }],
-          "Learning outcomes": [{
-              "Title": "describe the basics of benefit-cost analysis",
-              "Description": "Describing the basics and the elements of cost- benefit analysis",
-              "Bloom level": "1 / 2 - Remember / Understand",
-              "Assessment": [{
-                "Assessment method": "Written exam",
-                "Assessment method description": "Students take written exam on basic understanding of cost-benefit analysis. Example of question: What are the elements of typical cost-benefit analysis?",
-                "Assessment method type": "Summative"
-              }],
-              "Teaching activies": [{
-                  "Title": "Lecture",
-                  "Description": "Introductory lecture on basics of cost benefit analysis"
-                },
-                {
-                  "Title": "Asking Questions",
-                  "Description": "If there is something unclear, discussion with questions is opened and students are helped to understand it better"
-                }
-              ]
-            },
-            {
-              "Title": "classify the main points relevant to SDI cost-benefit consideration",
-              "Description": "Summarising and classifying the main points relevant to SDI cost-benefit consideration. Benefits will be divided into groups: direct user value, social value and operational benefits for institutions",
-              "Bloom level": "3 - Apply",
-              "Assessment": [{
-                "Assessment method": "Short essay",
-                "Assessment method description": "Students need to write how to highlight the possible benefits and make them visible to stakeholders",
-                "Assessment method type": "Formative"
-              }],
-              "Teaching activies": [{
-                "Title": "Class Discussion",
-                "Description": "Group discussion about main points relevant to SDI cost-benefit consideration"
-              }]
-            },
-            {
-              "Title": "analyze the existing cost-benefit analysis: case study",
-              "Description": "Analysing and comparing exisiting case studies of cost-benefit analysis",
-              "Bloom level": "4  / 5 - Analyze / Evaluate",
-              "Assessment": [{
-                "Assessment method": "Student presentation",
-                "Assessment method description": "Students need to researh the existing literature and analyse one case study of cost-benefit analysisthe the present their work about compared examples of citizen volunteered GI.",
-                "Assessment method type": "Formative"
-              }],
-              "Teaching activies": [{
-                  "Title": "Peer Review",
-                  "Description": "Students read scienific journal article on SDI implementation, cost-benefit analysis"
-                },
-                {
-                  "Title": "Class Discussion",
-                  "Description": "Group discussionsabout main conclusions which are arised after students presentations"
-                }
-              ]
-            },
-            {
-              "Title": "elaborate SDI implementation costs for given case study",
-              "Description": "Identification and analysis of SDI implementation costs for given case study.",
-              "Bloom level": "6 - Design / Create",
-              "Assessment": [{
-                  "Assessment method": "Student presentation",
-                  "Assessment method description": "Students need to elaborate SDI implementation costs for given case study",
-                  "Assessment method type": "Formative"
-                },
-                {
-                  "Assessment method": "Feedback",
-                  "Assessment method description": "Students receive feedback on their case studies",
-                  "Assessment method type": "Formative"
-                }
-              ],
-              "Teaching activies": [{
-                "Title": "Case study",
-                "Description": "Identification and analysis of SDI implementation costs for given spatial/administrative unit"
-              }]
-            }
-          ]
         },
         {
           "Title": "Financial Models for spatial data suppliers",
@@ -3757,7 +3679,7 @@
               ]
             },
             {
-              "Title": "understand ethical concerns about digital twin(ning)",
+              "Title": "Studentsa are able to understand ethical concerns about digital twin(ning)",
               "Description": "Identify and explain main ethical concerns about digital twin(ning)",
               "Bloom level": "1 / 2 - Remember / Understand",
               "Assessment": [{
@@ -3950,6 +3872,68 @@
                 "Title": "Think-pair-share",
                 "Description": "Students write a short strategy for implementing/developing an SDI in a particular country"
               }]
+            }
+          ]
+        },
+        {
+          "Title": "SDI actors and stakeholders",
+          "Description": "Actors and stakeholders involved in the implementation of SDIs",
+          "Learning outcomes": [{
+              "Title": "list the SDI stakeholders",
+              "Description": "List the key SDI stakeholders",
+              "Bloom level": "1 / 2 - Remember / Understand",
+              "Assessment": [{
+                "Assessment method": "Written exam",
+                "Assessment method description": "Students are asked to name the key stakeholders in an SDI",
+                "Assessment method type": "Summative"
+              }],
+              "Teaching activies": [{
+                  "Title": "Brainstorm",
+                  "Description": "Students jointly develop a list of key SDI stakeholders"
+                },
+                {
+                  "Title": "Lecture",
+                  "Description": "Lecture introducing and explaining main SDI stakeholders"
+                }
+              ]
+            },
+            {
+              "Title": "Studentents are able to differentiate the roles of SDI stakeholders",
+              "Description": "Explain the roles of different SDI stakeholders",
+              "Bloom level": "1 / 2 - Remember / Understand",
+              "Assessment": [{
+                "Assessment method": "Written exam",
+                "Assessment method description": "Students are asked to explain the roles of particular SDI stakeholders",
+                "Assessment method type": "Summative"
+              }],
+              "Teaching activies": [{
+                  "Title": "Lecture",
+                  "Description": "Lecture explaining the key roles of different SDI stakeholders"
+                },
+                {
+                  "Title": "Student Presentations",
+                  "Description": "Students prepare a short analysis of the stakeholders of a particular country"
+                }
+              ]
+            },
+            {
+              "Title": "create a stakeholder map",
+              "Description": "Prepare a stakeholder map of an SDI",
+              "Bloom level": "3 - Apply",
+              "Assessment": [{
+                "Assessment method": "Assignment",
+                "Assessment method description": "Students need to prepare SDI stakeholder map for a particular country",
+                "Assessment method type": "Formative"
+              }],
+              "Teaching activies": [{
+                  "Title": "Lecture",
+                  "Description": "Lecture explaining the basics of stakeholder mapping"
+                },
+                {
+                  "Title": "Think-pair-share",
+                  "Description": "Students prepare a stakeholder map of a particular country"
+                }
+              ]
             }
           ]
         },
