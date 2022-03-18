@@ -264,7 +264,7 @@ function addShortMenuTopic (topic) {
 }
 
 function addPermalink (topic, description = false) {
-	url =  window.location.protocol + "//" + window.location.host + "#" + id(topic);
+	url =  window.location.protocol + "//" + window.location.host + "/toolkit/#" + id(topic);
 	perma = $(`<a class="permalink" href="` + url + `" title="Permalink"></a>`);
 	if (description) {
 		perma.append('Permalink');
