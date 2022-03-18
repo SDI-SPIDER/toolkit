@@ -1606,7 +1606,8 @@
                 },
                 {
                   "Title": "Asking Questions",
-                  "Description": "Discussion in class on examples of syntactic and semantic heterogeneity"
+                  "Description": "Discussion in class on examples of syntactic and semantic heterogeneity",
+                  "Materials": "Reading: Harvey, Francis, et al. <em>Semantic interoperability: A central issue for sharing geographic information.</em> The annals of regional science 33.2 (1999): 213-232. "
                 }
               ]
             },
@@ -1621,11 +1622,13 @@
               }],
               "Teaching activies": [{
                   "Title": "Case study",
-                  "Description": "Spatial ETL in commercial tools"
+                  "Description": "Spatial ETL in commercial tools",
+                  "Materials: Educational license for <a href='https://www.safe.com'>FME</a>."
                 },
                 {
                   "Title": "Case study",
-                  "Description": "Open Source spatial ETL"
+                  "Description": "Open Source spatial ETL",
+                  "Materials": "<a href='https://gdal.org'>GDAL/OGR</a>, R with <a href='https://cran.r-project.org/web/packages/sf/vignettes/sf1.html'>Simple Features for R</a>; Python with <a href='https://geopandas.org/en/stable/'>Geopandas</a> and </a href='https://rasterio.readthedocs.io/en/latest/'>Rasterio</a>."
                 }
               ]
             },
