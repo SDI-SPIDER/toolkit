@@ -4,8 +4,6 @@ function search() {
 
   // check what we're looking for
   term = $("#searchField").val()
-  bloom = $("#bloomSelect option:selected").val();
-  activity = $("#activitySelect option:selected").val();
 
   // reset everything from the previous search:
   $(".hit, .hide").removeClass("hit hide")
@@ -25,19 +23,13 @@ function search() {
 
   // only start highlighting the "hits" after at least
   // 2 characters have been typed
-  if ((term.length > 1) || (bloom != "Any Bloom level")) {
-    // figure out whether the search should be limited to a given bloom level:
-    if (bloom == "Any Bloom level") {
-      bloomClass = ".learningOutcome"
-    } else {
-      bloomClass = "." + id(bloom)
-    }
+  if (term.length > 1) {
 
     // mark the concepts that contain a match ("hit")
     $("div.concept.search:contains(" + term + ")").addClass('hit').removeClass('search')
 
     // "un-collapse" all learning outcomes that contain the search term:
-    $("div" + bloomClass + ":contains(" + term + ")").addClass('show')
+    $("div.learningOutcome:contains(" + term + ")").addClass('show')
     $("div.panel:contains(" + term + ") div.panel-heading h3 a").removeClass('collapsed')
     // completely hide the others:
     $("div.panel-collapse").not(".show").parent().addClass("hide")
@@ -172,7 +164,7 @@ function formatLOPanelHeader(learningOutcome) {
 }
 
 function formatLOPanelBody(learningOutcome) {
-  return $(`<div id="collapse` + id(learningOutcome["Title"]) + `" class="panel-collapse learningOutcome collapse ` + id(learningOutcome["Bloom level"]) + `">
+  return $(`<div id="collapse` + id(learningOutcome["Title"]) + `" class="panel-collapse learningOutcome collapse">
 </div>`);
 }
 
