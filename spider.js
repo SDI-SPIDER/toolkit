@@ -118,7 +118,7 @@ function updateCounter() {
 function formatTopic(topic) {
   return $(`
       <div class="topic clearfix" id="` + id(topic) + `">
-		<div class="ban">
+		<div class="ban no-print">
 			<h1 class="display-3">` + topic + `.<span class="display-5"><span class="conceptcounter ` + id(topic) + `"></span> concepts:</span></h1>
 		</div>
       </div>`)
@@ -127,7 +127,7 @@ function formatTopic(topic) {
 /* Format a concept */
 function formatConcept(conceptContent) {
   return $(`
-    <div class="concept search panel-group">
+    <div class="concept search panel-group no-print">
 	   <div id="` + id(conceptContent["Title"]) + `" class="anchor"></div>
        <h2>
        ` + conceptContent["Title"] + `</h2>
@@ -259,7 +259,7 @@ function addPermalink (topic, description = false) {
 	url =  window.location.protocol + "//" + window.location.host + "/toolkit/#" + id(topic);
 	perma = $(`<a class="permalink" href="` + url + `" title="Permalink"></a>`);
 	if (description) {
-		perma.append('Permalink');
+		perma.addClass('detail');
 	}
 	
 	return perma;
@@ -429,6 +429,11 @@ $.getJSON("toolkit.json", function(data) {
 
   $("#resetter").on("click", resetSearchForm);
 
+  //change no-print as Concept if open/closed
+  $("div.concept").on("click", "a.collapseLO", function(){
+	$(this).parent().toggleClass('no-print');
+  })
+
   //read URL hash and open Concept
   if (window.location.hash) {
 	 hash = window.location.hash.substring(1)
@@ -440,12 +445,16 @@ $.getJSON("toolkit.json", function(data) {
 		$("div#collapse" + hashStrukture[hash] + " + a").removeClass('collapsed');
 		//open LO
 		$("div#collapse" + hash).addClass('show');
-		$('a[href*="#collapse' + hash + '"]').removeClass('collapsed')	
+		$('a[href*="#collapse' + hash + '"]').removeClass('collapsed')
+		//delete class no-print
+		$("#"+ hashStrukture[hash]).closest("div.concept").removeClass('no-print');
 
 	// if hash = Concept open Concept
 	}else if (Object.values(hashStrukture).includes(hash)) {
 		$("div#collapse" + hash).addClass('show');			
 		$("div#collapse" + hash + " + a").removeClass('collapsed');
+		//delete class no-print
+		$("#"+ hash).closest("div.concept").removeClass('no-print');
 	}
   }
 

@@ -1,0 +1,62 @@
+* {
+	font-family: "times new roman";
+	font-size: 12px !important;
+}
+
+a {
+	cursor: default;
+    pointer-events: none; 
+	text-decoration: none;
+    color: inherit;
+}
+
+a.permalink, ul.bok a, div.materials a {
+	pointer-events: auto;
+	cursor: auto;
+}
+
+/* First Headline, Topics with class .no-print deactivated*/
+h1 {
+	font-size: 20px !important;
+}
+
+h2 {
+	font-size: 15px !important;
+	color: #3188B0;
+}
+
+/*open LO with bold headline*/
+h3 a {
+	font-weight: bold;
+}
+h3 a.collapsed {
+	font-weight: inherit;
+	color: inherit;
+}
+
+h4 {
+}
+
+ul {
+	list-style-type: none;
+}
+
+/* disable short menu, content, search bar, BOK (short under Concept), Concept-Permalink and collapseLO*/
+ul.bok.short, a.collapseLO, .no-print {
+	display: none !important;
+}
+
+div.concept {
+	border-top: 2px dotted #3188B0;
+	padding: 10px 0;
+}
+
+div.panel-default, div.panel-body, a.permalink{
+	margin-left: 10px;
+}
+
+a.permalink::after {
+	content:"Permalink: "attr(href);
+	color: #6c757d;
+	font-style: italic;
+}

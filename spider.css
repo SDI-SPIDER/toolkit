@@ -235,6 +235,10 @@ a.permalink::before {
 	margin-right: 4px;
 }
 
+a.permalink.detail::after {
+	content: "Permalink";
+}
+
 .bok a, .permalink {
 	color: #6c757d;
 	text-decoration: none;
