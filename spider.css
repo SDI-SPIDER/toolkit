@@ -284,4 +284,25 @@ div.ban {
 	width: 100%;
 	background-position: center center;
 	padding: 10% 2% 2% 2%;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+div.ban.SDIapplications {
+	background-image: url("banner/applications.jpg");	
+}
+
+div.ban.Standards {
+	background-image: url("banner/standards.jpg");	
+}
+
+div.ban.Data {
+	background-image: url("banner/data.jpg");	
+}
+
+div.ban.LegalEconomicsEthics {
+	background-image: url("banner/legal.jpg");	
+}
+
+div.ban.InstitutionalOrganisational {
+	background-image: url("banner/institutional.jpg");	
 }

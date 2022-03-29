@@ -118,7 +118,7 @@ function updateCounter() {
 function formatTopic(topic) {
   return $(`
       <div class="topic clearfix" id="` + id(topic) + `">
-		<div class="ban no-print">
+		<div class="ban no-print ` + id(topic) + `">
 			<h1 class="display-3">` + topic + `.<span class="display-5"><span class="conceptcounter ` + id(topic) + `"></span> concepts:</span></h1>
 		</div>
       </div>`)
@@ -248,7 +248,7 @@ function addDropdownConceptToTopic(topic, concept){
 function addShortMenuTopic (topic) {
 	$("div#shortmen").append(`
 		<a href="#` + id(topic) + `"> 
-			<div class="ban">
+			<div class="ban ` + id(topic) + `">
 				<strong>` + topic + `.</strong>
 				<br><span class="conceptcounter ` + id(topic) + `"></span> concepts
 			</div> 
