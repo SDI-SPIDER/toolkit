@@ -278,9 +278,8 @@ a.permalink.detail::after {
 }
 
 div.ban {
-	background-image: url("banner/Fundamentals.jpg");
 	background-size: cover;
-	background-color: #000;
+	background-color: #3188B0;
 	width: 100%;
 	background-position: center center;
 	padding: 10% 2% 2% 2%;
@@ -288,21 +287,21 @@ div.ban {
 }
 
 div.ban.SDIapplications {
-	background-image: url("banner/applications.jpg");	
+	background-color: #E6455A;
 }
 
 div.ban.Standards {
-	background-image: url("banner/standards.jpg");	
+	background-color: #2EABE6;
 }
 
 div.ban.Data {
-	background-image: url("banner/data.jpg");	
+	background-color: #E6DD17;
 }
 
 div.ban.LegalEconomicsEthics {
-	background-image: url("banner/legal.jpg");	
+	background-color: #22E6BA;	
 }
 
 div.ban.InstitutionalOrganisational {
-	background-image: url("banner/institutional.jpg");	
+	background-color: #999417;
 }
