@@ -146,7 +146,7 @@ function formatLOList (conceptContent) {
 
 function formatLOListLink (conceptContent) {
 	return $(`
-	   <a data-bs-toggle="collapse" class="lead collapseLO collapsed" href="#collapse` + id(conceptContent["Title"]) + `"><span class="locounter ` + id(conceptContent["Title"]) + `"></span> Learning outcomes</a>
+	   <a data-bs-toggle="collapse" class="lead collapseLO collapsed" href="#collapse` + id(conceptContent["Title"]) + `"><span class="locounter ` + id(conceptContent["Title"]) + `"></span> learning outcomes</a>
 	`);
 }
 
