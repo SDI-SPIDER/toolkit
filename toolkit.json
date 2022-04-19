@@ -1857,7 +1857,7 @@
 							},
 							{
 								"Title" : "develop a data model",
-								"Description" : "Develop a concrete data model for a given use case",
+								"Description" : "Develop a concrete data model for a given use case, e.g., tracking of the spread of an invasive species or development of sustainable infrastrucuture (wind turbines, electric car charging stations, ...)",
 								"Bloom level" : "6 - Design / Create",
 								"Assessment" : [
 									{
@@ -1886,7 +1886,7 @@
 								"Assessment" : [
 									{
 										"Assessment method" : "Quiz",
-										"Assessment method description" : "Quiz on integration challenges and ways to overcome them, ",
+										"Assessment method description" : "Quiz on integration challenges and ways to overcome them; see <a href='https://github.com/SDI-SPIDER/toolkit-materials/blob/main/quiz-integration-challenges.md'>this quiz</a> for inspiration.",
 										"Assessment method type" : "Formative"
 									}
 								],
