@@ -187,13 +187,13 @@ function formatTA(ta) {
 /* Format an assessment method */
 function formatAssessment(assessments, assessmenttyp) {
 	as = $('')
-	if (assessments.length > 0) { 
+	if (assessments.length > 0) {
 		aslist = $('<ul></ul>')
 		$.each(assessments,
 		  function(l, assessment) {
 			aslist.append(`<li><strong>` + assessment["Assessment method"] + `</strong>: ` + assessment["Assessment method description"] + `</li>`)
 		});
-		
+
 		as = $('<div class="assessment"><h4>' + assessmenttyp + ' assessment</h4></div>')
 		as.append(aslist)
 	}
@@ -216,7 +216,7 @@ function addBokList(bokList, type="short") {
 	bokList.forEach(function(bokItem) {
 		if (type == "list") {
 			list.append(`<li><a href="` + bokItem["URL"] + `" title="` + bokItem["Topic"] + `" target="_blank"><strong>` + bokItem["Source"] + `</strong>: ` + bokItem["Topic"] + `</a></li>`);
-		} else {	
+		} else {
 			list.append(`<li><a href="` + bokItem["URL"] + `" title="` + bokItem["Topic"] + `" target="_blank">` + bokItem["Source"] + `</a></li>`);
 		}
 	});
@@ -247,11 +247,11 @@ function addDropdownConceptToTopic(topic, concept){
 
 function addShortMenuTopic (topic) {
 	$("div#shortmen").append(`
-		<a href="#` + id(topic) + `"> 
+		<a href="#` + id(topic) + `">
 			<div class="ban ` + id(topic) + `">
 				<strong>` + topic + `.</strong>
 				<br><span class="conceptcounter ` + id(topic) + `"></span> concepts
-			</div> 
+			</div>
 		</a>`)
 }
 
@@ -261,7 +261,7 @@ function addPermalink (topic, description = false) {
 	if (description) {
 		perma.addClass('detail');
 	}
-	
+
 	return perma;
 }
 
@@ -273,7 +273,7 @@ $.getJSON("toolkit.json", function(data) {
   // so we can add them to the selection menues later
   activities = []
   blooms = []
-  
+
   //strukture documentation to un-collapse by hash
   hashStrukture = {}
 
@@ -285,7 +285,7 @@ $.getJSON("toolkit.json", function(data) {
 
 		// add topic to ShortMenu
 		addShortMenuTopic(topic)
-	
+
         // format the topic. Everything else will be appended to this one.
         ft = formatTopic(topic)
         addTopicButton(topic)
@@ -296,7 +296,7 @@ $.getJSON("toolkit.json", function(data) {
 
             // add title and description for each concept
             fc = formatConcept(conceptContent)
-			
+
 			lol = formatLOList(conceptContent)
 
             // add an item in the dropdown menu under the topic area:
@@ -341,7 +341,7 @@ $.getJSON("toolkit.json", function(data) {
                 // re-assable: List of teaching activities to panel body content
                 lopbc = formatLOPanelBodyContent(learningOutcome)
                 lopbc.append(taList)
-				
+
 				//seperate formative and summative assessments
 				afor = learningOutcome["Assessment"].filter(assessment => assessment["Assessment method type"] == "Formative")
 				asum = learningOutcome["Assessment"].filter(assessment => assessment["Assessment method type"] == "Summative")
@@ -357,17 +357,17 @@ $.getJSON("toolkit.json", function(data) {
 				if (conceptContent["BoK"]) {
 					bok = bok.concat(conceptContent["BoK"])
 				}
-				
+
 				// BoK's to the body content, if existing:
 				if (bok.length > 0) {
-					lopbc.append('<h4>more knowledge</h5>')
+					lopbc.append('<h4>See also</h5>')
 					lopbc.append(addBokList(bok, "list"))
 				};
-				
+
                 // … panel body content to panel body
                 lopb = formatLOPanelBody(learningOutcome)
-				lopb.append(addPermalink(learningOutcome["Title"]))	
-                lopb.append(lopbc)		
+				lopb.append(addPermalink(learningOutcome["Title"]))
+                lopb.append(lopbc)
 
                 // panel body to panel header
                 loph = formatLOPanelHeader(learningOutcome)
@@ -379,12 +379,12 @@ $.getJSON("toolkit.json", function(data) {
 
 			// Add Permalink with description
 			lol.append(addPermalink(conceptContent["Title"], true))
-		
+
 			// BoK to the concept content, if existing:
 			if (conceptContent["BoK"]) {
 				lol.append(addBokList(conceptContent["BoK"]))
 			};
-			  
+
 			// lO List to concept content
 			fc.append(lol)
 			fc.append(formatLOListLink(conceptContent))
@@ -437,7 +437,7 @@ $.getJSON("toolkit.json", function(data) {
   //read URL hash and open Concept
   if (window.location.hash) {
 	 hash = window.location.hash.substring(1)
-	
+
 	// if hash = LO  open Concept and LO
 	if (hashStrukture[hash]) {
 		//open Concept
@@ -451,7 +451,7 @@ $.getJSON("toolkit.json", function(data) {
 
 	// if hash = Concept open Concept
 	}else if (Object.values(hashStrukture).includes(hash)) {
-		$("div#collapse" + hash).addClass('show');			
+		$("div#collapse" + hash).addClass('show');
 		$("div#collapse" + hash + " + a").removeClass('collapsed');
 		//delete class no-print
 		$("#"+ hash).closest("div.concept").removeClass('no-print');
