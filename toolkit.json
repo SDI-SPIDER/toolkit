@@ -1833,7 +1833,7 @@
 								]
 							},
 							{
-								"Title" : "Select a data model",
+								"Title" : "select a data model",
 								"Description" : "Identify the best fitting kind of data model for a given use case",
 								"Bloom level" : "4  / 5 - Analyze / Evaluate",
 								"Assessment" : [
@@ -1846,7 +1846,8 @@
 								"Teaching activies" : [
 									{
 										"Title" : "Reading prior to class",
-										"Description" : "Read documentations for a concrete dataset provided through an SDI (e.g. INSPIRE) with a focus on the data model"
+										"Description" : "Read documentations for a concrete dataset provided through an SDI (e.g. INSPIRE) with a focus on the data model",
+										"Materials": "Reading: <a href='https://inspire.ec.europa.eu/data-model/approved/r4618/html/'>INSPIRE Consolidated UML Model</a>; focus on a specific theme such as <em>protected sites</em>."
 									},
 									{
 										"Title" : "Student Presentations",
@@ -1855,7 +1856,7 @@
 								]
 							},
 							{
-								"Title" : "develop a data models",
+								"Title" : "develop a data model",
 								"Description" : "Develop a concrete data model for a given use case",
 								"Bloom level" : "6 - Design / Create",
 								"Assessment" : [
