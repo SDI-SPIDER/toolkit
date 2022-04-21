@@ -1915,11 +1915,13 @@
 								"Teaching activies" : [
 									{
 										"Title" : "Case study",
-										"Description" : "Spatial ETL in commercial tools"
+										"Description" : "Spatial ETL in commercial tools",
+										"Materials" : "Tutorial: <a href='https://community.safe.com/s/article/getting-started-with-fme-desktop-translate-data-be'>Getting started with FME Desktop</a>"
 									},
 									{
 										"Title" : "Case study",
-										"Description" : "Open Source spatial ETL"
+										"Description" : "Open Source spatial ETL",
+										"Materials" : "Talend Open Studio: <a href='https://community.talend.com/s/article/New-Talend-Academy-learning-experience-available-to-everyone?language=en_US'>Talend Academy</a>"
 									}
 								]
 							},
@@ -1991,7 +1993,8 @@
 									},
 									{
 										"Title" : "Asking Questions",
-										"Description" : "Quiz on data validation aspects"
+										"Description" : "Quiz on data validation aspects",
+										"Materials" : "See <a href='https://github.com/SDI-SPIDER/toolkit-materials/blob/main/quiz-data-validation.md'>this quiz</a> for inspiration."
 									}
 								]
 							},
@@ -2009,7 +2012,8 @@
 								"Teaching activies" : [
 									{
 										"Title" : "Case study",
-										"Description" : "Students download metadata from the national SDI's catalogue and inspect the data quality information"
+										"Description" : "Students download metadata from the national SDI's catalogue and inspect the data quality information",
+										"Materials" : "Examples include the <a href='https://www.geoportal.de'>German</a> and <a href='https://dataforsyningen.dk/data'>Danish</a> SDI portals."
 									}
 								],
 								"BoK" : [
