@@ -2634,7 +2634,7 @@
 									{
 										"Title" : "Paper review",
 										"Description" : "Students have to read and review papers on legal issues/aspects on open SDIs",
-										"Materials" : "<a href=\"https://doi.org/10.1080/10580530.2012.716740\">Janssen, M., Charalabidis, Y., & Zuiderwijk, A. (2012). Benefits, Adoption Barriers and Myths of Open Data and Open Government. Information systems management, 29(4), 258-268<br>Vancauwenberghe, Glenn, Kotryna Valeèkaite, Frederika Welle Donker, Bastiaan van Loenen (2  18).<br><a href=\"https://ijsdir.sadl.kuleuven.be/index.php/ijsdir/article/view/468\">Assessing the Openness of Spatial Data Infrastructures (SDI): Towards a Map of Open SDI.International Journal of Spatial Data Infrastructures Research, 2018, Vol.13, 88-100</a>"
+										"Materials" : "<a href=\"https://doi.org/10.1080/10580530.2012.716740\">Janssen, M., Charalabidis, Y., & Zuiderwijk, A. (2012). Benefits, Adoption Barriers and Myths of Open Data and Open Government. Information systems management, 29(4), 258-268<br>Vancauwenberghe, Glenn, Kotryna Valeèkaite, Frederika Welle Donker, Bastiaan van Loenen (2  18).</a><br><a href=\"https://ijsdir.sadl.kuleuven.be/index.php/ijsdir/article/view/468\">Assessing the Openness of Spatial Data Infrastructures (SDI): Towards a Map of Open SDI.International Journal of Spatial Data Infrastructures Research, 2018, Vol.13, 88-100</a>"
 									},
 									{
 										"Title" : "Clips",
@@ -2704,7 +2704,7 @@
 								"Assessment" : [
 									{
 										"Assessment method" : "Written exam question",
-										"Assessment method description" : "This LO is assessed with written or oral exam. Example of question is: In Opendatopia striving for maximum openness of its spatial data. How should the legal framework include to implement this openness maximum?",
+										"Assessment method description" : "This LO is assessed with written or oral exam. Example of question is: Opendatia strives for maximum openness of its spatial data. How should the legal framework be changed to enable the maximum openness?",
 										"Assessment method type" : "Summative"
 									},
 									{
@@ -2760,7 +2760,7 @@
 									},
 									{
 										"Assessment method" : "Written exam question",
-										"Assessment method description" : "This LO is assessed with written or oral exam. Example of question is: List and explain the core of the EU INSPIRE directive and its relevancy for open SDI/students have to formulate recommendations to EC for making INSPIRE and the Open data directive open SDI compliant",
+										"Assessment method description" : "This LO is assessed with written or oral exam. Example of questions are: List and explain the core of the EU INSPIRE directive and its relevancy for open SDI. Students have to formulate recommendations to EC for making INSPIRE and the Open data directive open SDI compliant",
 										"Assessment method type" : "Summative"
 									},
 									{
@@ -2778,7 +2778,7 @@
 									{
 										"Title" : "Paper review",
 										"Description" : "Students have to read and review papers on the INSPIRE directive",
-										"Materials" : "<a href=\"https://ijsdir.sadl.kuleuven.be/index.php/ijsdir/article/view/353\">Van Loenen, B. and M. Grothe (2014). INSPIRE empowers reuse of Public Sector Information. International Journal of Spatial Data Infrastructures Research, 2  14, Vol.9, 86-106</a>"
+									"Materials" : "<a href=\"https://ijsdir.sadl.kuleuven.be/index.php/ijsdir/article/view/353\">Van Loenen, B. and M. Grothe (2014). INSPIRE empowers reuse of Public Sector Information. International Journal of Spatial Data Infrastructures Research, 2  14, Vol.9, 86-106</a><br><a href=\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32019L1024\">Directive (EU) 2019/1024 of the European Parliament and of the Council of 20 June 2019 on open data and the re-use of public sector information</a>"
 									},
 									{
 										"Title" : "Lecture",
@@ -3028,6 +3028,15 @@
 									{
 										"Title" : "Written exam",
 										"Description" : "An example question is: provide the GDPR definition of personal data and explain the different elements in this definition that together determine whether data is personal data or not."
+									},
+									{
+										"Title" : "Paper review",
+										"Description" : "Students have to read a paper on the GDPR and spatial data in Europe",
+										"Materials" : "<a href=\"https://pure.uvt.nl/ws/portalfiles/portal/39278394/Dalla_Corte_Safeguarding_23_04_2020.pdf \">Chapter 6: Introduction, 6.1 – 6.4 (p 214-239) in Dalla Corte, Lorenzo (2020). Safeguarding Data Protection in an Open Data World: On the idea of balancing open data and data protection in the development, PhD thesis Tilburg 2020.</a>"									},
+									{
+										"Title" : "Clip",
+										"Description" : "Watch: Data protection and INSPIRE: an uncomfortable combination? (first 10 minutes)",
+										"Materials" : "<a href=\" https://www.youtube.com/watch?v=tzty-2kHjSw \">Data protection and INSPIRE: an uncomfortable combination?</a>"
 									}
 								]
 							},
@@ -3153,7 +3162,8 @@
 									},
 									{
 										"Title" : "Clips",
-										"Description" : "Students have to watch a video clip on the core issues of licencing in SDI"
+										"Description" : "Students have to watch a video clip on the core issues of licencing in SDI",
+										"Materials" : "<a href\" https://www.youtube.com/watch?v=vmmPuXD44xs  \">Licenses for Open Government Data</a>"
 									}
 								]
 							},
@@ -3354,17 +3364,17 @@
 										"Assessment method type" : "Formative"
 									},
 									{
-										"Assessment method" : "written exam question",
+										"Assessment method" : "Written exam question",
 										"Assessment method description" : "This LO is assessed as an introductory question (Qa) to an exam question, in which business model components have to be summarized",
 										"Assessment method type" : "Summative"
 									},
 									{
-										"Assessment method" : "oral feedback",
+										"Assessment method" : "Oral feedback",
 										"Assessment method description" : "students are asked direct questions, which are used as input for a class discussion whereby the class receives oral feedback during the discussion",
 										"Assessment method type" : "Formative"
 									},
 									{
-										"Assessment method" : "short quiz",
+										"Assessment method" : "Short quiz",
 										"Assessment method description" : "students do a short quiz during class and receive oral feedback",
 										"Assessment method type" : "Formative"
 									}
@@ -3404,12 +3414,12 @@
 										"Assessment method type" : "Formative"
 									},
 									{
-										"Assessment method" : "oral feedback",
+										"Assessment method" : "Oral feedback",
 										"Assessment method description" : "2-3 pairs / groups of students have to explain their choices and receive oral feedback during the class discussion on the business model canvas presented on the whiteboard / project board, ",
 										"Assessment method type" : "Formative"
 									},
 									{
-										"Assessment method" : "case study report",
+										"Assessment method" : "Case study report",
 										"Assessment method description" : "Groups of 3-4 students carry out a case study as Problem-Based Learning. This LO is assessed as a case study sub-report, whereby students receive written and oral feedback ",
 										"Assessment method type" : "Sumative"
 									}
@@ -3452,7 +3462,7 @@
 						"Learning outcomes" : [
 							{
 								"Title" : "describe the basics of benefit-cost analysis",
-								"Description" : "Describing the basics and the elements of cost- benefit analysis",
+								"Description" : "Describing the basics and the elements of cost benefit analysis",
 								"Bloom level" : "1 / 2 - Remember / Understand",
 								"Assessment" : [
 									{
@@ -3465,7 +3475,7 @@
 									{
 										"Title" : "Lecture",
 										"Description" : "Introductory lecture on basics of cost benefit analysis",
-										"Materials" : "<a href=\"https://api.semanticscholar.org/CorpusID:10545973\">N J Obermeyer (2005) Measuring the benefits and costs of GISr,</a>"
+										"Materials" : "<a href=\"https://api.semanticscholar.org/CorpusID:10545973\">N J Obermeyer (2005) Measuring the benefits and costs of GIS</a>"
 									},
 									{
 										"Title" : "Asking Questions",
@@ -3511,7 +3521,7 @@
 									},
 									{
 										"Title" : "Class Discussion",
-										"Description" : "Group discussionsabout main conclusions which are arised after students presentations"
+										"Description" : "Group discussions about main conclusions which are arised after students presentations"
 									}
 								]
 							},
@@ -3585,7 +3595,8 @@
 								"Teaching activies" : [
 									{
 										"Title" : "Clips",
-										"Description" : "Students have to watch the introductory video on Funding Models"
+										"Description" : "Students have to watch the introductory video on Funding Models",
+										"Materials" : "<a href=\" https://www.youtube.com/watch?v=XM44WHkOQJ4&feature=youtu.be  \">Funding open data: access policies explained</a>"
 									},
 									{
 										"Title" : "Lecture",
