@@ -241,8 +241,8 @@
 								"Bloom level" : "6 - Design / Create",
 								"Assessment" : [
 									{
-										"Assessment method" : "Excercise",
-										"Assessment method description" : "Students use existing knowledge to solve the problem. Example of excercise: Draft a concept for a corporate level SDI, e.g. communication company, by following the definition of SDI and its components.",
+										"Assessment method" : "Exercise",
+										"Assessment method description" : "Students use existing knowledge to solve the problem. Example of exercise: Draft a concept for a corporate level SDI, e.g. communication company, by following the definition of SDI and its components.",
 										"Assessment method type" : "Formative"
 									}
 								],
@@ -304,7 +304,7 @@
 									{
 										"Title" : "Lecture",
 										"Description" : "Introductory lecture on SDI generations",
-										"Materials" : "<a href=\"https://doi.org/10.1080/13658810500432224 \">Rajabifard, A., Binns, A., Masser, I., & Williamson, I. (2006). The role of sub-national government and the private sector in future spatial data infrastructures. International Journal of Geographical Information Science, 20(7): 727-741<br><a href=\"http://www3.uji.es/~canut/eprints/2011-BookChapter-GWS-SDI-LD.pdf \">Granell, C., Schade, S., Hobona, G. (2009): Spatial Data Infrastructures and Linked Data</a>"
+										"Materials" : "<a href=\"https://doi.org/10.1080/13658810500432224 \">Rajabifard, A., Binns, A., Masser, I., & Williamson, I. (2006). The role of sub-national government and the private sector in future spatial data infrastructures. International Journal of Geographical Information Science, 20(7): 727-741</a><br><a href=\"http://www3.uji.es/~canut/eprints/2011-BookChapter-GWS-SDI-LD.pdf \">Granell, C., Schade, S., Hobona, G. (2009): Spatial Data Infrastructures and Linked Data</a><br><a href=\"https://doi.org/10.1007/s10708-008-9189-x \">Budhathoki et al. (2008). Reconceptualizing the role of the user of spatial data Infrastructure. GeoJournal (2008) 72: 149–160/a>"
 									},
 									{
 										"Title" : "Asking Questions",
@@ -428,7 +428,7 @@
 									{
 										"Title" : "Class Discussion",
 										"Description" : "Class discusses why standards are necessary; tutor leads the discussion",
-										"Materials" : "<a href=\"https://doi.org/10.2760/806776\">Vandenbroucke, D., Olijslagers, M., Boguslawski, R., Borzacchiello, M.T., Perego, A. and Smith, R., Architectures and Standards for Spatial Data Infrastructures and Digital Government, EUR 30336 EN, Publications Office of the European Union, Luxembourg, 2020<br><a href=\"https://ggim.un.org/documents/standards%20guide%20for%20unggim%20-%20final.pdf\">A Guide to the Role of Standards in Geospatial Information Management, UN GGIM<br><a href=\"http://www.gdmc.nl/publications/2005/Geo-information_Standards_in_Action.pdf \">Vvan Oosterom P (2005) Geo-information standards in action. Netherlands Geodetic Commission (NCG), Delft</a>\r\n"
+										"Materials" : "<a href=\"https://doi.org/10.2760/806776\">Vandenbroucke, D., Olijslagers, M., Boguslawski, R., Borzacchiello, M.T., Perego, A. and Smith, R., Architectures and Standards for Spatial Data Infrastructures and Digital Government, EUR 30336 EN, Publications Office of the European Union, Luxembourg, 2020</a><br><a href=\"https://ggim.un.org/documents/standards%20guide%20for%20unggim%20-%20final.pdf\">A Guide to the Role of Standards in Geospatial Information Management, UN GGIM</a><br><a href=\"http://www.gdmc.nl/publications/2005/Geo-information_Standards_in_Action.pdf \">van Oosterom P (2005) Geo-information standards in action. Netherlands Geodetic Commission (NCG), Delft</a>"
 									},
 									{
 										"Title" : "One-sentence Summary",
@@ -468,7 +468,7 @@
 								"Teaching activies" : [
 									{
 										"Title" : "Desk study",
-										"Description" : "Students do research on standardization ogranizations"
+										"Description" : "Students do research on standardization organizations"
 									},
 									{
 										"Title" : "Student Presentations",
@@ -527,7 +527,7 @@
 								"Assessment" : [
 									{
 										"Assessment method" : "Project",
-										"Assessment method description" : "Students do projects which is leater evaluated. Example of a project: To a conceptual model of an organizational SDI, create appropriate metadata structure schema based on metadata standards.",
+										"Assessment method description" : "Students do projects which is later evaluated. Example of a project: To a conceptual model of an organizational SDI, create appropriate metadata structure schema based on metadata standards.",
 										"Assessment method type" : "Formative"
 									}
 								],
@@ -658,7 +658,7 @@
 									{
 										"Title" : "Lecture",
 										"Description" : "Introduction on SDI implemented technologies",
-										"Materials" : "<a href=\"https://www.academia.edu/11459003/Architectural_and_Technological_Aspects_for_the_Next_Generation_of_SDI\">VMoreira de Souza, J., Borba, R., Coleman, D. (2014): Architectural and Technological Aspects for the Next Generation of SDI, Autocarto 2014- international research symposium on cartography, geospatial science, and visualization<br><a href=\"https://doi.org/10.3390/ijgi9030176\">Kotsev, A.; Minghini, M.; Tomas, R.; Cetl, V.; Lutz, M. From Spatial Data Infrastructures to Data Spaces-A Technological Perspective on the Evolution of European SDIs. ISPRS Int. J. Geo-Inf. 2020, 9, 176</a>"
+										"Materials" : "<a href=\"https://www.academia.edu/11459003/Architectural_and_Technological_Aspects_for_the_Next_Generation_of_SDI\">Moreira de Souza, J., Borba, R., Coleman, D. (2014): Architectural and Technological Aspects for the Next Generation of SDI, Autocarto 2014- international research symposium on cartography, geospatial science, and visualization<br><a href=\"https://doi.org/10.3390/ijgi9030176\">Kotsev, A.; Minghini, M.; Tomas, R.; Cetl, V.; Lutz, M. From Spatial Data Infrastructures to Data Spaces-A Technological Perspective on the Evolution of European SDIs. ISPRS Int. J. Geo-Inf. 2020, 9, 176</a>"
 									},
 									{
 										"Title" : "Paper review",
@@ -862,7 +862,7 @@
 									{
 										"Title" : "Class Discussion",
 										"Description" : "Students search for examples which support the global spatial data infrastructure",
-										"Materials" : "<a href=\"https://doi.org/10.2298/IJGI0959179I\">Example: Iliæ, A. Global Spatial 2009. Data Infrastructure. Journal of the Geographical Institute Jovan Cvijic SASA 59(1):179-194</a>\r\n"
+										"Materials" : "<a href=\"https://doi.org/10.2298/IJGI0959179I\">Example: Iliæ, A. Global Spatial 2009. Data Infrastructure. Journal of the Geographical Institute Jovan Cvijic SASA 59(1):179-194</a>"
 									}
 								]
 							},
@@ -881,7 +881,7 @@
 									{
 										"Title" : "Class Discussion",
 										"Description" : "Based on given literature, students give their opinion of the future of SDI",
-										"Materials" : "<a href=\"https://www.gwprime.geospatialworld.net/opinion/moving-beyond-sdis-are-we-ready-to-take-the-leap/\">Gregor Scott : Moving Beyond SDIs: Are We Ready to Take the Leap?</a>\r\n"
+										"Materials" : "<a href=\"https://www.gwprime.geospatialworld.net/opinion/moving-beyond-sdis-are-we-ready-to-take-the-leap/\">Greg Scott : Moving Beyond SDIs: Are We Ready to Take the Leap?</a>"
 									}
 								]
 							}
@@ -913,7 +913,7 @@
 									{
 										"Title" : "Clips",
 										"Description" : "Students watch short video clip about SDI and digital government prior to the class",
-										"Materials" : "<a href=\"https://doi.org/10.1007/978-3-642-15172-9\">Kim Normann AndersenEnrico FrancesconiAke GrönlundTom M. van Engers (ed. 2010): Electronic Government and the Information Systems Perspective, First International Conference, EGOVIS 2010, Bilbao, Spain, August 31 - September 2, 2010. Proceedings, Springer-Verlag Berlin Heidelberg</a>\r\n"
+										"Materials" : "<a href=\"https://doi.org/10.1007/978-3-642-15172-9\">Kim Normann Andersen, Enrico Francesconi, Ake Grönl, Tom M. van Engers (ed. 2010): Electronic Government and the Information Systems Perspective, First International Conference, EGOVIS 2010, Bilbao, Spain, August 31 - September 2, 2010. Proceedings, Springer-Verlag Berlin Heidelberg</a>\r\n"
 									},
 									{
 										"Title" : "One-Minute Paper",
@@ -1386,7 +1386,7 @@
 									},
 									{
 										"Title" : "Implementation",
-										"Description" : "Implement a geospatial web service, using open source software and library, e.g. Geoserver and OpenLayers, to address the problem stated efore."
+										"Description" : "Implement a geospatial web service, using open source software and library, e.g. Geoserver and OpenLayers, to address the problem stated before."
 									}
 								],
 								"BoK" : [
@@ -3650,7 +3650,8 @@
 								"Teaching activies" : [
 									{
 										"Title" : "Clips",
-										"Description" : "Students have to watch the introductory video on Access Regimes"
+										"Description" : "Students have to watch the introductory video on Access Regimes",
+										"Materials" : "<a href=\" https://www.youtube.com/watch?v=XM44WHkOQJ4&feature=youtu.be  \">Funding open data: access policies explained</a>"
 									},
 									{
 										"Title" : "Lecture",
@@ -3709,7 +3710,8 @@
 								"Teaching activies" : [
 									{
 										"Title" : "Clips",
-										"Description" : "Students have to watch the introductory video on SDI Information Value Chains"
+										"Description" : "Students have to watch the introductory video on SDI Information Value Chains",
+										"Materials" : "<a href=\" https://www.youtube.com/watch?v=BmD0gl6SrqI&feature=youtu.be \">Business models for national data providers: how to move in the data value chain</a>"
 									},
 									{
 										"Title" : "Lecture",
@@ -3825,7 +3827,7 @@
 								"Teaching activies" : [
 									{
 										"Title" : "Short Quizzes",
-										"Description" : "Quiz for plunging students intothe concepts of \"ethics\", \"data\" and \"technology\" via real-life case studies"
+										"Description" : "Quiz for plunging students into the concepts of \"ethics\", \"data\" and \"technology\" via real-life case studies"
 									},
 									{
 										"Title" : "Class Discussion",
@@ -3977,7 +3979,7 @@
 									{
 										"Title" : "Paper review",
 										"Description" : "Other models similar to the J-UDMA are provided",
-										"Materials" : "<a href=\"http://theodi.org/guides/open-data-maturity-model\">The ODI, The Open Data Maturity Mode<br><a href=\"https://opendataimpactmap.org/\">Open Data for Development Network (OD4D),Open Data Impact Map<br><a href=\"https://www.opengovpartnership.org/\">Independent Reporting Mechanism country assessment reports of Open Government Partnership (OGP) Action Plan commitment</a>"
+										"Materials" : "<a href=\"http://theodi.org/guides/open-data-maturity-model\">The ODI, The Open Data Maturity Model</a><br><a href=\"https://opendataimpactmap.org/\">Open Data for Development Network (OD4D),Open Data Impact Map</a><br><a href=\"https://www.opengovpartnership.org/\">Independent Reporting Mechanism country assessment reports of Open Government Partnership (OGP) Action Plan commitment</a>"
 									}
 								]
 							},
@@ -4098,7 +4100,7 @@
 								]
 							},
 							{
-								"Title" : "Studentsa are able to understand ethical concerns about digital twin(ning)",
+								"Title" : "understand ethical concerns about digital twin(ning)",
 								"Description" : "Identify and explain main ethical concerns about digital twin(ning)",
 								"Bloom level" : "1 / 2 - Remember / Understand",
 								"Assessment" : [
@@ -4139,7 +4141,7 @@
 									{
 										"Title" : "Paper review",
 										"Description" : "Key readings back up the lecture",
-										"Materials" : "<a href=\"https://doi.org/10.1126/science.aaf7160\">Ramaswami, A, Russell, A., Culligan, P. et al. (2018) “Meta-Principles for Developing Smart, Sustainable, and Healthy Cities.” Science 352 (6288): 940-943<br><a href=\"https://doi.org/10.3390/su12062307\">Dembski, F, Wössner, U, Letzgus, M., et al. (2020). “Urban Digital Twins for Smart Cities and Citizens: The Case Study of Herrenberg, Germany.” Sustainability 12, 2307<br><a href=\"https://doi.org/10.1109/ACCESS.2020.2998358\">Fuller, Aidan, Zhong Fan, Charles Day, and Chris Barlow. 2020. “Digital Twin: Enabling Technologies, Challenges and Open Research.”<br><a href=\"https://doi.org/10.3390/su13063386\">Shahat, E., C.T. Hyun, and C. Yeom. 2021. \"City Digital Twin Potentials: A Review and Research Agenda.\" Sustainability, 2021. 13(6)<br><a href=\"https://doi.org/10.1080/10630732.2020.1798177 \">SNochta, T., Wan, L., Schooling, J. M., & Parlikad, A. K. 2021. \"A Socio-technical Perspective on Urban Analytics: The Case of City-scale Digital Twins.\" Journal of Urban Technology, 28(1-2), 263-287</a>"
+										"Materials" : "<a href=\"https://doi.org/10.1126/science.aaf7160\">Ramaswami, A, Russell, A., Culligan, P. et al. (2018) “Meta-Principles for Developing Smart, Sustainable, and Healthy Cities.” Science 352 (6288): 940-943</a><br><a href=\"https://doi.org/10.3390/su12062307\">Dembski, F, Wössner, U, Letzgus, M., et al. (2020). “Urban Digital Twins for Smart Cities and Citizens: The Case Study of Herrenberg, Germany.” Sustainability 12, 2307</a><br><a href=\"https://doi.org/10.1109/ACCESS.2020.2998358\">Fuller, Aidan, Zhong Fan, Charles Day, and Chris Barlow. 2020. “Digital Twin: Enabling Technologies, Challenges and Open Research.”</a><br><a href=\"https://doi.org/10.3390/su13063386\">Shahat, E., C.T. Hyun, and C. Yeom. 2021. \"City Digital Twin Potentials: A Review and Research Agenda.\" Sustainability, 2021. 13(6)</a><br><a href=\"https://doi.org/10.1080/10630732.2020.1798177 \">Nochta, T., Wan, L., Schooling, J. M., & Parlikad, A. K. 2021. \"A Socio-technical Perspective on Urban Analytics: The Case of City-scale Digital Twins.\" Journal of Urban Technology, 28(1-2), 263-287</a>"
 									}
 								]
 							},
@@ -4150,14 +4152,14 @@
 								"Assessment" : [
 									{
 										"Assessment method" : "Written essay",
-										"Assessment method description" : "Students pick two smart city`s digital twinning projects and compare them from a techinical and ethical perspectives. Guiding questions: How do the two cases differ? To what extent are the two cases socia.ly inclusive? How is the openness of data tackled and implemented?",
+										"Assessment method description" : "Students pick two smart city`s digital twinning projects and compare them from a techinical and ethical perspectives. Guiding questions: How do the two cases differ? To what extent are the two cases socialy inclusive? How is the openness of data tackled and implemented?",
 										"Assessment method type" : "Summative"
 									}
 								],
 								"Teaching activies" : [
 									{
 										"Title" : "Desk study",
-										"Description" : "Students pick two smart city`s digital twinning projects and compare them from a techinical (e.g. data opennenss, interoperabiliy, etc.) and ethical (e.g. inclusiveness, sustainability, etc.) perspectives"
+										"Description" : "Students pick two smart city`s digital twinning projects and compare them from a techinical (e.g. data openness, interoperabiliy, etc.) and ethical (e.g. inclusiveness, sustainability, etc.) perspectives"
 									}
 								]
 							}
@@ -4236,8 +4238,8 @@
 								],
 								"Teaching activies" : [
 									{
-										"Title" : "",
-										"Description" : "Extra-class group work: students design guidelines for the conception and implementation of data commons in the context of SDI and smart city`s digital twin(ning)"
+										"Title" : "Extra-class group work",
+										"Description" : "Students design guidelines for the conception and implementation of data commons in the context of SDI and smart city`s digital twin(ning)"
 									},
 									{
 										"Title" : "Role Play",
@@ -4371,7 +4373,7 @@
 								]
 							},
 							{
-								"Title" : "analyse the SDI tasksallocation",
+								"Title" : "analyse the SDI task allocation",
 								"Description" : "Analyse how tasks are allocated within a particular SDI",
 								"Bloom level" : "4  / 5 - Analyze / Evaluate",
 								"Assessment" : [
