@@ -2038,7 +2038,8 @@
 								"Teaching activies" : [
 									{
 										"Title" : "Peer Review",
-										"Description" : "Review example national standards and schemas for geospatial data"
+										"Description" : "Review example national standards and schemas for geospatial data",
+										"Materials" : "Sample materials include the data specifications for <a href='https://inspire.ec.europa.eu/Data-Models/Data-Specifications/2892'>INSPIRE</a> and <a href='https://www.adv-online.de/icc/extdeu/nav/0a1/0a170f15-8e71-3c01-e1f3-351ec0023010&sel_uCon=20b70361-ab30-8d01-3bbc-251ec0023010&uTem=73d607d6-b048-65f1-80fa-29f08a07b51a.htm'>Germany</a>."
 									},
 									{
 										"Title" : "Student Presentations",
@@ -2294,7 +2295,8 @@
 									},
 									{
 										"Title" : "Implementation",
-										"Description" : "Students implement database management and data retrieval with SQL"
+										"Description" : "Students implement database management and data retrieval with SQL",
+										"Materials" : "Example task: Students load data from <a href='https://www.naturalearthdata.com'>Natural Earth</a> into a PostGIS database and connect it to QGIS."
 									}
 								],
 								"BoK" : [
