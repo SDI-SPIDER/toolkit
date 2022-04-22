@@ -25,7 +25,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Lecture",
 										"Description" : "Lecture on geospatial data and data acquisition",
@@ -33,7 +33,7 @@
 									},
 									{
 										"Title" : "Paper review",
-										"Description" : "Students read the scienific journal article about geospatial data and data acquisition"
+										"Description" : "Students read the scientific journal article about geospatial data and data acquisition"
 									}
 								]
 							},
@@ -48,7 +48,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Lecture",
 										"Description" : "Introduction on national level of geospatial data",
@@ -62,16 +62,16 @@
 							},
 							{
 								"Title" : "analyze methods for geospatial data acquisition",
-								"Description" : "Introduce the main methods for geospatial data acqusition",
+								"Description" : "Introduce the main methods for geospatial data acquisition",
 								"Bloom level" : "1 / 2 - Remember / Understand",
 								"Assessment" : [
 									{
 										"Assessment method" : "Written exam",
-										"Assessment method description" : "Students are given exam with questions about basics of methods for geospatial data aquisition. Example: Identify the main benefits of geospatial data acquisition standardization ",
+										"Assessment method description" : "Students are given exam with questions about basics of methods for geospatial data acquisition. Example: Identify the main benefits of geospatial data acquisition standardization ",
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Lecture",
 										"Description" : "Lecture on data acquisition methods",
@@ -79,7 +79,7 @@
 									},
 									{
 										"Title" : "Class Discussion",
-										"Description" : "Students discuss about `prons` and `cons` on data acquisition methods"
+										"Description" : "Students discuss about `pros` and `cons` on data acquisition methods"
 									}
 								]
 							}
@@ -107,7 +107,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Brainstorm",
 										"Description" : "As an introduction, students are asked to interpret meaning of the words 'spatial', 'data' and 'infrastructure' and try to give an answer what SDI could be. After concluding what SDI is they discuss why was it invented/introduced",
@@ -139,7 +139,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Short Quizzes",
 										"Description" : "Students take quiz with fact questions on SDI and GIS",
@@ -179,7 +179,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "One-Minute Paper",
 										"Description" : "Students are asked to write down what they think are the main components of an SDI based on the knowledge they already have",
@@ -187,7 +187,7 @@
 									},
 									{
 										"Title" : "Lecture",
-										"Description" : "Lecture on main coponents of SDI",
+										"Description" : "Lecture on main components of SDI",
 										"Materials" : "<a href=\" https://doi.org/10.1201/9780203485774 \">Williamson, I., Rajabifard, A., F. Feeney, M.E. (2003): Developing Spatial Data Infrastructures: From concept to reality, CRC Press</a>"
 									},
 									{
@@ -206,7 +206,7 @@
 							},
 							{
 								"Title" : "apply knowledge in distinction between categories in SDI components",
-								"Description" : "This LO deals with disctinction of categories in SDI components",
+								"Description" : "This LO deals with distinction of categories in SDI components",
 								"Bloom level" : "3 - Apply",
 								"Assessment" : [
 									{
@@ -215,7 +215,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Brainstorm",
 										"Description" : "Students try to think of different categories related to SDI (e.g. data standards, service standards, metadata standards, stakeholders, services, different datasets, ...)",
@@ -246,7 +246,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Case study",
 										"Description" : "Students get familiar with the extent of a certain SDI level"
@@ -261,7 +261,7 @@
 					},
 					{
 						"Title" : "Evolution of SDIs",
-						"Description" : "Discuss the main objectives and key components of SDI generationand introduce to the volunteered GI",
+						"Description" : "Discuss the main objectives and key components of SDI generation and introduce to the volunteered GI",
 						"Learning outcomes" : [
 							{
 								"Title" : "describe the importance and advantages of an SDI",
@@ -281,7 +281,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Lecture",
 										"Description" : "Introductory lecture on necessity of the exchange and sharing of spatial data",
@@ -300,7 +300,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Lecture",
 										"Description" : "Introductory lecture on SDI generations",
@@ -319,11 +319,11 @@
 								"Assessment" : [
 									{
 										"Assessment method" : "Written exam",
-										"Assessment method description" : "Students take an written exam about concepts of volunteered GI",
+										"Assessment method description" : "Students take a written exam about concepts of volunteered GI",
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Lecture",
 										"Description" : "Introductory lecture on Volunteered Geographic Information as a form of user-generated content",
@@ -354,7 +354,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Class Discussion",
 										"Description" : "What is the future of VGI? Will the developments in ubiquitous sensing lead to a decline in human-collected VGI?",
@@ -373,7 +373,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "In-Class Quizzes",
 										"Description" : "Students take quizzes with questions on differences between SDI generations",
@@ -392,7 +392,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Student Presentations",
 										"Description" : "Student presentations on examples of volunteered GI",
@@ -420,11 +420,11 @@
 								"Assessment" : [
 									{
 										"Assessment method" : "Written exam",
-										"Assessment method description" : "Students are given exam with questions regarding topic covered. Example of a question: Explain why existence of standards is crutial for well functioning of an SDI",
+										"Assessment method description" : "Students are given exam with questions regarding topic covered. Example of a question: Explain why existence of standards is crucial for well-functioning of an SDI",
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Class Discussion",
 										"Description" : "Class discusses why standards are necessary; tutor leads the discussion",
@@ -447,7 +447,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Lecture",
 										"Description" : "Lecture on different groups of standards (e.g. metadata standards, data standards, web services standards, UTF standards, etc.)"
@@ -465,7 +465,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Desk study",
 										"Description" : "Students do research on standardization organizations"
@@ -483,11 +483,11 @@
 								"Assessment" : [
 									{
 										"Assessment method" : "Exercise",
-										"Assessment method description" : "Students do small exercixes to show understanding of standards. Example of exercise: Convert propriatory format of a given dataset to a standardized and open one",
+										"Assessment method description" : "Students do small exercises to show understanding of standards. Example of exercise: Convert proprietary format of a given dataset to a standardized and open one",
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Small project",
 										"Description" : "Students are given tasks to solve problems with standardization (e.g. data formats, web services formats, metadata formats, ...)"
@@ -509,7 +509,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Desk study",
 										"Description" : "Students do research and try to discover different standards related to same objects of SDI."
@@ -531,14 +531,14 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Lecture",
 										"Description" : "Lecture on SDI standards across different SDI components. Presentation of use cases (e.g. INSPIRE)."
 									},
 									{
 										"Title" : "Project",
-										"Description" : "Following the examples given, students do research on specific group of standards and draft its implentation for specific purpose, on conceptual level."
+										"Description" : "Following the examples given, students do research on specific group of standards and draft its implementation for specific purpose, on conceptual level."
 									}
 								]
 							}
@@ -559,7 +559,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Brainstorm",
 										"Description" : "Students jointly develop a list of key SDI stakeholders"
@@ -571,7 +571,7 @@
 								]
 							},
 							{
-								"Title" : "Studentents are able to differentiate the roles of SDI stakeholders",
+								"Title" : "differentiate the roles of SDI stakeholders",
 								"Description" : "Explain the roles of different SDI stakeholders",
 								"Bloom level" : "1 / 2 - Remember / Understand",
 								"Assessment" : [
@@ -581,7 +581,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Lecture",
 										"Description" : "Lecture explaining the key roles of different SDI stakeholders"
@@ -603,7 +603,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Lecture",
 										"Description" : "Lecture explaining the basics of stakeholder mapping"
@@ -627,11 +627,11 @@
 								"Assessment" : [
 									{
 										"Assessment method" : "Short essay",
-										"Assessment method description" : "Students write short essay about key componenets of SDI Architecture",
+										"Assessment method description" : "Students write short essay about key components of SDI Architecture",
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Lecture",
 										"Description" : "Introduction lecture on basics of SDI Architecture",
@@ -650,11 +650,11 @@
 								"Assessment" : [
 									{
 										"Assessment method" : "In class debate",
-										"Assessment method description" : "Students show their understanding of the topic by arguing for `prons` or `cons` for implementing technologies to SDI Architecture",
+										"Assessment method description" : "Students show their understanding of the topic by arguing for `pros` or `cons` for implementing technologies to SDI Architecture",
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Lecture",
 										"Description" : "Introduction on SDI implemented technologies",
@@ -677,7 +677,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Student Presentations",
 										"Description" : "Students present examples of implemented technologies and their benefits"
@@ -712,7 +712,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Lecture",
 										"Description" : "Lecture on SDI interoperability",
@@ -731,14 +731,14 @@
 								"Assessment" : [
 									{
 										"Assessment method" : "Written exam",
-										"Assessment method description" : "Students are given exam with questions about evolution and levels of SDI interoperability. Example:What are the main levels of SDI Interoperability",
+										"Assessment method description" : "Students are given exam with questions about evolution and levels of SDI interoperability. Example: What are the main levels of SDI Interoperability",
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Lecture",
-										"Description" : "Lecture about evolution and levels of SDI interoperabiility",
+										"Description" : "Lecture about evolution and levels of SDI interoperability",
 										"Materials" : "<a href=\"https://doi.org/10.2788/20697\">Toth K, Portele C, Illert A, Lutz M, Nunes De Lima M. A Conceptual Model for Developing Interoperability Specifications in Spatial Data Infrastructures. EUR 25280 EN. Luxembourg (Luxembourg): Publications Office of the European Union; 2012.,</a>"
 									},
 									{
@@ -758,7 +758,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Case study",
 										"Description" : "Identification and assessment of SDI interoperability and their products"
@@ -790,11 +790,11 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Lecture",
 										"Description" : "Introductory lecture on views of SDI hierarchy and SDIs developed at levels",
-										"Materials" : "<a href=\"http://hdl.handle.net/11343/33897\">Rajabifard, A.; Williamson, I.P. Spatial data infrastructures: Concept, SDI hierarchy and future directions. In Proceedings of the GEOMATICS’80 Conference, Tehran, Iran, 2001</a><br><a href=\"http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.34.5961&rep=rep1&type=pdf \">Rajabifard, A, Williamson, I. P., Holland, P., and Johnstone, G. 2000. From Local to Global SDI initiatives: a pyramid building blocks, Proceedings of the 4th GSDI Conference, Cape Town,South Africa</a><br><a href=\"http://hdl.handle.net/11343/33915>Rajabifard, A, Chan, T. O., Williamson, I. P. 1999. The nature of regional Spatial Data Infrastructures. Presented at AURISA 99 - The 27th Annual Conference of AURISA</a><br><a href=\"https://doi.org/10.1080/136588199241463 \">Masser, I. 1999.  All shapes and sizes: the first generation of national spatial, International Journal of Geographical Information Science data infrastructures</a>"
+										"Materials" : "<a href=\"http://hdl.handle.net/11343/33897\">Rajabifard, A.; Williamson, I.P. Spatial data infrastructures: Concept, SDI hierarchy and future directions. In Proceedings of the GEOMATICS’80 Conference, Tehran, Iran, 2001</a><br><a href=\"http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.34.5961&rep=rep1&type=pdf \">Rajabifard, A, Williamson, I. P., Holland, P., and Johnstone, G. 2000. From Local to Global SDI initiatives: a pyramid building blocks, Proceedings of the 4th GSDI Conference, Cape Town, South Africa</a><br><a href=\"http://hdl.handle.net/11343/33915>Rajabifard, A, Chan, T. O., Williamson, I. P. 1999. The nature of regional Spatial Data Infrastructures. Presented at AURISA 99 - The 27th Annual Conference of AURISA</a><br><a href=\"https://doi.org/10.1080/136588199241463 \">Masser, I. 1999.  All shapes and sizes: the first generation of national spatial, International Journal of Geographical Information Science data infrastructures</a>"
 									},
 									{
 										"Title" : "Asking Questions",
@@ -813,11 +813,11 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Lecture",
 										"Description" : "An overview the experiences of NSDI through the generations.",
-										"Materials" : "<a href=\"DOI: 10.1080/136588199241463\">Masser, I. 1999.  All shapes and sizes: the first generation of national spatial, International Journal of Geographical Information Science data infrastructures, 13:1, 67-84</a><br><a href=\"https://doi.org/10.1201/9780203485774\">Rajabifard, A. Feeney, M.-E. F., Williamson,I. P., Masser, I. 2003. National SDI Initiatives. In the book: Developing Spatial Data Infrastructures:from concept to reality, pp.95-109, Taylor and Francis</a>"
+										"Materials" : "<a href=\"DOI: 10.1080/136588199241463\">Masser, I. 1999.  All shapes and sizes: the first generation of national spatial, International Journal of Geographical Information Science data infrastructures, 13:1, 67-84</a><br><a href=\"https://doi.org/10.1201/9780203485774\">Rajabifard, A. Feeney, M.-E. F., Williamson,I. P., Masser, I. 2003. National SDI Initiatives. In the book: Developing Spatial Data Infrastructures: from concept to reality, pp.95-109, Taylor and Francis</a>"
 									}
 								],
 								"BoK" : [
@@ -835,11 +835,11 @@
 								"Assessment" : [
 									{
 										"Assessment method" : "In-class debate",
-										"Assessment method description" : "Students collecitvely discuss about their conlusion, moderated by teacher",
+										"Assessment method description" : "Students collectively discuss about their conclusion, moderated by teacher",
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Paper review",
 										"Description" : "Students read scientific journal articles about needs, components and difficulties inherent in RSDI development",
@@ -848,8 +848,8 @@
 								]
 							},
 							{
-								"Title" : "analyze the role of GDI and examples which supportglobal spatialdata infrastructure",
-								"Description" : "Structuring the role of GDI and examples which supportglobal spatial data infrastructure",
+								"Title" : "analyze the role of GDI and examples which support global spatial data infrastructure",
+								"Description" : "Structuring the role of GDI and examples which support global spatial data infrastructure",
 								"Bloom level" : "4  / 5 - Analyze / Evaluate",
 								"Assessment" : [
 									{
@@ -858,7 +858,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Class Discussion",
 										"Description" : "Students search for examples which support the global spatial data infrastructure",
@@ -877,7 +877,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Class Discussion",
 										"Description" : "Based on given literature, students give their opinion of the future of SDI",
@@ -909,7 +909,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Clips",
 										"Description" : "Students watch short video clip about SDI and digital government prior to the class",
@@ -939,11 +939,11 @@
 								"Assessment" : [
 									{
 										"Assessment method" : "Student presentation",
-										"Assessment method description" : "Students need to present results of analisys on some of eGovernment services. Example of analysis: Identify gaps in existing national INSPIRE datasets and explain it.",
+										"Assessment method description" : "Students need to present results of analysis on some of eGovernment services. Example of analysis: Identify gaps in existing national INSPIRE datasets and explain it.",
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Desk study",
 										"Description" : "Students do research on eGovernment services using Spatial data Infrastructure",
@@ -956,7 +956,7 @@
 									},
 									{
 										"Title" : "Student Presentations",
-										"Description" : "Students present their analisys in form of presentation"
+										"Description" : "Students present their analysis in form of presentation"
 									}
 								]
 							},
@@ -971,7 +971,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Desk study",
 										"Description" : "Students are divided in groups 2-3 people. Need to look for literature about eGovernmnet processes prior to the class."
@@ -1003,7 +1003,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Lecture",
 										"Description" : "Lecture on basics of sustainable development",
@@ -1026,10 +1026,10 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "",
-										"Description" : "Students read the scienific journal article on SDI implementation sustainable development"
+										"Description" : "Students read the scientific journal article on SDI implementation sustainable development"
 									},
 									{
 										"Title" : "",
@@ -1048,7 +1048,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "",
 										"Description" : "Identification and analysis of SDI implementation sustainable development"
@@ -1092,7 +1092,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Lecture",
 										"Description" : "Short introductory lecture explaining the terminology used in standards documents"
@@ -1114,14 +1114,14 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Reading prior to class",
 										"Description" : "Students read the documentation for a national SDI, focusing on the application of the previously discussed standards"
 									},
 									{
 										"Title" : "Case study",
-										"Description" : "Students write a short paper analyzing a GML application schema from a national SDI focusing on the links between the schema and the basic GML schema "
+										"Description" : "Students write a short paper analysing a GML application schema from a national SDI focusing on the links between the schema and the basic GML schema "
 									}
 								],
 								"BoK" : [
@@ -1143,7 +1143,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Lecture",
 										"Description" : "Introductory lecture on OGC, ISO, W3C and how they work (as an organisation and what they standardize)"
@@ -1165,7 +1165,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Examples",
 										"Description" : "Students evaluate different WMS/WFS setups and discuss how they use the introduced standards"
@@ -1201,7 +1201,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "One-sentence Summary",
 										"Description" : "One sentence summary of what UML is"
@@ -1223,7 +1223,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Mind Map",
 										"Description" : "Students develop a mind map linking UML elements in the ISO general feature model to a WFS feature type description (GML application schema)",
@@ -1238,11 +1238,11 @@
 								"Assessment" : [
 									{
 										"Assessment method" : "Classes and relations understanding assessment",
-										"Assessment method description" : "This LO is assessed with written or oral exam. Example of question is:Given the UML diagram representation, interpret what type of UML is this, what are the main classes and how do they relate to each other.",
+										"Assessment method description" : "This LO is assessed with written or oral exam. Example of question is: Given the UML diagram representation, interpret what type of UML is this, what are the main classes and how do they relate to each other.",
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Polls",
 										"Description" : "express their understanding of structural components and relations via some online real-time survey"
@@ -1264,7 +1264,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Student Presentations",
 										"Description" : "Based on the project assigned (chosen), students prepare short presentation and give answers to what, how and why they are going to use in their project"
@@ -1309,7 +1309,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Reading papers",
 										"Description" : "Reading papers to understand different types of interface standards",
@@ -1323,7 +1323,7 @@
 							},
 							{
 								"Title" : "publish geospatial web services",
-								"Description" : "Publish geographic web services with open source software",
+								"Description" : "Publish geographic web services with open-source software",
 								"Bloom level" : "3 - Apply",
 								"Assessment" : [
 									{
@@ -1332,7 +1332,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Implementation",
 										"Description" : "Students try to publish standardized map services, e.g. WMS, using an open source software like GeoServer"
@@ -1354,7 +1354,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Implementation",
 										"Description" : "Students develop a web map client that communicates with a Web map server (e.g. Geoserver), using WMS"
@@ -1379,14 +1379,14 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Problem statement",
-										"Description" : "Formulate a problem statement that can be address by geopstial web services"
+										"Description" : "Formulate a problem statement that can be address by geospatial web services"
 									},
 									{
 										"Title" : "Implementation",
-										"Description" : "Implement a geospatial web service, using open source software and library, e.g. Geoserver and OpenLayers, to address the problem stated before."
+										"Description" : "Implement a geospatial web service, using open-source software and library, e.g. Geoserver and OpenLayers, to address the problem stated before."
 									}
 								],
 								"BoK" : [
@@ -1436,7 +1436,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Reading documents",
 										"Description" : "Read the recommended documents and look through the slides in advance",
@@ -1468,7 +1468,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Reading papers",
 										"Description" : "Reading classic papers and websites (e.g. w3school) on basic techniques for web development"
@@ -1499,7 +1499,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Lab exercise",
 										"Description" : "Lab exercise on web development for static web mapping with the introduced techniques"
@@ -1534,7 +1534,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Lecture",
 										"Description" : "Introductory lecture to different types of encoding standards",
@@ -1558,7 +1558,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Creating files",
 										"Description" : "Read and/or create GML, KML, GeoJSON files for a given dataset.",
@@ -1592,7 +1592,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Paper review",
 										"Description" : "Read and discuss the classic 'the semantic web' paper by Berners-Lee et al. (2001)",
@@ -1625,7 +1625,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Reading prior to class",
 										"Description" : "Reading classic papers on geospatial semantics",
@@ -1662,7 +1662,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Watch clip",
 										"Description" : "Students watch Tim Berners-Lee's TED Talk on Linked Data",
@@ -1698,7 +1698,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Case study",
 										"Description" : "Formulate a problem statement to address with the solution in small groups"
@@ -1729,7 +1729,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Case study",
 										"Description" : "Compare levels of semantic interoperability across different open SDIs"
@@ -1765,7 +1765,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Lecture",
 										"Description" : "Lecture on logic formalisms and ontology design principles"
@@ -1820,7 +1820,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Lecture",
 										"Description" : "Introductory lecture on GIS data models",
@@ -1843,7 +1843,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Reading prior to class",
 										"Description" : "Read documentations for a concrete dataset provided through an SDI (e.g. INSPIRE) with a focus on the data model",
@@ -1857,7 +1857,7 @@
 							},
 							{
 								"Title" : "develop a data model",
-								"Description" : "Develop a concrete data model for a given use case, e.g., tracking of the spread of an invasive species or development of sustainable infrastrucuture (wind turbines, electric car charging stations, ...)",
+								"Description" : "Develop a concrete data model for a given use case, e.g., tracking of the spread of an invasive species or development of sustainable infrastructure (wind turbines, electric car charging stations, ...)",
 								"Bloom level" : "6 - Design / Create",
 								"Assessment" : [
 									{
@@ -1866,7 +1866,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Case study",
 										"Description" : "Group work to develop a data model for a concrete use case"
@@ -1890,7 +1890,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Lecture",
 										"Description" : "Introductory lecture explaining the challenges of syntactic and semantic heterogeneity and how to overcome them"
@@ -1912,7 +1912,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Case study",
 										"Description" : "Spatial ETL in commercial tools",
@@ -1936,7 +1936,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Case study",
 										"Description" : "Development of a conceptual integration of two different datasets representing the same domain"
@@ -1958,7 +1958,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Class Discussion",
 										"Description" : "Discuss (dis-)advantages of different ways to implement ETL processes"
@@ -1986,7 +1986,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Lecture",
 										"Description" : "Introductory lecture on relevant aspects for data validation (geometry, topology, data values, schema) and how to define valid data (standards, schema)"
@@ -2005,11 +2005,11 @@
 								"Assessment" : [
 									{
 										"Assessment method" : "Presentation",
-										"Assessment method description" : "Studens present their findings",
+										"Assessment method description" : "Students present their findings",
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Case study",
 										"Description" : "Students download metadata from the national SDI's catalogue and inspect the data quality information",
@@ -2035,7 +2035,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Peer Review",
 										"Description" : "Review example national standards and schemas for geospatial data",
@@ -2063,7 +2063,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Lecture",
 										"Description" : "Introduction to automatic data validation/checking"
@@ -2108,7 +2108,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Reading documentations",
 										"Description" : "Read documentations for metadata in SDI with a focus on the geographic data",
@@ -2122,7 +2122,7 @@
 							},
 							{
 								"Title" : "explain standards of metadata",
-								"Description" : "Explain the standards of meatadata",
+								"Description" : "Explain the standards of metadata",
 								"Bloom level" : "1 / 2 - Remember / Understand",
 								"Assessment" : [
 									{
@@ -2136,7 +2136,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Lecture",
 										"Description" : "Introductory lecture on metadata standards like ISO 19115"
@@ -2163,7 +2163,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Lecture",
 										"Description" : "Introductory lecture on metadata exchange formats"
@@ -2182,7 +2182,7 @@
 						"Learning outcomes" : [
 							{
 								"Title" : "define data catalogue",
-								"Description" : "Introduce the definition of data catelogue",
+								"Description" : "Introduce the definition of data catalogue",
 								"Bloom level" : "1 / 2 - Remember / Understand",
 								"Assessment" : [
 									{
@@ -2191,7 +2191,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Reading documentations",
 										"Description" : "Reading the documentations for data catalogue",
@@ -2200,13 +2200,13 @@
 									{
 										"Title" : "Summary",
 										"Description" : "One sentence summary of data catalogue",
-										"Materials" : "Bernabé, M. A., Gould, M., Muro-Medrano, P. R., Nogueras, J., & ZARAZAGASORIA, F. (2002, September). A spatial data catalogue based initiative to launch the Spanish SDI. In Proceedings of the 6th Global Spatial Data Infrastructure Conference, ‘From Global to Local’, Budapest, Hungary.</a>"
+										"Materials" : "Bernabé, M. A., Gould, M., Muro-Medrano, P. R., Nogueras, J., & ZARAZAGASORIA, F. (2002, September). A spatial data catalogue-based initiative to launch the Spanish SDI. In Proceedings of the 6th Global Spatial Data Infrastructure Conference, ‘From Global to Local’, Budapest, Hungary.</a>"
 									}
 								]
 							},
 							{
 								"Title" : "explain how they manage a data catalogue with a DBMS",
-								"Description" : "Introduce how to use a DBMS for managing a data catelogue",
+								"Description" : "Introduce how to use a DBMS for managing a data catalogue",
 								"Bloom level" : "1 / 2 - Remember / Understand",
 								"Assessment" : [
 									{
@@ -2220,10 +2220,10 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Introduction",
-										"Description" : "Introduce how to use a DBMS for managing a data catelogue"
+										"Description" : "Introduce how to use a DBMS for managing a data catalogue"
 									},
 									{
 										"Title" : "Asking questions",
@@ -2240,7 +2240,7 @@
 							},
 							{
 								"Title" : "design data catalogues with UML",
-								"Description" : "Explain how to design data catelogue with UML",
+								"Description" : "Explain how to design data catalogue with UML",
 								"Bloom level" : "1 / 2 - Remember / Understand",
 								"Assessment" : [
 									{
@@ -2254,10 +2254,10 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Introduction",
-										"Description" : "Introduce how to design a data catelogue with UML"
+										"Description" : "Introduce how to design a data catalogue with UML"
 									},
 									{
 										"Title" : "Asking questions",
@@ -2288,7 +2288,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Lecture",
 										"Description" : "Introductory lecture on SQL"
@@ -2341,7 +2341,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Lecture",
 										"Description" : "Introductory lecture on relevant aspects for data visualization with a focus on geographic data",
@@ -2365,7 +2365,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Reviewing example",
 										"Description" : "Review example of geovisualization in GIS"
@@ -2402,7 +2402,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Introduction",
 										"Description" : "Introduction to cartographic design for web maps"
@@ -2429,7 +2429,7 @@
 						"Learning outcomes" : [
 							{
 								"Title" : "list data exchange formats",
-								"Description" : "Name the most important data exchange formats used in SDIs and explain their characteristristics",
+								"Description" : "Name the most important data exchange formats used in SDIs and explain their characteristics",
 								"Bloom level" : "1 / 2 - Remember / Understand",
 								"Assessment" : [
 									{
@@ -2438,7 +2438,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Reading prior to class",
 										"Description" : "Literature on GIS data exchange formats"
@@ -2451,7 +2451,7 @@
 							},
 							{
 								"Title" : "Students can explain the conceptual foundations behind data exchange formats",
-								"Description" : "Explain the conceptual foundations behind data exchange formats (e.g. ISO genereal feature model)",
+								"Description" : "Explain the conceptual foundations behind data exchange formats (e.g. ISO general feature model)",
 								"Bloom level" : "3 - Apply",
 								"Assessment" : [
 									{
@@ -2460,7 +2460,7 @@
 										"Assessment method type" : ""
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Lecture",
 										"Description" : "Introductory lecture on conceptual models behind GIS exchange formats and the way ISO formalizes them"
@@ -2478,7 +2478,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Class Discussion",
 										"Description" : "Group discussion on use of standards in downloaded data"
@@ -2496,7 +2496,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Case study",
 										"Description" : "Set up the infrastructure to serve GIS data in a common exchange format and test its consumption in a desktop GIS"
@@ -2531,7 +2531,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Lecture",
 										"Description" : "Lecture on principles and standards for the exchange of information about data quality"
@@ -2553,7 +2553,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Lecture",
 										"Description" : "Introduction to the model behind the ISO 19157 standard"
@@ -2575,7 +2575,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Case study",
 										"Description" : "Analyze the quality of a provided dataset and provide the collected information in the corresponding ISO standards"
@@ -2593,7 +2593,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Class Discussion",
 										"Description" : "Joint development of metadata"
@@ -2622,7 +2622,7 @@
 									},
 									{
 										"Assessment method" : "Written exam question",
-										"Assessment method description" : "This LO is assessed with written or oral exam. Example of question is:students have to sum up and describe 3 legal issues around the development and implementation of open SDIs",
+										"Assessment method description" : "This LO is assessed with written or oral exam. Example of question is: Students have to sum up and describe 3 legal issues around the development and implementation of open SDIs",
 										"Assessment method type" : "Summative"
 									},
 									{
@@ -2636,11 +2636,11 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Paper review",
 										"Description" : "Students have to read and review papers on legal issues/aspects on open SDIs",
-										"Materials" : "<a href=\"https://doi.org/10.1080/10580530.2012.716740\">Janssen, M., Charalabidis, Y., & Zuiderwijk, A. (2012). Benefits, Adoption Barriers and Myths of Open Data and Open Government. Information systems management, 29(4), 258-268<br>Vancauwenberghe, Glenn, Kotryna Valeèkaite, Frederika Welle Donker, Bastiaan van Loenen (2  18).</a><br><a href=\"https://ijsdir.sadl.kuleuven.be/index.php/ijsdir/article/view/468\">Assessing the Openness of Spatial Data Infrastructures (SDI): Towards a Map of Open SDI.International Journal of Spatial Data Infrastructures Research, 2018, Vol.13, 88-100</a>"
+										"Materials" : "<a href=\"https://doi.org/10.1080/10580530.2012.716740\">Janssen, M., Charalabidis, Y., & Zuiderwijk, A. (2012). Benefits, Adoption Barriers and Myths of Open Data and Open Government. Information systems management, 29(4), 258-268<br>Vancauwenberghe, Glenn, Kotryna Valeèkaite, Frederika Welle Donker, Bastiaan van Loenen (2  18).</a><br><a href=\"https://ijsdir.sadl.kuleuven.be/index.php/ijsdir/article/view/468\">Assessing the Openness of Spatial Data Infrastructures (SDI): Towards a Map of Open SDI. International Journal of Spatial Data Infrastructures Research, 2018, Vol.13, 88-100</a>"
 									},
 									{
 										"Title" : "Clips",
@@ -2649,7 +2649,7 @@
 									},
 									{
 										"Title" : "One-sentence Summary",
-										"Description" : "Ask two/ three students to summarise the main message/ take aways from the video clip"
+										"Description" : "Ask two/ three students to summarise the main message/ takeaways from the video clip"
 									},
 									{
 										"Title" : "Lecture",
@@ -2686,11 +2686,11 @@
 									},
 									{
 										"Assessment method" : "Written exam question",
-										"Assessment method description" : "This LO is assessed with written or oral exam. Example of question is:Describe the model of Backx and explain for each circle how legislation may promote the openness of the SDI",
+										"Assessment method description" : "This LO is assessed with written or oral exam. Example of question is: Describe the model of Backx and explain for each circle how legislation may promote the openness of the SDI",
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Paper review",
 										"Description" : "Students have to read and review the paper describing the concentric shell model of Backx",
@@ -2719,7 +2719,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Desk study",
 										"Description" : "Students are tasked to find, access and assess a high value dataset in a country of their choice"
@@ -2741,7 +2741,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Class Discussion",
 										"Description" : "Students discuss in smaller groups on how an open SDI may be materialised in legislation. They present their results plenary and together they debate on a top 5/1 list of what should be the content of an Open SDI law"
@@ -2775,11 +2775,11 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Clips",
 										"Description" : "Students have to watch clips on the INSPIRE directive",
-										"Materials" : "<a href=\"https://www.youtube.com/watch?v=xew6qI-6wNk&feature=youtu.be\">The European spatial data infrastructure (INSPIRE) in a nutshel</a>"
+										"Materials" : "<a href=\"https://www.youtube.com/watch?v=xew6qI-6wNk&feature=youtu.be\">The European spatial data infrastructure (INSPIRE) in a nutshell</a>"
 									},
 									{
 										"Title" : "Paper review",
@@ -2803,7 +2803,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Desk study",
 										"Description" : "Students are tasked to find, access and assess an INSPIRE dataset in an EU country of their choice and assess whether this dataset's characteristics is compliant with INSPIRE"
@@ -2821,11 +2821,11 @@
 								"Assessment" : [
 									{
 										"Assessment method" : "Small report",
-										"Assessment method description" : "Small report/ presentation on a potential improvements for the openness of INSPIRE directive",
+										"Assessment method description" : "Small report/ presentation on a potential improvement for the openness of INSPIRE directive",
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Class Discussion",
 										"Description" : "Students discuss in smaller groups their findings to and with their peers; result is a generic INSPIRE openness map of EU including the best and worst performing country"
@@ -2839,11 +2839,11 @@
 								"Assessment" : [
 									{
 										"Assessment method" : "One sentence summary",
-										"Assessment method description" : "Ask two/ three students to summarise the main message/ take aways from the video clip",
+										"Assessment method description" : "Ask two/ three students to summarise the main message/ takeaways from the video clip",
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Paper writing",
 										"Description" : "Develop justified suggestions to improve the legal openness of an SDI initiative"
@@ -2889,7 +2889,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Clips",
 										"Description" : "Students have to watch clips on the Open data directive",
@@ -2917,10 +2917,10 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Desk study",
-										"Description" : "Students are tasked to find, access and assess a High value dataset in an EU country of their choice and assess whether this datasets characteristics is compliant with the Open data directive"
+										"Description" : "Students are tasked to find, access and assess a high value dataset in an EU country of their choice and assess whether this datasets characteristics is compliant with the Open data directive"
 									},
 									{
 										"Title" : "Class Discussion",
@@ -2939,7 +2939,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Student Presentations",
 										"Description" : "Students discuss in smaller groups their findings to and with their peers; result is a generic High Value Dataset openness map of EU"
@@ -2958,7 +2958,7 @@
 									},
 									{
 										"Assessment method" : "One sentence summary",
-										"Assessment method description" : "Ask two/ three students to summarise the main message/ take aways from the video clip, ",
+										"Assessment method description" : "Ask two/ three students to summarise the main message/ takeaways from the video clip, ",
 										"Assessment method type" : "Formative"
 									},
 									{
@@ -2973,15 +2973,15 @@
 									},
 									{
 										"Assessment method" : "Brief report",
-										"Assessment method description" : "Brief report/ presentation on a potential improvements for the openness of Open data directive (max 2000 words)",
+										"Assessment method description" : "Brief report/ presentation on a potential improvement for the openness of Open data directive (max 2000 words)",
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Paper review",
 										"Description" : "Students have to read a book chapter on open SDI strategies in Europe and have a look at some examples of SDI strategies",
-										"Materials" : "<a href=\"https://research.tudelft.nl/en/publications/exploring-the-emergence-of-open-spatial-data-infrastructures-anal\">Vancauwenberghe, G., & van Loenen, B. (2018). Exploring the Emergence of Open Spatial Data Infrastructures: Analysis of Recent Developments and Trends in Europe. In S. Saeed, T. Ramayah, & Z.Mahmood (Eds.), User Centric E-Government: Challenges and Opportunities (pp. 23-45). (Integrated Series in Information Systems; Vol. 39). Springer.</a><br><a href=\"https://repository.tudelft.nl/islandora/object/uuid:6781e9dd-1468-4b31-bf88-ee1fbfffe4a1/?collection=research\">Van Loenen, B. (2006). Developing Geographic Information Infrastructures, chapter 3</a>"
+										"Materials" : "<a href=\"https://research.tudelft.nl/en/publications/exploring-the-emergence-of-open-spatial-data-infrastructures-anal\">Vancauwenberghe, G., & van Loenen, B. (2018). Exploring the Emergence of Open Spatial Data Infrastructures: Analysis of Recent Developments and Trends in Europe. In S. Saeed, T. Ramayah, & Z. Mahmood (Eds.), User Centric E-Government: Challenges and Opportunities (pp. 23-45). (Integrated Series in Information Systems; Vol. 39). Springer.</a><br><a href=\"https://repository.tudelft.nl/islandora/object/uuid:6781e9dd-1468-4b31-bf88-ee1fbfffe4a1/?collection=research\">Van Loenen, B. (2006). Developing Geographic Information Infrastructures, chapter 3</a>"
 									},
 									{
 										"Title" : "Clips",
@@ -3027,18 +3027,18 @@
 									},
 									{
 										"Assessment method" : "Written exam",
-										"Assessment method description" : "An example question is: provide the GDPR definition of personal data and explain the different elements in this definition that together determine whether data is personal data or not.",
+										"Assessment method description" : "An example question is: Provide the GDPR definition of personal data and explain the different elements in this definition that together determine whether data is personal data or not.",
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Feedback by Q&A",
 										"Description" : "Moderator asks in depth questions clarifying the meaning of the presented perceptions"
 									},
 									{
 										"Title" : "Written exam",
-										"Description" : "An example question is: provide the GDPR definition of personal data and explain the different elements in this definition that together determine whether data is personal data or not."
+										"Description" : "An example question is: Provide the GDPR definition of personal data and explain the different elements in this definition that together determine whether data is personal data or not."
 									},
 									{
 										"Title" : "Paper review",
@@ -3052,7 +3052,7 @@
 								]
 							},
 							{
-								"Title" : "appliy GDPR to geodata/ SDI",
+								"Title" : "apply GDPR to geodata/ SDI",
 								"Description" : "Apply the GDPR to geodata/ SDI",
 								"Bloom level" : "3 - Apply",
 								"Assessment" : [
@@ -3063,18 +3063,18 @@
 									},
 									{
 										"Assessment method" : "Written exam",
-										"Assessment method description" : "An example question is:  show a map and ask whether the GDPR applies",
+										"Assessment method description" : "An example question is: Show a map and ask whether the GDPR applies",
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Quiz",
 										"Description" : "Short quiz on GDPR and geodata (e.g., show a map and ask whether the GDPR applies)"
 									},
 									{
 										"Title" : "Written exam",
-										"Description" : "An example question is:  show a map and ask whether the GDPR applies"
+										"Description" : "An example question is: Show a map and ask whether the GDPR applies"
 									}
 								]
 							},
@@ -3094,7 +3094,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "small report",
 										"Description" : "Students receive feedback from their peers and teachers during the discussions"
@@ -3120,7 +3120,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Feedback",
 										"Description" : "Students receive feedback from their peers (as members of the audience) and the teacher (as moderator) during the debate"
@@ -3161,7 +3161,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Lecture",
 										"Description" : " Lecture explaining the types of (open) licences and licensing issues"
@@ -3199,7 +3199,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Desk study",
 										"Description" : "Students explore on the INSPIRE portal (or another portal) the licenses for a certain type of geodata."
@@ -3238,7 +3238,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Desk study",
 										"Description" : "Students have to look at and analyze one license of one dataset in one EU country"
@@ -3249,7 +3249,7 @@
 									},
 									{
 										"Title" : "Class Discussion",
-										"Description" : "Plenary discussion on the best and worstperforming licence from the perspective of open SDI in Europe"
+										"Description" : "Plenary discussion on the best and worst performing licence from the perspective of open SDI in Europe"
 									},
 									{
 										"Title" : "Class Discussion",
@@ -3277,7 +3277,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Desk study",
 										"Description" : "Students have to analyse existing licences for geodata in a specific country and use that experience to design recommendations to make the licence more user friendly from a technical (is it easy to find), and especially intellectual accessibility perspectives."
@@ -3340,7 +3340,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Clips",
 										"Description" : "Watch the introductory video on business models for open data "
@@ -3366,7 +3366,7 @@
 							},
 							{
 								"Title" : "identify existing value propositions, value creation and value capture for spatial data",
-								"Description" : "Within a spatial data organization`sbusiness model, identify the currently employed value propositions, value creation and value capture",
+								"Description" : "Within a spatial data organization`s business model, identify the currently employed value propositions, value creation and value capture",
 								"Bloom level" : "3 - Apply",
 								"Assessment" : [
 									{
@@ -3390,7 +3390,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Clips",
 										"Description" : "Watch the introductory video on business models for open data "
@@ -3432,10 +3432,10 @@
 									{
 										"Assessment method" : "Case study report",
 										"Assessment method description" : "Groups of 3-4 students carry out a case study as Problem-Based Learning. This LO is assessed as a case study sub-report, whereby students receive written and oral feedback ",
-										"Assessment method type" : "Sumative"
+										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Think-pair-share",
 										"Description" : "Students have to identify the value proposition(s) of a National Mapping Agency, and to which group of stakeholders the value proposition is offered"
@@ -3482,7 +3482,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Lecture",
 										"Description" : "Introductory lecture on basics of cost benefit analysis",
@@ -3505,7 +3505,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Class Discussion",
 										"Description" : "Group discussion about main points relevant to SDI cost-benefit consideration",
@@ -3515,24 +3515,24 @@
 							},
 							{
 								"Title" : "analyze the existing cost-benefit analysis: case study",
-								"Description" : "Analysing and comparing exisiting case studies of cost-benefit analysis",
+								"Description" : "Analysing and comparing existing case studies of cost-benefit analysis",
 								"Bloom level" : "4  / 5 - Analyze / Evaluate",
 								"Assessment" : [
 									{
 										"Assessment method" : "Student presentation",
-										"Assessment method description" : "Students need to researh the existing literature and analyse one case study of cost-benefit analysisthe the present their work about compared examples of citizen volunteered GI.",
+										"Assessment method description" : "Students need to research the existing literature and analyse one case study of cost-benefit analysis the present their work about compared examples of citizen volunteered GI.",
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Peer Review",
-										"Description" : "Students read scienific journal article on SDI implementation, cost-benefit analysis",
-										"Materials" : "<a href=\"http://www.geodetski-vestnik.com/52/3/gv52-3_475-486.pdf\">Cetl, V., Roiæ, M., Masteliæ Iviæ, S. (2008): Cost-benefit analysis of the improvement of spatial data infrastructure - Case study Croatia, Geodetski Vestnik, 52/3, 475-486</a><br><a href=\"https://inspire.ec.europa.eu/events/conferences/cost_benefits/Introduction_October2012WS.pdf\">Craglia, M., Borzacchiello, M. T. (2012): Cost and Benefits of implementing the INSPIRE Directive Workshop, Ispra, 15-16 October 2012</a><br><a href=\"https://pubs.usgs.gov/circ/2004/1271/c1271.pdf>Halsing D, Theissen K, Bernknopf R, 2004, “A cost-benefi t analysis of The National Map”, US Geological Survey Circular 1271,</a>"
+										"Description" : "Students read scientific journal article on SDI implementation, cost-benefit analysis",
+										"Materials" : "<a href=\"http://www.geodetski-vestnik.com/52/3/gv52-3_475-486.pdf\">Cetl, V., Roiæ, M., Masteliæ Iviæ, S. (2008): Cost-benefit analysis of the improvement of spatial data infrastructure - Case study Croatia, Geodetski Vestnik, 52/3, 475-486</a><br><a href=\"https://inspire.ec.europa.eu/events/conferences/cost_benefits/Introduction_October2012WS.pdf\">Craglia, M., Borzacchiello, M. T. (2012): Cost and Benefits of implementing the INSPIRE Directive Workshop, Ispra, 15-16 October 2012</a><br><a href=\"https://pubs.usgs.gov/circ/2004/1271/c1271.pdf>Halsing D, Theissen K, Bernknopf R, 2004, “A cost-benefit analysis of The National Map”, US Geological Survey Circular 1271,</a>"
 									},
 									{
 										"Title" : "Class Discussion",
-										"Description" : "Group discussions about main conclusions which are arised after students presentations"
+										"Description" : "Group discussions about main conclusions which are arised after students` presentations"
 									}
 								]
 							},
@@ -3552,7 +3552,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Case study",
 										"Description" : "Identification and analysis of SDI implementation costs for given spatial/administrative unit"
@@ -3603,7 +3603,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Clips",
 										"Description" : "Students have to watch the introductory video on Funding Models",
@@ -3620,7 +3620,7 @@
 									},
 									{
 										"Title" : "Asking Questions",
-										"Description" : "students are asked direct questions and/or questions asked via online poll during lecture as imput for a class discussion"
+										"Description" : "students are asked direct questions and/or questions asked via online poll during lecture as input for a class discussion"
 									},
 									{
 										"Title" : "Desk study",
@@ -3639,7 +3639,7 @@
 								"Assessment" : [
 									{
 										"Assessment method" : "Oral feedback",
-										"Assessment method description" : "Students are asked if they have any questions related to the video clip, , this LO is assessed with one question of written exam, e.g. ie.g. identify and describe pros and cons of identified access regimes and analyse their consequences for different types of SDI users",
+										"Assessment method description" : "Students are asked if they have any questions related to the video clip, , this LO is assessed with one question of written exam, e.g. identify and describe pros and cons of identified access regimes and analyse their consequences for different types of SDI users",
 										"Assessment method type" : "Formative"
 									},
 									{
@@ -3649,7 +3649,7 @@
 									},
 									{
 										"Assessment method" : "Written exam",
-										"Assessment method description" : "this LO is assessed with one question of written exam, e.g. ie.g. identify and describe pros and cons of identified access regimes and analyse their consequences for different types of SDI users",
+										"Assessment method description" : "this LO is assessed with one question of written exam, e.g. identify and describe pros and cons of identified access regimes and analyse their consequences for different types of SDI users",
 										"Assessment method type" : "Summative"
 									},
 									{
@@ -3663,7 +3663,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Clips",
 										"Description" : "Students have to watch the introductory video on Access Regimes",
@@ -3675,15 +3675,15 @@
 									},
 									{
 										"Title" : "Asking Questions",
-										"Description" : "Students are asked direct questions and/or questions asked via online poll during lecture as imput for a class discussion"
+										"Description" : "Students are asked direct questions and/or questions asked via online poll during lecture as input for a class discussion"
 									},
 									{
 										"Title" : "Desk study",
-										"Description" : "Students do a literature review of recommended literature + literature sourced themselves on access regimes of National Mapping Agencies and use this review to prepare arguments for class debate on most suitable access regime for National Mapping Agency of`OpenDatia`"
+										"Description" : "Students do a literature review of recommended literature + literature sourced themselves on access regimes of National Mapping Agencies and use this review to prepare arguments for class debate on most suitable access regime for National Mapping Agency of `OpenDatia`"
 									},
 									{
 										"Title" : "Debate",
-										"Description" : "Students argue their case for a recommendation of access rigimes to the President of 'OpenDatia' during a class debate "
+										"Description" : "Students argue their case for a recommendation of access regimes to the President of 'OpenDatia' during a class debate"
 									}
 								]
 							},
@@ -3723,7 +3723,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Clips",
 										"Description" : "Students have to watch the introductory video on SDI Information Value Chains",
@@ -3735,7 +3735,7 @@
 									},
 									{
 										"Title" : "Asking Questions",
-										"Description" : "Students are asked direct questions and/or questions asked via online poll during lecture as imput for a class discussion on potential funding strategies"
+										"Description" : "Students are asked direct questions and/or questions asked via online poll during lecture as input for a class discussion on potential funding strategies"
 									},
 									{
 										"Title" : "Class Discussion",
@@ -3774,11 +3774,11 @@
 									},
 									{
 										"Assessment method" : "Class debate",
-										"Assessment method description" : "students have to apply gained knowledge to convince a neutral person (President of OpenDatia) of how to adaptat the funding model of the spatial data supplier to ensure financial sustainability of the SDI of OpenDatia ",
+										"Assessment method description" : "students have to apply gained knowledge to convince a neutral person (President of OpenDatia) of how to adapt the funding model of the spatial data supplier to ensure financial sustainability of the SDI of OpenDatia ",
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Muddiest Point",
 										"Description" : "Students fill in an online poll listing the points they do not yet understand / want more information on, which are presented as a word cloud"
@@ -3793,7 +3793,7 @@
 									},
 									{
 										"Title" : "Asking Questions",
-										"Description" : "Students are asked direct questions and/or questions asked via online poll during lecture as imput for a class discussion"
+										"Description" : "Students are asked direct questions and/or questions asked via online poll during lecture as input for a class discussion"
 									},
 									{
 										"Title" : "Class Discussion",
@@ -3840,7 +3840,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Short Quizzes",
 										"Description" : "Quiz for plunging students into the concepts of \"ethics\", \"data\" and \"technology\" via real-life case studies"
@@ -3867,7 +3867,7 @@
 								"Assessment" : [
 									{
 										"Assessment method" : "In-class debate",
-										"Assessment method description" : "Students collecitvely discuss news/real-life case studies moderated by teacher, ",
+										"Assessment method description" : "Students collectively discuss news/real-life case studies moderated by teacher, ",
 										"Assessment method type" : "Formative"
 									},
 									{
@@ -3881,7 +3881,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Class Discussion",
 										"Description" : "News/real-life case studies prompting discussion on ethical in connection with open data and SDIs "
@@ -3904,7 +3904,7 @@
 								"Assessment" : [
 									{
 										"Assessment method" : "In-class debate",
-										"Assessment method description" : "Students collecitvely discuss docs` triggers, moderated by teacher",
+										"Assessment method description" : "Students collectively discuss docs` triggers, moderated by teacher",
 										"Assessment method type" : "Formative"
 									},
 									{
@@ -3919,11 +3919,11 @@
 									},
 									{
 										"Assessment method" : "Written essay",
-										"Assessment method description" : "Students pick a SDI policy document (e.g. European Data Strategy, IGIF, etc.) and identify its underpinning discourses. The essay mus be a 'response' to the doc, thus aligning to its audience and style. Guiding questions: To whom are these documents meant? What are their goals?",
+										"Assessment method description" : "Students pick a SDI policy document (e.g. European Data Strategy, IGIF, etc.) and identify its underpinning discourses. The essay must be a 'response' to the doc, thus aligning to its audience and style. Guiding questions: To whom are these documents meant? What are their goals?",
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Mystery quotations",
 										"Description" : "Media contents/policies/tech companies` statements as triggers to highlight discourses on open data and SDIs (e.g. 'tech-universalism', 'tech-optimism', 'tech-solutionism')"
@@ -3975,11 +3975,11 @@
 									},
 									{
 										"Assessment method" : "Written essay",
-										"Assessment method description" : "Students have to write an essay describing the application of the Joined-Up Data Maturity Assessment to their national SDI (or one of their choice) in order to evaluate its level of maturity. Guiding questions: What are the most/least mature layers of the SDI? How can the case study feed back on the model?",
+										"Assessment method description" : "Students have to write an essay describing the application of the Joined-Up Data Maturity Assessment to their national SDI (or one of their choices) in order to evaluate its level of maturity. Guiding questions: What are the most/least mature layers of the SDI? How can the case study feedback on the model?",
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Lecture",
 										"Description" : "Brief lecture introduces the Joined-Up Data Maturity Assessment"
@@ -4015,20 +4015,20 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Paper review",
-										"Description" : "Students have to read one of the three frameworks on tech innovation relased by the EU, OECD, and China",
+										"Description" : "Students have to read one of the three frameworks on tech innovation released by the EU, OECD, and China",
 										"Materials" : "<a href=\"https://op.europa.eu/en/publication-detail/-/publication/d3988569-0434-11ea-8c1f-01aa75ed71a1\">European Commission High-Level Expert Group. 2019. “Ethics Guidelines for Trustworthy AI</a><br><a href=\"https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0449\">OECD. 2019. “OECD Principles on Artificial Intelligence</a><br><a href=\"https://d1y8sb8igg2f8e.cloudfront.net/documents/translation-fulltext-8.1.17.pdf/\">China’s State Council. 2  17. “A New Generation of Artificial Intelligence Development Plan</a>"
 									},
 									{
 										"Title" : "Class Discussion",
-										"Description" : "Students cluster depending on the chosen framework and discuss the main points with specific regards to data flows (e.g. scale, openness, interoperability, sharability, etc.) "
+										"Description" : "Students cluster depending on the chosen framework and discuss the main points with specific regards to data flows (e.g. scale, openness, interoperability, shareability, etc.) "
 									}
 								]
 							},
 							{
-								"Title" : "compare different frameworls/visions on tech innovation",
+								"Title" : "compare different frameworks/visions on tech innovation",
 								"Description" : "Compare different frameworks/visions on tech innovations from a geopolitical and ethical perspectives",
 								"Bloom level" : "4  / 5 - Analyze / Evaluate",
 								"Assessment" : [
@@ -4044,11 +4044,11 @@
 									},
 									{
 										"Assessment method" : "Written essay",
-										"Assessment method description" : "Students have to write an essay reflecting on the realpolitik behind their national SDI (or one of their choice). Guiding questions: Who are the stakeholders involved? What are their data interests? What are the main positive and negative data- and tech-related features of the SDI (e.g. scalability, openness, accessability, sharability)? How does the broader geopolitical context impact on the chosen SDI and its ethical implications? ",
+										"Assessment method description" : "Students have to write an essay reflecting on the realpolitik behind their national SDI (or one of their choices). Guiding questions: Who are the stakeholders involved? What are their data interests? What are the main positive and negative data- and tech-related features of the SDI (e.g. scalability, openness, accessibility, shareability)? How does the broader geopolitical context impact on the chosen SDI and its ethical implications? ",
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Student Presentations",
 										"Description" : "Three group in-class presentations (one per framework) on the major ideas"
@@ -4091,11 +4091,11 @@
 									},
 									{
 										"Assessment method" : "Output",
-										"Assessment method description" : "Students pick a case study of the digital twinning of a city (or a neighborhood) and analyze its implementation from a techno-ethical point of view based on readings. Guiding questions: How has the digital twinning of the city made it more sustainable? How can the twinning process be improved (e.g. from a social and technical point of view)? What is the role of (open) SDI in the process? What might the externalities of the digital twin be? ",
+										"Assessment method description" : "Students pick a case study of the digital twinning of a city (or a neighbourhood) and analyze its implementation from a techno-ethical point of view based on readings. Guiding questions: How has the digital twinning of the city made it more sustainable? How can the twinning process be improved (e.g. from a social and technical point of view)? What is the role of (open) SDI in the process? What might the externalities of the digital twin be? ",
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Brainstorm",
 										"Description" : "Pooling ideas on the students' understandings of the role of open SDI in 'sustainability' and 'smart city'"
@@ -4127,7 +4127,7 @@
 									},
 									{
 										"Assessment method" : "Debate",
-										"Assessment method description" : " Disccussion based on the quiz",
+										"Assessment method description" : " Discussion based on the quiz",
 										"Assessment method type" : "Formative"
 									},
 									{
@@ -4141,7 +4141,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Short Quizzes",
 										"Description" : "Quiz for plunging into the definition, technological aspects and ethical concerns of/on digital twin(ning)"
@@ -4163,19 +4163,19 @@
 							},
 							{
 								"Title" : "compare technical and ethical perspective of Smart city`s digital twin",
-								"Description" : "Compare two smart citiy`s digital twin(ning) projects from a technical and ethical perspectives",
+								"Description" : "Compare two smart city`s digital twin(ning) projects from a technical and ethical perspectives",
 								"Bloom level" : "4  / 5 - Analyze / Evaluate",
 								"Assessment" : [
 									{
 										"Assessment method" : "Written essay",
-										"Assessment method description" : "Students pick two smart city`s digital twinning projects and compare them from a techinical and ethical perspectives. Guiding questions: How do the two cases differ? To what extent are the two cases socialy inclusive? How is the openness of data tackled and implemented?",
+										"Assessment method description" : "Students pick two smart city`s digital twinning projects and compare them from a technical and ethical perspectives. Guiding questions: How do the two cases differ? To what extent are the two cases socially inclusive? How is the openness of data tackled and implemented?",
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Desk study",
-										"Description" : "Students pick two smart city`s digital twinning projects and compare them from a techinical (e.g. data openness, interoperabiliy, etc.) and ethical (e.g. inclusiveness, sustainability, etc.) perspectives"
+										"Description" : "Students pick two smart city`s digital twinning projects and compare them from a technical (e.g. data openness, interoperability, etc.) and ethical (e.g. inclusiveness, sustainability, etc.) perspectives"
 									}
 								]
 							}
@@ -4196,11 +4196,11 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Paper review",
 										"Description" : "Students come to class having already read the assigned readings on data commons",
-										"Materials" : "<a href=\"https://doi.org/10.1007/978-3-319-48342-9_10\">Purtova N. (2017). \"Health Data for Common Good: Defining the Boundaries and Social Dilemmas of Data Commons\". In: Adams S., Purtova N., Leenes R. (eds) Under Observation: The Interplay Between eHealth and Surveillance. Law, Governance and Technology Series, vol 35. Springer, Cham</a><br><a href=\"https://law.stanford.edu/wp-content/uploads/2019/09/Shkabatur_Global-Commons_20190830-1.pdf\">Shkabatur, J. 2019. \"The Global Commons of Data.\" Stan. Tech. L. Rev., 22: 354-411</a><br><a href=\"https://doi.org/10.1109/ACCESS.2020.2998358\">Fuller, Aidan, Zhong Fan, Charles Day, and Chris Barlow. 2020. “Digital Twin: Enabling Technologies, Challenges and Open Research.”</a><br><a href=\"https://library.oapen.org/bitstream/handle/20.500.12657/23187/1006966.pdf#page=211\">Beckwith, R., Sherry, J., & Prendergast, D. (2019). \"Data Flow in the Smart City: Open Data Versus the Commons.\" In The Hackable City (pp. 205-221). Springer, Singapore</a><br><a href=\"http://doi.org/10.2478/\">Kalliola, R. Käyhkö N. and Jokela S. (2019). Adaptive Development of a Regional Spatial Data Infrastructure Facing Local Prospects\r\nand Socio-Technological Trends. Bulletin of Geography. Socio-economic Series, 44(44), 73-80</a><br><a href=\"https://library.oapen.org/bitstream/handle/20.500.12657/23187/1006966.pdf#page=211\">Beckwith, R., Sherry, J., & Prendergast, D. (2019). \"Data Flow in the Smart City: Open Data Versus the Commons.\" In The Hackable City (pp. 205-221). Springer, Singapore</a><br><a href=\"https://www.jstor.org/stable/j.ctv550cf2.29\">Williams, J., Chapman, C., Leibovici, D., Lois, G., Matheus, A., Oggioni, A., ... & van Genuchten, P. (2018). \"Maximising the impact and reuse of citizen science data\". UCL Press</a>"
+										"Materials" : "<a href=\"https://doi.org/10.1007/978-3-319-48342-9_10\">Purtova N. (2017). \"Health Data for Common Good: Defining the Boundaries and Social Dilemmas of Data Commons\". In: Adams S., Purtova N., Leenes R. (eds) Under Observation: The Interplay Between eHealth and Surveillance. Law, Governance and Technology Series, vol 35. Springer, Cham</a><br><a href=\"https://law.stanford.edu/wp-content/uploads/2019/09/Shkabatur_Global-Commons_20190830-1.pdf\">Shkabatur, J. 2019. \"The Global Commons of Data.\" Stan. Tech. L. Rev., 22: 354-411</a><br><a href=\"https://doi.org/10.1109/ACCESS.2020.2998358\">Fuller, Aidan, Zhong Fan, Charles Day, and Chris Barlow. 2020. “Digital Twin: Enabling Technologies, Challenges and Open Research.”</a><br><a href=\"https://library.oapen.org/bitstream/handle/20.500.12657/23187/1006966.pdf#page=211\">Beckwith, R., Sherry, J., & Prendergast, D. (2019). \"Data Flow in the Smart City: Open Data Versus the Commons.\" In The Hackable City (pp. 205-221). Springer, Singapore</a><br><a href=\"http://doi.org/10.2478/\">Kalliola, R. Käyhkö N. and Jokela S. (2019). Adaptive Development of a Regional Spatial Data Infrastructure Facing Local Prospects and Socio-Technological Trends. Bulletin of Geography. Socio-economic Series, 44(44), 73-80</a><br><a href=\"https://library.oapen.org/bitstream/handle/20.500.12657/23187/1006966.pdf#page=211\">Beckwith, R., Sherry, J., & Prendergast, D. (2019). \"Data Flow in the Smart City: Open Data Versus the Commons.\" In The Hackable City (pp. 205-221). Springer, Singapore</a><br><a href=\"https://www.jstor.org/stable/j.ctv550cf2.29\">Williams, J., Chapman, C., Leibovici, D., Lois, G., Matheus, A., Oggioni, A., ... & van Genuchten, P. (2018). \"Maximising the impact and reuse of citizen science data\". UCL Press</a>"
 									}
 								]
 							},
@@ -4211,7 +4211,7 @@
 								"Assessment" : [
 									{
 										"Assessment method" : "Debate",
-										"Assessment method description" : "Disccussion based on the quiz & readings, moderated by the teacher",
+										"Assessment method description" : "Discussion based on the quiz & readings, moderated by the teacher",
 										"Assessment method type" : "Formative"
 									},
 									{
@@ -4221,11 +4221,11 @@
 									},
 									{
 										"Assessment method" : "Small-group debate",
-										"Assessment method description" : "Students discuss a data commons case study in the context of SDI (based on the readings or one of their choice) and detail its strenghts and weaknesses (work`s draft to be submitted at end of the class)",
+										"Assessment method description" : "Students discuss a data commons case study in the context of SDI (based on the readings or one of their choices) and detail its strengths and weaknesses (work`s draft to be submitted at end of the class)",
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Class Discussion",
 										"Description" : "Discussion in class on the main social and ethical dilemmas of data commons especially in the context of SDIs"
@@ -4252,7 +4252,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Extra-class group work",
 										"Description" : "Students design guidelines for the conception and implementation of data commons in the context of SDI and smart city`s digital twin(ning)"
@@ -4291,7 +4291,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Reading prior to class",
 										"Description" : "Students need to read a selection of SDI strategies and policies"
@@ -4303,7 +4303,7 @@
 								]
 							},
 							{
-								"Title" : "list the differences and similarieties of SDI strategies",
+								"Title" : "list the differences and similarities of SDI strategies",
 								"Description" : "Compare different SDI strategies",
 								"Bloom level" : "4  / 5 - Analyze / Evaluate",
 								"Assessment" : [
@@ -4313,7 +4313,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Class Discussion",
 										"Description" : "Students discuss the differences between different strategies and policies"
@@ -4335,7 +4335,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Think-pair-share",
 										"Description" : "Students write a short strategy for implementing/developing an SDI in a particular country"
@@ -4359,7 +4359,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Class Discussion",
 										"Description" : "Students discuss about the key tasks to be done in implementing an SDI"
@@ -4381,7 +4381,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Demonstrations",
 										"Description" : "Lecture providing examples of different models of allocating tasks"
@@ -4399,14 +4399,14 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Class Discussion",
-										"Description" : "Students discuss about the strenghts and weakness of different models of task allocation"
+										"Description" : "Students discuss about the strengths and weakness of different models of task allocation"
 									},
 									{
 										"Title" : "Paper writing",
-										"Description" : "Students write a paper analyzing the allocation of tasks within a particular country"
+										"Description" : "Students write a paper analysing the allocation of tasks within a particular country"
 									}
 								]
 							}
@@ -4427,7 +4427,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Role Play",
 										"Description" : "Students discuss on the implications of an SDI for a particular SDI stakeholder"
@@ -4449,7 +4449,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Lecture",
 										"Description" : "Lecture explaining elements of a strategy for SDI implementation within an organization"
@@ -4471,7 +4471,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Think-pair-share",
 										"Description" : "Students jointly prepare a strategy for SDI implementation at an organization"
@@ -4495,14 +4495,14 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Reading prior to class",
 										"Description" : "Students have to visit websites of key bodies in SDI standardization"
 									},
 									{
 										"Title" : "Student Presentations",
-										"Description" : "Students briefly present the role, activities, functioning of a particular SDI standardization body"
+										"Description" : "Students briefly present the role, , functioning of a particular SDI standardization body"
 									}
 								]
 							},
@@ -4517,14 +4517,14 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Think-pair-share",
 										"Description" : "Students discuss about the differences, similarities and links between SDI standardization bodies"
 									},
 									{
 										"Title" : "Lecture",
-										"Description" : "Lecture explaining how standardization bodies are similiar/different/related"
+										"Description" : "Lecture explaining how standardization bodies are similar / different / related"
 									}
 								]
 							},
@@ -4539,10 +4539,10 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Lecture",
-										"Description" : "Lecture explaing the overall standardization process"
+										"Description" : "Lecture explaining the overall standardization process"
 									},
 									{
 										"Title" : "Demonstrations",
@@ -4567,7 +4567,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Lecture",
 										"Description" : "Lecture explaining the basics of processes and process management"
@@ -4589,7 +4589,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Lecture",
 										"Description" : "Lecture explaining the basics of BPMN"
@@ -4611,7 +4611,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Active Writing",
 										"Description" : "Students prepare a simple model of an SDI process"
@@ -4642,7 +4642,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Demonstrations",
 										"Description" : "Lecturer presents an example of governance (and governance structures) in society"
@@ -4668,7 +4668,7 @@
 										"Assessment method type" : "Summative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Demonstrations",
 										"Description" : "Lecturer shows the governance structure of an existing SDI, and asks students to name and explain the different components"
@@ -4690,7 +4690,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Reading prior to class",
 										"Description" : "Students have to read the article by Crompvoets et al. (2018)",
@@ -4717,7 +4717,7 @@
 										"Assessment method type" : "Formative"
 									}
 								],
-								"Teaching activies" : [
+								"Teaching activities" : [
 									{
 										"Title" : "Active Writing",
 										"Description" : "Students need to make an assessment of the SDI governance and governance structure of a particular country, including recommendations on how the governance can be improved"

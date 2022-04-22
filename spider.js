@@ -320,7 +320,7 @@ $.getJSON("toolkit.json", function(data) {
                 // teaching activities for this LO:
                 taList = $('<ol id ="TAs`+id(learningOutcome["Title"])+`" class="activities" ></ol>')
 
-                $.each(learningOutcome["Teaching activies"],
+                $.each(learningOutcome["Teaching activities"],
                   function(t, teachingActivity) {
 
                     // keep track of activity types; ignore the empty ones
