@@ -1313,7 +1313,7 @@
 									{
 										"Title" : "Reading papers",
 										"Description" : "Reading papers to understand different types of interface standards",
-										"Materials" : "Zhao, P., & Di, L. (Eds.). (2010). Geospatial web services: Advances in information interoperability: Advances in information interoperability. IGI Global.</a>"
+										"Materials" : "Zhao, P., & Di, L. (Eds.). (2010). <a href=\"https://www.igi-global.com/book/geospatial-web-services/46010 \">Geospatial web services: Advances in information interoperability: Advances in information interoperability</a>. IGI Global.</a>"
 									},
 									{
 										"Title" : "Lecture",
@@ -2874,8 +2874,13 @@
 								"Bloom level" : "1 / 2 - Remember / Understand",
 								"Assessment" : [
 									{
-										"Assessment method" : "(1) Quiz: can be online quiz, but on site can choose interactive ways of (2) hand raising, (3) go to the right corner (four corners), (4) Active listening: students have to summarise the main parts of the ODD in their own words",
-										"Assessment method description" : "Short quiz to summarise the main findings from the literature. Example quiz questions: The Open data directive requires that public sector information is published with an open licence (agree/ disagree); The ODD requires all PSI to be available through APIs (agree/disagree); The ODD is not important for open SDI development (agree/ disagree)",
+										"Assessment method" : "Quiz",
+										"Assessment method description" : "Short quiz to summarise the main findings from the literature. Can be online quiz, but on site can choose interactive ways of hand raising or go to the right corner (four corners). Example quiz questions: <ul><li>The Open data directive requires that public sector information is published with an open licence (agree/ disagree)</li><li>The ODD requires all PSI to be available through APIs (agree/disagree)</li><li>The ODD is not important for open SDI development (agree/ disagree)</li></ul>",
+										"Assessment method type" : "Formative"
+									},
+									{
+										"Assessment method" : "Active listening",
+										"Assessment method description" : "Students have to summarise the main parts of the ODD in their own words",
 										"Assessment method type" : "Formative"
 									},
 									{
@@ -3136,13 +3141,13 @@
 						],
 						"Learning outcomes" : [
 							{
-								"Title" : "Students are abble to differentiate the types of licenses in SDI",
+								"Title" : "differentiate the types of licenses in SDI",
 								"Description" : "List and describe the different types of licenses in SDI",
 								"Bloom level" : "1 / 2 - Remember / Understand",
 								"Assessment" : [
 									{
 										"Assessment method" : "Quiz",
-										"Assessment method description" : "Short quiz on licencing issues: example question may be: Typical licensing issues are: availability of licensing terms, intellectual capacity of users to understand the licensing terms, the interoperability of different licences, other",
+										"Assessment method description" : "Short quiz on licencing issues: example question may be: Typical licensing issues are: <ul><li>A. availability of licensing terms</li><li>B. intellectual capacity of users to understand the licensing terms</li><li>C. the interoperability of different licences</li><li>D. other</li><li></ul>",
 										"Assessment method type" : "Formative"
 									},
 									{
@@ -3603,6 +3608,11 @@
 										"Title" : "Clips",
 										"Description" : "Students have to watch the introductory video on Funding Models",
 										"Materials" : "<a href=\" https://www.youtube.com/watch?v=XM44WHkOQJ4&feature=youtu.be  \">Funding open data: access policies explained</a>"
+									},
+									{
+										"Title" : "Reading Paper",
+										"Description" : "Read the following paper.",
+										"Materials" : "Welle Donker, F., & van Loenen, B. (2016).<a href=\"https://pure.tudelft.nl/portal/en/publications/sustainable-business-models-for-public-sector-open-data-providers(3df7a32d-d574-4a65-86ab-101ec95e293c).html \">Sustainable Business Models for Public Sector Open Data Providers</a>. JeDEM eJournal of eDemocracy and Open Government, 8(1), 28-61."
 									},
 									{
 										"Title" : "Lecture",

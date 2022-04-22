@@ -199,6 +199,10 @@ a.nav-link:hover {
 	list-style-type: none;
 }
 
+.assessment ul ul {
+	margin-left: 10px;
+}
+
 .filter {
   margin-top: 20px
 }
