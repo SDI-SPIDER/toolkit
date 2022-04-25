@@ -29,7 +29,12 @@
 									{
 										"Title" : "Lecture",
 										"Description" : "Lecture on geospatial data and data acquisition",
-										"Materials" : "<a href=\"https://www.ibm.com/topics/geospatial-data\">IBM (2020): Geospatial data definition</a>"
+										"Materials" : [
+											{
+												"Topic" : "IBM (2020): Geospatial data definition",
+												"URL" : "https://www.ibm.com/topics/geospatial-data"
+											}
+										]
 									},
 									{
 										"Title" : "Paper review",
@@ -52,7 +57,20 @@
 									{
 										"Title" : "Lecture",
 										"Description" : "Introduction on national level of geospatial data",
-										"Materials" : "<a href=\"https://www.geos.ed.ac.uk/~gisteac/gis_book_abridged/files/ch56.pdf\">Rhind, D. W. National and international geospatial data policies, MANAGEMENT ISSUES AND APPLICATIONS</a><br><a href=\"https://mol.gov.vu/images/docs/Land-policy/The_National_Geospatial_Data_Policy_2020-2030.pdf\">Vanuatu National Geospatial Data Committee (2020): NATIONAL GEOSPATIAL DATA POLICY</a><br><a href=\"https://pubs.usgs.gov/unnumbered/70039441/report.pdf\">Federal Geographic Data Committee  (1995): Development of a National Digital Geospatial Data Framework</a>"
+										"Materials" : [
+											{
+												"Topic" : "Rhind, D. W. National and international geospatial data policies, MANAGEMENT ISSUES AND APPLICATIONS",
+												"URL" : "https://www.geos.ed.ac.uk/~gisteac/gis_book_abridged/files/ch56.pdf"
+											},
+											{
+												"Topic" : "Vanuatu National Geospatial Data Committee (2020): NATIONAL GEOSPATIAL DATA POLICY",
+												"URL" : "https://mol.gov.vu/images/docs/Land-policy/The_National_Geospatial_Data_Policy_2020-2030.pdf"
+											},
+											{
+												"Topic" : "Federal Geographic Data Committee  (1995): Development of a National Digital Geospatial Data Framework",
+												"URL" : "https://pubs.usgs.gov/unnumbered/70039441/report.pdf"
+											}
+										]
 									},
 									{
 										"Title" : "Case study",
@@ -75,7 +93,12 @@
 									{
 										"Title" : "Lecture",
 										"Description" : "Lecture on data acquisition methods",
-										"Materials" : "<a href=\"https://www.researchgate.net/publication/276203791_Geospatial_Quality_Data_Acquisition_Problems_in_Sub-Saharan_Africa \">A. Ayanlade, O. Babatimehin, M.O Olawole and Orimogunje, O.O.I (2010): Geospatial Quality Data Acquisition Problems in Sub-Saharan Africa, Journal of Sustainable Development in Africa, Vol 12, No.4</a>"
+										"Materials" : [
+											{
+												"Topic" : "A. Ayanlade, O. Babatimehin, M.O Olawole and Orimogunje, O.O.I (2010): Geospatial Quality Data Acquisition Problems in Sub-Saharan Africa, Journal of Sustainable Development in Africa, Vol 12, No.4",
+												"URL" : "https://www.researchgate.net/publication/276203791_Geospatial_Quality_Data_Acquisition_Problems_in_Sub-Saharan_Africa"
+											}
+										]
 									},
 									{
 										"Title" : "Class Discussion",
@@ -111,12 +134,26 @@
 									{
 										"Title" : "Brainstorm",
 										"Description" : "As an introduction, students are asked to interpret meaning of the words 'spatial', 'data' and 'infrastructure' and try to give an answer what SDI could be. After concluding what SDI is they discuss why was it invented/introduced",
-										"Materials" : "<a href=\" http://hdl.handle.net/11343/33897\">Rajabifard, Abbas & Williamson, Ian. (2001). Spatial data infrastructures: concept, SDI hierarchy and future directions,  in Proceedings, of GEOMATICS'80 Conference, Tehran, Iran</a><br><a href=\"http://hdl.handle.net/10986/17082 \">Tonchovska, Rumyana; Stanley, Victoria; De Martino, Samantha. 2012. Spatial Data Infrastructure and INSPIRE. Europe and Central Asia knowledge brief;issue no. 55. World Bank, Washington, DC. © World Bank</a>"
+										"Materials" : [
+											{
+												"Topic" : "Rajabifard, Abbas & Williamson, Ian. (2001). Spatial data infrastructures: concept, SDI hierarchy and future directions,  in Proceedings, of GEOMATICS'80 Conference, Tehran, Iran",
+												"URL" : "http://hdl.handle.net/11343/33897"
+											},
+											{
+												"Topic" : "Tonchovska, Rumyana; Stanley, Victoria; De Martino, Samantha. 2012. Spatial Data Infrastructure and INSPIRE. Europe and Central Asia knowledge brief;issue no. 55. World Bank, Washington, DC. © World Bank",
+												"URL" : "http://hdl.handle.net/10986/17082"
+											}
+										]
 									},
 									{
 										"Title" : "Lecture",
 										"Description" : "Lecture on what is an SDI and what are the objectives of SDI",
-										"Materials" : "<a href=\" https://doi.org/10.1007/978-981-32-9915-3_5 \">Schade S. et al. (2020) Geospatial Information Infrastructures. In: Guo H., Goodchild M.F., Annoni A. (eds) Manual of Digital Earth. Springer, Singapore</a>"
+										"Materials" : [
+											{
+												"Topic" : "Schade S. et al. (2020) Geospatial Information Infrastructures. In: Guo H., Goodchild M.F., Annoni A. (eds) Manual of Digital Earth. Springer, Singapore",
+												"URL" : "https://doi.org/10.1007/978-981-32-9915-3_5"
+											}
+										]
 									},
 									{
 										"Title" : "Asking Questions",
@@ -143,7 +180,16 @@
 									{
 										"Title" : "Short Quizzes",
 										"Description" : "Students take quiz with fact questions on SDI and GIS",
-										"Materials" : "<a href=\"https://www.researchgate.net/publication/324941997_GIS_AND_SDI_IN_DEVELOPMENT_PERSPECTIVE \">Patel, Satish. (2015). GIS AND SDI IN DEVELOPMENT PERSPECTIVE</a><br><a href=\"DOI: 10.13189/ujg.2014.020301\">Anthony G Tumba , Anuar Ahmad (2014). Geographic Information System and Spatial Data Infrastructure: A Developing Societies’ Perception. Universal Journal of Geoscience, 2(3), 85 - 92.</a>"
+										"Materials" : [
+											{
+												"Topic" : "Patel, Satish. (2015). GIS AND SDI IN DEVELOPMENT PERSPECTIVE.",
+												"URL" : "https://www.researchgate.net/publication/324941997_GIS_AND_SDI_IN_DEVELOPMENT_PERSPECTIVE"
+											},
+											{
+												"Topic" : "Anthony G Tumba , Anuar Ahmad (2014). Geographic Information System and Spatial Data Infrastructure: A Developing Societies’ Perception. Universal Journal of Geoscience, 2(3), 85 - 92.",
+												"URL" : "https://doi.org/10.13189/ujg.2014.020301"
+											}
+										]
 									},
 									{
 										"Title" : "Class Discussion",
@@ -183,12 +229,22 @@
 									{
 										"Title" : "One-Minute Paper",
 										"Description" : "Students are asked to write down what they think are the main components of an SDI based on the knowledge they already have",
-										"Materials" : "<a href=\" http://www.geo-informatie.nl \">Laboratory of Geo-information Science and Remote Sensing @ Wageningen University & Research</a>"
+										"Materials" : [
+											{
+												"Topic" : "Laboratory of Geo-information Science and Remote Sensing @ Wageningen University & Research",
+												"URL" : "http://www.geo-informatie.nl"
+											}
+										]
 									},
 									{
 										"Title" : "Lecture",
 										"Description" : "Lecture on main components of SDI",
-										"Materials" : "<a href=\" https://doi.org/10.1201/9780203485774 \">Williamson, I., Rajabifard, A., F. Feeney, M.E. (2003): Developing Spatial Data Infrastructures: From concept to reality, CRC Press</a>"
+										"Materials" : [
+											{
+												"Topic" : "Williamson, I., Rajabifard, A., F. Feeney, M.E. (2003): Developing Spatial Data Infrastructures: From concept to reality, CRC Press",
+												"URL" : "https://doi.org/10.1201/9780203485774"
+											}
+										]
 									},
 									{
 										"Title" : "Asking Questions",
@@ -219,7 +275,12 @@
 									{
 										"Title" : "Brainstorm",
 										"Description" : "Students try to think of different categories related to SDI (e.g. data standards, service standards, metadata standards, stakeholders, services, different datasets, ...)",
-										"Materials" : "<a href=\" https://doi.org/10.1201/9780203485774 \">Williamson, I., Rajabifard, A., F. Feeney, M.E. (2003): Developing Spatial Data Infrastructures: From concept to reality, CRC Press</a>"
+										"Materials" : [
+											{
+												"Topic" : "Williamson, I., Rajabifard, A., F. Feeney, M.E. (2003): Developing Spatial Data Infrastructures: From concept to reality, CRC Press",
+												"URL" : "https://doi.org/10.1201/9780203485774"
+											}
+										]
 									},
 									{
 										"Title" : "Class Discussion",
@@ -285,7 +346,12 @@
 									{
 										"Title" : "Lecture",
 										"Description" : "Introductory lecture on necessity of the exchange and sharing of spatial data",
-										"Materials" : "<a href=\"http://hdl.handle.net/11343/33897 \">Rajabifard, A.; Williamson, I.P. Spatial data infrastructures: Concept, SDI hierarchy and future directions. In Proceedings of the GEOMATICS’80 Conference, Tehran, Iran, 2001,</a>"
+										"Materials" : [
+											{
+												"Topic" : "Rajabifard, A.; Williamson, I.P. Spatial data infrastructures: Concept, SDI hierarchy and future directions. In Proceedings of the GEOMATICS’80 Conference, Tehran, Iran, 2001",
+												"URL" : "http://hdl.handle.net/11343/33897"
+											}
+										]
 									}
 								]
 							},
@@ -304,7 +370,20 @@
 									{
 										"Title" : "Lecture",
 										"Description" : "Introductory lecture on SDI generations",
-										"Materials" : "<a href=\"https://doi.org/10.1080/13658810500432224 \">Rajabifard, A., Binns, A., Masser, I., & Williamson, I. (2006). The role of sub-national government and the private sector in future spatial data infrastructures. International Journal of Geographical Information Science, 20(7): 727-741</a><br><a href=\"http://www3.uji.es/~canut/eprints/2011-BookChapter-GWS-SDI-LD.pdf \">Granell, C., Schade, S., Hobona, G. (2009): Spatial Data Infrastructures and Linked Data</a><br><a href=\"https://doi.org/10.1007/s10708-008-9189-x \">Budhathoki et al. (2008). Reconceptualizing the role of the user of spatial data Infrastructure. GeoJournal (2008) 72: 149–160</a>"
+										"Materials" : [
+											{
+												"Topic" : "Rajabifard, A., Binns, A., Masser, I., & Williamson, I. (2006). The role of sub-national government and the private sector in future spatial data infrastructures. International Journal of Geographical Information Science, 20(7): 727-741",
+												"URL" : "https://doi.org/10.1080/13658810500432224"
+											},
+											{
+												"Topic" : "Granell, C., Schade, S., Hobona, G. (2009): Spatial Data Infrastructures and Linked Data",
+												"URL" : "http://www3.uji.es/~canut/eprints/2011-BookChapter-GWS-SDI-LD.pdf"
+											},
+											{
+												"Topic" : "Budhathoki et al. (2008). Reconceptualizing the role of the user of spatial data Infrastructure. GeoJournal (2008) 72: 149–160",
+												"URL" : "https://doi.org/10.1007/s10708-008-9189-x"
+											}
+										]
 									},
 									{
 										"Title" : "Asking Questions",
@@ -327,7 +406,16 @@
 									{
 										"Title" : "Lecture",
 										"Description" : "Introductory lecture on Volunteered Geographic Information as a form of user-generated content",
-										"Materials" : "<a href=\"http://www3.uji.es/~canut/eprints/2011-BookChapter-GWS-SDI-LD.pdf \">Granell, C., Schade, S., Hobona, G. (2009): Spatial Data Infrastructures and Linked Data<br><a href=\"https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.162.2017 \">Goodchild, M.F. (2007). \"Citizens as voluntary sensors: spatial data infrastructure in the world of Web 2.0\" International Journal of Spatial Data Infrastructures Research 2: 24-32. (437)</a>"
+										"Materials" : [
+											{
+												"Topic" : "Granell, C., Schade, S., Hobona, G. (2009): Spatial Data Infrastructures and Linked Data",
+												"URL" : "http://www3.uji.es/~canut/eprints/2011-BookChapter-GWS-SDI-LD.pdf"
+											},
+											{
+												"Topic" : "Goodchild, M.F. (2007). \"Citizens as voluntary sensors: spatial data infrastructure in the world of Web 2.0\" International Journal of Spatial Data Infrastructures Research 2: 24-32. (437)",
+												"URL" : "https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.162.2017"
+											}
+										]
 									}
 								],
 								"BoK" : [
@@ -358,7 +446,12 @@
 									{
 										"Title" : "Class Discussion",
 										"Description" : "What is the future of VGI? Will the developments in ubiquitous sensing lead to a decline in human-collected VGI?",
-										"Materials" : "<a href=\"https://doi.org/10.5334/bbf.p\">Vyron A.et al. (2017). The Future of VGI. Chapter from the book: Foody, G et al. 2017. Mapping and the Citizen Sensor</a>"
+										"Materials" : [
+											{
+												"Topic" : "Vyron A.et al. (2017). The Future of VGI. Chapter from the book: Foody, G et al. 2017. Mapping and the Citizen Sensor",
+												"URL" : "https://doi.org/10.5334/bbf.p"
+											}
+										]
 									}
 								]
 							},
@@ -376,8 +469,7 @@
 								"Teaching activities" : [
 									{
 										"Title" : "In-Class Quizzes",
-										"Description" : "Students take quizzes with questions on differences between SDI generations",
-										"Materials" : ""
+										"Description" : "Students take quizzes with questions on differences between SDI generations"
 									}
 								]
 							},
@@ -395,8 +487,7 @@
 								"Teaching activities" : [
 									{
 										"Title" : "Student Presentations",
-										"Description" : "Student presentations on examples of volunteered GI",
-										"Materials" : ""
+										"Description" : "Student presentations on examples of volunteered GI"
 									}
 								]
 							}
@@ -428,7 +519,20 @@
 									{
 										"Title" : "Class Discussion",
 										"Description" : "Class discusses why standards are necessary; tutor leads the discussion",
-										"Materials" : "<a href=\"https://doi.org/10.2760/806776\">Vandenbroucke, D., Olijslagers, M., Boguslawski, R., Borzacchiello, M.T., Perego, A. and Smith, R., Architectures and Standards for Spatial Data Infrastructures and Digital Government, EUR 30336 EN, Publications Office of the European Union, Luxembourg, 2020</a><br><a href=\"https://ggim.un.org/documents/standards%20guide%20for%20unggim%20-%20final.pdf\">A Guide to the Role of Standards in Geospatial Information Management, UN GGIM</a><br><a href=\"http://www.gdmc.nl/publications/2005/Geo-information_Standards_in_Action.pdf \">van Oosterom P (2005) Geo-information standards in action. Netherlands Geodetic Commission (NCG), Delft</a>"
+										"Materials" : [
+											{
+												"Topic" : "Vandenbroucke, D., Olijslagers, M., Boguslawski, R., Borzacchiello, M.T., Perego, A. and Smith, R., Architectures and Standards for Spatial Data Infrastructures and Digital Government, EUR 30336 EN, Publications Office of the European Union, Luxembourg, 2020",
+												"URL" : "https://doi.org/10.2760/806776"
+											},
+											{
+												"Topic" : "A Guide to the Role of Standards in Geospatial Information Management, UN GGIM",
+												"URL" : "https://ggim.un.org/documents/standards%20guide%20for%20unggim%20-%20final.pdf"
+											},
+											{
+												"Topic" : "van Oosterom P (2005) Geo-information standards in action. Netherlands Geodetic Commission (NCG), Delft",
+												"URL" : "http://www.gdmc.nl/publications/2005/Geo-information_Standards_in_Action.pdf"
+											}
+										]
 									},
 									{
 										"Title" : "One-sentence Summary",
@@ -635,7 +739,16 @@
 									{
 										"Title" : "Lecture",
 										"Description" : "Introduction lecture on basics of SDI Architecture",
-										"Materials" : "<a href=\"https://joinup.ec.europa.eu/sites/default/files/document/2020-09/jrc121025_jrc121025_architectures_and_standards_for_sdis_and_digital_government.pdf\">Vandenbroucke, D., Olijslagers, M., Boguslawski, R., Borzacchiello, M.T., Perego, A. and Smith, R., Architectures and Standards for Spatial Data Infrastructures and Digital Government, EUR 30336 EN, Publications Office of the European Union, Luxembourg, 2020, ISBN 978-92-76-21404-5, doi:10.2760/806776, JRC121025.</a><br><a href=\"https://123dok.com/document/qvvex0lq-arcticspatialdatapilot-ogc.html\">Open Geospatial Consortium: OGC Artic Spatial Data Pilot</a>"
+										"Materials" : [
+											{
+												"Topic" : "Vandenbroucke, D., Olijslagers, M., Boguslawski, R., Borzacchiello, M.T., Perego, A. and Smith, R., Architectures and Standards for Spatial Data Infrastructures and Digital Government, EUR 30336 EN, Publications Office of the European Union, Luxembourg, 2020, ISBN 978-92-76-21404-5, doi:10.2760/806776, JRC121025.",
+												"URL" : "https://joinup.ec.europa.eu/sites/default/files/document/2020-09/jrc121025_jrc121025_architectures_and_standards_for_sdis_and_digital_government.pdf"
+											},
+											{
+												"Topic" : "Open Geospatial Consortium: OGC Artic Spatial Data Pilot",
+												"URL" : "https://123dok.com/document/qvvex0lq-arcticspatialdatapilot-ogc.html"
+											}
+										]
 									},
 									{
 										"Title" : "Asking Questions",
@@ -658,7 +771,16 @@
 									{
 										"Title" : "Lecture",
 										"Description" : "Introduction on SDI implemented technologies",
-										"Materials" : "<a href=\"https://www.academia.edu/11459003/Architectural_and_Technological_Aspects_for_the_Next_Generation_of_SDI\">Moreira de Souza, J., Borba, R., Coleman, D. (2014): Architectural and Technological Aspects for the Next Generation of SDI, Autocarto 2014- international research symposium on cartography, geospatial science, and visualization</a><br><a href=\"https://doi.org/10.3390/ijgi9030176\">Kotsev, A.; Minghini, M.; Tomas, R.; Cetl, V.; Lutz, M. From Spatial Data Infrastructures to Data Spaces-A Technological Perspective on the Evolution of European SDIs. ISPRS Int. J. Geo-Inf. 2020, 9, 176</a>"
+										"Materials" : [
+											{
+												"Topic" : "Moreira de Souza, J., Borba, R., Coleman, D. (2014): Architectural and Technological Aspects for the Next Generation of SDI, Autocarto 2014- international research symposium on cartography, geospatial science, and visualization",
+												"URL" : "https://www.academia.edu/11459003/Architectural_and_Technological_Aspects_for_the_Next_Generation_of_SDI"
+											},
+											{
+												"Topic" : "Kotsev, A.; Minghini, M.; Tomas, R.; Cetl, V.; Lutz, M. From Spatial Data Infrastructures to Data Spaces-A Technological Perspective on the Evolution of European SDIs. ISPRS Int. J. Geo-Inf. 2020, 9, 176",
+												"URL" : "https://doi.org/10.3390/ijgi9030176"
+											}
+										]
 									},
 									{
 										"Title" : "Paper review",
@@ -716,7 +838,12 @@
 									{
 										"Title" : "Lecture",
 										"Description" : "Lecture on SDI interoperability",
-										"Materials" : "<a href=\"https://doi.org/10.1007/978-3-540-78946-8 \">Lars Bernard, Anders Friis-Christensen, Hardy Pundt (2008): The European Information Society, Taking Geoinformation Science One Step Further, Springer-Verlag Berlin Heidelberg,</a>"
+										"Materials" : [
+											{
+												"Topic" : "Lars Bernard, Anders Friis-Christensen, Hardy Pundt (2008): The European Information Society, Taking Geoinformation Science One Step Further, Springer-Verlag Berlin Heidelberg",
+												"URL" : "https://doi.org/10.1007/978-3-540-78946-8"
+											}
+										]
 									},
 									{
 										"Title" : "Paper review",
@@ -739,7 +866,12 @@
 									{
 										"Title" : "Lecture",
 										"Description" : "Lecture about evolution and levels of SDI interoperability",
-										"Materials" : "<a href=\"https://doi.org/10.2788/20697\">Toth K, Portele C, Illert A, Lutz M, Nunes De Lima M. A Conceptual Model for Developing Interoperability Specifications in Spatial Data Infrastructures. EUR 25280 EN. Luxembourg (Luxembourg): Publications Office of the European Union; 2012.,</a>"
+										"Materials" : [
+											{
+												"Topic" : "Toth K, Portele C, Illert A, Lutz M, Nunes De Lima M. A Conceptual Model for Developing Interoperability Specifications in Spatial Data Infrastructures. EUR 25280 EN. Luxembourg (Luxembourg): Publications Office of the European Union; 2012.",
+												"URL" : "https://doi.org/10.2788/20697"
+											}
+										]
 									},
 									{
 										"Title" : "Class Discussion",
@@ -794,7 +926,24 @@
 									{
 										"Title" : "Lecture",
 										"Description" : "Introductory lecture on views of SDI hierarchy and SDIs developed at levels",
-										"Materials" : "<a href=\"http://hdl.handle.net/11343/33897\">Rajabifard, A.; Williamson, I.P. Spatial data infrastructures: Concept, SDI hierarchy and future directions. In Proceedings of the GEOMATICS’80 Conference, Tehran, Iran, 2001</a><br><a href=\"http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.34.5961&rep=rep1&type=pdf \">Rajabifard, A, Williamson, I. P., Holland, P., and Johnstone, G. 2000. From Local to Global SDI initiatives: a pyramid building blocks, Proceedings of the 4th GSDI Conference, Cape Town, South Africa</a><br><a href=\"http://hdl.handle.net/11343/33915>Rajabifard, A, Chan, T. O., Williamson, I. P. 1999. The nature of regional Spatial Data Infrastructures. Presented at AURISA 99 - The 27th Annual Conference of AURISA</a><br><a href=\"https://doi.org/10.1080/136588199241463 \">Masser, I. 1999.  All shapes and sizes: the first generation of national spatial, International Journal of Geographical Information Science data infrastructures</a>"
+										"Materials" : [
+											{
+												"Topic" : "Rajabifard, A.; Williamson, I.P. Spatial data infrastructures: Concept, SDI hierarchy and future directions. In Proceedings of the GEOMATICS’80 Conference, Tehran, Iran, 2001",
+												"URL" : "http://hdl.handle.net/11343/33897"
+											},
+											{
+												"Topic" : "Rajabifard, A, Williamson, I. P., Holland, P., and Johnstone, G. 2000. From Local to Global SDI initiatives: a pyramid building blocks, Proceedings of the 4th GSDI Conference, Cape Town, South Africa",
+												"URL" : "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.34.5961&rep=rep1&type=pdf"
+											},
+											{
+												"Topic" : "Rajabifard, A, Chan, T. O., Williamson, I. P. 1999. The nature of regional Spatial Data Infrastructures. Presented at AURISA 99 - The 27th Annual Conference of AURISA",
+												"URL" : "http://hdl.handle.net/11343/33915"
+											},
+											{
+												"Topic" : "Masser, I. 1999.  All shapes and sizes: the first generation of national spatial, International Journal of Geographical Information Science data infrastructures",
+												"URL" : "https://doi.org/10.1080/136588199241463"
+											}
+										]
 									},
 									{
 										"Title" : "Asking Questions",
@@ -817,7 +966,16 @@
 									{
 										"Title" : "Lecture",
 										"Description" : "An overview the experiences of NSDI through the generations.",
-										"Materials" : "<a href=\"DOI: 10.1080/136588199241463\">Masser, I. 1999.  All shapes and sizes: the first generation of national spatial, International Journal of Geographical Information Science data infrastructures, 13:1, 67-84</a><br><a href=\"https://doi.org/10.1201/9780203485774\">Rajabifard, A. Feeney, M.-E. F., Williamson,I. P., Masser, I. 2003. National SDI Initiatives. In the book: Developing Spatial Data Infrastructures: from concept to reality, pp.95-109, Taylor and Francis</a>"
+										"Materials" : [
+											{
+												"Topic" : "Masser, I. 1999.  All shapes and sizes: the first generation of national spatial, International Journal of Geographical Information Science data infrastructures, 13:1, 67-84",
+												"URL" : "https://doi.org/10.1080/136588199241463"
+											},
+											{
+												"Topic" : "Rajabifard, A. Feeney, M.-E. F., Williamson,I. P., Masser, I. 2003. National SDI Initiatives. In the book: Developing Spatial Data Infrastructures: from concept to reality, pp.95-109, Taylor and Francis",
+												"URL" : "https://doi.org/10.1201/9780203485774"
+											}
+										]
 									}
 								],
 								"BoK" : [
@@ -843,7 +1001,12 @@
 									{
 										"Title" : "Paper review",
 										"Description" : "Students read scientific journal articles about needs, components and difficulties inherent in RSDI development",
-										"Materials" : "<a href=\"http://hdl.handle.net/11343/33915\">Example: Rajabifard, A, Chan, T. O., Williamson, I. P. 1999. The nature of regional Spatial Data Infrastructures. Presented at AURISA 99 - The 27th Annual Conference of AURISA</a>"
+										"Materials" : [
+											{
+												"Topic" : "Rajabifard, A, Chan, T. O., Williamson, I. P. 1999. The nature of regional Spatial Data Infrastructures. Presented at AURISA 99 - The 27th Annual Conference of AURISA",
+												"URL" : "http://hdl.handle.net/11343/33915"
+											}
+										]
 									}
 								]
 							},
@@ -862,7 +1025,12 @@
 									{
 										"Title" : "Class Discussion",
 										"Description" : "Students search for examples which support the global spatial data infrastructure",
-										"Materials" : "<a href=\"https://doi.org/10.2298/IJGI0959179I\">Example: Iliæ, A. Global Spatial 2009. Data Infrastructure. Journal of the Geographical Institute Jovan Cvijic SASA 59(1):179-194</a>"
+										"Materials" : [
+											{
+												"Topic" : "Example: Iliæ, A. Global Spatial 2009. Data Infrastructure. Journal of the Geographical Institute Jovan Cvijic SASA 59(1):179-194",
+												"URL" : "https://doi.org/10.2298/IJGI0959179I"
+											}
+										]
 									}
 								]
 							},
@@ -881,7 +1049,12 @@
 									{
 										"Title" : "Class Discussion",
 										"Description" : "Based on given literature, students give their opinion of the future of SDI",
-										"Materials" : "<a href=\"https://www.gwprime.geospatialworld.net/opinion/moving-beyond-sdis-are-we-ready-to-take-the-leap/\">Greg Scott : Moving Beyond SDIs: Are We Ready to Take the Leap?</a>"
+										"Materials" : [
+											{
+												"Topic" : "Greg Scott : Moving Beyond SDIs: Are We Ready to Take the Leap?",
+												"URL" : "https://www.gwprime.geospatialworld.net/opinion/moving-beyond-sdis-are-we-ready-to-take-the-leap/"
+											}
+										]
 									}
 								]
 							}
@@ -913,22 +1086,42 @@
 									{
 										"Title" : "Clips",
 										"Description" : "Students watch short video clip about SDI and digital government prior to the class",
-										"Materials" : "<a href=\"https://doi.org/10.1007/978-3-642-15172-9\">Kim Normann Andersen, Enrico Francesconi, Ake Grönl, Tom M. van Engers (ed. 2010): Electronic Government and the Information Systems Perspective, First International Conference, EGOVIS 2010, Bilbao, Spain, August 31 - September 2, 2010. Proceedings, Springer-Verlag Berlin Heidelberg</a>"
+										"Materials" : [
+											{
+												"Topic" : "Kim Normann Andersen, Enrico Francesconi, Ake Grönl, Tom M. van Engers (ed. 2010): Electronic Government and the Information Systems Perspective, First International Conference, EGOVIS 2010, Bilbao, Spain, August 31 - September 2, 2010. Proceedings, Springer-Verlag Berlin Heidelberg",
+												"URL" : "https://doi.org/10.1007/978-3-642-15172-9"
+											}
+										]
 									},
 									{
 										"Title" : "One-Minute Paper",
 										"Description" : "Students write one minute essay about connection between SDI and eGovernment. Answers will be the input for the discussion.",
-										"Materials" : "<a href=\"https://ijsdir.sadl.kuleuven.be/index.php/ijsdir/article/view/197/288\">Hansen, H. S., Schroder, L., Hvingel, L., Christiansen, J. S. (2011): Towards Spatially Enabled e-Governance - A Case Study on SDI implementation, International Journal of Spatial Data Infrastructures Research, Vol. 6, 73-96</a>"
+										"Materials" : [
+											{
+												"Topic" : "Hansen, H. S., Schroder, L., Hvingel, L., Christiansen, J. S. (2011): Towards Spatially Enabled e-Governance - A Case Study on SDI implementation, International Journal of Spatial Data Infrastructures Research, Vol. 6, 73-96",
+												"URL" : "https://ijsdir.sadl.kuleuven.be/index.php/ijsdir/article/view/197/288"
+											}
+										]
 									},
 									{
 										"Title" : "Class Discussion",
 										"Description" : "Students discuss on connections of SDI and eGovernment with tutor leading the discussion in the right direction",
-										"Materials" : "<a href=\"https://www.oicrf.org/-/sdi-s-as-basic-components-of-e-government-and-e-business-the-german-approach\">Brueggemann, H. (2005): SDI’s as Basic Components of e-Government and e-Business - The German Approach, FIG Working Week 2005 and GSDI-8</a>"
+										"Materials" : [
+											{
+												"Topic" : "Brueggemann, H. (2005): SDI’s as Basic Components of e-Government and e-Business - The German Approach, FIG Working Week 2005 and GSDI-8",
+												"URL" : "https://www.oicrf.org/-/sdi-s-as-basic-components-of-e-government-and-e-business-the-german-approach"
+											}
+										]
 									},
 									{
 										"Title" : "Short Quizzes",
 										"Description" : "Students take quiz with questions related to the topic",
-										"Materials" : "<a href=\"https://doi.org/10.2760/324167\">Barbero, M., Lopez Potes, M., Vancauwenberghe, G. and Vandenbroucke, D., The role of Spatial Data Infrastructures in the Digital Government Transformation of Public Administrations, Publications Office of the European Union, Luxembourg, 2019</a>"
+										"Materials" : [
+											{
+												"Topic" : "Barbero, M., Lopez Potes, M., Vancauwenberghe, G. and Vandenbroucke, D., The role of Spatial Data Infrastructures in the Digital Government Transformation of Public Administrations, Publications Office of the European Union, Luxembourg, 2019",
+												"URL" : "https://doi.org/10.2760/324167"
+											}
+										]
 									}
 								]
 							},
@@ -947,12 +1140,22 @@
 									{
 										"Title" : "Desk study",
 										"Description" : "Students do research on eGovernment services using Spatial data Infrastructure",
-										"Materials" : "<a href=\"https://doi.org/10.2760/806776\">Vandenbroucke, D., Olijslagers, M., Boguslawski, R., Borzacchiello, M.T., Perego, A. and Smith, R., Architectures and Standards for Spatial Data Infrastructures and Digital Government, EUR 30336 EN, Publications Office of the European Union, Luxembourg, 2020</a>"
+										"Materials" : [
+											{
+												"Topic" : "Vandenbroucke, D., Olijslagers, M., Boguslawski, R., Borzacchiello, M.T., Perego, A. and Smith, R., Architectures and Standards for Spatial Data Infrastructures and Digital Government, EUR 30336 EN, Publications Office of the European Union, Luxembourg, 2020",
+												"URL" : "https://doi.org/10.2760/806776"
+											}
+										]
 									},
 									{
 										"Title" : "Exercise",
 										"Description" : "Students analyze services from different aspects",
-										"Materials" : "<a href=\"https://doi.org/10.1007/978-3-030-40690-5_13 \">Bruzza M., Tupia M., Vancauwenberghe G. (2020) State-of-the-Art Applications of Spatial Data Infrastructure in the Provision of e-Government Services in Latin America. In: Rocha Á., Ferrás C., Montenegro Marin C., Medina García V. (eds) Information Technology and Systems. ICITS 2020. Advances in Intelligent Systems and Computing, vol 1137. Springer, Cham</a>"
+										"Materials" : [
+											{
+												"Topic" : "Bruzza M., Tupia M., Vancauwenberghe G. (2020) State-of-the-Art Applications of Spatial Data Infrastructure in the Provision of e-Government Services in Latin America. In: Rocha Á., Ferrás C., Montenegro Marin C., Medina García V. (eds) Information Technology and Systems. ICITS 2020. Advances in Intelligent Systems and Computing, vol 1137. Springer, Cham",
+												"URL" : "https://doi.org/10.1007/978-3-030-40690-5_13"
+											}
+										]
 									},
 									{
 										"Title" : "Student Presentations",
@@ -1007,7 +1210,16 @@
 									{
 										"Title" : "Lecture",
 										"Description" : "Lecture on basics of sustainable development",
-										"Materials" : "<a href=\"https://doi.org/10.1080/17538940802149940\">VA. Ayanlade, I.O.O. Orimoogunje & P.B. Borisade (2008) Geospatial data infrastructure for sustainable development in sub-Saharan countries, International Journal of Digital Earth, 1:3, 247-258</a><br><a href=\"http://gsdiassociation.org/images/gsdi15/nonrefereed/138.pdf\">Dinebari, A., Gaage, F., Tosin, A.O., Nwaigwu, F.F., & Yiinu, N. (2017). Spatial Data Infrastructure for Sustainable Developing in Nigeria. Economics </a>"
+										"Materials" : [
+											{
+												"Topic" : "VA. Ayanlade, I.O.O. Orimoogunje & P.B. Borisade (2008) Geospatial data infrastructure for sustainable development in sub-Saharan countries, International Journal of Digital Earth, 1:3, 247-258",
+												"URL" : "https://doi.org/10.1080/17538940802149940"
+											},
+											{
+												"Topic" : "Dinebari, A., Gaage, F., Tosin, A.O., Nwaigwu, F.F., & Yiinu, N. (2017). Spatial Data Infrastructure for Sustainable Developing in Nigeria. Economics",
+												"URL" : "http://gsdiassociation.org/images/gsdi15/nonrefereed/138.pdf"
+											}
+										]
 									},
 									{
 										"Title" : "",
@@ -1173,7 +1385,16 @@
 									{
 										"Title" : "Demonstrations",
 										"Description" : "Students set up a Geoserver instance, load data and connect it to QGIS",
-										"Materials" : "<a href=\"https://geoserver.org/\">GeoServer</a><br><a href=\"https://qgis.org/en/site/\">QGIS</a>"
+										"Materials" : [
+											{
+												"Topic" : "GeoServer",
+												"URL" : "https://geoserver.org"
+											},
+											{
+												"Topic" : "QGIS",
+												"URL" : "https://qgis.org/en/site/"
+											}
+										]
 									}
 								]
 							}
@@ -1227,7 +1448,12 @@
 									{
 										"Title" : "Mind Map",
 										"Description" : "Students develop a mind map linking UML elements in the ISO general feature model to a WFS feature type description (GML application schema)",
-										"Materials" : "<a href=\"https://portal.ogc.org/files/?artifact_id=20509\">GML encoding standard-Figure D.45</a>"
+										"Materials" : [
+											{
+												"Topic" : "GML encoding standard-Figure D.45",
+												"URL" : "https://portal.ogc.org/files/?artifact_id=20509"
+											}
+										]
 									}
 								]
 							},
@@ -1313,7 +1539,12 @@
 									{
 										"Title" : "Reading papers",
 										"Description" : "Reading papers to understand different types of interface standards",
-										"Materials" : "Zhao, P., & Di, L. (Eds.). (2010). <a href=\"https://www.igi-global.com/book/geospatial-web-services/46010 \">Geospatial web services: Advances in information interoperability: Advances in information interoperability</a>. IGI Global.</a>"
+										"Materials" : [
+											{
+												"Topic" : "Zhao, P., & Di, L. (Eds.). (2010). Geospatial web services: Advances in information interoperability: Advances in information interoperability. IGI Global.",
+												"URL" : "https://www.igi-global.com/book/geospatial-web-services/46010"
+											}
+										]
 									},
 									{
 										"Title" : "Lecture",
@@ -1440,7 +1671,11 @@
 									{
 										"Title" : "Reading documents",
 										"Description" : "Read the recommended documents and look through the slides in advance",
-										"Materials" : "Stefanakis, E. (2015). An Introduction to Web Mapping & Geospatial Web Services. CreateSpace Independent Publishing Platform.</a>"
+										"Materials" : [
+											{
+												"Topic" : "Stefanakis, E. (2015). An Introduction to Web Mapping & Geospatial Web Services. CreateSpace Independent Publishing Platform."
+											}
+										]
 									},
 									{
 										"Title" : "Lecture",
@@ -1538,12 +1773,22 @@
 									{
 										"Title" : "Lecture",
 										"Description" : "Introductory lecture to different types of encoding standards",
-										"Materials" : "<a href=\"https://www.ogc.org/standards/gml\">Geography Markup Language</a>"
+										"Materials" : [
+											{
+												"Topic" : "Geography Markup Language",
+												"URL" : "https://www.ogc.org/standards/gml"
+											}
+										]
 									},
 									{
 										"Title" : "Summary",
 										"Description" : "One sentence summary for each encoding standard",
-										"Materials" : "<a href=\"https://www.ogc.org/standards/kml\">KML</a>"
+										"Materials" : [
+											{
+												"Topic" : "KML",
+												"URL" : "https://www.ogc.org/standards/kml"
+											}
+										]
 									}
 								]
 							},
@@ -1562,7 +1807,12 @@
 									{
 										"Title" : "Creating files",
 										"Description" : "Read and/or create GML, KML, GeoJSON files for a given dataset.",
-										"Materials" : "<a href=\"https://www.ogc.org/standards/eo-geojson\">OGC EO Dataset Metadata GeoJSON(-LD) Encoding Standard</a>"
+										"Materials" : [
+											{
+												"Topic" : "OGC EO Dataset Metadata GeoJSON(-LD) Encoding Standard",
+												"URL" : "https://www.ogc.org/standards/eo-geojson"
+											}
+										]
 									},
 									{
 										"Title" : "Discussion",
@@ -1596,12 +1846,21 @@
 									{
 										"Title" : "Paper review",
 										"Description" : "Read and discuss the classic 'the semantic web' paper by Berners-Lee et al. (2001)",
-										"Materials" : "<a href=\"https://www-sop.inria.fr/acacia/cours/essi2006/Scientific%20American_%20Feature%20Article_%20The%20Semantic%20Web_%20May%202001.pdf\">The Semantic Web</a>"
+										"Materials" : [
+											{
+												"Topic" : "The Semantic Web",
+												"URL" : "https://www-sop.inria.fr/acacia/cours/essi2006/Scientific%20American_%20Feature%20Article_%20The%20Semantic%20Web_%20May%202001.pdf"
+											}
+										]
 									},
 									{
 										"Title" : "Paper review",
 										"Description" : "Readings on syntactic and semantic standardization efforts for open SDI",
-										"Materials" : "Harvey, F., et al. \"Semantic interoperability: A central issue for sharing geographic information.\" The annals of regional science 33.2 (1999): 213-232.</a>"
+										"Materials" : [
+											{
+												"Topic" : "Harvey, F., et al. \"Semantic interoperability: A central issue for sharing geographic information.\" The annals of regional science 33.2 (1999): 213-232."
+											}
+										]
 									},
 									{
 										"Title" : "Lecture",
@@ -1629,7 +1888,11 @@
 									{
 										"Title" : "Reading prior to class",
 										"Description" : "Reading classic papers on geospatial semantics",
-										"Materials" : "Kuhn, W. \"Geospatial semantics: why, of what, and how?.\" Journal on data semantics III. Springer, Berlin, Heidelberg, 2005. 1-24.</a>"
+										"Materials" : [
+											{
+												"Topic" : "Kuhn, W. \"Geospatial semantics: why, of what, and how?.\" Journal on data semantics III. Springer, Berlin, Heidelberg, 2005. 1-24."
+											}
+										]
 									},
 									{
 										"Title" : "Case study",
@@ -1666,7 +1929,12 @@
 									{
 										"Title" : "Watch clip",
 										"Description" : "Students watch Tim Berners-Lee's TED Talk on Linked Data",
-										"Materials" : "Tim Berners-Lee: <a href='https://www.youtube.com/watch?v=OM6XIICm_qo' target='_blank'>The next Web of open, linked data</a>"
+										"Materials" : [
+											{
+												"Topic" : "Tim Berners-Lee: The next Web of open, linked data",
+												"URL" : "https://www.youtube.com/watch?v=OM6XIICm_qo"
+											}
+										]
 									},
 									{
 										"Title" : "Lecture",
@@ -1824,7 +2092,16 @@
 									{
 										"Title" : "Lecture",
 										"Description" : "Introductory lecture on GIS data models",
-										"Materials" : "Complimentary readings: de Smith, Goodchild, Longley (2020) Geospatial Analysis - 6th Edition, Chapters 2.1: <a href='https://spatialanalysisonline.com/HTML/index.html?basic_primitives.htm'>Basic Primitives</a><br />Parent C., Spaccapietra S., Zimányi E. (2017) Modeling and Multiple Perceptions. In: Shekhar S., Xiong H., Zhou X. (eds) Encyclopedia of GIS. Springer, Cham. <a href='https://doi.org/10.1007/978-3-319-17885-1_805'>https://doi.org/10.1007/978-3-319-17885-1_805</a>"
+										"Materials" : [
+											{
+												"Topic" : "Complimentary readings: de Smith, Goodchild, Longley (2020) Geospatial Analysis - 6th Edition, Chapters 2.1: Basic Primitives",
+												"URL" : "https://spatialanalysisonline.com/HTML/index.html?basic_primitives.htm"
+											},
+											{
+												"Topic" : "Parent C., Spaccapietra S., Zimányi E. (2017) Modeling and Multiple Perceptions. In: Shekhar S., Xiong H., Zhou X. (eds) Encyclopedia of GIS. Springer, Cham.",
+												"URL" : "https://doi.org/10.1007/978-3-319-17885-1_805"
+											}
+										]
 									},
 									{
 										"Title" : "Asking Questions",
@@ -1847,7 +2124,12 @@
 									{
 										"Title" : "Reading prior to class",
 										"Description" : "Read documentations for a concrete dataset provided through an SDI (e.g. INSPIRE) with a focus on the data model",
-										"Materials": "Reading: <a href='https://inspire.ec.europa.eu/data-model/approved/r4618/html/'>INSPIRE Consolidated UML Model</a>; focus on a specific theme such as <em>protected sites</em>."
+										"Materials" : [
+											{
+												"Topic" : "INSPIRE Consolidated UML Model; focus on a specific theme such as protected sites",
+												"URL" : "https://inspire.ec.europa.eu/data-model/approved/r4618/html/"
+											}
+										]
 									},
 									{
 										"Title" : "Student Presentations",
@@ -1916,12 +2198,22 @@
 									{
 										"Title" : "Case study",
 										"Description" : "Spatial ETL in commercial tools",
-										"Materials" : "Tutorial: <a href='https://community.safe.com/s/article/getting-started-with-fme-desktop-translate-data-be'>Getting started with FME Desktop</a>"
+										"Materials" : [
+											{
+												"Topic" : "Getting started with FME Desktop",
+												"URL" : "https://community.safe.com/s/article/getting-started-with-fme-desktop-translate-data-be"
+											}
+										]
 									},
 									{
 										"Title" : "Case study",
 										"Description" : "Open Source spatial ETL",
-										"Materials" : "Talend Open Studio: <a href='https://community.talend.com/s/article/New-Talend-Academy-learning-experience-available-to-everyone?language=en_US'>Talend Academy</a>"
+										"Materials" : [
+											{
+												"Topic" : "Talend Open Studio: Talend Academy",
+												"URL" : "https://community.talend.com/s/article/New-Talend-Academy-learning-experience-available-to-everyone?language=en_US"
+											}
+										]
 									}
 								]
 							},
@@ -1994,7 +2286,12 @@
 									{
 										"Title" : "Asking Questions",
 										"Description" : "Quiz on data validation aspects",
-										"Materials" : "See <a href='https://github.com/SDI-SPIDER/toolkit-materials/blob/main/quiz-data-validation.md'>this quiz</a> for inspiration."
+										"Materials" : [
+											{
+												"Topic" : "See this quiz for inspiration",
+												"URL" : "https://github.com/SDI-SPIDER/toolkit-materials/blob/main/quiz-data-validation.md"
+											}
+										]
 									}
 								]
 							},
@@ -2013,7 +2310,16 @@
 									{
 										"Title" : "Case study",
 										"Description" : "Students download metadata from the national SDI's catalogue and inspect the data quality information",
-										"Materials" : "Examples include the <a href='https://www.geoportal.de'>German</a> and <a href='https://dataforsyningen.dk/data'>Danish</a> SDI portals."
+										"Materials" : [
+											{
+												"Topic" : "German SDI-Portal",
+												"URL" : "https://www.geoportal.de"
+											},
+											{
+												"Topic" : "Danish SDI-Portal",
+												"URL" : "https://dataforsyningen.dk/data"
+											}
+										]
 									}
 								],
 								"BoK" : [
@@ -2039,7 +2345,16 @@
 									{
 										"Title" : "Peer Review",
 										"Description" : "Review example national standards and schemas for geospatial data",
-										"Materials" : "Sample materials include the data specifications for <a href='https://inspire.ec.europa.eu/Data-Models/Data-Specifications/2892'>INSPIRE</a> and <a href='https://www.adv-online.de/icc/extdeu/nav/0a1/0a170f15-8e71-3c01-e1f3-351ec0023010&sel_uCon=20b70361-ab30-8d01-3bbc-251ec0023010&uTem=73d607d6-b048-65f1-80fa-29f08a07b51a.htm'>Germany</a>."
+										"Materials" : [
+											{
+												"Topic" : "data specifications for INSPIRE",
+												"URL" : "https://inspire.ec.europa.eu/Data-Models/Data-Specifications/2892"
+											},
+											{
+												"Topic" : "data specifications for Germany",
+												"URL" : "https://www.adv-online.de/icc/extdeu/nav/0a1/0a170f15-8e71-3c01-e1f3-351ec0023010&sel_uCon=20b70361-ab30-8d01-3bbc-251ec0023010&uTem=73d607d6-b048-65f1-80fa-29f08a07b51a.htm"
+											}
+										]
 									},
 									{
 										"Title" : "Student Presentations",
@@ -2112,7 +2427,12 @@
 									{
 										"Title" : "Reading documentations",
 										"Description" : "Read documentations for metadata in SDI with a focus on the geographic data",
-										"Materials" : "<a href=\"https://www.fgdc.gov/metadata#:~:text=Metadata%20is%20information%20about%20data,other%20location%2Dbased%20data%20resources.\">GEOSPATIAL METADATA</a>"
+										"Materials" : [
+											{
+												"Topic" : "GEOSPATIAL METADATA",
+												"URL" : "https://www.fgdc.gov/metadata#:~:text=Metadata%20is%20information%20about%20data,other%20location%2Dbased%20data%20resources."
+											}
+										]
 									},
 									{
 										"Title" : "Summary",
@@ -2195,12 +2515,21 @@
 									{
 										"Title" : "Reading documentations",
 										"Description" : "Reading the documentations for data catalogue",
-										"Materials" : "<a href=\"https://sdi.eea.europa.eu/\">SDI - geospatial data catalogue</a>"
+										"Materials" : [
+											{
+												"Topic" : "SDI - geospatial data catalogue",
+												"URL" : "https://sdi.eea.europa.eu/"
+											}
+										]
 									},
 									{
 										"Title" : "Summary",
 										"Description" : "One sentence summary of data catalogue",
-										"Materials" : "Bernabé, M. A., Gould, M., Muro-Medrano, P. R., Nogueras, J., & ZARAZAGASORIA, F. (2002, September). A spatial data catalogue-based initiative to launch the Spanish SDI. In Proceedings of the 6th Global Spatial Data Infrastructure Conference, ‘From Global to Local’, Budapest, Hungary.</a>"
+										"Materials" : [
+											{
+												"Topic" : "Bernabé, M. A., Gould, M., Muro-Medrano, P. R., Nogueras, J., & ZARAZAGASORIA, F. (2002, September). A spatial data catalogue-based initiative to launch the Spanish SDI. In Proceedings of the 6th Global Spatial Data Infrastructure Conference, ‘From Global to Local’, Budapest, Hungary."
+											}
+										]
 									}
 								]
 							},
@@ -2295,8 +2624,13 @@
 									},
 									{
 										"Title" : "Implementation",
-										"Description" : "Students implement database management and data retrieval with SQL",
-										"Materials" : "Example task: Students load data from <a href='https://www.naturalearthdata.com'>Natural Earth</a> into a PostGIS database and connect it to QGIS."
+										"Description" : "Students implement database management and data retrieval with SQL. Example task: Students load data from Natural Earth Natural Earth into a PostGIS database and connect it to QGIS.",
+										"Materials" : [
+											{
+												"Topic" : "Natural Earth",
+												"URL" : "https://www.naturalearthdata.com"
+											}
+										]
 									}
 								],
 								"BoK" : [
@@ -2345,12 +2679,20 @@
 									{
 										"Title" : "Lecture",
 										"Description" : "Introductory lecture on relevant aspects for data visualization with a focus on geographic data",
-										"Materials" : "Kraak, J. M., & Brown, A. (2003). Web cartography. CRC Press.</a>"
+										"Materials" : [
+											{
+												"Topic" : "Kraak, J. M., & Brown, A. (2003). Web cartography. CRC Press."
+											}
+										]
 									},
 									{
 										"Title" : "Answering questions",
 										"Description" : "If there is something unclear, students are helped to understand it better",
-										"Materials" : "MacEachren, A. M., & Taylor, D. F. (Eds.). (2013). Visualization in modern cartography. Elsevier.</a>"
+										"Materials" : [
+											{
+												"Topic" : "MacEachren, A. M., & Taylor, D. F. (Eds.). (2013). Visualization in modern cartography. Elsevier."
+											}
+										]
 									}
 								]
 							},
@@ -2640,12 +2982,26 @@
 									{
 										"Title" : "Paper review",
 										"Description" : "Students have to read and review papers on legal issues/aspects on open SDIs",
-										"Materials" : "<a href=\"https://doi.org/10.1080/10580530.2012.716740\">Janssen, M., Charalabidis, Y., & Zuiderwijk, A. (2012). Benefits, Adoption Barriers and Myths of Open Data and Open Government. Information systems management, 29(4), 258-268<br>Vancauwenberghe, Glenn, Kotryna Valeèkaite, Frederika Welle Donker, Bastiaan van Loenen (2  18).</a><br><a href=\"https://ijsdir.sadl.kuleuven.be/index.php/ijsdir/article/view/468\">Assessing the Openness of Spatial Data Infrastructures (SDI): Towards a Map of Open SDI. International Journal of Spatial Data Infrastructures Research, 2018, Vol.13, 88-100</a>"
+										"Materials" : [
+											{
+												"Topic" : "Janssen, M., Charalabidis, Y., & Zuiderwijk, A. (2012). Benefits, Adoption Barriers and Myths of Open Data and Open Government. Information systems management, 29(4), 258-268<br>Vancauwenberghe, Glenn, Kotryna Valeèkaite, Frederika Welle Donker, Bastiaan van Loenen (2  18).",
+												"URL" : "https://doi.org/10.1080/10580530.2012.716740"
+											},
+											{
+												"Topic" : "https://ijsdir.sadl.kuleuven.be/index.php/ijsdir/article/view/468",
+												"URL" : "Assessing the Openness of Spatial Data Infrastructures (SDI): Towards a Map of Open SDI. International Journal of Spatial Data Infrastructures Research, 2018, Vol.13, 88-100"
+											}
+										]
 									},
 									{
 										"Title" : "Clips",
 										"Description" : "Students have to watch clips on legal aspects of open government data",
-										"Materials" : "<a href=\"https://ocw.tudelft.nl/course-lectures/legal-aspects-open-government-data/\">Legal aspects of open government data</a>"
+										"Materials" : [
+											{
+												"Topic" : "Legal aspects of open government data",
+												"URL" : "https://ocw.tudelft.nl/course-lectures/legal-aspects-open-government-data/"
+											}
+										]
 									},
 									{
 										"Title" : "One-sentence Summary",
@@ -2694,12 +3050,22 @@
 									{
 										"Title" : "Paper review",
 										"Description" : "Students have to read and review the paper describing the concentric shell model of Backx",
-										"Materials" : "<a href=\"https://ijsdir.sadl.kuleuven.be/index.php/ijsdir/article/view/353\">Van Loenen, B. and M. Grothe (2014). INSPIRE empowers reuse of Public Sector Information. International Journal of Spatial Data Infrastructures Research, 2  14, Vol.9, 86-106</a>"
+										"Materials" : [
+											{
+												"Topic" : "Van Loenen, B. and M. Grothe (2014). INSPIRE empowers reuse of Public Sector Information. International Journal of Spatial Data Infrastructures Research, 2  14, Vol.9, 86-106",
+												"URL" : "https://ijsdir.sadl.kuleuven.be/index.php/ijsdir/article/view/353"
+											}
+										]
 									},
 									{
 										"Title" : "Lecture",
 										"Description" : "Lecture explaining the model of Backx",
-										"Materials" : "<a href=\"https://ijsdir.sadl.kuleuven.be/index.php/ijsdir/article/view/353\">Van Loenen, B. and M. Grothe (2014). INSPIRE empowers reuse of Public Sector Information. International Journal of Spatial Data Infrastructures Research, 2  14, Vol.9, 86-106</a>"
+										"Materials" : [
+											{
+												"Topic" : "Van Loenen, B. and M. Grothe (2014). INSPIRE empowers reuse of Public Sector Information. International Journal of Spatial Data Infrastructures Research, 2  14, Vol.9, 86-106",
+												"URL" : "https://ijsdir.sadl.kuleuven.be/index.php/ijsdir/article/view/353"
+											}
+										]
 									}
 								]
 							},
@@ -2779,12 +3145,26 @@
 									{
 										"Title" : "Clips",
 										"Description" : "Students have to watch clips on the INSPIRE directive",
-										"Materials" : "<a href=\"https://www.youtube.com/watch?v=xew6qI-6wNk&feature=youtu.be\">The European spatial data infrastructure (INSPIRE) in a nutshell</a>"
+										"Materials" : [
+											{
+												"Topic" : "The European spatial data infrastructure (INSPIRE) in a nutshell",
+												"URL" : "https://www.youtube.com/watch?v=xew6qI-6wNk&feature=youtu.be"
+											}
+										]
 									},
 									{
 										"Title" : "Paper review",
 										"Description" : "Students have to read and review papers on the INSPIRE directive",
-									"Materials" : "<a href=\"https://ijsdir.sadl.kuleuven.be/index.php/ijsdir/article/view/353\">Van Loenen, B. and M. Grothe (2014). INSPIRE empowers reuse of Public Sector Information. International Journal of Spatial Data Infrastructures Research, 2  14, Vol.9, 86-106</a><br><a href=\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32019L1024\">Directive (EU) 2019/1024 of the European Parliament and of the Council of 20 June 2019 on open data and the re-use of public sector information</a>"
+										"Materials" : [
+											{
+												"Topic" : "Van Loenen, B. and M. Grothe (2014). INSPIRE empowers reuse of Public Sector Information. International Journal of Spatial Data Infrastructures Research, 2  14, Vol.9, 86-106",
+												"URL" : "https://ijsdir.sadl.kuleuven.be/index.php/ijsdir/article/view/353"
+											},
+											{
+												"Topic" : "Directive (EU) 2019/1024 of the European Parliament and of the Council of 20 June 2019 on open data and the re-use of public sector information",
+												"URL" : "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32019L1024"
+											}
+										]
 									},
 									{
 										"Title" : "Lecture",
@@ -2893,12 +3273,21 @@
 									{
 										"Title" : "Clips",
 										"Description" : "Students have to watch clips on the Open data directive",
-										"Materials" : "<a href=\" https://youtu.be/AmSjzuAR6GI\">The open data and PSI reuse directive</a>"
+										"Materials" : [
+											{
+												"Topic" : "https://youtu.be/AmSjzuAR6GI",
+												"URL" : "The open data and PSI reuse directive"
+											}
+										]
 									},
 									{
 										"Title" : "Paper review",
 										"Description" : "Students have to read and review papers on the Open data directive",
-										"Materials" : "Lorenzo Dalla Corte & Bastiaan van Loenen (unpublished). The Recast of the PSI Directive; An Evolution, but not a Revolution. Submitted to the Technology and Regulation journal. (only sections 1-2 (pp 1-14))</a>"
+										"Materials" : [
+											{
+												"Topic" : "orenzo Dalla Corte & Bastiaan van Loenen (unpublished). The Recast of the PSI Directive; An Evolution, but not a Revolution. Submitted to the Technology and Regulation journal. (only sections 1-2 (pp 1-14))"
+											}
+										]
 									},
 									{
 										"Title" : "Lecture",
@@ -2981,12 +3370,26 @@
 									{
 										"Title" : "Paper review",
 										"Description" : "Students have to read a book chapter on open SDI strategies in Europe and have a look at some examples of SDI strategies",
-										"Materials" : "<a href=\"https://research.tudelft.nl/en/publications/exploring-the-emergence-of-open-spatial-data-infrastructures-anal\">Vancauwenberghe, G., & van Loenen, B. (2018). Exploring the Emergence of Open Spatial Data Infrastructures: Analysis of Recent Developments and Trends in Europe. In S. Saeed, T. Ramayah, & Z. Mahmood (Eds.), User Centric E-Government: Challenges and Opportunities (pp. 23-45). (Integrated Series in Information Systems; Vol. 39). Springer.</a><br><a href=\"https://repository.tudelft.nl/islandora/object/uuid:6781e9dd-1468-4b31-bf88-ee1fbfffe4a1/?collection=research\">Van Loenen, B. (2006). Developing Geographic Information Infrastructures, chapter 3</a>"
+										"Materials" : [
+											{
+												"Topic" : "Vancauwenberghe, G., & van Loenen, B. (2018). Exploring the Emergence of Open Spatial Data Infrastructures: Analysis of Recent Developments and Trends in Europe. In S. Saeed, T. Ramayah, & Z. Mahmood (Eds.), User Centric E-Government: Challenges and Opportunities (pp. 23-45). (Integrated Series in Information Systems; Vol. 39). Springer.",
+												"URL" : "https://research.tudelft.nl/en/publications/exploring-the-emergence-of-open-spatial-data-infrastructures-anal"
+											},
+											{
+												"Topic" : "an Loenen, B. (2006). Developing Geographic Information Infrastructures, chapter 3",
+												"URL" : "https://repository.tudelft.nl/islandora/object/uuid:6781e9dd-1468-4b31-bf88-ee1fbfffe4a1/?collection=research"
+											}
+										]
 									},
 									{
 										"Title" : "Clips",
 										"Description" : "Students have to watch clips on the open data strategies",
-										"Materials" : "<a href=\"https://www.youtube.com/watch?v=v5cZHPEgK2w&feature=youtu.be\">Implementing Open Government Data: Best Practice (Kingdon)</a>"
+										"Materials" : [
+											{
+												"Topic" : "Implementing Open Government Data: Best Practice (Kingdon)",
+												"URL" : "https://www.youtube.com/watch?v=v5cZHPEgK2w&feature=youtu.be"
+											}
+										]
 									},
 									{
 										"Title" : "Debate",
@@ -3043,11 +3446,22 @@
 									{
 										"Title" : "Paper review",
 										"Description" : "Students have to read a paper on the GDPR and spatial data in Europe",
-										"Materials" : "<a href=\"https://pure.uvt.nl/ws/portalfiles/portal/39278394/Dalla_Corte_Safeguarding_23_04_2020.pdf \">Chapter 6: Introduction, 6.1 – 6.4 (p 214-239) in Dalla Corte, Lorenzo (2020). Safeguarding Data Protection in an Open Data World: On the idea of balancing open data and data protection in the development, PhD thesis Tilburg 2020.</a>"									},
+										"Materials" : [
+											{
+												"Topic" : "Chapter 6: Introduction, 6.1 – 6.4 (p 214-239) in Dalla Corte, Lorenzo (2020). Safeguarding Data Protection in an Open Data World: On the idea of balancing open data and data protection in the development, PhD thesis Tilburg 2020.",
+												"URL" : "https://pure.uvt.nl/ws/portalfiles/portal/39278394/Dalla_Corte_Safeguarding_23_04_2020.pdf"
+											}
+										]
+									},
 									{
 										"Title" : "Clip",
 										"Description" : "Watch: Data protection and INSPIRE: an uncomfortable combination? (first 10 minutes)",
-										"Materials" : "<a href=\" https://www.youtube.com/watch?v=tzty-2kHjSw \">Data protection and INSPIRE: an uncomfortable combination?</a>"
+										"Materials" : [
+											{
+												"Topic" : "Data protection and INSPIRE: an uncomfortable combination?",
+												"URL" : "https://www.youtube.com/watch?v=tzty-2kHjSw"
+											}
+										]
 									}
 								]
 							},
@@ -3169,12 +3583,25 @@
 									{
 										"Title" : "Paper review",
 										"Description" : "Students have to read papers on different types of licences.",
-										"Materials" : "<a href=\"https://ijsdir.sadl.kuleuven.be/index.php/ijsdir/article/view/168\">Onsrud, H.J., J. Campbell, B. van Loenen (2010), Towards Voluntary Interoperable Open Access Licenses for the Global Earth Observation System of Systems (GEOSS), International Journal of Spatial Data Infrastructures Research (IJSDIR), 5: 194-215<br>Loenen, B. van, Janssen, K. & Welle Donker, FM (2012). Towards true interoperable geographic data: developing a global standard for geo-data licences. In K Janssen & J Crompvoets (Eds.), Geographic Data and the Law. Defining New Challenges (pp. 19-36). Leuven: Leuven University Press.</a>"
+										"Materials" : [
+											{
+												"Topic" : "Onsrud, H.J., J. Campbell, B. van Loenen (2010), Towards Voluntary Interoperable Open Access Licenses for the Global Earth Observation System of Systems (GEOSS), International Journal of Spatial Data Infrastructures Research (IJSDIR), 5: 194-215",
+												"URL" : "https://ijsdir.sadl.kuleuven.be/index.php/ijsdir/article/view/168"
+											},
+											{
+												"Topic" : "Loenen, B.; van Janssen, K. & Welle Donker, FM (2012). Towards true interoperable geographic data: developing a global standard for geo-data licences. In K Janssen & J Crompvoets (Eds.), Geographic Data and the Law. Defining New Challenges (pp. 19-36). Leuven: Leuven University Press."
+											}
+										]
 									},
 									{
 										"Title" : "Clips",
 										"Description" : "Students have to watch a video clip on the core issues of licencing in SDI",
-										"Materials" : "<a href\" https://www.youtube.com/watch?v=vmmPuXD44xs  \">Licenses for Open Government Data</a>"
+										"Materials" : [
+											{
+												"Topic" : "Licenses for Open Government Data",
+												"URL" : "https://www.youtube.com/watch?v=vmmPuXD44xs"
+											}
+										]
 									}
 								]
 							},
@@ -3348,7 +3775,12 @@
 									{
 										"Title" : "Paper review",
 										"Description" : "Read article by Vancauwenberghe et al. (2018) ",
-										"Materials" : "<a href=\"https://www.crcpress.com/GEOValue-The-Socioeconomic-Value-of-Geospatial-Information/Kruse-Crompvoets-Pearlman/p/book/9781498774512\">Vancauwenberghe, G., F. Welle Donker & B. Van Loenen (2018). Business Models for Geographic Information. In: Kruse, J., J. Crompvoets & F. Pearlman (eds) The Socioeconomic Value of Geospatial Information. CRC Press Taylor & Francis Group, Boca Baton.</a>"
+										"Materials" : [
+											{
+												"Topic" : "Vancauwenberghe, G., F. Welle Donker & B. Van Loenen (2018). Business Models for Geographic Information. In: Kruse, J., J. Crompvoets & F. Pearlman (eds) The Socioeconomic Value of Geospatial Information. CRC Press Taylor & Francis Group, Boca Baton.",
+												"URL" : "https://www.crcpress.com/GEOValue-The-Socioeconomic-Value-of-Geospatial-Information/Kruse-Crompvoets-Pearlman/p/book/9781498774512"
+											}
+										]
 									},
 									{
 										"Title" : "Lecture",
@@ -3398,7 +3830,16 @@
 									{
 										"Title" : "Paper review",
 										"Description" : "Read article by Vancauwenberghe et al. (2018) ",
-										"Materials" : "<a href=\"https://www.crcpress.com/GEOValue-The-Socioeconomic-Value-of-Geospatial-Information/Kruse-Crompvoets-Pearlman/p/book/9781498774512\">Vancauwenberghe, G., F. Welle Donker & B. Van Loenen (2018). Business Models for Geographic Information. In: Kruse, J., J. Crompvoets & F. Pearlman (eds) The Socioeconomic Value of Geospatial Information. CRC Press Taylor & Francis Group, Boca Baton.</a><br><a href=\"http://kcopendata.eu/wp-content/uploads/2017/12/2017_EuroSDR-Pub67_NMCAs_BusinesModels_OD.pdf\">Welle Donker, F. M., Crompvoets, J. and Van Loenen, B. (2017) Adapting National Mapping & Cadastral Agencies business models to open data supply: the survey results, Leuven: EuroSDROfficial Publication no. 67</a>"
+										"Materials" : [
+											{
+												"Topic" : "Vancauwenberghe, G., F. Welle Donker & B. Van Loenen (2018). Business Models for Geographic Information. In: Kruse, J., J. Crompvoets & F. Pearlman (eds) The Socioeconomic Value of Geospatial Information. CRC Press Taylor & Francis Group, Boca Baton.",
+												"URL" : "https://www.crcpress.com/GEOValue-The-Socioeconomic-Value-of-Geospatial-Information/Kruse-Crompvoets-Pearlman/p/book/9781498774512"
+											},
+											{
+												"Topic" : "Welle Donker, F. M., Crompvoets, J. and Van Loenen, B. (2017) Adapting National Mapping & Cadastral Agencies business models to open data supply: the survey results, Leuven: EuroSDROfficial Publication no. 67",
+												"URL" : "http://kcopendata.eu/wp-content/uploads/2017/12/2017_EuroSDR-Pub67_NMCAs_BusinesModels_OD.pdf"
+											}
+										]
 									},
 									{
 										"Title" : "Lecture",
@@ -3486,7 +3927,12 @@
 									{
 										"Title" : "Lecture",
 										"Description" : "Introductory lecture on basics of cost benefit analysis",
-										"Materials" : "<a href=\"https://api.semanticscholar.org/CorpusID:10545973\">N J Obermeyer (2005) Measuring the benefits and costs of GIS</a>"
+										"Materials" : [
+											{
+												"Topic" : "N J Obermeyer (2005) Measuring the benefits and costs of GIS",
+												"URL" : "https://api.semanticscholar.org/CorpusID:10545973"
+											}
+										]
 									},
 									{
 										"Title" : "Asking Questions",
@@ -3509,7 +3955,12 @@
 									{
 										"Title" : "Class Discussion",
 										"Description" : "Group discussion about main points relevant to SDI cost-benefit consideration",
-										"Materials" : "<a href=\"10.2788/21003\">Toth, K., Portele, C., Illert, A.,  Lutz, M. Nunes de Lima, V.(2012): A Conceptual Model for Developing Interoperability Specifications in Spatial Data Infrastructures, EU Joint Research Centre,</a>"
+										"Materials" : [
+											{
+												"Topic" : "https://doi.org/10.2788/21003",
+												"URL" : "Toth, K., Portele, C., Illert, A.,  Lutz, M. Nunes de Lima, V.(2012): A Conceptual Model for Developing Interoperability Specifications in Spatial Data Infrastructures, EU Joint Research Centre"
+											}
+										]
 									}
 								]
 							},
@@ -3528,7 +3979,20 @@
 									{
 										"Title" : "Peer Review",
 										"Description" : "Students read scientific journal article on SDI implementation, cost-benefit analysis",
-										"Materials" : "<a href=\"http://www.geodetski-vestnik.com/52/3/gv52-3_475-486.pdf\">Cetl, V., Roiæ, M., Masteliæ Iviæ, S. (2008): Cost-benefit analysis of the improvement of spatial data infrastructure - Case study Croatia, Geodetski Vestnik, 52/3, 475-486</a><br><a href=\"https://inspire.ec.europa.eu/events/conferences/cost_benefits/Introduction_October2012WS.pdf\">Craglia, M., Borzacchiello, M. T. (2012): Cost and Benefits of implementing the INSPIRE Directive Workshop, Ispra, 15-16 October 2012</a><br><a href=\"https://pubs.usgs.gov/circ/2004/1271/c1271.pdf>Halsing D, Theissen K, Bernknopf R, 2004, “A cost-benefit analysis of The National Map”, US Geological Survey Circular 1271,</a>"
+										"Materials" : [
+											{
+												"Topic" : "Cetl, V., Roiæ, M., Masteliæ Iviæ, S. (2008): Cost-benefit analysis of the improvement of spatial data infrastructure - Case study Croatia, Geodetski Vestnik, 52/3, 475-486",
+												"URL" : "http://www.geodetski-vestnik.com/52/3/gv52-3_475-486.pdf"
+											},
+											{
+												"Topic" : "Craglia, M., Borzacchiello, M. T. (2012): Cost and Benefits of implementing the INSPIRE Directive Workshop, Ispra, 15-16 October 2012",
+												"URL" : "https://inspire.ec.europa.eu/events/conferences/cost_benefits/Introduction_October2012WS.pdf"
+											},
+											{
+												"Topic" : "Halsing D, Theissen K, Bernknopf R, 2004, “A cost-benefit analysis of The National Map”, US Geological Survey Circular 1271",
+												"URL" : "https://pubs.usgs.gov/circ/2004/1271/c1271.pdf"
+											}
+										]
 									},
 									{
 										"Title" : "Class Discussion",
@@ -3607,12 +4071,22 @@
 									{
 										"Title" : "Clips",
 										"Description" : "Students have to watch the introductory video on Funding Models",
-										"Materials" : "<a href=\" https://www.youtube.com/watch?v=XM44WHkOQJ4&feature=youtu.be  \">Funding open data: access policies explained</a>"
+										"Materials" : [
+											{
+												"Topic" : "Funding open data: access policies explained",
+												"URL" : "https://www.youtube.com/watch?v=XM44WHkOQJ4&feature=youtu.be"
+											}
+										]
 									},
 									{
 										"Title" : "Reading Paper",
 										"Description" : "Read the following paper.",
-										"Materials" : "Welle Donker, F., & van Loenen, B. (2016).<a href=\"https://pure.tudelft.nl/portal/en/publications/sustainable-business-models-for-public-sector-open-data-providers(3df7a32d-d574-4a65-86ab-101ec95e293c).html \">Sustainable Business Models for Public Sector Open Data Providers</a>. JeDEM eJournal of eDemocracy and Open Government, 8(1), 28-61."
+										"Materials" : [
+											{
+												"Topic" : "Welle Donker, F., & van Loenen, B. (2016): Sustainable Business Models for Public Sector Open Data Providers. JeDEM eJournal of eDemocracy and Open Government, 8(1), 28-61.",
+												"URL" : "https://pure.tudelft.nl/portal/en/publications/sustainable-business-models-for-public-sector-open-data-providers(3df7a32d-d574-4a65-86ab-101ec95e293c).html"
+											}
+										]
 									},
 									{
 										"Title" : "Lecture",
@@ -3667,7 +4141,12 @@
 									{
 										"Title" : "Clips",
 										"Description" : "Students have to watch the introductory video on Access Regimes",
-										"Materials" : "<a href=\" https://www.youtube.com/watch?v=XM44WHkOQJ4&feature=youtu.be  \">Funding open data: access policies explained</a>"
+										"Materials" : [
+											{
+												"Topic" : "Funding open data: access policies explained",
+												"URL" : "https://www.youtube.com/watch?v=XM44WHkOQJ4&feature=youtu.be"
+											}
+										]
 									},
 									{
 										"Title" : "Lecture",
@@ -3727,7 +4206,12 @@
 									{
 										"Title" : "Clips",
 										"Description" : "Students have to watch the introductory video on SDI Information Value Chains",
-										"Materials" : "<a href=\" https://www.youtube.com/watch?v=BmD0gl6SrqI&feature=youtu.be \">Business models for national data providers: how to move in the data value chain</a>"
+										"Materials" : [
+											{
+												"Topic" : "https://www.youtube.com/watch?v=BmD0gl6SrqI&feature=youtu.be",
+												"URL" : "Business models for national data providers: how to move in the data value chain"
+											}
+										]
 									},
 									{
 										"Title" : "Lecture",
@@ -3856,7 +4340,20 @@
 									{
 										"Title" : "Paper review",
 										"Description" : "Readings provide the background on current debates on data- and tech-related ethical issues",
-										"Materials" : "<a href=\"https://doi.org/10.1007/s13347-019-00345-y\">Floridi, Luciano. 2019. “What the Near Future of Artificial Intelligence Could Be.” Philosophy & Technology 32: 1-15</a><br><a href=\"https://doi.org/10.1007/s13347-017-0259-1\">Floridi, Luciano. 2017. “Digital’s Cleaving Power and Its Consequences.” Philosophy of Technology 3  : 123-13</a><br><a href=\"https://doi.org/10.1111/j.1933-1592.2005.tb00531.x\">Floridi, Luciano. 2005. \"Is Semantic Information Meaningful Data?\" Philosophy and Phenomenological Research 70 (2): 351-370</a>"
+										 "Materials" : [
+											{
+												"Topic" : "https://doi.org/10.1007/s13347-019-00345-y",
+												"URL" : "Floridi, Luciano. 2019. “What the Near Future of Artificial Intelligence Could Be.” Philosophy & Technology 32: 1-15"
+											},
+											{
+												"Topic" : "https://doi.org/10.1007/s13347-017-0259-1",
+												"URL" : "Floridi, Luciano. 2017. “Digital’s Cleaving Power and Its Consequences.” Philosophy of Technology 3  : 123-13"
+											},
+											{
+												"Topic" : "https://doi.org/10.1111/j.1933-1592.2005.tb00531.x",
+												"URL" : "Floridi, Luciano. 2005. \"Is Semantic Information Meaningful Data?\" Philosophy and Phenomenological Research 70 (2): 351-370"
+											}
+										]
 									}
 								]
 							},
@@ -3893,7 +4390,16 @@
 									{
 										"Title" : "Paper review",
 										"Description" : "Readings provide the background on current debates on open data and SDIs",
-										"Materials" : "<a href=\"https://doi.org/10.1080/17538947.2016.1224938 \">Frederika Welle Donker & Bastiaan van Loenen (2017). How to assess the success of the open data ecosystem?, International Journal of Digital Earth, 1</a><br><a href=\"https://ijsdir.sadl.kuleuven.be/index.php/ijsdir/article/view/498\">Mulder, A. E., Wiersma, M. G., van Loenen, B. 2020. Status of National Open Spatial Data Infrastructures: a Comparison Across Continents. International Journal of Spatial Data Infrastructures Research, Vol.15, 56-87</a>"
+										"Materials" : [
+											{
+												"Topic" : "Frederika Welle Donker & Bastiaan van Loenen (2017). How to assess the success of the open data ecosystem?, International Journal of Digital Earth, 1<",
+												"URL" : "https://doi.org/10.1080/17538947.2016.1224938"
+											},
+											{
+												"Topic" : "Mulder, A. E., Wiersma, M. G., van Loenen, B. 2020. Status of National Open Spatial Data Infrastructures: a Comparison Across Continents. International Journal of Spatial Data Infrastructures Research, Vol.15, 56-87",
+												"URL" : "https://ijsdir.sadl.kuleuven.be/index.php/ijsdir/article/view/498"
+											}
+										]
 									}
 								]
 							},
@@ -3943,7 +4449,20 @@
 									{
 										"Title" : "Paper review",
 										"Description" : "Readings expand on key aspects touched in class and provide a back-up for the assessment",
-										"Materials" : "<a href=\"https://www3.weforum.org/docs/WEF_Federated_Data_Systems_2019.pdf\">World Economic Forum. 2019. “Federated Data Systems: Balancing Innovation and Trust in the Use of Sensitive Data</a><br><a href=\"https://ec.europa.eu/futurium/en/system/files/ged/psi_eg.pdf\">European Commission. 2013.Powering European Public Sector Innovation: Towards a New Architecture</a><br><a href=\"https://ec.europa.eu/isa2/sites/default/files/eif_brochure_final.pdf\">European Commission. 2017. \"New European Interoperability Framework - Promoting Seamless Services and Data Flows for European Public Administrations</a>"
+										"Materials" : [
+											{
+												"Topic" : "World Economic Forum. 2019. “Federated Data Systems: Balancing Innovation and Trust in the Use of Sensitive Data",
+												"URL" : "https://www3.weforum.org/docs/WEF_Federated_Data_Systems_2019.pdf"
+											},
+											{
+												"Topic" : "European Commission. 2013.Powering European Public Sector Innovation: Towards a New Architecture",
+												"URL" : "https://ec.europa.eu/futurium/en/system/files/ged/psi_eg.pdf"
+											},
+											{
+												"Topic" : "European Commission. 2017. New European Interoperability Framework - Promoting Seamless Services and Data Flows for European Public Administrations",
+												"URL" : "https://ec.europa.eu/isa2/sites/default/files/eif_brochure_final.pdf"
+											}
+										]
 									}
 								]
 							}
@@ -3995,7 +4514,20 @@
 									{
 										"Title" : "Paper review",
 										"Description" : "Other models similar to the J-UDMA are provided",
-										"Materials" : "<a href=\"http://theodi.org/guides/open-data-maturity-model\">The ODI, The Open Data Maturity Model</a><br><a href=\"https://opendataimpactmap.org/\">Open Data for Development Network (OD4D),Open Data Impact Map</a><br><a href=\"https://www.opengovpartnership.org/\">Independent Reporting Mechanism country assessment reports of Open Government Partnership (OGP) Action Plan commitment</a>"
+										"Materials" : [
+											{
+												"Topic" : "The ODI, The Open Data Maturity Model",
+												"URL" : "http://theodi.org/guides/open-data-maturity-model"
+											},
+											{
+												"Topic" : "Open Data for Development Network (OD4D),Open Data Impact Map",
+												"URL" : "https://opendataimpactmap.org/"
+											},
+											{
+												"Topic" : "Independent Reporting Mechanism country assessment reports of Open Government Partnership (OGP) Action Plan commitment",
+												"URL" : "https://www.opengovpartnership.org/"
+											}
+										]
 									}
 								]
 							},
@@ -4019,7 +4551,20 @@
 									{
 										"Title" : "Paper review",
 										"Description" : "Students have to read one of the three frameworks on tech innovation released by the EU, OECD, and China",
-										"Materials" : "<a href=\"https://op.europa.eu/en/publication-detail/-/publication/d3988569-0434-11ea-8c1f-01aa75ed71a1\">European Commission High-Level Expert Group. 2019. “Ethics Guidelines for Trustworthy AI</a><br><a href=\"https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0449\">OECD. 2019. “OECD Principles on Artificial Intelligence</a><br><a href=\"https://d1y8sb8igg2f8e.cloudfront.net/documents/translation-fulltext-8.1.17.pdf/\">China’s State Council. 2  17. “A New Generation of Artificial Intelligence Development Plan</a>"
+										"Materials" : [
+											{
+												"Topic" : "European Commission High-Level Expert Group. 2019. “Ethics Guidelines for Trustworthy AI",
+												"URL" : "https://op.europa.eu/en/publication-detail/-/publication/d3988569-0434-11ea-8c1f-01aa75ed71a1"
+											},
+											{
+												"Topic" : "OECD. 2019. OECD Principles on Artificial Intelligence",
+												"URL" : "https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0449"
+											},
+											{
+												"Topic" : "China’s State Council. 2  17. A New Generation of Artificial Intelligence Development Plan",
+												"URL" : "https://d1y8sb8igg2f8e.cloudfront.net/documents/translation-fulltext-8.1.17.pdf"
+											}
+										]
 									},
 									{
 										"Title" : "Class Discussion",
@@ -4060,7 +4605,20 @@
 									{
 										"Title" : "Paper review",
 										"Description" : "Readings back up the lecture",
-										"Materials" : "<a href=\"https://doi.org/10.5325/jinfopoli.7.2017.0228\">Winseck, D. (2017). \"The Geopolitical Economy of the Global Internet Infrastructure.\" Journal of Information Policy, 7, 228-267</a>br><a href=\"https://dlc.dlib.indiana.edu/dlc/bitstream/handle/10535/10410/5th-Ostrom-lecture-DLC.pdf?sequence=1&isAllowed=y\">Mueller, M. (2019). \"Sovereignty and Cyberspace: Institutions and Internet Governance</a><br><a href=\"https://doi.org/10.1177/1527476420957267\">Calzati, S. (2020) “Decolonising ‘Data Colonialism’: Propositions for Investigating the Realpolitik of Today’s Networked Ecology.” Television & New Media, 22 (8)</a>"
+										"Materials" : [
+											{
+												"Topic" : "Winseck, D. (2017). \"The Geopolitical Economy of the Global Internet Infrastructure.\" Journal of Information Policy, 7, 228-267",
+												"URL" : "https://doi.org/10.5325/jinfopoli.7.2017.0228"
+											},
+											{
+												"Topic" : "Mueller, M. (2019). Sovereignty and Cyberspace: Institutions and Internet Governance",
+												"URL" : "https://dlc.dlib.indiana.edu/dlc/bitstream/handle/10535/10410/5th-Ostrom-lecture-DLC.pdf?sequence=1&isAllowed=y"
+											},
+											{
+												"Topic" : "Calzati, S. (2020) “Decolonising ‘Data Colonialism’: Propositions for Investigating the Realpolitik of Today’s Networked Ecology.” Television & New Media, 22 (8)",
+												"URL" : "https://doi.org/10.1177/1527476420957267"
+											}
+										]
 									}
 								]
 							},
@@ -4111,7 +4669,24 @@
 									{
 										"Title" : "Paper review",
 										"Description" : "Key readings on sustainability, smart cities, SSCs",
-										"Materials" : "<a href=\"https://doi.org/10.1177/1042258719899425\">Winseck, D. (2017). \"George, G., Merrill, R. and Schillebeeckx, S.. 2020. “Digital Sustainability and Entrepreneurship: How Digital Innovations Are Helping Tackle Climate Change and Sustainable Development.” Entrepreneurship Theory and Practice, 45 (5)</a><br><a href=\"https://doi.org/10.1007/s11625-018-0627-5\">Purvis, B., Mao, Y. and Robinson, D. 2019. Three Pillars of Sustainability: In Search of Conceptual Origins.\" Sustainability Science, 14, 681-695</a><br><a href=\"http://handle.itu.int/11.1002/pub/811983d4-en\"> ITU-T FG-SSC. 2016. “Shaping Smarter and More Sustainable Cities: Striving for Sustainable Development Goals.”</a><br><a href=\"https://doi.org/10.1068/a46242\">Viitanen, Jenni and Richard Kingston. 2014. “Smart Cities and Green Growth: Outsourcing Democratic and Environmental Resilience to the Global Technology Sector.” Environment and Planning A 46: 8  3-819</a>"
+										"Materials" : [
+											{
+												"Topic" : "Winseck, D. (2017). George, G., Merrill, R. and Schillebeeckx, S.. 2020. “Digital Sustainability and Entrepreneurship: How Digital Innovations Are Helping Tackle Climate Change and Sustainable Development.” Entrepreneurship Theory and Practice, 45 (5)",
+												"URL" : "https://doi.org/10.1177/1042258719899425"
+											},
+											{
+												"Topic" : "Purvis, B., Mao, Y. and Robinson, D. 2019. Three Pillars of Sustainability: In Search of Conceptual Origins. Sustainability Science, 14, 681-695",
+												"URL" : "https://doi.org/10.1007/s11625-018-0627-5"
+											},
+											{
+												"Topic" : "ITU-T FG-SSC. 2016. “Shaping Smarter and More Sustainable Cities: Striving for Sustainable Development Goals.”",
+												"URL" : "http://handle.itu.int/11.1002/pub/811983d4-en"
+											},
+											{
+												"Topic" : "Viitanen, Jenni and Richard Kingston. 2014. “Smart Cities and Green Growth: Outsourcing Democratic and Environmental Resilience to the Global Technology Sector.” Environment and Planning A 46: 8  3-819",
+												"URL" : "https://doi.org/10.1068/a46242"
+											}
+										]
 									}
 								]
 							},
@@ -4157,7 +4732,28 @@
 									{
 										"Title" : "Paper review",
 										"Description" : "Key readings back up the lecture",
-										"Materials" : "<a href=\"https://doi.org/10.1126/science.aaf7160\">Ramaswami, A, Russell, A., Culligan, P. et al. (2018) “Meta-Principles for Developing Smart, Sustainable, and Healthy Cities.” Science 352 (6288): 940-943</a><br><a href=\"https://doi.org/10.3390/su12062307\">Dembski, F, Wössner, U, Letzgus, M., et al. (2020). “Urban Digital Twins for Smart Cities and Citizens: The Case Study of Herrenberg, Germany.” Sustainability 12, 2307</a><br><a href=\"https://doi.org/10.1109/ACCESS.2020.2998358\">Fuller, Aidan, Zhong Fan, Charles Day, and Chris Barlow. 2020. “Digital Twin: Enabling Technologies, Challenges and Open Research.”</a><br><a href=\"https://doi.org/10.3390/su13063386\">Shahat, E., C.T. Hyun, and C. Yeom. 2021. \"City Digital Twin Potentials: A Review and Research Agenda.\" Sustainability, 2021. 13(6)</a><br><a href=\"https://doi.org/10.1080/10630732.2020.1798177 \">Nochta, T., Wan, L., Schooling, J. M., & Parlikad, A. K. 2021. \"A Socio-technical Perspective on Urban Analytics: The Case of City-scale Digital Twins.\" Journal of Urban Technology, 28(1-2), 263-287</a>"
+										"Materials" : [
+											{
+												"Topic" : "Ramaswami, A, Russell, A., Culligan, P. et al. (2018) “Meta-Principles for Developing Smart, Sustainable, and Healthy Cities.” Science 352 (6288): 940-943",
+												"URL" : "https://doi.org/10.1126/science.aaf7160"
+											},
+											{
+												"Topic" : "Dembski, F, Wössner, U, Letzgus, M., et al. (2020). “Urban Digital Twins for Smart Cities and Citizens: The Case Study of Herrenberg, Germany.” Sustainability 12, 2307",
+												"URL" : "https://doi.org/10.3390/su12062307"
+											},
+											{
+												"Topic" : "Fuller, Aidan, Zhong Fan, Charles Day, and Chris Barlow. 2020. “Digital Twin: Enabling Technologies, Challenges and Open Research.”",
+												"URL" : "https://doi.org/10.1109/ACCESS.2020.2998358"
+											},
+											{
+												"Topic" : "Shahat, E., C.T. Hyun, and C. Yeom. 2021. \"City Digital Twin Potentials: A Review and Research Agenda.\" Sustainability, 2021. 13(6)",
+												"URL" : "https://doi.org/10.3390/su13063386"
+											},
+											{
+												"Topic" : "Nochta, T., Wan, L., Schooling, J. M., & Parlikad, A. K. 2021. \"A Socio-technical Perspective on Urban Analytics: The Case of City-scale Digital Twins.\" Journal of Urban Technology, 28(1-2), 263-287",
+												"URL" : "https://doi.org/10.1080/10630732.2020.1798177"
+											}
+										]
 									}
 								]
 							},
@@ -4200,7 +4796,36 @@
 									{
 										"Title" : "Paper review",
 										"Description" : "Students come to class having already read the assigned readings on data commons",
-										"Materials" : "<a href=\"https://doi.org/10.1007/978-3-319-48342-9_10\">Purtova N. (2017). \"Health Data for Common Good: Defining the Boundaries and Social Dilemmas of Data Commons\". In: Adams S., Purtova N., Leenes R. (eds) Under Observation: The Interplay Between eHealth and Surveillance. Law, Governance and Technology Series, vol 35. Springer, Cham</a><br><a href=\"https://law.stanford.edu/wp-content/uploads/2019/09/Shkabatur_Global-Commons_20190830-1.pdf\">Shkabatur, J. 2019. \"The Global Commons of Data.\" Stan. Tech. L. Rev., 22: 354-411</a><br><a href=\"https://doi.org/10.1109/ACCESS.2020.2998358\">Fuller, Aidan, Zhong Fan, Charles Day, and Chris Barlow. 2020. “Digital Twin: Enabling Technologies, Challenges and Open Research.”</a><br><a href=\"https://library.oapen.org/bitstream/handle/20.500.12657/23187/1006966.pdf#page=211\">Beckwith, R., Sherry, J., & Prendergast, D. (2019). \"Data Flow in the Smart City: Open Data Versus the Commons.\" In The Hackable City (pp. 205-221). Springer, Singapore</a><br><a href=\"http://doi.org/10.2478/\">Kalliola, R. Käyhkö N. and Jokela S. (2019). Adaptive Development of a Regional Spatial Data Infrastructure Facing Local Prospects and Socio-Technological Trends. Bulletin of Geography. Socio-economic Series, 44(44), 73-80</a><br><a href=\"https://library.oapen.org/bitstream/handle/20.500.12657/23187/1006966.pdf#page=211\">Beckwith, R., Sherry, J., & Prendergast, D. (2019). \"Data Flow in the Smart City: Open Data Versus the Commons.\" In The Hackable City (pp. 205-221). Springer, Singapore</a><br><a href=\"https://www.jstor.org/stable/j.ctv550cf2.29\">Williams, J., Chapman, C., Leibovici, D., Lois, G., Matheus, A., Oggioni, A., ... & van Genuchten, P. (2018). \"Maximising the impact and reuse of citizen science data\". UCL Press</a>"
+										"Materials" : [
+											{
+												"Topic" : "Purtova N. (2017). \"Health Data for Common Good: Defining the Boundaries and Social Dilemmas of Data Commons\". In: Adams S., Purtova N., Leenes R. (eds) Under Observation: The Interplay Between eHealth and Surveillance. Law, Governance and Technology Series, vol 35. Springer, Cham",
+												"URL" : "https://doi.org/10.1007/978-3-319-48342-9_10"
+											},
+											{
+												"Topic" : "Shkabatur, J. 2019. \"The Global Commons of Data.\" Stan. Tech. L. Rev., 22: 354-411",
+												"URL" : "https://law.stanford.edu/wp-content/uploads/2019/09/Shkabatur_Global-Commons_20190830-1.pdf"
+											},
+											{
+												"Topic" : "Fuller, Aidan, Zhong Fan, Charles Day, and Chris Barlow. 2020. “Digital Twin: Enabling Technologies, Challenges and Open Research.”",
+												"URL" : "https://doi.org/10.1109/ACCESS.2020.2998358"
+											},
+											{
+												"Topic" : "Beckwith, R., Sherry, J., & Prendergast, D. (2019). \"Data Flow in the Smart City: Open Data Versus the Commons.\" In The Hackable City (pp. 205-221). Springer, Singapore",
+												"URL" : "https://library.oapen.org/bitstream/handle/20.500.12657/23187/1006966.pdf#page=211"
+											},
+											{
+												"Topic" : "Kalliola, R. Käyhkö N. and Jokela S. (2019). Adaptive Development of a Regional Spatial Data Infrastructure Facing Local Prospects and Socio-Technological Trends. Bulletin of Geography. Socio-economic Series, 44(44), 73-80",
+												"URL" : "http://doi.org/10.2478/"
+											},
+											{
+												"Topic" : "Beckwith, R., Sherry, J., & Prendergast, D. (2019). \"Data Flow in the Smart City: Open Data Versus the Commons.\" In The Hackable City (pp. 205-221). Springer, Singapore",
+												"URL" : "https://library.oapen.org/bitstream/handle/20.500.12657/23187/1006966.pdf#page=211"
+											},
+											{
+												"Topic" : "Williams, J., Chapman, C., Leibovici, D., Lois, G., Matheus, A., Oggioni, A., ... & van Genuchten, P. (2018). \"Maximising the impact and reuse of citizen science data\". UCL Press",
+												"URL" : "https://www.jstor.org/stable/j.ctv550cf2.29"
+											}
+										]
 									}
 								]
 							},
@@ -4233,7 +4858,32 @@
 									{
 										"Title" : "Lecture",
 										"Description" : "Lecture wraps up the main points and presents data commons case studies in the context of SDI",
-										"Materials" : "<a href=\"https://doi.org/10.3390/ijgi9020090\">Coetzee, Serena, Ivana Ivánová, Helena Mitasova, and Maria Antonia Brovelli. (2020). “Open Geospatial Software and Data: A Review of the Current State and A Perspective into the Future.” Internation Journal of Geo-Information, (9)90</a><br><a href=\"https://doi.org/doi:100.10017/dce.200200.3\">Dodds, Leigh, Pauline L’Hénaff, James Maddison and Deborah Yates. (2020). “A Manifesto for Increasing Access to Data in Engineering.” Data-Centric Engineering, 1(e5)</a><br><a href=\"http://dx.doi.org/100.2139/ssrn.3865774\">de Nictolis, Elena and Christian Iaione. (2021). “The City as a Commons Reloaded: from the Urban Commons to Co-Cities Empirical Evidence on the Bologna Regulation.” The Cambridge Handbook of Commons Research Innovation</a><br><a href=\"https://doi.org/10.5194/isprs-archives-XLII-4-W14-167-2019\">M. Minghini, A. Kotsev, M. Lutz. (2  19). “Comparing Inspire and Openstreetmap Data: How to Make the Most Out of the Two Worlds.” The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences</a><br><a href=\" https://www.ucl.ac.uk/bartlett/public-purpose/wp2022-02\">Monge, F., Barns, S., Kattel, R and Bria, F. (2022) A new data deal: the case of Barcelona. UCL Institute for Innovation and Public Purpose, Working Paper Series (No. WP 2022/02)</a><br><a href=\"https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.717.9611&rep=rep1&type=pdf#page=38\">Bde Man, W. E. (2008). The multi-faceted nature of SDIs and their assessment-dealing with dilemmas. A multi-view framework to Assess SDIs, 23</a>"
+										"Materials" : [
+											{
+												"Topic" : "Coetzee, Serena, Ivana Ivánová, Helena Mitasova, and Maria Antonia Brovelli. (2020). “Open Geospatial Software and Data: A Review of the Current State and A Perspective into the Future.” Internation Journal of Geo-Information, (9)90",
+												"URL" : "https://doi.org/10.3390/ijgi9020090"
+											},
+											{
+												"Topic" : "Dodds, Leigh, Pauline L’Hénaff, James Maddison and Deborah Yates. (2020). “A Manifesto for Increasing Access to Data in Engineering.” Data-Centric Engineering, 1(e5)",
+												"URL" : "https://doi.org/doi:100.10017/dce.200200.3"
+											},
+											{
+												"Topic" : "de Nictolis, Elena and Christian Iaione. (2021). “The City as a Commons Reloaded: from the Urban Commons to Co-Cities Empirical Evidence on the Bologna Regulation.” The Cambridge Handbook of Commons Research Innovation",
+												"URL" : "http://dx.doi.org/100.2139/ssrn.3865774"
+											},
+											{
+												"Topic" : "M. Minghini, A. Kotsev, M. Lutz. (2  19). “Comparing Inspire and Openstreetmap Data: How to Make the Most Out of the Two Worlds.” The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences",
+												"URL" : "https://doi.org/10.5194/isprs-archives-XLII-4-W14-167-2019"
+											},
+											{
+												"Topic" : "Monge, F., Barns, S., Kattel, R and Bria, F. (2022) A new data deal: the case of Barcelona. UCL Institute for Innovation and Public Purpose, Working Paper Series (No. WP 2022/02)",
+												"URL" : "https://www.ucl.ac.uk/bartlett/public-purpose/wp2022-02"
+											},
+											{
+												"Topic" : "Bde Man, W. E. (2008). The multi-faceted nature of SDIs and their assessment-dealing with dilemmas. A multi-view framework to Assess SDIs, 23",
+												"URL" : "https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.717.9611&rep=rep1&type=pdf#page=38"
+											}
+										]
 									},
 									{
 										"Title" : "Lecture",
@@ -4693,8 +5343,13 @@
 								"Teaching activities" : [
 									{
 										"Title" : "Reading prior to class",
-										"Description" : "Students have to read the article by Crompvoets et al. (2018)",
-										"Materials" : "Crompvoets, J., Vancauwenberghe, G., Ho, S., Masser, I., & De Vries, W. T. (2018). <a href='https://ijsdir.sadl.kuleuven.be/index.php/ijsdir/article/view/483' target='_blank'>Governance of national spatial data infrastructures in Europe</a>. International Journal of Spatial Data Infrastructures Research, 13, 253-285."
+										"Description" : "Students have to read the article by Crompvoets et al. (2018): Governance of national spatial data infrastructures in Europe</a>. International Journal of Spatial Data Infrastructures Research, 13, 253-285.",
+										"Materials" : [
+											{
+												"Topic" : "Crompvoets, J., Vancauwenberghe, G., Ho, S., Masser, I., & De Vries, W. T. (2018).",
+												"URL" : "https://ijsdir.sadl.kuleuven.be/index.php/ijsdir/article/view/483"
+											}
+										]
 									},
 									{
 										"Title" : "Brainstorm",

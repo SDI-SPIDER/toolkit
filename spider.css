@@ -195,12 +195,16 @@ a.nav-link:hover {
 	padding-left: 0;
 }
 
-.assessment ul, ul.bok {
+.assessment ul, ul.bok, .materials ul {
 	list-style-type: none;
 }
 
 .assessment ul ul {
 	margin-left: 10px;
+}
+
+.materials li {
+	margin: 0 0 5px 10px;
 }
 
 .filter {
@@ -229,7 +233,7 @@ a.nav-link:hover {
 	margin-right: 5px;
 }
 
-.bok a::before {
+.bok a::before, .materials a::before {
 	content: url(icons/box-arrow-up-right.svg);
 	margin-right: 4px;
 }
@@ -243,12 +247,12 @@ a.permalink.detail::after {
 	content: "Permalink";
 }
 
-.bok a, .permalink {
+.bok a, .permalink, .materials a {
 	color: #6c757d;
 	text-decoration: none;
 }
 
-.bok a:hover, .permalink:hover {
+.bok a:hover, .permalink:hover, .materials a:hover {
 	color: #495057;
 	text-decoration: underline;
 }

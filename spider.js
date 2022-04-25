@@ -202,12 +202,23 @@ function formatAssessment(assessments, assessmenttyp) {
 
 /* Format the materials for a learning outcome */
 function formatMaterials(materials) {
-  return $(`
+	out = $(`
     <div class="materials">
-      <p><strong>Materials</strong><br />
-      ` + materials + `</p>
+		Materials:<br />
     </div>
     `);
+	liste = $(`<ul></ul>`);
+	
+	materials.forEach(function (materialItem) {
+		if (materialItem["URL"] && materialItem["URL"] != "") {
+			liste.append(`<li><a href="` + materialItem["URL"] + `" target="_blank">` + materialItem["Topic"] + `</a></li>`)
+		} else {
+			liste.append(`<li>` + materialItem["Topic"] + `</li>`)
+		}
+	});
+	
+	out.append(liste);
+	return out;
 }
 
 /* Add a list of Bodies of Knowlege Links*/
