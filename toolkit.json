@@ -4327,7 +4327,7 @@
 								"Teaching activities" : [
 									{
 										"Title" : "Short Quizzes",
-										"Description" : "Quiz for plunging students into the concepts of \"ethics\", \"data\" and \"technology\" via real-life case studies"
+										"Description" : "Quiz for plunging students into the concepts of \"ethics\", \"data\" and \"technology\""
 									},
 									{
 										"Title" : "Class Discussion",
@@ -4342,16 +4342,12 @@
 										"Description" : "Readings provide the background on current debates on data- and tech-related ethical issues",
 										 "Materials" : [
 											{
-												"Topic" : "https://doi.org/10.1007/s13347-019-00345-y",
-												"URL" : "Floridi, Luciano. 2019. “What the Near Future of Artificial Intelligence Could Be.” Philosophy & Technology 32: 1-15"
+												"Topic" : "Floridi, Luciano. 2019. “What the Near Future of Artificial Intelligence Could Be.” Philosophy & Technology 32: 1-15",
+												"URL" : "https://doi.org/10.1007/s13347-019-00345-y"
 											},
 											{
-												"Topic" : "https://doi.org/10.1007/s13347-017-0259-1",
-												"URL" : "Floridi, Luciano. 2017. “Digital’s Cleaving Power and Its Consequences.” Philosophy of Technology 3  : 123-13"
-											},
-											{
-												"Topic" : "https://doi.org/10.1111/j.1933-1592.2005.tb00531.x",
-												"URL" : "Floridi, Luciano. 2005. \"Is Semantic Information Meaningful Data?\" Philosophy and Phenomenological Research 70 (2): 351-370"
+												"Topic" : "Floridi and Taddeo. 2016. “What’s data ethics.” Phil. Trans. R. Soc. A",
+												"URL" : "https://royalsocietypublishing.org/doi/10.1098/rsta.2016.0360"
 											}
 										]
 									}
@@ -4432,7 +4428,15 @@
 								"Teaching activities" : [
 									{
 										"Title" : "Mystery quotations",
-										"Description" : "Media contents/policies/tech companies` statements as triggers to highlight discourses on open data and SDIs (e.g. 'tech-universalism', 'tech-optimism', 'tech-solutionism')"
+										"Description" : "Media contents/policies/tech companies` statements as triggers to highlight discourses on open data and SDIs (e.g. 'tech-universalism', 'tech-optimism', 'tech-solutionism')",
+										"Materials" : [
+											{
+												"Topic" : "“The volume of sensitive data is growing, but the value is constrained. Most of it is separated and disconnected. (…) The need for protection currently outweighs the incentives for innovation.” (World Economic Forum 2019)"
+											},
+											{
+												"Topic" : "“Open data can in principle extend tasks traditionally performed by the public sector to citizens, private actors, non-governmental organizations.” (European Commission 2013)"
+											}
+										]
 									},
 									{
 										"Title" : "Class Discussion",
@@ -4453,10 +4457,6 @@
 											{
 												"Topic" : "World Economic Forum. 2019. “Federated Data Systems: Balancing Innovation and Trust in the Use of Sensitive Data",
 												"URL" : "https://www3.weforum.org/docs/WEF_Federated_Data_Systems_2019.pdf"
-											},
-											{
-												"Topic" : "European Commission. 2013.Powering European Public Sector Innovation: Towards a New Architecture",
-												"URL" : "https://ec.europa.eu/futurium/en/system/files/ged/psi_eg.pdf"
 											},
 											{
 												"Topic" : "European Commission. 2017. New European Interoperability Framework - Promoting Seamless Services and Data Flows for European Public Administrations",
@@ -4518,10 +4518,6 @@
 											{
 												"Topic" : "The ODI, The Open Data Maturity Model",
 												"URL" : "http://theodi.org/guides/open-data-maturity-model"
-											},
-											{
-												"Topic" : "Open Data for Development Network (OD4D),Open Data Impact Map",
-												"URL" : "https://opendataimpactmap.org/"
 											},
 											{
 												"Topic" : "Independent Reporting Mechanism country assessment reports of Open Government Partnership (OGP) Action Plan commitment",
@@ -4611,10 +4607,6 @@
 												"URL" : "https://doi.org/10.5325/jinfopoli.7.2017.0228"
 											},
 											{
-												"Topic" : "Mueller, M. (2019). Sovereignty and Cyberspace: Institutions and Internet Governance",
-												"URL" : "https://dlc.dlib.indiana.edu/dlc/bitstream/handle/10535/10410/5th-Ostrom-lecture-DLC.pdf?sequence=1&isAllowed=y"
-											},
-											{
 												"Topic" : "Calzati, S. (2020) “Decolonising ‘Data Colonialism’: Propositions for Investigating the Realpolitik of Today’s Networked Ecology.” Television & New Media, 22 (8)",
 												"URL" : "https://doi.org/10.1177/1527476420957267"
 											}
@@ -4671,20 +4663,12 @@
 										"Description" : "Key readings on sustainability, smart cities, SSCs",
 										"Materials" : [
 											{
-												"Topic" : "Winseck, D. (2017). George, G., Merrill, R. and Schillebeeckx, S.. 2020. “Digital Sustainability and Entrepreneurship: How Digital Innovations Are Helping Tackle Climate Change and Sustainable Development.” Entrepreneurship Theory and Practice, 45 (5)",
+												"Topic" : "George, G., Merrill, R. and Schillebeeckx, S. 2020. “Digital Sustainability and Entrepreneurship: How Digital Innovations Are Helping Tackle Climate Change and Sustainable Development.” Entrepreneurship Theory and Practice, 45 (5)",
 												"URL" : "https://doi.org/10.1177/1042258719899425"
 											},
 											{
 												"Topic" : "Purvis, B., Mao, Y. and Robinson, D. 2019. Three Pillars of Sustainability: In Search of Conceptual Origins. Sustainability Science, 14, 681-695",
 												"URL" : "https://doi.org/10.1007/s11625-018-0627-5"
-											},
-											{
-												"Topic" : "ITU-T FG-SSC. 2016. “Shaping Smarter and More Sustainable Cities: Striving for Sustainable Development Goals.”",
-												"URL" : "http://handle.itu.int/11.1002/pub/811983d4-en"
-											},
-											{
-												"Topic" : "Viitanen, Jenni and Richard Kingston. 2014. “Smart Cities and Green Growth: Outsourcing Democratic and Environmental Resilience to the Global Technology Sector.” Environment and Planning A 46: 8  3-819",
-												"URL" : "https://doi.org/10.1068/a46242"
 											}
 										]
 									}
@@ -4734,20 +4718,12 @@
 										"Description" : "Key readings back up the lecture",
 										"Materials" : [
 											{
-												"Topic" : "Ramaswami, A, Russell, A., Culligan, P. et al. (2018) “Meta-Principles for Developing Smart, Sustainable, and Healthy Cities.” Science 352 (6288): 940-943",
-												"URL" : "https://doi.org/10.1126/science.aaf7160"
-											},
-											{
 												"Topic" : "Dembski, F, Wössner, U, Letzgus, M., et al. (2020). “Urban Digital Twins for Smart Cities and Citizens: The Case Study of Herrenberg, Germany.” Sustainability 12, 2307",
 												"URL" : "https://doi.org/10.3390/su12062307"
 											},
 											{
 												"Topic" : "Fuller, Aidan, Zhong Fan, Charles Day, and Chris Barlow. 2020. “Digital Twin: Enabling Technologies, Challenges and Open Research.”",
 												"URL" : "https://doi.org/10.1109/ACCESS.2020.2998358"
-											},
-											{
-												"Topic" : "Shahat, E., C.T. Hyun, and C. Yeom. 2021. \"City Digital Twin Potentials: A Review and Research Agenda.\" Sustainability, 2021. 13(6)",
-												"URL" : "https://doi.org/10.3390/su13063386"
 											},
 											{
 												"Topic" : "Nochta, T., Wan, L., Schooling, J. M., & Parlikad, A. K. 2021. \"A Socio-technical Perspective on Urban Analytics: The Case of City-scale Digital Twins.\" Journal of Urban Technology, 28(1-2), 263-287",
@@ -4806,24 +4782,8 @@
 												"URL" : "https://law.stanford.edu/wp-content/uploads/2019/09/Shkabatur_Global-Commons_20190830-1.pdf"
 											},
 											{
-												"Topic" : "Fuller, Aidan, Zhong Fan, Charles Day, and Chris Barlow. 2020. “Digital Twin: Enabling Technologies, Challenges and Open Research.”",
-												"URL" : "https://doi.org/10.1109/ACCESS.2020.2998358"
-											},
-											{
 												"Topic" : "Beckwith, R., Sherry, J., & Prendergast, D. (2019). \"Data Flow in the Smart City: Open Data Versus the Commons.\" In The Hackable City (pp. 205-221). Springer, Singapore",
 												"URL" : "https://library.oapen.org/bitstream/handle/20.500.12657/23187/1006966.pdf#page=211"
-											},
-											{
-												"Topic" : "Kalliola, R. Käyhkö N. and Jokela S. (2019). Adaptive Development of a Regional Spatial Data Infrastructure Facing Local Prospects and Socio-Technological Trends. Bulletin of Geography. Socio-economic Series, 44(44), 73-80",
-												"URL" : "http://doi.org/10.2478/"
-											},
-											{
-												"Topic" : "Beckwith, R., Sherry, J., & Prendergast, D. (2019). \"Data Flow in the Smart City: Open Data Versus the Commons.\" In The Hackable City (pp. 205-221). Springer, Singapore",
-												"URL" : "https://library.oapen.org/bitstream/handle/20.500.12657/23187/1006966.pdf#page=211"
-											},
-											{
-												"Topic" : "Williams, J., Chapman, C., Leibovici, D., Lois, G., Matheus, A., Oggioni, A., ... & van Genuchten, P. (2018). \"Maximising the impact and reuse of citizen science data\". UCL Press",
-												"URL" : "https://www.jstor.org/stable/j.ctv550cf2.29"
 											}
 										]
 									}
@@ -4859,18 +4819,6 @@
 										"Title" : "Lecture",
 										"Description" : "Lecture wraps up the main points and presents data commons case studies in the context of SDI",
 										"Materials" : [
-											{
-												"Topic" : "Coetzee, Serena, Ivana Ivánová, Helena Mitasova, and Maria Antonia Brovelli. (2020). “Open Geospatial Software and Data: A Review of the Current State and A Perspective into the Future.” Internation Journal of Geo-Information, (9)90",
-												"URL" : "https://doi.org/10.3390/ijgi9020090"
-											},
-											{
-												"Topic" : "Dodds, Leigh, Pauline L’Hénaff, James Maddison and Deborah Yates. (2020). “A Manifesto for Increasing Access to Data in Engineering.” Data-Centric Engineering, 1(e5)",
-												"URL" : "https://doi.org/doi:100.10017/dce.200200.3"
-											},
-											{
-												"Topic" : "de Nictolis, Elena and Christian Iaione. (2021). “The City as a Commons Reloaded: from the Urban Commons to Co-Cities Empirical Evidence on the Bologna Regulation.” The Cambridge Handbook of Commons Research Innovation",
-												"URL" : "http://dx.doi.org/100.2139/ssrn.3865774"
-											},
 											{
 												"Topic" : "M. Minghini, A. Kotsev, M. Lutz. (2  19). “Comparing Inspire and Openstreetmap Data: How to Make the Most Out of the Two Worlds.” The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences",
 												"URL" : "https://doi.org/10.5194/isprs-archives-XLII-4-W14-167-2019"
