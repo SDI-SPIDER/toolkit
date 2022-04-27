@@ -4327,7 +4327,13 @@
 								"Teaching activities" : [
 									{
 										"Title" : "Short Quizzes",
-										"Description" : "Quiz for plunging students into the concepts of \"ethics\", \"data\" and \"technology\""
+										"Description" : "Quiz for plunging students into the concepts of \"ethics\", \"data\" and \"technology\"",
+										"Materials" : [
+											{
+												"Topic" : "See this quiz for inspiration",
+												"URL" : "https://github.com/SDI-SPIDER/toolkit-materials/blob/main/quiz-data-and-tech-related-ethical-issues.md"
+											}
+										]
 									},
 									{
 										"Title" : "Class Discussion",
@@ -4534,7 +4540,7 @@
 								"Assessment" : [
 									{
 										"Assessment method" : "Quiz",
-										"Assessment method description" : "Quiz covering all three frameworks as a trigger for the whole class",
+										"Assessment method description" : "Quiz covering all three frameworks as a trigger for the whole class. <a href=\"https://github.com/SDI-SPIDER/toolkit-materials/blob/main/quiz-geopolitical-actors.md \" target=_blank>Example quiz here</a>",
 										"Assessment method type" : "Formative"
 									},
 									{
@@ -4626,7 +4632,7 @@
 									},
 									{
 										"Assessment method" : "Quiz",
-										"Assessment method description" : "Quiz following the debate",
+										"Assessment method description" : "Quiz following the debate. <a href=\"https://github.com/SDI-SPIDER/toolkit-materials/blob/main/quiz-role-open-sdi-smart-city.md \" target=_blank>Example quiz here</a>",
 										"Assessment method type" : "Formative"
 									},
 									{
@@ -4703,7 +4709,13 @@
 								"Teaching activities" : [
 									{
 										"Title" : "Short Quizzes",
-										"Description" : "Quiz for plunging into the definition, technological aspects and ethical concerns of/on digital twin(ning)"
+										"Description" : "Quiz for plunging into the definition, technological aspects and ethical concerns of/on digital twin(ning)",
+										"Materials" : [
+											{
+												"Topic" : "See this quiz for inspiration",
+												"URL" : "https://github.com/SDI-SPIDER/toolkit-materials/blob/main/quiz-digital-twin.md"
+											}
+										]
 									},
 									{
 										"Title" : "Debate",
@@ -4764,7 +4776,7 @@
 								"Assessment" : [
 									{
 										"Assessment method" : "Quiz ",
-										"Assessment method description" : "Quiz based on the reading before class",
+										"Assessment method description" : "Quiz based on the reading before class. <a href=\"https://github.com/SDI-SPIDER/toolkit-materials/blob/main/quiz-data-commons.md \" target=_blank>example quiz here</a>",
 										"Assessment method type" : "Formative"
 									}
 								],
@@ -4796,7 +4808,7 @@
 								"Assessment" : [
 									{
 										"Assessment method" : "Debate",
-										"Assessment method description" : "Discussion based on the quiz & readings, moderated by the teacher",
+										"Assessment method description" : "Discussion based on the <a href=\"https://github.com/SDI-SPIDER/toolkit-materials/blob/main/quiz-data-commons.md#quiz-for-debation-about-data-commons \" target=_blank>quiz</a> & readings, moderated by the teacher",
 										"Assessment method type" : "Formative"
 									},
 									{
