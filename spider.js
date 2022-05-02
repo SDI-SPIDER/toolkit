@@ -2,58 +2,28 @@
 user changes one of the form fields */
 function search() {
 
-  // check what we're looking for
-  term = $("#searchField").val()
+	//delete existing mark (stabilo)
+	$("span.stabilo").html(function() {
+		$(this).replaceWith($(this).contents())
+	})
 
-  // reset everything from the previous search:
-  $(".hit, .hide").removeClass("hit hide")
-  $(".concept").addClass("search")
-  $("span.stabilo").each(function() {
-    $(this).replaceWith($(this)[0].innerText)
-  })
-  //remove hightlighted TAs:
-  $("li.stabilo").removeClass("stabilo")
-
-  // collapse all learning outcomes:
-  // $("div.panel-collapse").not(".show").parent().addClass("hide")
-  $("div.panel-collapse").removeClass("show")
-  $("div.panel div.panel-heading h3 a").addClass('collapsed')
-
-
-
-  // only start highlighting the "hits" after at least
-  // 2 characters have been typed
-  if (term.length > 1) {
-
-    // mark the concepts that contain a match ("hit")
-    $("div.concept.search:contains(" + term + ")").addClass('hit').removeClass('search')
-
-    // "un-collapse" all learning outcomes that contain the search term:
-    $("div.learningOutcome:contains(" + term + ")").addClass('show')
-    $("div.panel:contains(" + term + ") div.panel-heading h3 a").removeClass('collapsed')
-    // completely hide the others:
-    $("div.panel-collapse").not(".show").parent().addClass("hide")
-  }
-
-  // if there are any hits, hide the concepts that don't have any hits
-  if ($(".hit").length > 0) {
-    $(".search").addClass("hide").removeClass("search")
-  }
+	// check what we're looking for
+	term = $("#searchField").val()
+	
+	// hide all concepts and Learning Outcomes
+	$("div.panel").addClass("hide")
+	$("div.concept").addClass("hide")
+	
+	// unhide all concepts and Learning Outcomes if searching term is inside
+	$("div.panel:contains(" + term + ")").removeClass("hide").parent().parent().removeClass("hide")
+	
 
   // highlight the words containing the search string
   if (term.length > 1) { // only if at least 2 characters have been entered!
-    $(".hit").find('*').each(function() {
-      $.each(this.childNodes, function() {
-        if (this.nodeType === 3) {
-          // find all words containing our search term (whole word!)
-          regex = new RegExp('\\b\\w*' + term + '\\w*\\b', 'gi')
-          //surround it with a span to style it
-          replacement = this.data.replace(regex, "<span class='stabilo'>$&</span>")
-          // ... and replace the whole node with the updated content
-          this.replaceWith($("<span>" + replacement + "</span>")[0]);
-        }
-      })
-    });
+	regex = new RegExp(term, 'gi')
+	$(".searchMarker").html(function() {
+		return $(this).html().replace(regex, "<span class='stabilo'>$&</span>");
+	})	
   }
 
   // update
@@ -64,8 +34,6 @@ function search() {
 // resets the search form to show all toolkit content
 function resetSearchForm() {
   $("#searchField").val("")
-  $("#bloomSelect").val("Any Bloom level");
-  $("#activitySelect").val("Any activity type");
   search();
 }
 
@@ -84,7 +52,7 @@ function updateCounter() {
     $("#resetfilter").removeClass("hidelink")
     $("#resetter").removeClass("btn-outline-secondary disabled").addClass("btn-outline-primary")
   }
-
+  
   // update the individual counters for each topic:
   $("div.topic").each(function() {
     thisTopic = this.id;
@@ -129,9 +97,9 @@ function formatConcept(conceptContent) {
   return $(`
     <div class="concept search panel-group no-print">
 	   <div id="` + id(conceptContent["Title"]) + `" class="anchor"></div>
-       <h2>
+       <h2 class="searchMarker">
        ` + conceptContent["Title"] + `</h2>
-       <p class="lead">` + conceptContent["Description"] + `.</p>
+       <p class="lead searchMarker">` + conceptContent["Description"] + `.</p>
     </div>`)
 }
 
@@ -157,7 +125,7 @@ function formatLOPanelHeader(learningOutcome) {
 	  <div id="` + id(learningOutcome["Title"]) + `" class="anchor"></div>
       <div class="panel-heading goal">
         <h3 class="panel-title">
-          <a data-bs-toggle="collapse" class="collapsed" href="#collapse` + id(learningOutcome["Title"]) + `">... ` + learningOutcome["Title"] + `</a>
+          <a data-bs-toggle="collapse" class="collapsed searchMarker" href="#collapse` + id(learningOutcome["Title"]) + `">... ` + learningOutcome["Title"] + `</a>
         </h3>
       </div>
     </div>`);
@@ -169,7 +137,7 @@ function formatLOPanelBody(learningOutcome) {
 }
 
 function formatLOPanelBodyContent(learningOutcome) {
-  return $(`<div class="goal panel-body"><p>` + learningOutcome["Description"] + `<br />
+  return $(`<div class="goal panel-body"><p class="searchMarker">` + learningOutcome["Description"] + `<br />
          <strong>Bloom level: ` + learningOutcome["Bloom level"] + `</strong></p>
          <h4>Teaching activities</h4>
   </div>`);
@@ -180,7 +148,7 @@ function formatTA(ta) {
   return $(`
     <li class="teachingActivity ` + id(ta['Title']) + `" id="` + id(ta['Title'] + ta['Description']) + `">
     <strong>` + ta['Title'] + `</strong>:
-    ` + ta['Description'] + `
+    <span class="searchMarker">` + ta['Description'] + `</span>
     </li>`);
 }
 
@@ -194,7 +162,7 @@ function formatAssessment(assessments, assessmenttyp) {
 			aslist.append(`<li><strong>` + assessment["Assessment method"] + `</strong>: ` + assessment["Assessment method description"] + `</li>`)
 		});
 
-		as = $('<div class="assessment"><h4>' + assessmenttyp + ' assessment</h4></div>')
+		as = $('<div class="assessment searchMarker"><h4>' + assessmenttyp + ' assessment</h4></div>')
 		as.append(aslist)
 	}
 	return as;
@@ -211,9 +179,9 @@ function formatMaterials(materials) {
 	
 	materials.forEach(function (materialItem) {
 		if (materialItem["URL"] && materialItem["URL"] != "") {
-			liste.append(`<li><a href="` + materialItem["URL"] + `" target="_blank">` + materialItem["Topic"] + `</a></li>`)
+			liste.append(`<li><a href="` + materialItem["URL"] + `" target="_blank" class="searchMarker">` + materialItem["Topic"] + `</a></li>`)
 		} else {
-			liste.append(`<li>` + materialItem["Topic"] + `</li>`)
+			liste.append(`<li class="searchMarker">` + materialItem["Topic"] + `</li>`)
 		}
 	});
 	
@@ -226,9 +194,9 @@ function addBokList(bokList, type="short") {
 	list = $(`<ul class="bok ` + type + `"></ul>`);
 	bokList.forEach(function(bokItem) {
 		if (type == "list") {
-			list.append(`<li><a href="` + bokItem["URL"] + `" title="` + bokItem["Topic"] + `" target="_blank"><strong>` + bokItem["Source"] + `</strong>: ` + bokItem["Topic"] + `</a></li>`);
+			list.append(`<li><a href="` + bokItem["URL"] + `" title="` + bokItem["Topic"] + `" target="_blank" class="searchMarker"><strong>` + bokItem["Source"] + `</strong>: ` + bokItem["Topic"] + `</a></li>`);
 		} else {
-			list.append(`<li><a href="` + bokItem["URL"] + `" title="` + bokItem["Topic"] + `" target="_blank">` + bokItem["Source"] + `</a></li>`);
+			list.append(`<li><a href="` + bokItem["URL"] + `" title="` + bokItem["Topic"] + `" target="_blank" class="searchMarker">` + bokItem["Source"] + `</a></li>`);
 		}
 	});
 	return list;
