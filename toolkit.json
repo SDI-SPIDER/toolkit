@@ -2969,7 +2969,7 @@
 									},
 									{
 										"Assessment method" : "Asking questions & Active listening",
-										"Assessment method description" : "",
+										"Assessment method description" : "Ask students to summarise the lecture in one minute.",
 										"Assessment method type" : "Formative"
 									},
 									{
@@ -2984,12 +2984,12 @@
 										"Description" : "Students have to read and review papers on legal issues/aspects on open SDIs",
 										"Materials" : [
 											{
-												"Topic" : "Janssen, M., Charalabidis, Y., & Zuiderwijk, A. (2012). Benefits, Adoption Barriers and Myths of Open Data and Open Government. Information systems management, 29(4), 258-268<br>Vancauwenberghe, Glenn, Kotryna Valeèkaite, Frederika Welle Donker, Bastiaan van Loenen (2  18).",
+												"Topic" : "Janssen, M., Charalabidis, Y., & Zuiderwijk, A. (2012). Benefits, Adoption Barriers and Myths of Open Data and Open Government. Information systems management, 29(4), 258-268.",
 												"URL" : "https://doi.org/10.1080/10580530.2012.716740"
 											},
 											{
-												"Topic" : "https://ijsdir.sadl.kuleuven.be/index.php/ijsdir/article/view/468",
-												"URL" : "Assessing the Openness of Spatial Data Infrastructures (SDI): Towards a Map of Open SDI. International Journal of Spatial Data Infrastructures Research, 2018, Vol.13, 88-100"
+												"URL" : "https://ijsdir.sadl.kuleuven.be/index.php/ijsdir/article/view/468",
+												"Topic" : "Vancauwenberghe, Glenn, Kotryna Valeèkaite, Frederika Welle Donker, Bastiaan van Loenen (2  18). Assessing the Openness of Spatial Data Infrastructures (SDI): Towards a Map of Open SDI. International Journal of Spatial Data Infrastructures Research, 2018, Vol.13, 88-100"
 											}
 										]
 									},
@@ -3161,8 +3161,8 @@
 												"URL" : "https://ijsdir.sadl.kuleuven.be/index.php/ijsdir/article/view/353"
 											},
 											{
-												"Topic" : "Directive (EU) 2019/1024 of the European Parliament and of the Council of 20 June 2019 on open data and the re-use of public sector information",
-												"URL" : "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32019L1024"
+												"Topic" : "Directive 2007/2/EC of the European Parliament and of the Council of 14 March 2007 establishing an Infrastructure for Spatial Information in the European Community (INSPIRE)",
+												"URL" : "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32007L0002&qid=1653387106556"
 											}
 										]
 									},
@@ -3255,12 +3255,12 @@
 								"Assessment" : [
 									{
 										"Assessment method" : "Quiz",
-										"Assessment method description" : "Short quiz to summarise the main findings from the literature. Can be online quiz, but on site can choose interactive ways of hand raising or go to the right corner (four corners). Example quiz questions: <ul><li>The Open data directive requires that public sector information is published with an open licence (agree/ disagree)</li><li>The ODD requires all PSI to be available through APIs (agree/disagree)</li><li>The ODD is not important for open SDI development (agree/ disagree)</li></ul>",
+										"Assessment method description" : "Short quiz to summarise the main findings from the literature. Can be online quiz, but on site can choose interactive ways of hand raising or go to the right corner (four corners). Example quiz questions: <ul><li>The Open data directive requires that public sector information is published with an open licence (agree/ disagree)</li><li>The Open Data Directive requires all PSI to be available through APIs (agree/disagree)</li><li>The Open Data Directive is not important for open SDI development (agree/ disagree)</li></ul>",
 										"Assessment method type" : "Formative"
 									},
 									{
 										"Assessment method" : "Active listening",
-										"Assessment method description" : "Students have to summarise the main parts of the ODD in their own words",
+										"Assessment method description" : "Students have to summarise the main parts of the Open Data Directive in their own words",
 										"Assessment method type" : "Formative"
 									},
 									{
@@ -3275,8 +3275,8 @@
 										"Description" : "Students have to watch clips on the Open data directive",
 										"Materials" : [
 											{
-												"Topic" : "https://youtu.be/AmSjzuAR6GI",
-												"URL" : "The open data and PSI reuse directive"
+												"URL" : "https://youtu.be/AmSjzuAR6GI",
+												"Topic" : "The open data and PSI reuse directive"
 											}
 										]
 									},
@@ -3285,7 +3285,8 @@
 										"Description" : "Students have to read and review papers on the Open data directive",
 										"Materials" : [
 											{
-												"Topic" : "orenzo Dalla Corte & Bastiaan van Loenen (unpublished). The Recast of the PSI Directive; An Evolution, but not a Revolution. Submitted to the Technology and Regulation journal. (only sections 1-2 (pp 1-14))"
+												"Topic" : "Lorenzo Dalla Corte (2020). Chapter 3.3 OPEN DATA LEGISLATION IN THE EU Safeguarding data protection in an open data world: On the idea of balancing open data and data protection in the development of the smart city environment, Tilburg University, pp. 80-93",
+												"URL" : "https://pure.uvt.nl/ws/portalfiles/portal/39278394/Dalla_Corte_Safeguarding_23_04_2020.pdf"
 											}
 										]
 									},
@@ -3342,7 +3343,7 @@
 								"Assessment" : [
 									{
 										"Assessment method" : "Quiz",
-										"Assessment method description" : "Short quiz to summarise the main findings from the literature, Example of question is: To improve the legal openness of an SDI, one should start with defining legal openness/ organising stakeholder meetings/ drafting a new law/ etc",
+										"Assessment method description" : "Short quiz to summarise the main findings from the literature, Example of question is: To improve the legal openness of an SDI, one should start with: defining legal openness/ organising stakeholder meetings/ drafting a new law/ etc (choose one topic and explain your answer)",
 										"Assessment method type" : "Formative"
 									},
 									{
@@ -3376,7 +3377,7 @@
 												"URL" : "https://research.tudelft.nl/en/publications/exploring-the-emergence-of-open-spatial-data-infrastructures-anal"
 											},
 											{
-												"Topic" : "an Loenen, B. (2006). Developing Geographic Information Infrastructures, chapter 3",
+												"Topic" : "Van Loenen, B. (2006). Developing Geographic Information Infrastructures, chapter 3",
 												"URL" : "https://repository.tudelft.nl/islandora/object/uuid:6781e9dd-1468-4b31-bf88-ee1fbfffe4a1/?collection=research"
 											}
 										]
@@ -3440,10 +3441,6 @@
 										"Description" : "Moderator asks in depth questions clarifying the meaning of the presented perceptions"
 									},
 									{
-										"Title" : "Written exam",
-										"Description" : "An example question is: Provide the GDPR definition of personal data and explain the different elements in this definition that together determine whether data is personal data or not."
-									},
-									{
 										"Title" : "Paper review",
 										"Description" : "Students have to read a paper on the GDPR and spatial data in Europe",
 										"Materials" : [
@@ -3466,8 +3463,8 @@
 								]
 							},
 							{
-								"Title" : "apply GDPR to geodata/ SDI",
-								"Description" : "Apply the GDPR to geodata/ SDI",
+								"Title" : "apply GDPR to geodata/SDI",
+								"Description" : "Apply the GDPR to geodata/SDI",
 								"Bloom level" : "3 - Apply",
 								"Assessment" : [
 									{
@@ -3482,10 +3479,6 @@
 									}
 								],
 								"Teaching activities" : [
-									{
-										"Title" : "Quiz",
-										"Description" : "Short quiz on GDPR and geodata (e.g., show a map and ask whether the GDPR applies)"
-									},
 									{
 										"Title" : "Written exam",
 										"Description" : "An example question is: Show a map and ask whether the GDPR applies"
@@ -3524,7 +3517,7 @@
 								]
 							},
 							{
-								"Title" : "implement (open) SDI GDPR",
+								"Title" : "making (open) SDI GDPR compliant",
 								"Description" : "Propose innovative directions to implement open SDI complying to the GDPR",
 								"Bloom level" : "6 - Design / Create",
 								"Assessment" : [
@@ -3536,8 +3529,16 @@
 								],
 								"Teaching activities" : [
 									{
-										"Title" : "Feedback",
-										"Description" : "Students receive feedback from their peers (as members of the audience) and the teacher (as moderator) during the debate"
+										"Title" : "Class discussion",
+										"Description" : "Students discuss in smaller groups how to implement an open SDI that complies to the GDPR"
+									},
+									{
+										"Title" : "Class discussion",
+										"Description" : "Group representative presents plenary the conditions for an open SDI that meets the requirements of the GDPR"
+									},
+									{
+										"Title" : "Class discussion",
+										"Description" : "Teacher moderates discussion on the findings and their implications for SDI implementation"
 									}
 								]
 							}
@@ -3589,7 +3590,8 @@
 												"URL" : "https://ijsdir.sadl.kuleuven.be/index.php/ijsdir/article/view/168"
 											},
 											{
-												"Topic" : "Loenen, B.; van Janssen, K. & Welle Donker, FM (2012). Towards true interoperable geographic data: developing a global standard for geo-data licences. In K Janssen & J Crompvoets (Eds.), Geographic Data and the Law. Defining New Challenges (pp. 19-36). Leuven: Leuven University Press."
+												"Topic" : "Loenen, B.; van Janssen, K. & Welle Donker, FM (2012). Towards true interoperable geographic data: developing a global standard for geo-data licences. In K Janssen & J Crompvoets (Eds.), Geographic Data and the Law. Defining New Challenges (pp. 19-36). Leuven: Leuven University Press.",
+												"URL" : "https://lirias.kuleuven.be/retrieve/191801"
 											}
 										]
 									},
