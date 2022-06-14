@@ -3437,8 +3437,12 @@
 								],
 								"Teaching activities" : [
 									{
-										"Title" : "Feedback by Q&A",
-										"Description" : "Moderator asks in depth questions clarifying the meaning of the presented perceptions"
+										"Title" : "Class Discussion",
+										"Description" : "Students discuss in smaller groups their perception of privacy (data protection) and present list of perceptions to their peers"
+									},
+									{
+										"Title" : "Class Discussion",
+										"Description" : "For different datasets, students discuss in small groups whether or not they think that the access and reuse should be restricted because of privacy/ data protection reasons"
 									},
 									{
 										"Title" : "Paper review",
@@ -3447,16 +3451,6 @@
 											{
 												"Topic" : "Chapter 6: Introduction, 6.1 – 6.4 (p 214-239) in Dalla Corte, Lorenzo (2020). Safeguarding Data Protection in an Open Data World: On the idea of balancing open data and data protection in the development, PhD thesis Tilburg 2020.",
 												"URL" : "https://pure.uvt.nl/ws/portalfiles/portal/39278394/Dalla_Corte_Safeguarding_23_04_2020.pdf"
-											}
-										]
-									},
-									{
-										"Title" : "Clip",
-										"Description" : "Watch: Data protection and INSPIRE: an uncomfortable combination? (first 10 minutes)",
-										"Materials" : [
-											{
-												"Topic" : "Data protection and INSPIRE: an uncomfortable combination?",
-												"URL" : "https://www.youtube.com/watch?v=tzty-2kHjSw"
 											}
 										]
 									}
@@ -3480,8 +3474,31 @@
 								],
 								"Teaching activities" : [
 									{
-										"Title" : "Written exam",
-										"Description" : "An example question is: Show a map and ask whether the GDPR applies"
+										"Title" : "Clip",
+										"Description" : "Watch: Data protection and INSPIRE: an uncomfortable combination? (first 10 minutes)",
+										"Materials" : [
+											{
+												"Topic" : "Data protection and INSPIRE: an uncomfortable combination?",
+												"URL" : "https://www.youtube.com/watch?v=tzty-2kHjSw"
+											}
+										]
+									},
+									{
+										"Title" : "Lecture",
+										"Description" : "Lecture explaining the core of the GDPR and its relevance for (open) SDI"
+									},
+									{
+										"Title" : "Lecture",
+										"Description" : "Students read papers on data protection and the relation between SDI and data protection",
+										"Materials" : [
+											{
+												"Topic" : "van Loenen, B., Kulk, S., & Ploeger, H. (2016). Data protection legislation: A very hungry caterpillar: The case of mapping data in the European Union. Government Information Quarterly: an international journal of information technology management, policies, and practices, 33(2), 338-345.",
+												"URL" : "http://dx.doi.org/10.1016/j.giq.2016.04.002"
+											},											{
+												"Topic" : "Kulk, S., B. van Loenen (2012), Brave New Open Data World? International Journal of Spatial Data Infrastructure Research, Vol.7, 196-206.",
+												"URL" : "https://ijsdir.sadl.kuleuven.be/index.php/ijsdir/article/view/285"
+											}
+										]
 									}
 								]
 							},
@@ -3503,16 +3520,16 @@
 								],
 								"Teaching activities" : [
 									{
-										"Title" : "small report",
-										"Description" : "Students receive feedback from their peers and teachers during the discussions"
+										"Title" : "Desk study",
+										"Description" : "Students have to look at and analyze the application of the GDPR in one EU country in relation to the national SDI"
 									},
 									{
-										"Title" : "Feedback",
-										"Description" : "Students receive feedback from their peers and teachers during the discussions"
+										"Title" : "Class Discussion",
+										"Description" : "Students have to discuss in smaller groups their findings and the impact for open SDI"
 									},
 									{
-										"Title" : "Feedback",
-										"Description" : "Students receive feedback from their peers (as members of the audience) and the teacher (as moderator) during the debate"
+										"Title" : "Class Discussion",
+										"Description" : "Students have to discuss plenary the future of open SDI provided the requirements of the GDPR"
 									}
 								]
 							},
