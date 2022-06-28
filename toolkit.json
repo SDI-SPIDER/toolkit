@@ -2056,6 +2056,95 @@
 								]
 							}
 						]
+					},
+					{
+						"Title" : "Extract – Transform – Load",
+						"Description" : "Intorduction in the ETL (Extract – Transform – Load) method for the combination and centralization of databases",
+						"Learning outcomes" : [
+							{
+								"Title" : "explain what a (spatial) ETL-process is and why it is reasonable",
+								"Description" : "Overview through spatial ETL.",
+								"Bloom level" : "1 / 2 - Remember / Understand",
+								"Assessment" : [
+									{
+										"Assessment method" : "Self-test",
+										"Assessment method description" : "Based on the previous input students can check they knowledge by a short questionnaire (max. three questions)",
+										"Assessment method type" : "Formative"
+									}
+								],
+								"Teaching activities" : [
+									{
+										"Title" : "Video presentation",
+										"Description" : "Students are invited to follow an online presentation ahead the lecture to get the theoretical background of ETL and spatial ETL, as well as the role in data warehouse and big data environment. Further, the main fields of applications and products on the market are mentioned.",
+										"Materials" : [
+											{
+												"Topic" : "GeoSpatial Integration for Talend",
+												"URL" : "https://www.youtube.com/watch?v=gJOosoj3JUw"
+											},											{
+												"Topic" : "Implementing INSPIRE with FME",
+												"URL" : "https://www.youtube.com/watch?v=Kx9CYjY77NQ"
+											}
+										]
+									},
+									{
+										"Title" : "Lecture",
+										"Description" : "Summarizing lecture of the teacher about the central stations of the video presentation."
+									},
+									{
+										"Title" : "Asking questions",
+										"Description" : "Students ask comprehension questions as well as questions about special interest. They are also invited to comment and add impressions they got from further readings."
+									}
+								]
+							},
+							{
+								"Title" : "implement and execute an ETL-process in a professional ETL-tool",
+								"Description" : "ETL in Practice.",
+								"Bloom level" : "6 - Design / Create",
+								"Assessment" : [
+									{
+										"Assessment method" : "Written exam",
+										"Assessment method description" : "Students are given exam with questions about ETL-process.",
+										"Assessment method type" : "Summative"
+									},
+																		{
+										"Assessment method" : "Feedback",
+										"Assessment method description" : "Students receive feedback on their exercise.",
+										"Assessment method type" : "Summative"
+									},
+																		{
+										"Assessment method" : "Conversation",
+										"Assessment method description" : "The Teacher discuss the working-steps with the students / small groups.",
+										"Assessment method type" : "Formative"
+									}
+								],
+								"Teaching activities" : [
+									{
+										"Title" : "guest speakers",
+										"Description" : "An external guest from practice gives an input by an ETL-project in spatial data management. Her/his profession might be in the area of INSPIRE-data-preparation of public sector or in the area of BIM modelling. Realization might be easier by video presentation, prepared in advance."
+									},
+									{
+										"Title" : "Guided example",
+										"Description" : "Teacher gives a short and easy example in FME Desktop, e.g. coordinate transformation with one reader, one transformer and one writer.",
+										"Materials" : [
+											{
+												"Topic" : "FME Desktop (option of free trial)",
+												"URL" : "https://www.safe.com/fme/fme-desktop"
+											}
+										]
+									},
+									{
+										"Title" : "Exercise",
+										"Description" : "Students work on their own or in small groups (max. three students) on a small exercise, presenting the manifold interfaces of the FME and the spatial functions. Example: Loading geometries from an OGC WFS, calculating their centre and write these positions as “What3words” (registration needed) into a textfile.",
+										"Materials" : [
+											{
+												"Topic" : "Administrative boundaries by OGC WFS",
+												"URL" : "https://inspire-geoportal.ec.europa.eu/overview.html"
+											}
+										]
+									}
+								]
+							}
+						]
 					}
 				]
 			},
